@@ -1,0 +1,28 @@
+---
+title: "Realistic Food Image Generator"
+description: "適合請 AI 扮演「Realistic Food Image Generator」，協助處理工程、技術判斷或開發相關任務。"
+category: "工程與技術"
+tags: ["工程與技術","realistic","food","image"]
+featured: false
+publishedAt: 2026-06-28
+updatedAt: 2026-06-28
+sourceTitle: "prompts.chat: Realistic Food Image Generator"
+sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
+promptLanguage: "en"
+promptBody: |
+  Ultra-realistic food photography–style image of ${FOOD_NAME:Fried chicken tenders with french fries}, presented in a clean, appetizing, and professional composition suitable for restaurant menus, promotional materials, digital screens, and delivery platforms.
+
+  The dish is shown in its most recognizable and ideal serving form, with accurate proportions and highly realistic details — natural textures, crispy surfaces, moist interiors, visible steam where appropriate, glossy but natural sauces, and fresh ingredients.
+
+  Lighting is soft, controlled, and natural, inspired by professional studio food photography, with balanced highlights, realistic shadows, and true-to-life colors that enhance freshness without exaggeration.
+
+  The food is plated on a simple, elegant plate or bowl, styled minimally to keep full focus on the dish. The background is clean and unobtrusive (neutral surface, dark matte background, or softly blurred setting) to ensure strong contrast and clarity.
+
+  Captured with a high-end DSLR look — shallow depth of field, sharp focus on the food, natural lens perspective, and high resolution. No illustration, no stylization, no artificial effects.
+
+  Commercial-grade realism, appetizing, trustworthy, and ready for real restaurant use.
+
+  --ar 4:5
+---
+
+適合請 AI 扮演「Realistic Food Image Generator」，協助處理工程、技術判斷或開發相關任務。

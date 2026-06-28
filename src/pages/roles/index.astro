@@ -8,10 +8,10 @@ const rolePrompts = sortFeaturedFirst(await getCollection('roles'));
 const categories = [...new Set(rolePrompts.map((entry) => entry.data.category))].sort();
 ---
 
-<BaseLayout title="角色提示詞" description="從 prompts.chat 精選常用角色型 prompt，快速找到產品、設計、工程、資料與內容工作需要的角色提示詞。" width="wide">
+<BaseLayout title="角色提示詞" description="整理 prompts.chat 的角色型 prompt，快速找到產品、設計、工程、資料與內容工作需要的角色提示詞。" width="wide">
   <section class="hero">
     <h1>角色提示詞</h1>
-    <p>從 prompts.chat 精選常用角色型 prompt。先找角色，再複製提示詞，適合快速開啟一段有明確任務邊界的 AI 對話。</p>
+    <p>收錄 prompts.chat 的 {rolePrompts.length.toLocaleString('zh-TW')} 個角色型 prompt。先找角色，再複製提示詞，適合快速開啟一段有明確任務邊界的 AI 對話。</p>
   </section>
 
   <section class="filter-bar" aria-label="角色提示詞搜尋與篩選">

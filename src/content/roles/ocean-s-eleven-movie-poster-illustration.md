@@ -1,0 +1,16 @@
+---
+title: "Ocean’s Eleven Movie Poster Illustration"
+description: "適合請 AI 扮演「Ocean’s Eleven Movie Poster Illustration」，協助處理工程、技術判斷或開發相關任務。"
+category: "工程與技術"
+tags: ["工程與技術","ocean","eleven","movie","poster"]
+featured: false
+publishedAt: 2026-06-28
+updatedAt: 2026-06-28
+sourceTitle: "prompts.chat: Ocean’s Eleven Movie Poster Illustration"
+sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
+promptLanguage: "en"
+promptBody: |
+  A cinematic, highly detailed engraved illustration style poster of a sophisticated casino heist in Las Vegas at night, wide-angle low perspective, the glowing skyline dominated by neon lights and towering luxury hotels, a group of eleven sharply dressed figures in tailored suits standing in silhouette on a rooftop overlooking the Strip, their faces partially hidden in shadow, subtle smoke drifting through the air, creating a mysterious and calculated atmosphere, golden and crimson reflections illuminating the glass buildings, intricate line art detailing on suits and city textures, dramatic backlighting casting long shadows, a central vault door faintly visible in the distance glowing with cold metallic light, tension and precision captured in their poised stances, dust particles floating in the air under soft volumetric lighting, high contrast between deep shadows and warm neon highlights, ultra-detailed textures, cinematic poster composition, slightly surreal elegance, sharp focus, 9:16 aspect ratio
+---
+
+適合請 AI 扮演「Ocean’s Eleven Movie Poster Illustration」，協助處理工程、技術判斷或開發相關任務。

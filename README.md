@@ -7,7 +7,7 @@ Prompt Library 是一個以 Astro 建立的正體中文提示詞知識庫，整�
 ## 目前內容
 
 - **提示詞收藏**：適合 Codex、Claude Code、Cursor、Gemini CLI 等工具使用的工程提示詞。
-- **角色提示詞**：從 `prompts.chat` 精選常用角色 prompt，例如產品經理、UX/UI developer、code reviewer、tech writer、data analyst。
+- **角色提示詞**：從 `prompts.chat` 完整匯入角色與 prompt 範例，並補上正體中文描述與分類。
 - **專案點子**：把提示詞或工作流程轉成可以 vibe coding 的小型產品想法。
 - **精選指南**：整理 code review、testing、context engineering 與提示詞整理方法。
 - **來源頁**：保留 repo、授權與整理方向，供後續擴充與查證。

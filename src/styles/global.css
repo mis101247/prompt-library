@@ -102,6 +102,8 @@ code {
 }
 
 pre {
+  max-width: 100%;
+  min-width: 0;
   margin: 1.35rem 0;
   padding: 1.1rem;
   overflow-x: auto;
@@ -227,6 +229,7 @@ hr {
 .grid {
   display: grid;
   gap: 1rem;
+  min-width: 0;
 }
 
 .grid--two {
@@ -241,6 +244,7 @@ hr {
   display: grid;
   gap: 0.7rem;
   height: 100%;
+  min-width: 0;
   padding: 1rem;
   border: 1px solid rgba(var(--ink-rgb), 0.12);
   border-radius: 8px;
@@ -290,9 +294,12 @@ hr {
 
 .role-prompt-card {
   align-content: start;
+  min-width: 0;
 }
 
 .role-prompt-card__prompt {
+  max-width: 100%;
+  min-width: 0;
   margin-top: 0.2rem;
 }
 
@@ -303,6 +310,7 @@ hr {
 }
 
 .role-prompt-card__prompt pre {
+  width: 100%;
   max-height: 18rem;
   margin: 0.8rem 0 0;
 }

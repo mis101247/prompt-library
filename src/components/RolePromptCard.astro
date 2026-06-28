@@ -11,6 +11,7 @@ interface Props {
 }
 
 const { id, title, description, category, tags, promptBody } = Astro.props;
+const visibleTags = [...new Set([category, ...tags.filter((tag) => tag !== category)])].slice(0, 5);
 ---
 
 <article
@@ -27,7 +28,7 @@ const { id, title, description, category, tags, promptBody } = Astro.props;
     <h3>{title}</h3>
     <p>{description}</p>
   </div>
-  <TagList tags={[category, ...tags].slice(0, 5)} />
+  <TagList tags={visibleTags} />
   <button class="copy-button" type="button" data-copy-role-prompt>複製角色提示詞</button>
   <details class="role-prompt-card__prompt">
     <summary>查看提示詞</summary>
