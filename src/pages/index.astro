@@ -1,0 +1,171 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContentCard from '../components/ContentCard.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { sortByPublishedAt, sortFeaturedFirst } from '../utils/content';
+
+const prompts = sortFeaturedFirst(await getCollection('prompts'));
+const rolePrompts = sortFeaturedFirst(await getCollection('roles'));
+const projects = sortByPublishedAt(await getCollection('projects'));
+const guides = sortFeaturedFirst(await getCollection('guides'));
+
+const featuredPrompts = prompts.filter((entry) => entry.data.featured).slice(0, 3);
+const featuredRolePrompts = rolePrompts.filter((entry) => entry.data.featured).slice(0, 3);
+const latestProjects = projects.slice(0, 3);
+const featuredGuides = guides.filter((entry) => entry.data.featured).slice(0, 3);
+const recentUpdates = sortByPublishedAt([...prompts, ...projects, ...guides]).slice(0, 6);
+const collectionLabels = {
+  prompts: '提示詞',
+  projects: '專案',
+  guides: '指南',
+};
+---
+
+<BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION} width="wide">
+  <section class="hero">
+    <h1>{SITE_TITLE}</h1>
+    <p>{SITE_DESCRIPTION}</p>
+    <form class="filter-bar" action="/prompts/" role="search">
+      <input name="q" type="search" placeholder="搜尋提示詞、角色或工作流程" aria-label="搜尋提示詞" />
+      <button class="button" type="submit">搜尋提示詞</button>
+      <a class="button button--secondary" href="/roles/">找角色提示詞</a>
+      <a class="button button--secondary" href="/projects/">看專案點子</a>
+    </form>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>精選提示詞</h2>
+        <p>可直接複製，也能理解來源與使用情境。</p>
+      </div>
+      <a class="quiet-link" href="/prompts/">全部提示詞</a>
+    </div>
+    <div class="grid grid--three">
+      {featuredPrompts.map((prompt) => (
+        <ContentCard
+          href={`/prompts/${prompt.id}/`}
+          kind="提示詞"
+          title={prompt.data.title}
+          description={prompt.data.description}
+          category={prompt.data.category}
+          tags={prompt.data.tags}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>角色提示詞</h2>
+        <p>先選一個角色，再把任務交給 AI。</p>
+      </div>
+      <a class="quiet-link" href="/roles/">全部角色</a>
+    </div>
+    <div class="grid grid--three">
+      {featuredRolePrompts.map((rolePrompt) => (
+        <ContentCard
+          href={`/roles/#${rolePrompt.id}`}
+          kind="角色"
+          title={rolePrompt.data.title}
+          description={rolePrompt.data.description}
+          category={rolePrompt.data.category}
+          tags={rolePrompt.data.tags}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>最新專案點子</h2>
+        <p>把提示詞和工作流程變成可以動手做的小型產品。</p>
+      </div>
+      <a class="quiet-link" href="/projects/">全部專案</a>
+    </div>
+    <div class="grid grid--three">
+      {latestProjects.map((project) => (
+        <ContentCard
+          href={`/projects/${project.id}/`}
+          kind="專案"
+          title={project.data.title}
+          description={project.data.description}
+          category={project.data.category}
+          tags={project.data.tags}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>分類入口</h2>
+        <p>先選工作流程，再找提示詞或專案點子。</p>
+      </div>
+    </div>
+    <div class="grid grid--three">
+      <a class="content-card" href="/tags/code%20review/">
+        <span class="content-card__kind">分類</span>
+        <h3>Code Review</h3>
+        <p>PR 審查、安全審查、低噪音 AI reviewer 工作流程。</p>
+      </a>
+      <a class="content-card" href="/tags/testing/">
+        <span class="content-card__kind">分類</span>
+        <h3>Testing</h3>
+        <p>測試金字塔、CI gate、四週測試策略與重構安全網。</p>
+      </a>
+      <a class="content-card" href="/tags/vibe%20coding/">
+        <span class="content-card__kind">分類</span>
+        <h3>Vibe Coding</h3>
+        <p>從想法、規格、脈絡到 coding agent 驗證迴圈。</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>精選指南</h2>
+        <p>把 prompt repos 的設計整理成容易學的正體中文工作流程。</p>
+      </div>
+      <a class="quiet-link" href="/guides/">全部指南</a>
+    </div>
+    <div class="grid grid--three">
+      {featuredGuides.map((guide) => (
+        <ContentCard
+          href={`/guides/${guide.id}/`}
+          kind="指南"
+          title={guide.data.title}
+          description={guide.data.description}
+          category={guide.data.category}
+          tags={guide.data.tags}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>最近更新</h2>
+        <p>最新加入或修改的內容。</p>
+      </div>
+    </div>
+    <div class="grid grid--three">
+      {recentUpdates.map((entry) => (
+        <ContentCard
+          href={`/${entry.collection}/${entry.id}/`}
+          kind={collectionLabels[entry.collection]}
+          title={entry.data.title}
+          description={entry.data.description}
+          category={entry.data.category}
+          tags={entry.data.tags}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

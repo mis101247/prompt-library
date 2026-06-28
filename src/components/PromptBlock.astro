@@ -1,0 +1,42 @@
+---
+interface Props {
+  body: string;
+  copyLabel: string;
+}
+
+const { body, copyLabel } = Astro.props;
+---
+
+<section class="prompt-shell" data-prompt-block>
+  <div class="prompt-toolbar">
+    <strong>提示詞內容</strong>
+    <button class="copy-button" type="button" data-copy-prompt>{copyLabel}</button>
+  </div>
+  <pre><code>{body}</code></pre>
+</section>
+
+<script is:inline>
+  document.querySelectorAll('[data-copy-prompt]').forEach((button) => {
+    if (button.dataset.bound === 'true') return;
+    button.dataset.bound = 'true';
+    const originalLabel = button.textContent || '複製提示詞';
+
+    button.addEventListener('click', async () => {
+      const shell = button.closest('[data-prompt-block]');
+      const promptText = shell?.querySelector('code')?.textContent || '';
+
+      try {
+        await navigator.clipboard.writeText(promptText);
+        button.textContent = '已複製';
+      } catch {
+        button.textContent = '複製失敗，請手動選取';
+      }
+
+      window.clearTimeout(button.dataset.resetTimer);
+      const timer = window.setTimeout(() => {
+        button.textContent = originalLabel;
+      }, 1600);
+      button.dataset.resetTimer = String(timer);
+    });
+  });
+</script>

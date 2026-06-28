@@ -1,0 +1,37 @@
+---
+import TagList from './TagList.astro';
+
+interface Props {
+  href: string;
+  kind: string;
+  title: string;
+  description: string;
+  category?: string;
+  tags?: string[];
+}
+
+const {
+  href,
+  kind,
+  title,
+  description,
+  category,
+  tags = [],
+} = Astro.props;
+---
+
+<article
+  class="content-card"
+  data-library-item
+  data-title={title.toLowerCase()}
+  data-description={description.toLowerCase()}
+  data-category={category ?? ''}
+  data-tags={(tags ?? []).join(' ').toLowerCase()}
+>
+  <a class="content-card__main" href={href}>
+    <span class="content-card__kind">{kind}</span>
+    <h3>{title}</h3>
+    <p>{description}</p>
+  </a>
+  {tags.length > 0 && <TagList tags={tags.slice(0, 4)} />}
+</article>

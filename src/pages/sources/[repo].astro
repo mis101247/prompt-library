@@ -1,0 +1,163 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentCard from '../../components/ContentCard.astro';
+
+export async function getStaticPaths() {
+  const sources = await getCollection('sources');
+  return sources.map((source) => ({
+    params: { repo: source.id },
+    props: source,
+  }));
+}
+
+type Props = CollectionEntry<'sources'>;
+const source = Astro.props;
+const { Content } = await render(source);
+const prompts = (await getCollection('prompts')).filter(
+  (prompt) => prompt.data.sourceRepo === source.data.repo,
+);
+const projects = (await getCollection('projects')).filter(
+  (project) => project.data.sourceRepo === source.data.repo,
+);
+const guides = (await getCollection('guides')).filter(
+  (guide) => guide.data.sourceRepo === source.data.repo,
+);
+---
+
+<BaseLayout title={source.data.name} description={source.data.description} width="wide">
+  <article class="stack">
+    <header class="hero">
+      <div class="meta-row">
+        <span class="source-badge">{source.data.repo}</span>
+        <span class="meta-pill">{source.data.license}</span>
+        <span class="meta-pill">{source.data.commit}</span>
+      </div>
+      <h1>{source.data.name}</h1>
+      <p>{source.data.description}</p>
+      <div class="hero-actions">
+        <a class="button" href={source.data.githubUrl}>GitHub repo</a>
+        <a class="button button--secondary" href="/sources/">全部來源</a>
+      </div>
+    </header>
+
+    <section class="grid grid--two">
+      <div class="panel stack">
+        <h2>本地位置</h2>
+        <p class="source-path">{source.data.localPath}</p>
+      </div>
+      <div class="panel stack">
+        <h2>全文策略</h2>
+        <p class="muted">{source.data.fullTextPolicy}</p>
+      </div>
+    </section>
+
+    <section class="grid grid--two">
+      <div class="panel stack">
+        <h2>適合挖掘</h2>
+        <ul>
+          {source.data.bestFor.map((item) => <li>{item}</li>)}
+        </ul>
+      </div>
+      <div class="panel stack">
+        <h2>起始檔案</h2>
+        <ul>
+          {source.data.startingFiles.map((item) => <li><code>{item}</code></li>)}
+        </ul>
+      </div>
+    </section>
+
+    <section class="prose">
+      <Content />
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>已收錄提示詞</h2>
+          <p>目前從這個 repo 整理出的提示詞。</p>
+        </div>
+      </div>
+      <div class="grid">
+        {prompts.length === 0 && <p class="muted">尚未收錄提示詞。</p>}
+        {prompts.map((prompt) => (
+          <ContentCard
+            href={`/prompts/${prompt.id}/`}
+            kind="提示詞"
+            title={prompt.data.title}
+            description={prompt.data.description}
+            category={prompt.data.category}
+            difficulty={prompt.data.difficulty}
+            timeEstimate={prompt.data.timeEstimate}
+            sourceRepo={prompt.data.sourceRepo}
+            sourcePath={prompt.data.sourcePath}
+            tools={prompt.data.compatibleTools}
+            tags={prompt.data.tags}
+          />
+        ))}
+      </div>
+    </section>
+
+    <section class="section grid grid--two">
+      <div>
+        <div class="section-header">
+          <div>
+            <h2>已衍生專案點子</h2>
+            <p>從來源內容發展出的專案點子。</p>
+          </div>
+        </div>
+        <div class="grid">
+          {projects.length === 0 && <p class="muted">尚未衍生專案點子。</p>}
+          {projects.map((project) => (
+            <ContentCard
+              href={`/projects/${project.id}/`}
+              kind="專案"
+              title={project.data.title}
+              description={project.data.description}
+              category={project.data.category}
+              difficulty={project.data.difficulty}
+              timeEstimate={project.data.timeEstimate}
+              sourceRepo={project.data.sourceRepo}
+              sourcePath={project.data.sourcePath}
+              tools={project.data.tools}
+              tags={project.data.tags}
+            />
+          ))}
+        </div>
+      </div>
+      <div>
+        <div class="section-header">
+          <div>
+            <h2>已衍生指南</h2>
+            <p>從來源內容整理出的指南。</p>
+          </div>
+        </div>
+        <div class="grid">
+          {guides.length === 0 && <p class="muted">尚未衍生指南。</p>}
+          {guides.map((guide) => (
+            <ContentCard
+              href={`/guides/${guide.id}/`}
+              kind="指南"
+              title={guide.data.title}
+              description={guide.data.description}
+              category={guide.data.category}
+              difficulty={guide.data.difficulty}
+              timeEstimate={guide.data.timeEstimate}
+              sourceRepo={guide.data.sourceRepo}
+              sourcePath={guide.data.sourcePath}
+              tools={guide.data.tools}
+              tags={guide.data.tags}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="panel stack">
+      <h2>建議下一步整理素材</h2>
+      <ul>
+        {source.data.nextMaterials.map((item) => <li>{item}</li>)}
+      </ul>
+    </section>
+  </article>
+</BaseLayout>

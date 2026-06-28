@@ -1,0 +1,112 @@
+import { defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
+
+const difficulty = z.enum(['入門', '中階', '進階']);
+const sourceType = z.enum([
+  'prompt',
+  'project',
+  'guide',
+  'article',
+  'rule',
+  'workflow',
+  'research',
+]);
+
+const commonFields = {
+  title: z.string(),
+  description: z.string(),
+  category: z.string(),
+  tags: z.array(z.string()),
+  difficulty,
+  tools: z.array(z.string()),
+  timeEstimate: z.string(),
+  featured: z.boolean().default(false),
+  publishedAt: z.coerce.date(),
+  updatedAt: z.coerce.date(),
+  sourceType,
+  sourceRepo: z.string(),
+  sourceRepoUrl: z.string().url(),
+  sourcePath: z.string(),
+  sourceUrl: z.string().url(),
+  sourceTitle: z.string(),
+  sourceDescription: z.string(),
+  sourceExplanation: z.string(),
+  localizationNote: z.string(),
+  preserveOriginalPrompt: z.boolean(),
+};
+
+const prompts = defineCollection({
+  loader: glob({ base: './src/content/prompts', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    ...commonFields,
+    promptLanguage: z.string(),
+    promptUseCase: z.string(),
+    compatibleTools: z.array(z.string()),
+    copyLabel: z.string(),
+    relatedProjects: z.array(z.string()).default([]),
+    relatedGuides: z.array(z.string()).default([]),
+    promptBody: z.string(),
+  }),
+});
+
+const roles = defineCollection({
+  loader: glob({ base: './src/content/roles', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    category: z.string(),
+    tags: z.array(z.string()),
+    featured: z.boolean().default(false),
+    publishedAt: z.coerce.date(),
+    updatedAt: z.coerce.date(),
+    sourceTitle: z.string(),
+    sourceUrl: z.string().url(),
+    promptLanguage: z.string(),
+    promptBody: z.string(),
+  }),
+});
+
+const projects = defineCollection({
+  loader: glob({ base: './src/content/projects', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    ...commonFields,
+    oneLiner: z.string(),
+    audience: z.array(z.string()),
+    mvpScope: z.array(z.string()),
+    suggestedStack: z.array(z.string()),
+    usablePrompts: z.array(z.string()),
+    extensions: z.array(z.string()),
+  }),
+});
+
+const guides = defineCollection({
+  loader: glob({ base: './src/content/guides', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    ...commonFields,
+    guideType: z.string(),
+    learningGoals: z.array(z.string()),
+    prerequisites: z.array(z.string()),
+    relatedPrompts: z.array(z.string()),
+  }),
+});
+
+const sources = defineCollection({
+  loader: glob({ base: './src/content/sources', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    name: z.string(),
+    repo: z.string(),
+    githubUrl: z.string().url(),
+    localPath: z.string(),
+    commit: z.string(),
+    license: z.string(),
+    description: z.string(),
+    bestFor: z.array(z.string()),
+    contentTypes: z.array(z.string()),
+    startingFiles: z.array(z.string()),
+    nextMaterials: z.array(z.string()),
+    fullTextPolicy: z.string(),
+  }),
+});
+
+export const collections = { prompts, roles, projects, guides, sources };

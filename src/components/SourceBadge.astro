@@ -1,0 +1,11 @@
+---
+interface Props {
+  repo: string;
+  path?: string;
+}
+
+const { repo, path } = Astro.props;
+const repoSlug = repo.toLowerCase().replaceAll('.', '-');
+---
+
+<a class="source-badge" href={`/sources/${repoSlug}/`} title={path ?? repo}>{repo}</a>

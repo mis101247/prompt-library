@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import { sortFeaturedFirst } from '../../utils/content';
+
+const guides = sortFeaturedFirst(await getCollection('guides'));
+---
+
+<BaseLayout title="精選指南" description="正體中文整理的提示詞、coding agent、程式碼審查與測試工作流程指南。" width="wide">
+  <section class="hero">
+    <h1>精選指南</h1>
+    <p>這裡整理的是如何使用提示詞，而不是只做清單收藏。</p>
+  </section>
+
+  <section class="grid grid--two">
+    {guides.map((guide) => (
+      <ContentCard
+        href={`/guides/${guide.id}/`}
+        kind={guide.data.featured ? '精選指南' : '指南'}
+        title={guide.data.title}
+        description={guide.data.description}
+        category={guide.data.category}
+        tags={guide.data.tags}
+      />
+    ))}
+  </section>
+</BaseLayout>

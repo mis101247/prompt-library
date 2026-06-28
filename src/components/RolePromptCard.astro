@@ -1,0 +1,36 @@
+---
+import TagList from './TagList.astro';
+
+interface Props {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  tags: string[];
+  promptBody: string;
+}
+
+const { id, title, description, category, tags, promptBody } = Astro.props;
+---
+
+<article
+  id={id}
+  class="content-card role-prompt-card"
+  data-library-item
+  data-title={title.toLowerCase()}
+  data-description={description.toLowerCase()}
+  data-category={category}
+  data-tags={tags.join(' ').toLowerCase()}
+>
+  <div class="content-card__main">
+    <span class="content-card__kind">角色提示詞</span>
+    <h3>{title}</h3>
+    <p>{description}</p>
+  </div>
+  <TagList tags={[category, ...tags].slice(0, 5)} />
+  <button class="copy-button" type="button" data-copy-role-prompt>複製角色提示詞</button>
+  <details class="role-prompt-card__prompt">
+    <summary>查看提示詞</summary>
+    <pre><code>{promptBody}</code></pre>
+  </details>
+</article>

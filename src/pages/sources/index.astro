@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const sources = await getCollection('sources');
+---
+
+<BaseLayout title="來源" description="software-engineering-prompt-repos 的來源 repo 整理與收錄狀態。" width="wide">
+  <section class="hero">
+    <h1>來源</h1>
+    <p>每個來源頁都記錄 GitHub URL、本地位置、commit、授權、適合整理的內容與下一步素材。</p>
+  </section>
+
+  <section class="grid grid--two">
+    {sources.map((source) => (
+      <a class="content-card" href={`/sources/${source.id}/`}>
+        <span class="content-card__kind">{source.data.license}</span>
+        <h3>{source.data.name}</h3>
+        <p>{source.data.description}</p>
+        <div class="meta-row">
+          {source.data.contentTypes.map((type) => <span class="meta-pill">{type}</span>)}
+        </div>
+        <span class="source-path">{source.data.localPath}</span>
+      </a>
+    ))}
+  </section>
+</BaseLayout>

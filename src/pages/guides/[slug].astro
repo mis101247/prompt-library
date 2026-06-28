@@ -1,0 +1,72 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import TagList from '../../components/TagList.astro';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides');
+  return guides.map((guide) => ({
+    params: { slug: guide.id },
+    props: guide,
+  }));
+}
+
+type Props = CollectionEntry<'guides'>;
+const guide = Astro.props;
+const { Content } = await render(guide);
+const prompts = (await getCollection('prompts')).filter((prompt) =>
+  guide.data.relatedPrompts.includes(prompt.id),
+);
+---
+
+<BaseLayout title={guide.data.title} description={guide.data.description} width="article">
+  <article class="stack">
+    <header class="hero">
+      <h1>{guide.data.title}</h1>
+      <p>{guide.data.description}</p>
+      <TagList tags={guide.data.tags} />
+    </header>
+
+    <section class="grid grid--two">
+      <div class="panel stack">
+        <h2>學完會知道</h2>
+        <ul>
+          {guide.data.learningGoals.map((goal) => <li>{goal}</li>)}
+        </ul>
+      </div>
+      <div class="panel stack">
+        <h2>前置條件</h2>
+        <ul>
+          {guide.data.prerequisites.map((item) => <li>{item}</li>)}
+        </ul>
+      </div>
+    </section>
+
+    <section class="prose">
+      <Content />
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>相關提示詞</h2>
+          <p>閱讀後可以直接拿來使用的提示詞。</p>
+        </div>
+      </div>
+      <div class="grid">
+        {prompts.map((prompt) => (
+          <ContentCard
+            href={`/prompts/${prompt.id}/`}
+            kind="提示詞"
+            title={prompt.data.title}
+            description={prompt.data.description}
+            category={prompt.data.category}
+            tags={prompt.data.tags}
+          />
+        ))}
+      </div>
+    </section>
+
+  </article>
+</BaseLayout>

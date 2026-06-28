@@ -1,0 +1,38 @@
+---
+import { SITE_TITLE } from '../consts';
+
+const links = [
+  { href: '/', label: '首頁' },
+  { href: '/prompts/', label: '提示詞' },
+  { href: '/roles/', label: '角色提示詞' },
+  { href: '/projects/', label: '專案點子' },
+  { href: '/guides/', label: '指南' },
+];
+
+const pathname = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? pathname === '/' : pathname.startsWith(href);
+---
+
+<header class="site-header">
+  <nav class="site-nav" aria-label="主導覽">
+    <a class="brand-link" href="/">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" focusable="false">
+          <path fill="var(--mist)" d="M6 7.5h13.6L26 13v13.5H6z" />
+          <path fill="var(--sun)" d="M19.5 7.7v5.8H26z" />
+          <path fill="none" stroke="var(--ink)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 7.5h13.6L26 13v13.5H6zM11 16h10M11 21h7" />
+          <path fill="var(--leaf)" d="M5.3 25c3.1-.3 5.3-2.4 5.5-5.5-3.2.1-5.5 2.3-5.5 5.5Z" />
+        </svg>
+      </span>
+      <span>{SITE_TITLE}</span>
+    </a>
+    <div class="nav-links">
+      {links.map((link) => (
+        <a href={link.href} aria-current={isActive(link.href) ? 'page' : undefined}>
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </nav>
+</header>

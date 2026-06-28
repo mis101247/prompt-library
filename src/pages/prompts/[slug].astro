@@ -1,0 +1,82 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import PromptBlock from '../../components/PromptBlock.astro';
+import TagList from '../../components/TagList.astro';
+
+export async function getStaticPaths() {
+  const prompts = await getCollection('prompts');
+  return prompts.map((prompt) => ({
+    params: { slug: prompt.id },
+    props: prompt,
+  }));
+}
+
+type Props = CollectionEntry<'prompts'>;
+const prompt = Astro.props;
+const { Content } = await render(prompt);
+const projects = (await getCollection('projects')).filter((project) =>
+  prompt.data.relatedProjects.includes(project.id),
+);
+const guides = (await getCollection('guides')).filter((guide) =>
+  prompt.data.relatedGuides.includes(guide.id),
+);
+---
+
+<BaseLayout title={prompt.data.title} description={prompt.data.description} width="article">
+  <article class="stack">
+    <header class="hero">
+      <h1>{prompt.data.title}</h1>
+      <p>{prompt.data.description}</p>
+      <TagList tags={prompt.data.tags} />
+    </header>
+
+    <section class="panel stack">
+      <h2>提示詞用途</h2>
+      <p class="muted">{prompt.data.promptUseCase}</p>
+    </section>
+
+    <PromptBlock
+      body={prompt.data.promptBody}
+      copyLabel={prompt.data.copyLabel}
+    />
+
+    <section class="prose">
+      <Content />
+    </section>
+
+    {(projects.length > 0 || guides.length > 0) && (
+      <section class="section">
+        <div class="section-header">
+          <div>
+            <h2>相關內容</h2>
+            <p>可以接著使用的專案點子或指南。</p>
+          </div>
+        </div>
+        <div class="grid">
+          {projects.map((project) => (
+            <ContentCard
+              href={`/projects/${project.id}/`}
+              kind="專案"
+              title={project.data.title}
+              description={project.data.description}
+              category={project.data.category}
+              tags={project.data.tags}
+            />
+          ))}
+          {guides.map((guide) => (
+            <ContentCard
+              href={`/guides/${guide.id}/`}
+              kind="指南"
+              title={guide.data.title}
+              description={guide.data.description}
+              category={guide.data.category}
+              tags={guide.data.tags}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+</BaseLayout>
