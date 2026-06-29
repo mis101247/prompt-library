@@ -1,0 +1,87 @@
+---
+title: "Your goal is to help teams make better product decisions through structured discovery — n..."
+description: "整理自 awesome-prompts 的「Your goal is to help teams make better product decisions through structured discovery — n...」，這篇文章說明它要 AI 做什麼、適合什麼情境，以及如何改寫成可直接使用的提示詞。"
+category: "產品與設計"
+tags: ["product", "UX", "design", "research", "awesome-prompts"]
+difficulty: "中階"
+tools: ["Codex", "Claude", "ChatGPT", "Gemini"]
+timeEstimate: "10-20 分鐘"
+featured: false
+publishedAt: "2026-06-29"
+updatedAt: "2026-06-29"
+sourceType: "prompt"
+sourceRepo: "awesome-prompts"
+sourceRepoUrl: "https://github.com/ai-boost/awesome-prompts"
+sourcePath: "prompts/continuous_discovery_architect.txt"
+sourceUrl: "https://github.com/ai-boost/awesome-prompts/blob/61fbcff/prompts/continuous_discovery_architect.txt"
+sourceTitle: "Your goal is to help teams make better product decisions through structured discovery — n..."
+sourceDescription: "來源開頭聚焦在「You are a Continuous Discovery Architect — a senior product strategist who structures product discovery using proven frameworks from Teresa 」，本站將它整理成 產品與設計 類提示詞。"
+sourceExplanation: "awesome-prompts 收錄大量跨領域 prompt，適合觀察角色、限制、輸出格式與工作流程如何組合。 這篇值得收錄，因為它可以示範「產品與使用者體驗顧問」需要哪些判斷，以及如何把任務轉成可複製、可驗證的提示詞。"
+localizationNote: "本站用正體中文重新整理用途、使用情境與操作方式；本文只提供正體中文分析與改寫版提示詞，不直接搬運原始全文。"
+preserveOriginalPrompt: false
+promptLanguage: "英文來源；本站提供正體中文整理版"
+promptUseCase: "當你需要 AI 以「產品與使用者體驗顧問」的方式處理任務時，可以使用這份整理版提示詞，讓模型先釐清目標、再輸出 產品洞察、需求整理。"
+compatibleTools: ["Codex", "Claude", "ChatGPT", "Gemini"]
+copyLabel: "複製整理版提示詞"
+relatedProjects: []
+relatedGuides: []
+promptBody: |
+  你是產品與使用者體驗顧問。請根據我提供的背景、目標、限制與素材，把問題、使用者、場景與限制轉成需求、互動流程、設計判斷與優先順序。
+
+  請先確認任務目標，再用以下方式回覆：
+
+  1. 任務理解：用 3-5 句話整理你認為我要解決的問題。
+  2. 需要的判斷：列出你會使用的專業判斷，包含：
+  - 使用者脈絡理解
+  - 需求優先排序
+  - 互動流程設計
+  - 產品風險辨識
+  3. 建議做法：提出可執行的步驟，並標明每一步需要的輸入資料。
+  4. 交付內容：請輸出下列項目：
+  - 產品洞察
+  - 需求整理
+  - 設計建議
+  - 下一步行動
+  5. 風險與待確認：指出你不確定、需要我補充，或可能造成誤判的地方。
+
+  請避免空泛建議。每個結論都要連回我提供的脈絡或限制。如果資訊不足，先提出最少量、最關鍵的澄清問題。
+
+  任務主題：Your goal is to help teams make better product decisions through structured discovery — n...
+  我的背景資料：
+  {{在這裡貼上需求、程式碼、文件、資料、錯誤訊息或你要 AI 處理的素材}}
+---
+
+## 這個提示詞在做什麼
+
+我把這份來源解讀為一個「產品與使用者體驗顧問」工作流。它不是只要求 AI 回答問題，而是要求 AI 先理解任務、辨識限制，然後用 產品與設計 的判斷方式產出可交付內容。
+
+來源開頭聚焦在「You are a Continuous Discovery Architect — a senior product strategist who structures product discovery using proven frameworks from Teresa 」，本站將它整理成 產品與設計 類提示詞。
+
+## AI 需要具備的判斷
+
+- 使用者脈絡理解
+- 需求優先排序
+- 互動流程設計
+- 產品風險辨識
+
+## 適合使用情境
+
+適合產出 PRD、使用者故事、研究計畫、產品策略與設計審查觀點。如果你手上有需求、程式碼、文件、資料或錯誤訊息，可以把素材貼在整理版提示詞的最後一段，讓 AI 先整理脈絡再開始回覆。
+
+## 建議輸出
+
+- 產品洞察
+- 需求整理
+- 設計建議
+- 下一步行動
+
+## 使用方式
+
+1. 先複製上方「整理版提示詞」。
+2. 把最後的背景資料區換成你的實際任務、程式碼、文件或限制。
+3. 如果你要用在 coding agent，建議再補上 repo 路徑、測試指令、完成條件與不能碰的範圍。
+4. 回覆後先檢查它的假設是否正確，再要求它進一步實作、改寫或產出更細的 checklist。
+
+## 來源與改寫策略
+
+來源檔案：`prompts/continuous_discovery_architect.txt`。這篇文章保留來源 repo、檔案路徑與原始標題，方便回查脈絡。本站沒有直接搬運整份原始 prompt，而是用正體中文整理它的用途、判斷方式與可操作的改寫版提示詞。
