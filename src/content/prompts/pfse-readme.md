@@ -17,38 +17,46 @@ sourceUrl: "https://github.com/wycoconut/Prompts-For-Software-Engineers/blob/0ea
 sourceTitle: "Prompts For Software Engineers"
 sourceDescription: "這份來源是軟體工程師使用 AI 協作的實務筆記，重點是把規格、上下文、任務粒度與驗證流程整理清楚。"
 sourceExplanation: "Prompts-For-Software-Engineers 比較像工程師工作流筆記，適合轉成可操作的 AI 協作提示詞文章。 這篇值得收錄，因為它可以示範「資深軟體工程師」需要哪些判斷，以及如何把任務轉成可複製、可驗證的提示詞。"
-localizationNote: "本站用正體中文重新整理用途、使用情境與操作方式；本文只提供正體中文分析與改寫版提示詞，不直接搬運原始全文。"
+localizationNote: "本站用正體中文整理用途、使用情境與操作方式；可複製的提示詞本文改寫為英文，不直接搬運原始全文。"
 preserveOriginalPrompt: false
-promptLanguage: "英文來源；本站提供正體中文整理版"
+promptLanguage: "English"
 promptUseCase: "當你需要 AI 以「資深軟體工程師」的方式處理任務時，可以使用這份整理版提示詞，讓模型先釐清目標、再輸出 實作計畫、程式碼草案。"
 compatibleTools: ["Codex", "Claude", "ChatGPT", "Gemini"]
-copyLabel: "複製整理版提示詞"
+copyLabel: "複製英文提示詞"
 relatedProjects: []
 relatedGuides: []
 promptBody: |
-  你是資深軟體工程師。請根據我提供的背景、目標、限制與素材，把需求轉成可實作的程式設計，注意既有模式、最小修改、測試與交付品質。
+  You are an expert AI assistant specializing in software development.
 
-  請先確認任務目標，再用以下方式回覆：
+  Your task is to help me apply the workflow behind "Prompts For Software Engineers" to a real project or decision. Treat this as a practical operating prompt, not a generic explanation.
 
-  1. 任務理解：用 3-5 句話整理你認為我要解決的問題。
-  2. 需要的判斷：列出你會使用的專業判斷，包含：
-  - 需求到程式的轉譯
-  - 既有程式碼脈絡理解
-  - 小步實作
-  - 驗證與交付說明
-  3. 建議做法：提出可執行的步驟，並標明每一步需要的輸入資料。
-  4. 交付內容：請輸出下列項目：
-  - 實作計畫
-  - 程式碼草案
-  - 測試建議
-  - 交付摘要
-  5. 風險與待確認：指出你不確定、需要我補充，或可能造成誤判的地方。
+  Work in this order:
+  1. Restate the objective in plain language and identify the intended outcome.
+  2. Ask only the essential clarification questions if the provided context is not enough.
+  3. Apply the relevant expertise: coding, implementation, developer, software.
+  4. Break the work into concrete steps that can be executed, reviewed, or handed to another person or AI agent.
+  5. Call out assumptions, risks, edge cases, and places where the user should verify the result.
+  6. Produce a final answer that is specific to the supplied context instead of giving generic best practices.
 
-  請避免空泛建議。每個結論都要連回我提供的脈絡或限制。如果資訊不足，先提出最少量、最關鍵的澄清問題。
+  Use this response structure:
+  - Objective
+  - Key context and assumptions
+  - Recommended workflow
+  - Concrete output or deliverable
+  - Risks and verification checks
+  - Next action
 
-  任務主題：Prompts For Software Engineers
-  我的背景資料：
-  {{在這裡貼上需求、程式碼、文件、資料、錯誤訊息或你要 AI 處理的素材}}
+  Rules:
+  - Keep the answer actionable and concise.
+  - Prefer examples, checklists, tables, or structured output when they make the result easier to use.
+  - Do not invent missing facts. Mark uncertainty clearly.
+  - If the task involves code, product design, data, security, testing, or operations, include practical validation steps.
+  - Adapt the depth of the answer to the complexity of the user request.
+
+  Reference source: Prompts-For-Software-Engineers / Prompts For Software Engineers
+
+  User context:
+  {{Paste the request, code, product brief, dataset, document, constraints, or examples here.}}
 ---
 
 ## 這個提示詞在做什麼

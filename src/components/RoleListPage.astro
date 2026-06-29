@@ -1,0 +1,264 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PaginationNav from './PaginationNav.astro';
+import RolePromptCard from './RolePromptCard.astro';
+
+interface Props {
+  rolePrompts: CollectionEntry<'roles'>[];
+  allRolePrompts: CollectionEntry<'roles'>[];
+  currentPage: number;
+  totalPages: number;
+  pageSize: number;
+}
+
+const { rolePrompts, allRolePrompts, currentPage, totalPages, pageSize } = Astro.props;
+const categories = [...new Set(allRolePrompts.map((entry) => entry.data.category))].sort();
+const pageHref = (page: number) => (page === 1 ? '/roles/' : `/roles/page/${page}/`);
+const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
+  id: rolePrompt.id,
+  title: rolePrompt.data.title,
+  description: rolePrompt.data.description,
+  category: rolePrompt.data.category,
+  tags: rolePrompt.data.tags,
+  requiredSkills: rolePrompt.data.requiredSkills,
+  href: `${pageHref(Math.floor(index / pageSize) + 1)}#${rolePrompt.id}`,
+}));
+---
+
+<BaseLayout title="角色提示詞" description="整理 prompts.chat 的角色型 prompt，快速找到產品、設計、工程、資料與內容工作需要的角色提示詞。" width="wide">
+  <section class="hero">
+    <h1>角色提示詞</h1>
+    <p>收錄 prompts.chat 的 {allRolePrompts.length.toLocaleString('zh-TW')} 個角色型 prompt。每筆都整理成正體中文能力摘要，說明這個角色提示詞需要 AI 動用哪些專業判斷。</p>
+  </section>
+
+  <section class="filter-bar" aria-label="角色提示詞搜尋與篩選">
+    <input id="search" type="search" placeholder="搜尋角色、任務或標籤" aria-label="搜尋角色提示詞" />
+    <select id="category" aria-label="依角色類型篩選">
+      <option value="">所有角色</option>
+      {categories.map((category) => <option value={category}>{category}</option>)}
+    </select>
+  </section>
+
+  <p class="filter-empty" id="empty">沒有符合條件的角色提示詞。</p>
+
+  <div id="paged-content">
+    <PaginationNav
+      basePath="/roles/"
+      currentPage={currentPage}
+      totalPages={totalPages}
+      pageSize={pageSize}
+      totalItems={allRolePrompts.length}
+      label="角色提示詞分頁"
+    />
+
+    <section class="grid grid--two" id="items">
+      {rolePrompts.map((rolePrompt) => (
+        <RolePromptCard
+          id={rolePrompt.id}
+          title={rolePrompt.data.title}
+          description={rolePrompt.data.description}
+          category={rolePrompt.data.category}
+          tags={rolePrompt.data.tags}
+          requiredSkills={rolePrompt.data.requiredSkills}
+          promptBody={rolePrompt.data.promptBody}
+        />
+      ))}
+    </section>
+
+    <PaginationNav
+      basePath="/roles/"
+      currentPage={currentPage}
+      totalPages={totalPages}
+      pageSize={pageSize}
+      totalItems={allRolePrompts.length}
+      label="角色提示詞分頁"
+      className="pagination--bottom"
+    />
+  </div>
+
+  <section class="grid grid--two" id="search-results" hidden></section>
+
+  <nav class="pagination" id="search-pagination" aria-label="搜尋結果分頁" hidden>
+    <p id="search-summary"></p>
+    <div class="pagination__controls">
+      <button class="button button--secondary" type="button" data-search-prev>上一頁</button>
+      <span id="search-indicator">第 1 頁</span>
+      <button class="button button--secondary" type="button" data-search-next>下一頁</button>
+    </div>
+  </nav>
+
+  <script is:inline define:vars={{ searchIndex, pageSize }}>
+    const search = document.querySelector('#search');
+    const category = document.querySelector('#category');
+    const empty = document.querySelector('#empty');
+    const pagedContent = document.querySelector('#paged-content');
+    const results = document.querySelector('#search-results');
+    const searchPagination = document.querySelector('#search-pagination');
+    const searchSummary = document.querySelector('#search-summary');
+    const searchIndicator = document.querySelector('#search-indicator');
+    const prevSearch = document.querySelector('[data-search-prev]');
+    const nextSearch = document.querySelector('[data-search-next]');
+    const params = new URLSearchParams(window.location.search);
+    let searchPage = 1;
+
+    if (params.get('q')) search.value = params.get('q');
+
+    function createResultCard(entry) {
+      const article = document.createElement('article');
+      article.className = 'content-card';
+
+      const link = document.createElement('a');
+      link.className = 'content-card__main';
+      link.href = entry.href;
+
+      const kind = document.createElement('span');
+      kind.className = 'content-card__kind';
+      kind.textContent = '角色提示詞';
+
+      const title = document.createElement('h3');
+      title.textContent = entry.title;
+
+      const description = document.createElement('p');
+      description.textContent = entry.description;
+
+      link.append(kind, title, description);
+      article.append(link);
+
+      const visibleTags = [...new Set(
+        entry.requiredSkills.length > 0 ? entry.requiredSkills : [entry.category, ...entry.tags],
+      )].slice(0, 5);
+
+      if (visibleTags.length > 0) {
+        const tags = document.createElement('div');
+        tags.className = 'tag-list';
+        visibleTags.forEach((tagText) => {
+          const tag = document.createElement('span');
+          tag.className = 'tag';
+          tag.textContent = tagText;
+          tags.append(tag);
+        });
+        article.append(tags);
+      }
+
+      return article;
+    }
+
+    function matchingItems() {
+      const query = search.value.trim().toLowerCase();
+      const categoryValue = category.value;
+
+      return searchIndex.filter((entry) => {
+        const haystack = [
+          entry.title,
+          entry.description,
+          entry.category,
+          entry.tags.join(' '),
+          entry.requiredSkills.join(' '),
+        ].join(' ').toLowerCase();
+        return (
+          (!query || haystack.includes(query)) &&
+          (!categoryValue || entry.category === categoryValue)
+        );
+      });
+    }
+
+    function renderSearch() {
+      const query = search.value.trim();
+      const hasFilter = query.length > 0 || category.value;
+      pagedContent.hidden = hasFilter;
+      results.hidden = !hasFilter;
+      searchPagination.hidden = !hasFilter;
+      empty.style.display = 'none';
+
+      if (!hasFilter) {
+        results.replaceChildren();
+        return;
+      }
+
+      const matches = matchingItems();
+      const totalPages = Math.max(1, Math.ceil(matches.length / pageSize));
+      searchPage = Math.min(searchPage, totalPages);
+      const start = (searchPage - 1) * pageSize;
+      const visibleItems = matches.slice(start, start + pageSize);
+      results.replaceChildren(...visibleItems.map(createResultCard));
+
+      empty.style.display = matches.length === 0 ? 'block' : 'none';
+      const firstVisible = matches.length === 0 ? 0 : start + 1;
+      const lastVisible = Math.min(start + pageSize, matches.length);
+      searchSummary.textContent = matches.length === 0
+        ? '沒有符合條件的角色提示詞'
+        : `搜尋結果第 ${firstVisible.toLocaleString('zh-TW')}-${lastVisible.toLocaleString('zh-TW')} 筆，共 ${matches.length.toLocaleString('zh-TW')} 筆`;
+      searchIndicator.textContent = `第 ${searchPage.toLocaleString('zh-TW')} / ${totalPages.toLocaleString('zh-TW')} 頁`;
+      prevSearch.disabled = searchPage <= 1;
+      nextSearch.disabled = searchPage >= totalPages;
+    }
+
+    function bindRolePromptCards() {
+      document.querySelectorAll('[data-copy-role-prompt]').forEach((button) => {
+        const originalLabel = button.textContent || '複製角色提示詞';
+
+        button.addEventListener('click', async () => {
+          const card = button.closest('[data-library-item]');
+          const promptText = card?.querySelector('code')?.textContent || '';
+
+          try {
+            await navigator.clipboard.writeText(promptText);
+            button.textContent = '已複製';
+          } catch {
+            button.textContent = '複製失敗，請手動選取';
+          }
+
+          window.clearTimeout(button.dataset.resetTimer);
+          const timer = window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1600);
+          button.dataset.resetTimer = String(timer);
+        });
+      });
+
+      document.querySelectorAll('.role-prompt-card__prompt').forEach((details) => {
+        details.addEventListener('toggle', () => {
+          details.closest('[data-library-item]')?.classList.toggle('is-expanded', details.open);
+        });
+      });
+    }
+
+    function openHashPrompt() {
+      if (!window.location.hash) return;
+      const target = document.querySelector(window.location.hash);
+      const details = target?.querySelector('.role-prompt-card__prompt');
+      if (details) {
+        details.open = true;
+        target.classList.add('is-expanded');
+      }
+    }
+
+    [search, category].forEach((control) => {
+      control.addEventListener('input', () => {
+        searchPage = 1;
+        renderSearch();
+      });
+      control.addEventListener('change', () => {
+        searchPage = 1;
+        renderSearch();
+      });
+    });
+
+    prevSearch.addEventListener('click', () => {
+      searchPage -= 1;
+      renderSearch();
+      results.scrollIntoView({ block: 'start' });
+    });
+
+    nextSearch.addEventListener('click', () => {
+      searchPage += 1;
+      renderSearch();
+      results.scrollIntoView({ block: 'start' });
+    });
+
+    bindRolePromptCards();
+    renderSearch();
+    openHashPrompt();
+  </script>
+</BaseLayout>

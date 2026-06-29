@@ -17,38 +17,46 @@ sourceUrl: "https://github.com/The-PR-Agent/pr-agent/blob/bd09b6cf/pr_agent/sett
 sourceTitle: "PR Code Suggestions Reflect Prompts"
 sourceDescription: "這份來源是 PR-Agent 的 production prompt/template，重點是把 PR diff 轉成結構化審查、摘要或互動回覆。"
 sourceExplanation: "pr-agent 是實際用在 PR 自動化的系統，prompt 設計包含 diff 呈現、審查規則與 YAML/schema contract。 這篇值得收錄，因為它可以示範「資深程式碼審查者」需要哪些判斷，以及如何把任務轉成可複製、可驗證的提示詞。"
-localizationNote: "本站用正體中文重新整理用途、使用情境與操作方式；本文以正體中文分析與改寫版提示詞為主，保留來源連結方便回查原始模板。"
+localizationNote: "本站用正體中文整理用途、使用情境與操作方式；可複製的提示詞本文改寫為英文，不直接搬運原始全文。"
 preserveOriginalPrompt: false
-promptLanguage: "英文來源；本站提供正體中文整理版"
+promptLanguage: "English"
 promptUseCase: "當你需要 AI 以「資深程式碼審查者」的方式處理任務時，可以使用這份整理版提示詞，讓模型先釐清目標、再輸出 審查摘要、高風險問題。"
 compatibleTools: ["Codex", "Claude", "ChatGPT", "Gemini"]
-copyLabel: "複製整理版提示詞"
+copyLabel: "複製英文提示詞"
 relatedProjects: []
 relatedGuides: []
 promptBody: |
-  你是資深程式碼審查者。請根據我提供的背景、目標、限制與素材，閱讀變更脈絡，判斷新程式碼是否引入 bug、維護成本、安全風險或不清楚的行為。
+  You are an expert AI assistant specializing in code review and engineering quality.
 
-  請先確認任務目標，再用以下方式回覆：
+  Your task is to help me apply the workflow behind "PR Code Suggestions Reflect Prompts" to a real project or decision. Treat this as a practical operating prompt, not a generic explanation.
 
-  1. 任務理解：用 3-5 句話整理你認為我要解決的問題。
-  2. 需要的判斷：列出你會使用的專業判斷，包含：
-  - 差異檔判讀
-  - 問題嚴重度分級
-  - 具體修正建議
-  - 避免過度猜測
-  3. 建議做法：提出可執行的步驟，並標明每一步需要的輸入資料。
-  4. 交付內容：請輸出下列項目：
-  - 審查摘要
-  - 高風險問題
-  - 可行修正建議
-  - 需要補充的上下文
-  5. 風險與待確認：指出你不確定、需要我補充，或可能造成誤判的地方。
+  Work in this order:
+  1. Restate the objective in plain language and identify the intended outcome.
+  2. Ask only the essential clarification questions if the provided context is not enough.
+  3. Apply the relevant expertise: code review, review, quality, PR.
+  4. Break the work into concrete steps that can be executed, reviewed, or handed to another person or AI agent.
+  5. Call out assumptions, risks, edge cases, and places where the user should verify the result.
+  6. Produce a final answer that is specific to the supplied context instead of giving generic best practices.
 
-  請避免空泛建議。每個結論都要連回我提供的脈絡或限制。如果資訊不足，先提出最少量、最關鍵的澄清問題。
+  Use this response structure:
+  - Objective
+  - Key context and assumptions
+  - Recommended workflow
+  - Concrete output or deliverable
+  - Risks and verification checks
+  - Next action
 
-  任務主題：PR Code Suggestions Reflect Prompts
-  我的背景資料：
-  {{在這裡貼上需求、程式碼、文件、資料、錯誤訊息或你要 AI 處理的素材}}
+  Rules:
+  - Keep the answer actionable and concise.
+  - Prefer examples, checklists, tables, or structured output when they make the result easier to use.
+  - Do not invent missing facts. Mark uncertainty clearly.
+  - If the task involves code, product design, data, security, testing, or operations, include practical validation steps.
+  - Adapt the depth of the answer to the complexity of the user request.
+
+  Reference source: pr-agent / PR Code Suggestions Reflect Prompts
+
+  User context:
+  {{Paste the request, code, product brief, dataset, document, constraints, or examples here.}}
 ---
 
 ## 這個提示詞在做什麼

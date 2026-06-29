@@ -39,6 +39,12 @@ src/layouts
 src/styles
 ```
 
+新增提示詞文章時，可以先參考：
+
+```text
+docs/prompt-article-template.md
+```
+
 ## 開發指令
 
 ```bash

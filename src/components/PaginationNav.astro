@@ -1,0 +1,50 @@
+---
+interface Props {
+  basePath: string;
+  currentPage: number;
+  totalPages: number;
+  pageSize: number;
+  totalItems: number;
+  label: string;
+  className?: string;
+}
+
+const {
+  basePath,
+  currentPage,
+  totalPages,
+  pageSize,
+  totalItems,
+  label,
+  className = '',
+} = Astro.props;
+
+const pageHref = (page: number) => (page === 1 ? basePath : `${basePath}page/${page}/`);
+const firstItem = totalItems === 0 ? 0 : (currentPage - 1) * pageSize + 1;
+const lastItem = Math.min(currentPage * pageSize, totalItems);
+const previousPage = currentPage > 1 ? currentPage - 1 : null;
+const nextPage = currentPage < totalPages ? currentPage + 1 : null;
+---
+
+<nav class={`pagination ${className}`.trim()} aria-label={label}>
+  <p>
+    顯示第 {firstItem.toLocaleString('zh-TW')}-{lastItem.toLocaleString('zh-TW')} 筆，共 {totalItems.toLocaleString('zh-TW')} 筆
+  </p>
+  <div class="pagination__controls">
+    {
+      previousPage ? (
+        <a class="button button--secondary" href={pageHref(previousPage)}>上一頁</a>
+      ) : (
+        <span class="button button--secondary" aria-disabled="true">上一頁</span>
+      )
+    }
+    <span>第 {currentPage.toLocaleString('zh-TW')} / {totalPages.toLocaleString('zh-TW')} 頁</span>
+    {
+      nextPage ? (
+        <a class="button button--secondary" href={pageHref(nextPage)}>下一頁</a>
+      ) : (
+        <span class="button button--secondary" aria-disabled="true">下一頁</span>
+      )
+    }
+  </div>
+</nav>

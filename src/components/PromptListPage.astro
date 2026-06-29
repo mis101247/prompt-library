@@ -1,0 +1,214 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContentCard from './ContentCard.astro';
+import PaginationNav from './PaginationNav.astro';
+
+interface Props {
+  prompts: CollectionEntry<'prompts'>[];
+  allPrompts: CollectionEntry<'prompts'>[];
+  currentPage: number;
+  totalPages: number;
+  pageSize: number;
+}
+
+const { prompts, allPrompts, currentPage, totalPages, pageSize } = Astro.props;
+const categories = [...new Set(allPrompts.map((entry) => entry.data.category))].sort();
+const searchIndex = allPrompts.map((prompt) => ({
+  title: prompt.data.title,
+  description: prompt.data.description,
+  category: prompt.data.category,
+  tags: prompt.data.tags,
+  href: `/prompts/${prompt.id}/`,
+  kind: prompt.data.featured ? '精選提示詞' : '提示詞',
+}));
+---
+
+<BaseLayout title="提示詞收藏" description="可搜尋、可篩選、可複製的軟體工程提示詞。" width="wide">
+  <section class="hero">
+    <h1>提示詞收藏</h1>
+    <p>每個提示詞都附上用途、收錄原因與正體中文使用說明；可複製的提示詞本文維持英文。</p>
+  </section>
+
+  <section class="filter-bar" aria-label="提示詞搜尋與篩選">
+    <input id="search" type="search" placeholder="搜尋標題、用途或標籤" aria-label="搜尋提示詞" />
+    <select id="category" aria-label="依分類篩選">
+      <option value="">所有分類</option>
+      {categories.map((category) => <option value={category}>{category}</option>)}
+    </select>
+  </section>
+
+  <p class="filter-empty" id="empty">沒有符合條件的提示詞。</p>
+
+  <div id="paged-content">
+    <PaginationNav
+      basePath="/prompts/"
+      currentPage={currentPage}
+      totalPages={totalPages}
+      pageSize={pageSize}
+      totalItems={allPrompts.length}
+      label="提示詞分頁"
+    />
+
+    <section class="grid grid--two" id="items">
+      {prompts.map((prompt) => (
+        <ContentCard
+          href={`/prompts/${prompt.id}/`}
+          kind={prompt.data.featured ? '精選提示詞' : '提示詞'}
+          title={prompt.data.title}
+          description={prompt.data.description}
+          category={prompt.data.category}
+          tags={prompt.data.tags}
+        />
+      ))}
+    </section>
+
+    <PaginationNav
+      basePath="/prompts/"
+      currentPage={currentPage}
+      totalPages={totalPages}
+      pageSize={pageSize}
+      totalItems={allPrompts.length}
+      label="提示詞分頁"
+      className="pagination--bottom"
+    />
+  </div>
+
+  <section class="grid grid--two" id="search-results" hidden></section>
+
+  <nav class="pagination" id="search-pagination" aria-label="搜尋結果分頁" hidden>
+    <p id="search-summary"></p>
+    <div class="pagination__controls">
+      <button class="button button--secondary" type="button" data-search-prev>上一頁</button>
+      <span id="search-indicator">第 1 頁</span>
+      <button class="button button--secondary" type="button" data-search-next>下一頁</button>
+    </div>
+  </nav>
+
+  <script is:inline define:vars={{ searchIndex, pageSize }}>
+    const search = document.querySelector('#search');
+    const category = document.querySelector('#category');
+    const empty = document.querySelector('#empty');
+    const pagedContent = document.querySelector('#paged-content');
+    const results = document.querySelector('#search-results');
+    const searchPagination = document.querySelector('#search-pagination');
+    const searchSummary = document.querySelector('#search-summary');
+    const searchIndicator = document.querySelector('#search-indicator');
+    const prevSearch = document.querySelector('[data-search-prev]');
+    const nextSearch = document.querySelector('[data-search-next]');
+    const params = new URLSearchParams(window.location.search);
+    let searchPage = 1;
+
+    if (params.get('q')) search.value = params.get('q');
+
+    function createResultCard(entry) {
+      const article = document.createElement('article');
+      article.className = 'content-card';
+
+      const link = document.createElement('a');
+      link.className = 'content-card__main';
+      link.href = entry.href;
+
+      const kind = document.createElement('span');
+      kind.className = 'content-card__kind';
+      kind.textContent = entry.kind;
+
+      const title = document.createElement('h3');
+      title.textContent = entry.title;
+
+      const description = document.createElement('p');
+      description.textContent = entry.description;
+
+      link.append(kind, title, description);
+      article.append(link);
+
+      if (entry.tags.length > 0) {
+        const tags = document.createElement('div');
+        tags.className = 'tag-list';
+        entry.tags.slice(0, 4).forEach((tagText) => {
+          const tag = document.createElement('span');
+          tag.className = 'tag';
+          tag.textContent = tagText;
+          tags.append(tag);
+        });
+        article.append(tags);
+      }
+
+      return article;
+    }
+
+    function matchingItems() {
+      const query = search.value.trim().toLowerCase();
+      const categoryValue = category.value;
+
+      return searchIndex.filter((entry) => {
+        const haystack = [
+          entry.title,
+          entry.description,
+          entry.category,
+          entry.tags.join(' '),
+        ].join(' ').toLowerCase();
+        return (
+          (!query || haystack.includes(query)) &&
+          (!categoryValue || entry.category === categoryValue)
+        );
+      });
+    }
+
+    function renderSearch() {
+      const query = search.value.trim();
+      const hasFilter = query.length > 0 || category.value;
+      pagedContent.hidden = hasFilter;
+      results.hidden = !hasFilter;
+      searchPagination.hidden = !hasFilter;
+      empty.style.display = 'none';
+
+      if (!hasFilter) {
+        results.replaceChildren();
+        return;
+      }
+
+      const matches = matchingItems();
+      const totalPages = Math.max(1, Math.ceil(matches.length / pageSize));
+      searchPage = Math.min(searchPage, totalPages);
+      const start = (searchPage - 1) * pageSize;
+      const visibleItems = matches.slice(start, start + pageSize);
+      results.replaceChildren(...visibleItems.map(createResultCard));
+
+      empty.style.display = matches.length === 0 ? 'block' : 'none';
+      const firstVisible = matches.length === 0 ? 0 : start + 1;
+      const lastVisible = Math.min(start + pageSize, matches.length);
+      searchSummary.textContent = matches.length === 0
+        ? '沒有符合條件的提示詞'
+        : `搜尋結果第 ${firstVisible.toLocaleString('zh-TW')}-${lastVisible.toLocaleString('zh-TW')} 筆，共 ${matches.length.toLocaleString('zh-TW')} 筆`;
+      searchIndicator.textContent = `第 ${searchPage.toLocaleString('zh-TW')} / ${totalPages.toLocaleString('zh-TW')} 頁`;
+      prevSearch.disabled = searchPage <= 1;
+      nextSearch.disabled = searchPage >= totalPages;
+    }
+
+    [search, category].forEach((control) => {
+      control.addEventListener('input', () => {
+        searchPage = 1;
+        renderSearch();
+      });
+      control.addEventListener('change', () => {
+        searchPage = 1;
+        renderSearch();
+      });
+    });
+
+    prevSearch.addEventListener('click', () => {
+      searchPage -= 1;
+      renderSearch();
+      results.scrollIntoView({ block: 'start' });
+    });
+
+    nextSearch.addEventListener('click', () => {
+      searchPage += 1;
+      renderSearch();
+      results.scrollIntoView({ block: 'start' });
+    });
+
+    renderSearch();
+  </script>
+</BaseLayout>

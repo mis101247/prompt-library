@@ -305,6 +305,10 @@ hr {
   grid-column: 1 / -1;
 }
 
+.role-prompt-card:has(.role-prompt-card__prompt[open]) {
+  grid-column: 1 / -1;
+}
+
 .role-prompt-card__prompt {
   max-width: 100%;
   min-width: 0;
@@ -346,6 +350,13 @@ hr {
 .pagination button:disabled {
   cursor: not-allowed;
   opacity: 0.55;
+  transform: none;
+}
+
+.pagination .button[aria-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.55;
+  pointer-events: none;
   transform: none;
 }
 
