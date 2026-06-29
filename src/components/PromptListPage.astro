@@ -15,6 +15,10 @@ interface Props {
 
 const { prompts, allPrompts, currentPage, totalPages, pageSize } = Astro.props;
 const categories = sortCategories(allPrompts.map((entry) => entry.data.category));
+const preferredDefaultCategory = '趣味應用';
+const defaultCategory = currentPage === 1 && categories.includes(preferredDefaultCategory)
+  ? preferredDefaultCategory
+  : '';
 const searchIndex = allPrompts.map((prompt) => ({
   title: prompt.data.title,
   description: prompt.data.description,
@@ -49,7 +53,7 @@ const searchIndex = allPrompts.map((prompt) => ({
     <input id="search" type="search" placeholder="搜尋標題、用途或標籤" aria-label="搜尋提示詞" />
     <select id="category" aria-label="依分類篩選">
       <option value="">所有分類</option>
-      {categories.map((category) => <option value={category}>{category}</option>)}
+      {categories.map((category) => <option value={category} selected={category === defaultCategory}>{category}</option>)}
     </select>
   </section>
 
@@ -94,7 +98,7 @@ const searchIndex = allPrompts.map((prompt) => ({
     </div>
   </nav>
 
-  <script is:inline define:vars={{ searchIndex, pageSize }}>
+  <script is:inline define:vars={{ searchIndex, pageSize, defaultCategory }}>
     const search = document.querySelector('#search');
     const category = document.querySelector('#category');
     const empty = document.querySelector('#empty');
@@ -109,6 +113,11 @@ const searchIndex = allPrompts.map((prompt) => ({
     let searchPage = 1;
 
     if (params.get('q')) search.value = params.get('q');
+    if (params.get('category')) {
+      category.value = params.get('category');
+    } else if (defaultCategory) {
+      category.value = defaultCategory;
+    }
 
     function createResultCard(entry) {
       const article = document.createElement('article');
