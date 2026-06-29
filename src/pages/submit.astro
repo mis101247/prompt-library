@@ -1,0 +1,179 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PromptBlock from '../components/PromptBlock.astro';
+import { SITE_TITLE } from '../consts';
+
+const repoUrl = 'https://github.com/mis101247/prompt-library';
+const pullRequestUrl = `${repoUrl}/pulls`;
+
+const contributionPrompt = [
+  '你是一位 Prompt Library 投稿編輯，擅長把零散的原始提示詞整理成可維護、可搜尋、可直接 merge 的 Astro content 文章。',
+  '',
+  '任務：請根據投稿者提供的原始提示詞、用途說明、來源資訊與補充脈絡，產出一個完整 Markdown 檔案，目標路徑是 src/content/prompts/<slug>.md。這個檔案必須能直接通過專案的 prompts collection schema。',
+  '',
+  '重要原則：',
+  '- 使用正體中文撰寫 title、description、文章正文與說明。',
+  '- promptBody 可以保留原文語言；如果原始提示詞是英文且英文比較適合模型執行，就保留英文。',
+  '- 不要幻想來源。投稿者有提供 GitHub repo、檔案路徑或網址時，照實填入；沒有外部來源且是投稿者原創時，標成 community 原創投稿。',
+  '- 不要把 copyrighted 或未授權內容整段搬進來。若來源授權不明，改寫說明文章，並要求投稿者補授權或來源。',
+  '- tags 要短、可重用，優先沿用現有風格，例如 AI agent、automation、code review、testing、vibe coding、productivity。',
+  '- featured 預設 false。relatedProjects 與 relatedGuides 沒有明確資料時使用空陣列。',
+  '',
+  '請先向投稿者確認或從輸入中萃取這些資訊：',
+  '- 原始提示詞全文',
+  '- 主要用途與使用情境',
+  '- 適合的工具或模型，例如 ChatGPT、Claude、Cursor、Codex、Gemini',
+  '- 來源資訊：GitHub repo URL、檔案路徑、原始檔 URL、來源標題、授權或原創聲明',
+  '- 投稿者希望的標題或關鍵字',
+  '',
+  '輸出只能包含以下三個區塊：',
+  '1. 建議檔案路徑',
+  '2. 完整 Markdown 檔案內容，請包在 markdown fenced code block 中',
+  '3. 投稿前檢查清單',
+  '',
+  'Markdown 檔案必須使用這個 frontmatter 結構，欄位不得省略：',
+  '---',
+  'title: "清楚的正體中文標題"',
+  'description: "一句話說明這個提示詞能解決什麼問題，避免空泛形容詞。"',
+  'category: "主要分類，例如 AI agent、程式碼審查、測試、自動化、文件整理"',
+  'tags:',
+  '  - AI agent',
+  '  - 另一個可重用標籤',
+  'difficulty: "入門"',
+  'tools:',
+  '  - ChatGPT',
+  '  - Claude',
+  'timeEstimate: "5 分鐘"',
+  'featured: false',
+  'publishedAt: "YYYY-MM-DD"',
+  'updatedAt: "YYYY-MM-DD"',
+  'sourceType: "prompt"',
+  'sourceRepo: "來源 repo 名稱；原創投稿請填 community"',
+  'sourceRepoUrl: "來源 repo URL；原創投稿請填 https://github.com/mis101247/prompt-library"',
+  'sourcePath: "來源檔案路徑；原創投稿請填 community-submission"',
+  'sourceUrl: "來源檔案 URL；原創投稿請填 https://github.com/mis101247/prompt-library/pulls"',
+  'sourceTitle: "來源標題或投稿標題"',
+  'sourceDescription: "來源本身在做什麼，原創投稿可寫投稿者提供的用途摘要。"',
+  'sourceExplanation: "說明這個提示詞為什麼值得收錄，以及整理時做了哪些轉換。"',
+  'localizationNote: "說明是否翻譯、改寫、保留原文，並標註正體中文整理策略。"',
+  'preserveOriginalPrompt: true',
+  'promptLanguage: "English 或 Traditional Chinese 等"',
+  'promptUseCase: "一句話描述最適合的使用場景"',
+  'compatibleTools:',
+  '  - ChatGPT',
+  '  - Claude',
+  'copyLabel: "複製提示詞"',
+  'relatedProjects: []',
+  'relatedGuides: []',
+  'promptBody: |-',
+  '  在這裡放完整提示詞。保留必要變數、輸入格式、輸出格式與限制條件。',
+  '---',
+  '',
+  '正文請使用以下段落，內容要具體，不要只重述 frontmatter：',
+  '',
+  '## 這個提示詞在做什麼',
+  '用 1 到 2 段說明它解決的任務、適合交給 AI 的原因、使用者會得到什麼結果。',
+  '',
+  '## AI 需要具備的判斷',
+  '像寫能力簡歷一樣，列出這個提示詞要求模型具備的能力、技能、判斷標準與取捨。不要寫成空泛的優點清單。',
+  '',
+  '## 適合使用情境',
+  '列出 3 到 5 個具體場景，讓讀者知道什麼時候該使用它。',
+  '',
+  '## 建議輸出',
+  '描述理想輸出格式、品質標準、必要欄位與不該出現的內容。',
+  '',
+  '## 使用方式',
+  '用短步驟說明如何貼上提示詞、替換變數、提供上下文，以及如何檢查結果。',
+  '',
+  '## 來源與改寫策略',
+  '清楚說明來源、授權或原創聲明。若有翻譯、摘要、補標籤或改寫 promptBody，也要寫明。',
+  '',
+  'slug 規則：',
+  '- 使用小寫英文字母、數字與 hyphen。',
+  '- 能看出主題，例如 ai-code-review-checklist 或 product-requirement-synthesizer。',
+  '- 不確定是否撞名時，使用更具體的用途名稱。',
+  '',
+  '投稿前檢查清單請確認：',
+  '- frontmatter 每個必要欄位都有值。',
+  '- 日期使用 YYYY-MM-DD。',
+  '- sourceUrl 是可打開的 URL。',
+  '- promptBody 可直接複製使用，沒有遺漏輸入變數或輸出格式。',
+  '- 文章正文是正體中文，且能幫讀者判斷是否適合使用。',
+  '- 檔案路徑是 src/content/prompts/<slug>.md。',
+].join('\n');
+---
+
+<BaseLayout
+  title={`投稿 ${SITE_TITLE}`}
+  description="使用投稿格式化 prompt 產生可直接送 PR 的提示詞文章。"
+  width="wide"
+>
+  <section class="hero">
+    <h1>投稿提示詞</h1>
+    <p>
+      想把自己的提示詞收錄進 {SITE_TITLE}，可以先用這頁的格式化 prompt 整理成文章檔。
+      每篇投稿都需要保留可複製的 prompt，並補上使用情境、AI 需要具備的判斷，以及來源與改寫策略。
+    </p>
+    <div class="hero-actions">
+      <a class="button" href="#contribute-prompt">投稿格式化 prompt</a>
+      <a class="button button--secondary" href={pullRequestUrl} target="_blank" rel="noreferrer">
+        開 Pull Request
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>收錄原則</h2>
+        <p>投稿不只是貼一段 prompt，而是讓下一位讀者知道什麼時候該用、怎麼用、來源在哪裡。</p>
+      </div>
+    </div>
+    <div class="grid grid--three">
+      <div class="panel stack">
+        <h3>可直接使用</h3>
+        <p class="muted">promptBody 需要保留完整指令、變數、輸入格式與輸出限制，讀者複製後就能開始測試。</p>
+      </div>
+      <div class="panel stack">
+        <h3>來源清楚</h3>
+        <p class="muted">來自 GitHub 的 prompt 要附 repo、路徑與原始檔 URL；原創投稿也要清楚標記。</p>
+      </div>
+      <div class="panel stack">
+        <h3>說明有判斷</h3>
+        <p class="muted">文章要分析這個 prompt 要求 AI 具備的能力，而不是只換句話描述 prompt 本身。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contribute-prompt">
+    <div class="section-header">
+      <div>
+        <h2>投稿格式化 prompt</h2>
+        <p>把你的原始提示詞、用途和來源貼給 AI，請它用下面這段 prompt 整理成可送 PR 的文章檔。</p>
+      </div>
+    </div>
+
+    <PromptBlock body={contributionPrompt} copyLabel="複製投稿格式化 prompt" />
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>投稿流程</h2>
+        <p>格式化完成後，請把檔案放到 prompts content collection，再送出 PR。</p>
+      </div>
+    </div>
+    <div class="panel prose">
+      <ol>
+        <li>建立一個新的 <code>src/content/prompts/&lt;slug&gt;.md</code> 檔案。</li>
+        <li>貼上格式化後的完整 Markdown 內容，確認 frontmatter 欄位都符合 schema。</li>
+        <li>執行 <code>npm run build</code>，確認內容可以被 Astro 正常產生。</li>
+        <li>
+          到 <a href={pullRequestUrl} target="_blank" rel="noreferrer">GitHub Pull Requests</a>
+          送出變更，PR 描述請附上來源或原創聲明。
+        </li>
+      </ol>
+    </div>
+  </section>
+</BaseLayout>
