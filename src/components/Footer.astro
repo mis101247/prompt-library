@@ -1,7 +1,8 @@
 ---
 const year = new Date().getFullYear();
+const lastUpdated = new Date().toLocaleDateString('en-CA');
 ---
 
 <footer class="site-footer">
-  <p>&copy; {year} Keyo. 整理自 software-engineering-prompt-repos.</p>
+  <p>&copy; {year} Keyo. Last updated {lastUpdated}.</p>
 </footer>
