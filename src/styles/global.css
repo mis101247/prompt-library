@@ -268,6 +268,23 @@ hr {
   text-decoration: none;
 }
 
+.content-card__thumbnail {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border: 1px solid rgba(var(--ink-rgb), 0.1);
+  border-radius: 6px;
+  background: rgba(226, 234, 240, 0.55);
+  box-shadow: 0 8px 18px rgba(var(--ink-rgb), 0.08);
+  object-fit: cover;
+  object-position: center;
+}
+
+.content-card__thumbnail--contain-white {
+  background: #ffffff;
+  object-fit: contain;
+}
+
 .content-card:hover {
   border-color: rgba(var(--ink-rgb), 0.24);
   background: rgba(255, 255, 255, 0.9);

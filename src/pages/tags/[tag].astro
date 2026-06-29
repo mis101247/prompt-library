@@ -27,6 +27,7 @@ const { tag } = Astro.props;
 const entries = sortByPublishedAt(
   allEntries.filter((entry) => tagMatches(tag, entry.data.tags)),
 );
+const showPromptThumbnails = tag === '趣味應用';
 const collectionLabels = {
   prompts: '提示詞',
   guides: '指南',
@@ -52,6 +53,10 @@ const collectionLabels = {
         sourceRepo={entry.collection === 'prompts' ? entry.data.sourceRepo : undefined}
         sourceHref={entry.collection === 'prompts' ? entry.data.sourceUrl : undefined}
         sourcePath={entry.collection === 'prompts' ? entry.data.sourcePath : undefined}
+        thumbnailUrl={entry.collection === 'prompts' ? entry.data.thumbnailUrl : undefined}
+        thumbnailAlt={entry.collection === 'prompts' ? entry.data.thumbnailAlt : undefined}
+        thumbnailContainWhite={entry.collection === 'prompts' ? entry.data.thumbnailContainWhite : undefined}
+        showThumbnail={entry.collection === 'prompts' && showPromptThumbnails}
         tools={entry.data.tools}
         tags={entry.data.tags}
       />

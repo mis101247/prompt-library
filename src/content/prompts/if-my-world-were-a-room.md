@@ -1,6 +1,8 @@
 ---
 title: "如果我的世界是一間房間：象徵房間圖像提示詞"
 description: "用一句開放式圖像提示詞，讓 AI 根據個人化理解創作 9:16 的象徵房間畫面。"
+thumbnailUrl: "https://images.keyo.tw/prompts/prompts_ChatGPT%20Image%202026%E5%B9%B46%E6%9C%8829%E6%97%A5%20%E4%B8%8B%E5%8D%8804_45_55.jpeg"
+thumbnailAlt: "如果我的世界是一間房間 Demo 縮圖"
 category: "趣味應用"
 tags: ["趣味應用", "image", "symbolic", "self-reflection", "9:16"]
 difficulty: "入門"
@@ -26,7 +28,7 @@ copyLabel: "複製圖像提示詞"
 relatedProjects: []
 relatedGuides: []
 promptBody: |
-  如果我的世界是一間房間，他會是什麼樣子？ 請根據這一概念創作一幅富有象徵性的畫面9:16
+  如果我的世界是一間房間，它會是什麼樣子？ 請根據這一概念創作一幅富有象徵性的畫面9:16豎
 ---
 
 ## 這個提示詞在做什麼
@@ -37,7 +39,7 @@ promptBody: |
 
 ## Demo 範例
 
-![使用這個提示詞生成的 9:16 象徵房間 Demo 範例](https://images.keyo.tw/prompts/ChatGPT%20Image%202026%E5%B9%B46%E6%9C%8829%E6%97%A5%20%E4%B8%8B%E5%8D%8804_45_55.png)
+![使用這個提示詞生成的 9:16 象徵房間 Demo 範例](https://images.keyo.tw/prompts/prompts_ChatGPT%20Image%202026%E5%B9%B46%E6%9C%8829%E6%97%A5%20%E4%B8%8B%E5%8D%8804_45_55.jpeg)
 
 這張圖片是使用上方提示詞產出的 Demo 範例，只代表其中一種可能結果。不同使用者、不同模型或不同當下脈絡，都可能生成完全不同的房間與象徵安排。
 

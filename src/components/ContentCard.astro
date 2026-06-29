@@ -11,6 +11,10 @@ interface Props {
   sourceRepo?: string;
   sourceHref?: string;
   sourcePath?: string;
+  thumbnailUrl?: string;
+  thumbnailAlt?: string;
+  thumbnailContainWhite?: boolean;
+  showThumbnail?: boolean;
 }
 
 const {
@@ -23,9 +27,17 @@ const {
   sourceRepo,
   sourceHref,
   sourcePath,
+  thumbnailUrl,
+  thumbnailAlt,
+  thumbnailContainWhite = false,
+  showThumbnail = false,
 } = Astro.props;
 const formattedCategory = category ? formatCategory(category) : '';
 const formattedTags = [...new Set(tags.slice(0, 4).map(formatTag))];
+const thumbnailClass = [
+  'content-card__thumbnail',
+  thumbnailContainWhite ? 'content-card__thumbnail--contain-white' : '',
+].filter(Boolean).join(' ');
 ---
 
 <article
@@ -37,6 +49,15 @@ const formattedTags = [...new Set(tags.slice(0, 4).map(formatTag))];
   data-tags={tagSearchText(tags ?? []).toLowerCase()}
 >
   <a class="content-card__main" href={href}>
+    {showThumbnail && thumbnailUrl && (
+      <img
+        class={thumbnailClass}
+        src={thumbnailUrl}
+        alt={thumbnailAlt ?? `${title} 縮圖`}
+        loading="lazy"
+        decoding="async"
+      />
+    )}
     <span class="content-card__kind">{kind}</span>
     <h3>{title}</h3>
     <p>{description}</p>

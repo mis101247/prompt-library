@@ -49,6 +49,8 @@ const collectionLabels = {
           sourceRepo={prompt.data.sourceRepo}
           sourceHref={prompt.data.sourceUrl}
           sourcePath={prompt.data.sourcePath}
+          thumbnailUrl={prompt.data.thumbnailUrl}
+          thumbnailAlt={prompt.data.thumbnailAlt}
         />
       ))}
     </div>
@@ -143,6 +145,8 @@ const collectionLabels = {
           sourceRepo={entry.collection === 'prompts' ? entry.data.sourceRepo : undefined}
           sourceHref={entry.collection === 'prompts' ? entry.data.sourceUrl : undefined}
           sourcePath={entry.collection === 'prompts' ? entry.data.sourcePath : undefined}
+          thumbnailUrl={entry.collection === 'prompts' ? entry.data.thumbnailUrl : undefined}
+          thumbnailAlt={entry.collection === 'prompts' ? entry.data.thumbnailAlt : undefined}
         />
       ))}
     </div>

@@ -1,6 +1,9 @@
 ---
 title: "寵物對應人類年齡人物照生成提示詞"
 description: "輸入寵物種類、性別、年紀與體重，讓 AI 換算成對應的人類年齡與體態，生成一張人物照片。"
+thumbnailUrl: "https://images.keyo.tw/prompts/36D139A4-495D-4CEE-A900-676A7DEBE235.png"
+thumbnailAlt: "寵物對應人類年齡人物照 Demo 縮圖"
+thumbnailContainWhite: true
 category: "趣味應用"
 tags: ["趣味應用", "image", "portrait", "pet", "human age"]
 difficulty: "入門"

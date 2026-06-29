@@ -28,6 +28,9 @@ const searchIndex = allPrompts.map((prompt) => ({
     href: prompt.data.sourceUrl,
     path: prompt.data.sourcePath,
   },
+  thumbnailUrl: prompt.data.thumbnailUrl,
+  thumbnailAlt: prompt.data.thumbnailAlt,
+  thumbnailContainWhite: prompt.data.thumbnailContainWhite,
   tags: formatTags(prompt.data.tags),
   searchText: [
     prompt.data.title,
@@ -41,6 +44,7 @@ const searchIndex = allPrompts.map((prompt) => ({
   href: `/prompts/${prompt.id}/`,
   kind: prompt.data.featured ? '精選提示詞' : '提示詞',
 }));
+const thumbnailCategory = preferredDefaultCategory;
 ---
 
 <BaseLayout title="提示詞收藏" description="可搜尋、可篩選、可複製的軟體工程提示詞。" width="wide">
@@ -98,7 +102,7 @@ const searchIndex = allPrompts.map((prompt) => ({
     </div>
   </nav>
 
-  <script is:inline define:vars={{ searchIndex, pageSize, defaultCategory }}>
+  <script is:inline define:vars={{ searchIndex, pageSize, defaultCategory, thumbnailCategory }}>
     const search = document.querySelector('#search');
     const category = document.querySelector('#category');
     const empty = document.querySelector('#empty');
@@ -126,6 +130,19 @@ const searchIndex = allPrompts.map((prompt) => ({
       const link = document.createElement('a');
       link.className = 'content-card__main';
       link.href = entry.href;
+
+      if (category.value === thumbnailCategory && entry.thumbnailUrl) {
+        const thumbnail = document.createElement('img');
+        thumbnail.className = 'content-card__thumbnail';
+        if (entry.thumbnailContainWhite) {
+          thumbnail.classList.add('content-card__thumbnail--contain-white');
+        }
+        thumbnail.src = entry.thumbnailUrl;
+        thumbnail.alt = entry.thumbnailAlt || `${entry.title} 縮圖`;
+        thumbnail.loading = 'lazy';
+        thumbnail.decoding = 'async';
+        link.append(thumbnail);
+      }
 
       const kind = document.createElement('span');
       kind.className = 'content-card__kind';

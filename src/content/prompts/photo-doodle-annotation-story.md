@@ -1,6 +1,8 @@
 ---
 title: "照片手寫塗鴉註解提示詞"
 description: "讓 AI 先觀察照片中的物件，再加入像 Instagram 限時動態一樣的白色手繪描邊、箭頭與日記感中文註解。"
+thumbnailUrl: "https://images.keyo.tw/prompts/ChatGPT%20Image%202026%E5%B9%B46%E6%9C%8829%E6%97%A509_23_07.jpeg"
+thumbnailAlt: "照片手寫塗鴉註解 Demo 縮圖"
 category: "趣味應用"
 tags: ["趣味應用", "image", "photo editing", "doodle", "Instagram story"]
 difficulty: "入門"
