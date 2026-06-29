@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coder：計畫先行的 coding agent 提示詞"
 description: "給 Codex、Claude Code、Gemini CLI 或 Cursor 使用的工程代理提示詞，強調先讀碼、先規劃、最小變更與可驗證完成。"
-category: "coding-agent"
+category: "AI 工程代理"
 tags: ["agentic coding", "vibe coding", "planning", "verification"]
 difficulty: "入門"
 tools: ["Codex", "Claude Code", "Gemini CLI", "Cursor"]

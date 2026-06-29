@@ -1,7 +1,7 @@
 ---
 title: "Security Code Reviewer：安全導向 code review 提示詞"
 description: "讓 AI reviewer 優先找出權限、輸入驗證、secret、注入與 deployment misconfiguration 等高風險問題。"
-category: "code-review"
+category: "程式碼審查"
 tags: ["security", "OWASP", "code review", "risk"]
 difficulty: "中階"
 tools: ["Codex", "Claude Code", "ChatGPT", "Cursor"]

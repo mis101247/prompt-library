@@ -1,7 +1,7 @@
 ---
 title: "Precision Code Review：只評論可確認問題的提示詞"
 description: "參考 open-code-review 的精準審查設計，要求 reviewer 只針對新增/修改內容提出可確認、可落地的意見。"
-category: "code-review"
+category: "程式碼審查"
 tags: ["precision review", "diff review", "review filter", "workflow"]
 difficulty: "進階"
 tools: ["Codex", "Claude Code", "IDE agent", "Git hooks"]

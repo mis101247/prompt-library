@@ -1,7 +1,7 @@
 ---
 title: "PR Review YAML：結構化 PR review 提示詞"
 description: "參考 pr-agent 的 review prompt，把 AI review 輸出收斂成可機器讀取、可排序、可追蹤的 YAML findings。"
-category: "code-review"
+category: "程式碼審查"
 tags: ["PR review", "YAML", "structured output", "automation"]
 difficulty: "進階"
 tools: ["Codex", "GitHub Actions", "Qodo Merge", "Claude"]

@@ -1,7 +1,7 @@
 ---
 title: "Test Strategy Architect：四週測試策略提示詞"
 description: "把模糊的「幫我補測試」改成可執行的測試金字塔、風險排序、工具選型與四週落地計畫。"
-category: "testing"
+category: "測試與驗證"
 tags: ["testing", "test pyramid", "quality gates", "CI"]
 difficulty: "中階"
 tools: ["Codex", "ChatGPT", "Claude", "Cursor"]
