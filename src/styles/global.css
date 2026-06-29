@@ -302,11 +302,9 @@ hr {
 }
 
 .role-prompt-card.is-expanded {
-  grid-column: 1 / -1;
-}
-
-.role-prompt-card:has(.role-prompt-card__prompt[open]) {
-  grid-column: 1 / -1;
+  border-color: rgba(var(--ink-rgb), 0.24);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow);
 }
 
 .role-prompt-card__prompt {

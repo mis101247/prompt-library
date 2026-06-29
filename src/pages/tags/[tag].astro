@@ -3,20 +3,19 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ContentCard from '../../components/ContentCard.astro';
 import { sortByPublishedAt } from '../../utils/content';
+import { formatTag, tagMatches } from '../../utils/taxonomy';
 
 const allEntries = [
   ...(await getCollection('prompts')),
-  ...(await getCollection('projects')),
   ...(await getCollection('guides')),
 ];
 
 export async function getStaticPaths() {
   const entries = [
     ...(await getCollection('prompts')),
-    ...(await getCollection('projects')),
     ...(await getCollection('guides')),
   ];
-  const tags = [...new Set(entries.flatMap((entry) => entry.data.tags))];
+  const tags = [...new Set(entries.flatMap((entry) => entry.data.tags.map(formatTag)))].sort();
 
   return tags.map((tag) => ({
     params: { tag },
@@ -26,19 +25,18 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.props;
 const entries = sortByPublishedAt(
-  allEntries.filter((entry) => entry.data.tags.includes(tag)),
+  allEntries.filter((entry) => tagMatches(tag, entry.data.tags)),
 );
 const collectionLabels = {
   prompts: '提示詞',
-  projects: '專案',
   guides: '指南',
 };
 ---
 
-<BaseLayout title={`Tag: ${tag}`} description={`所有標記為 ${tag} 的提示詞、專案點子與指南。`} width="wide">
+<BaseLayout title={`Tag: ${tag}`} description={`所有標記為 ${tag} 的提示詞與指南。`} width="wide">
   <section class="hero">
     <h1>Tag: {tag}</h1>
-    <p>跨提示詞、專案點子與指南的內容聚合。</p>
+    <p>跨提示詞與指南的內容聚合。</p>
   </section>
 
   <section class="grid grid--two">

@@ -3,7 +3,6 @@ import type { CollectionEntry } from 'astro:content';
 type DatedEntry =
   | CollectionEntry<'prompts'>
   | CollectionEntry<'roles'>
-  | CollectionEntry<'projects'>
   | CollectionEntry<'guides'>;
 
 export function sortByPublishedAt<T extends DatedEntry>(entries: T[]) {

@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PaginationNav from './PaginationNav.astro';
 import RolePromptCard from './RolePromptCard.astro';
+import { formatCategory, formatTags, sortCategories, tagSearchText } from '../utils/taxonomy';
 
 interface Props {
   rolePrompts: CollectionEntry<'roles'>[];
@@ -13,15 +14,28 @@ interface Props {
 }
 
 const { rolePrompts, allRolePrompts, currentPage, totalPages, pageSize } = Astro.props;
-const categories = [...new Set(allRolePrompts.map((entry) => entry.data.category))].sort();
+const categories = sortCategories(allRolePrompts.map((entry) => entry.data.category));
 const pageHref = (page: number) => (page === 1 ? '/roles/' : `/roles/page/${page}/`);
 const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
   id: rolePrompt.id,
   title: rolePrompt.data.title,
   description: rolePrompt.data.description,
-  category: rolePrompt.data.category,
-  tags: rolePrompt.data.tags,
-  requiredSkills: rolePrompt.data.requiredSkills,
+  category: formatCategory(rolePrompt.data.category),
+  tags: formatTags(rolePrompt.data.tags),
+  requiredSkills: formatTags(rolePrompt.data.requiredSkills),
+  visibleTags: formatTags(
+    rolePrompt.data.requiredSkills.length > 0
+      ? rolePrompt.data.requiredSkills
+      : [rolePrompt.data.category, ...rolePrompt.data.tags],
+  ).slice(0, 5),
+  searchText: [
+    rolePrompt.data.title,
+    rolePrompt.data.description,
+    rolePrompt.data.category,
+    formatCategory(rolePrompt.data.category),
+    tagSearchText(rolePrompt.data.tags),
+    tagSearchText(rolePrompt.data.requiredSkills),
+  ].join(' ').toLowerCase(),
   href: `${pageHref(Math.floor(index / pageSize) + 1)}#${rolePrompt.id}`,
 }));
 ---
@@ -66,15 +80,6 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
       ))}
     </section>
 
-    <PaginationNav
-      basePath="/roles/"
-      currentPage={currentPage}
-      totalPages={totalPages}
-      pageSize={pageSize}
-      totalItems={allRolePrompts.length}
-      label="角色提示詞分頁"
-      className="pagination--bottom"
-    />
   </div>
 
   <section class="grid grid--two" id="search-results" hidden></section>
@@ -125,9 +130,7 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
       link.append(kind, title, description);
       article.append(link);
 
-      const visibleTags = [...new Set(
-        entry.requiredSkills.length > 0 ? entry.requiredSkills : [entry.category, ...entry.tags],
-      )].slice(0, 5);
+      const visibleTags = entry.visibleTags;
 
       if (visibleTags.length > 0) {
         const tags = document.createElement('div');
@@ -149,15 +152,8 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
       const categoryValue = category.value;
 
       return searchIndex.filter((entry) => {
-        const haystack = [
-          entry.title,
-          entry.description,
-          entry.category,
-          entry.tags.join(' '),
-          entry.requiredSkills.join(' '),
-        ].join(' ').toLowerCase();
         return (
-          (!query || haystack.includes(query)) &&
+          (!query || entry.searchText.includes(query)) &&
           (!categoryValue || entry.category === categoryValue)
         );
       });
@@ -195,6 +191,20 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
     }
 
     function bindRolePromptCards() {
+      function keepCardInPlace(card) {
+        const top = card.getBoundingClientRect().top;
+
+        window.requestAnimationFrame(() => {
+          const delta = card.getBoundingClientRect().top - top;
+          if (Math.abs(delta) < 1) return;
+
+          const previousScrollBehavior = document.documentElement.style.scrollBehavior;
+          document.documentElement.style.scrollBehavior = 'auto';
+          window.scrollBy(0, delta);
+          document.documentElement.style.scrollBehavior = previousScrollBehavior;
+        });
+      }
+
       document.querySelectorAll('[data-copy-role-prompt]').forEach((button) => {
         const originalLabel = button.textContent || '複製角色提示詞';
 
@@ -218,6 +228,11 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
       });
 
       document.querySelectorAll('.role-prompt-card__prompt').forEach((details) => {
+        details.querySelector('summary')?.addEventListener('click', () => {
+          const card = details.closest('[data-library-item]');
+          if (card) keepCardInPlace(card);
+        });
+
         details.addEventListener('toggle', () => {
           details.closest('[data-library-item]')?.classList.toggle('is-expanded', details.open);
         });

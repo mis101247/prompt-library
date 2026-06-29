@@ -6,7 +6,6 @@ import { sortByPublishedAt } from '../utils/content';
 export async function GET(context) {
   const entries = sortByPublishedAt([
     ...(await getCollection('prompts')),
-    ...(await getCollection('projects')),
     ...(await getCollection('guides')),
   ]);
 

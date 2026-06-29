@@ -1,6 +1,6 @@
 # Prompt Library
 
-Prompt Library 是一個以 Astro 建立的正體中文提示詞知識庫，整理 `software-engineering-prompt-repos` 與 `prompts.chat` 裡值得參考的提示詞、角色 prompt、專案點子與工作流程指南。
+Prompt Library 是一個以 Astro 建立的正體中文提示詞知識庫，整理 `software-engineering-prompt-repos` 與 `prompts.chat` 裡值得參考的提示詞、角色 prompt 與工作流程指南。
 
 這個網站不是大型 prompt dump，而是偏個人知識庫的精選整理：每篇內容都要讓使用者知道「這個提示詞適合什麼情境」、「可以怎麼用」、「下一步可以做什麼」。
 
@@ -8,7 +8,6 @@ Prompt Library 是一個以 Astro 建立的正體中文提示詞知識庫，整�
 
 - **提示詞收藏**：適合 Codex、Claude Code、Cursor、Gemini CLI 等工具使用的工程提示詞。
 - **角色提示詞**：從 `prompts.chat` 完整匯入角色與 prompt 範例，並補上正體中文描述與分類。
-- **專案點子**：把提示詞或工作流程轉成可以 vibe coding 的小型產品想法。
 - **精選指南**：整理 code review、testing、context engineering 與提示詞整理方法。
 - **來源頁**：保留 repo、授權與整理方向，供後續擴充與查證。
 
@@ -25,7 +24,6 @@ Prompt Library 是一個以 Astro 建立的正體中文提示詞知識庫，整�
 ```text
 src/content/prompts
 src/content/roles
-src/content/projects
 src/content/guides
 src/content/sources
 ```

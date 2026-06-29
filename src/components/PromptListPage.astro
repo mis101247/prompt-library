@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ContentCard from './ContentCard.astro';
 import PaginationNav from './PaginationNav.astro';
+import { formatCategory, formatTags, sortCategories, tagSearchText } from '../utils/taxonomy';
 
 interface Props {
   prompts: CollectionEntry<'prompts'>[];
@@ -13,12 +14,19 @@ interface Props {
 }
 
 const { prompts, allPrompts, currentPage, totalPages, pageSize } = Astro.props;
-const categories = [...new Set(allPrompts.map((entry) => entry.data.category))].sort();
+const categories = sortCategories(allPrompts.map((entry) => entry.data.category));
 const searchIndex = allPrompts.map((prompt) => ({
   title: prompt.data.title,
   description: prompt.data.description,
-  category: prompt.data.category,
-  tags: prompt.data.tags,
+  category: formatCategory(prompt.data.category),
+  tags: formatTags(prompt.data.tags),
+  searchText: [
+    prompt.data.title,
+    prompt.data.description,
+    prompt.data.category,
+    formatCategory(prompt.data.category),
+    tagSearchText(prompt.data.tags),
+  ].join(' ').toLowerCase(),
   href: `/prompts/${prompt.id}/`,
   kind: prompt.data.featured ? '精選提示詞' : '提示詞',
 }));
@@ -63,15 +71,6 @@ const searchIndex = allPrompts.map((prompt) => ({
       ))}
     </section>
 
-    <PaginationNav
-      basePath="/prompts/"
-      currentPage={currentPage}
-      totalPages={totalPages}
-      pageSize={pageSize}
-      totalItems={allPrompts.length}
-      label="提示詞分頁"
-      className="pagination--bottom"
-    />
   </div>
 
   <section class="grid grid--two" id="search-results" hidden></section>
@@ -142,14 +141,8 @@ const searchIndex = allPrompts.map((prompt) => ({
       const categoryValue = category.value;
 
       return searchIndex.filter((entry) => {
-        const haystack = [
-          entry.title,
-          entry.description,
-          entry.category,
-          entry.tags.join(' '),
-        ].join(' ').toLowerCase();
         return (
-          (!query || haystack.includes(query)) &&
+          (!query || entry.searchText.includes(query)) &&
           (!categoryValue || entry.category === categoryValue)
         );
       });

@@ -7,17 +7,14 @@ import { sortByPublishedAt, sortFeaturedFirst } from '../utils/content';
 
 const prompts = sortFeaturedFirst(await getCollection('prompts'));
 const rolePrompts = sortFeaturedFirst(await getCollection('roles'));
-const projects = sortByPublishedAt(await getCollection('projects'));
 const guides = sortFeaturedFirst(await getCollection('guides'));
 
 const featuredPrompts = prompts.filter((entry) => entry.data.featured).slice(0, 3);
 const featuredRolePrompts = rolePrompts.filter((entry) => entry.data.featured).slice(0, 3);
-const latestProjects = projects.slice(0, 3);
 const featuredGuides = guides.filter((entry) => entry.data.featured).slice(0, 3);
-const recentUpdates = sortByPublishedAt([...prompts, ...projects, ...guides]).slice(0, 6);
+const recentUpdates = sortByPublishedAt([...prompts, ...guides]).slice(0, 6);
 const collectionLabels = {
   prompts: '提示詞',
-  projects: '專案',
   guides: '指南',
 };
 ---
@@ -27,10 +24,8 @@ const collectionLabels = {
     <h1>{SITE_TITLE}</h1>
     <p>{SITE_DESCRIPTION}</p>
     <form class="filter-bar" action="/prompts/" role="search">
-      <input name="q" type="search" placeholder="搜尋提示詞、角色或工作流程" aria-label="搜尋提示詞" />
+      <input name="q" type="search" placeholder="搜尋提示詞" aria-label="搜尋提示詞" />
       <button class="button" type="submit">搜尋提示詞</button>
-      <a class="button button--secondary" href="/roles/">找角色提示詞</a>
-      <a class="button button--secondary" href="/projects/">看專案點子</a>
     </form>
   </section>
 
@@ -81,30 +76,8 @@ const collectionLabels = {
   <section class="section">
     <div class="section-header">
       <div>
-        <h2>最新專案點子</h2>
-        <p>把提示詞和工作流程變成可以動手做的小型產品。</p>
-      </div>
-      <a class="quiet-link" href="/projects/">全部專案</a>
-    </div>
-    <div class="grid grid--three">
-      {latestProjects.map((project) => (
-        <ContentCard
-          href={`/projects/${project.id}/`}
-          kind="專案"
-          title={project.data.title}
-          description={project.data.description}
-          category={project.data.category}
-          tags={project.data.tags}
-        />
-      ))}
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-header">
-      <div>
         <h2>分類入口</h2>
-        <p>先選工作流程，再找提示詞或專案點子。</p>
+        <p>先選工作流程，再找相關提示詞。</p>
       </div>
     </div>
     <div class="grid grid--three">

@@ -17,9 +17,6 @@ const { Content } = await render(source);
 const prompts = (await getCollection('prompts')).filter(
   (prompt) => prompt.data.sourceRepo === source.data.repo,
 );
-const projects = (await getCollection('projects')).filter(
-  (project) => project.data.sourceRepo === source.data.repo,
-);
 const guides = (await getCollection('guides')).filter(
   (guide) => guide.data.sourceRepo === source.data.repo,
 );
@@ -98,58 +95,30 @@ const guides = (await getCollection('guides')).filter(
       </div>
     </section>
 
-    <section class="section grid grid--two">
-      <div>
-        <div class="section-header">
-          <div>
-            <h2>已衍生專案點子</h2>
-            <p>從來源內容發展出的專案點子。</p>
-          </div>
-        </div>
-        <div class="grid">
-          {projects.length === 0 && <p class="muted">尚未衍生專案點子。</p>}
-          {projects.map((project) => (
-            <ContentCard
-              href={`/projects/${project.id}/`}
-              kind="專案"
-              title={project.data.title}
-              description={project.data.description}
-              category={project.data.category}
-              difficulty={project.data.difficulty}
-              timeEstimate={project.data.timeEstimate}
-              sourceRepo={project.data.sourceRepo}
-              sourcePath={project.data.sourcePath}
-              tools={project.data.tools}
-              tags={project.data.tags}
-            />
-          ))}
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>已衍生指南</h2>
+          <p>從來源內容整理出的指南。</p>
         </div>
       </div>
-      <div>
-        <div class="section-header">
-          <div>
-            <h2>已衍生指南</h2>
-            <p>從來源內容整理出的指南。</p>
-          </div>
-        </div>
-        <div class="grid">
-          {guides.length === 0 && <p class="muted">尚未衍生指南。</p>}
-          {guides.map((guide) => (
-            <ContentCard
-              href={`/guides/${guide.id}/`}
-              kind="指南"
-              title={guide.data.title}
-              description={guide.data.description}
-              category={guide.data.category}
-              difficulty={guide.data.difficulty}
-              timeEstimate={guide.data.timeEstimate}
-              sourceRepo={guide.data.sourceRepo}
-              sourcePath={guide.data.sourcePath}
-              tools={guide.data.tools}
-              tags={guide.data.tags}
-            />
-          ))}
-        </div>
+      <div class="grid">
+        {guides.length === 0 && <p class="muted">尚未衍生指南。</p>}
+        {guides.map((guide) => (
+          <ContentCard
+            href={`/guides/${guide.id}/`}
+            kind="指南"
+            title={guide.data.title}
+            description={guide.data.description}
+            category={guide.data.category}
+            difficulty={guide.data.difficulty}
+            timeEstimate={guide.data.timeEstimate}
+            sourceRepo={guide.data.sourceRepo}
+            sourcePath={guide.data.sourcePath}
+            tools={guide.data.tools}
+            tags={guide.data.tags}
+          />
+        ))}
       </div>
     </section>
 

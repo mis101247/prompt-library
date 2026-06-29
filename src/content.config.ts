@@ -5,7 +5,6 @@ import { z } from 'astro/zod';
 const difficulty = z.enum(['入門', '中階', '進階']);
 const sourceType = z.enum([
   'prompt',
-  'project',
   'guide',
   'article',
   'rule',
@@ -68,19 +67,6 @@ const roles = defineCollection({
   }),
 });
 
-const projects = defineCollection({
-  loader: glob({ base: './src/content/projects', pattern: '**/*.{md,mdx}' }),
-  schema: z.object({
-    ...commonFields,
-    oneLiner: z.string(),
-    audience: z.array(z.string()),
-    mvpScope: z.array(z.string()),
-    suggestedStack: z.array(z.string()),
-    usablePrompts: z.array(z.string()),
-    extensions: z.array(z.string()),
-  }),
-});
-
 const guides = defineCollection({
   loader: glob({ base: './src/content/guides', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
@@ -110,4 +96,4 @@ const sources = defineCollection({
   }),
 });
 
-export const collections = { prompts, roles, projects, guides, sources };
+export const collections = { prompts, roles, guides, sources };
