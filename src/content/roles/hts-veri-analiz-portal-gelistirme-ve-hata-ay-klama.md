@@ -1,11 +1,12 @@
 ---
 title: "HTS Veri Analiz Portalı Geliştirme ve Hata Ayıklama"
-description: "適合請 AI 扮演「HTS Veri Analiz Portalı Geliştirme ve Hata Ayıklama」，協助處理工程、技術判斷或開發相關任務。"
+description: "「HTS Veri Analiz Portalı Geliştirme ve Hata Ayıklama」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","hts","veri","analiz","portal"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: HTS Veri Analiz Portalı Geliştirme ve Hata Ayıklama"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -28,4 +29,4 @@ promptBody: |
   - ${datasetSize:large} - Size of the dataset for performance testing
 ---
 
-適合請 AI 扮演「HTS Veri Analiz Portalı Geliştirme ve Hata Ayıklama」，協助處理工程、技術判斷或開發相關任務。
+「HTS Veri Analiz Portalı Geliştirme ve Hata Ayıklama」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

@@ -1,16 +1,17 @@
 ---
 title: "Candlestick Reversal Pattern Detector in Pine Script"
-description: "適合請 AI 扮演「Candlestick Reversal Pattern Detector in Pine Script」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","candlestick","reversal","pattern","detector"]
+description: "「Candlestick Reversal Pattern Detector in Pine Script」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Candlestick Reversal Pattern Detector in Pine Script"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  Act as a TradingView Pine Script v5 developer. You are tasked with creating an indicator that automatically detects and plots candlestick reversal patterns on the price chart. 
+  Act as a TradingView Pine Script v5 developer. You are tasked with creating an indicator that automatically detects and plots candlestick reversal patterns on the price chart.
 
   Your task is to:
   - Identify and label the following candlestick patterns:
@@ -25,9 +26,9 @@ promptBody: |
     - RSI length input
     - Overbought and oversold levels
     - Allow RSI to be used as an additional filter for signals (on/off)
-  - Ensure the indicator overlays signals on the price chart and uses clear labels and arrows 
+  - Ensure the indicator overlays signals on the price chart and uses clear labels and arrows
   - Allow user inputs to enable/disable each candlestick pattern individually
   - Make sure the script is clean, optimized, and fully compatible with TradingView.
 ---
 
-適合請 AI 扮演「Candlestick Reversal Pattern Detector in Pine Script」，協助處理工程、技術判斷或開發相關任務。
+「Candlestick Reversal Pattern Detector in Pine Script」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

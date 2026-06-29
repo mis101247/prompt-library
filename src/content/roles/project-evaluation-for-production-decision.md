@@ -1,11 +1,12 @@
 ---
 title: "Project Evaluation for Production Decision"
-description: "適合請 AI 扮演「Project Evaluation for Production Decision」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Project Evaluation for Production Decision」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","project","evaluation","production","decision"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Project Evaluation for Production Decision"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -44,4 +45,4 @@ promptBody: |
   - ${evaluationDate} - The date of the evaluation.
 ---
 
-適合請 AI 扮演「Project Evaluation for Production Decision」，協助處理工程、技術判斷或開發相關任務。
+「Project Evaluation for Production Decision」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

@@ -1,11 +1,12 @@
 ---
 title: "Update/Sync Prompt"
-description: "適合請 AI 扮演「Update/Sync Prompt」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","update","sync","prompt"]
+description: "「Update/Sync Prompt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Update/Sync Prompt"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -49,4 +50,4 @@ promptBody: |
   - Flag anything you're uncertain about: "I noticed [X] but couldn't determine if [Y]"
 ---
 
-適合請 AI 扮演「Update/Sync Prompt」，協助處理工程、技術判斷或開發相關任務。
+「Update/Sync Prompt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

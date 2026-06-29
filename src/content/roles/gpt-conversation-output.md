@@ -1,11 +1,12 @@
 ---
 title: "GPT_conversation_output"
-description: "適合請 AI 扮演「GPT_conversation_output」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","gpt","conversation","output"]
+description: "「GPT_conversation_output」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+category: "內容與寫作"
+tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
+requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: GPT_conversation_output"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -24,7 +25,7 @@ promptBody: |
 
   ## Task Instructions
 
-  1. **Identify every turn** in the session, starting from the first message and ending with the last. 
+  1. **Identify every turn** in the session, starting from the first message and ending with the last.
   2. **Include only user and assistant messages.**
      * Exclude system, developer, tool, internal, hidden, or metadata messages.
   3. **Reconstruct all turns in exact chronological order.**
@@ -35,7 +36,7 @@ promptBody: |
      * Markdown formatting
      * Spacing
   5. **Do NOT** summarize, omit, paraphrase, normalize, or add commentary.
-  6. Generate 1st version of output. 
+  6. Generate 1st version of output.
   7. based on the 1st output, reverse the order of chats.
   8. **Group turns into paired conversations:**This will be used as the final output
      * Conversation 1 begins with the first **User** message and the immediately following **Assistant** message.
@@ -86,4 +87,4 @@ promptBody: |
   * Maintain original ordering and pairing logic strictly.
 ---
 
-適合請 AI 扮演「GPT_conversation_output」，協助處理工程、技術判斷或開發相關任務。
+「GPT_conversation_output」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。

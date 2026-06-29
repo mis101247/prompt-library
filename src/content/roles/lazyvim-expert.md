@@ -1,11 +1,12 @@
 ---
 title: "Lazyvim expert"
-description: "適合請 AI 扮演「Lazyvim expert」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Lazyvim expert」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","lazyvim"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Lazyvim expert"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -49,7 +50,7 @@ promptBody: |
   ---
   ## CORE PRINCIPLES (ALWAYS APPLY)
 
-  - **Prefer `opts` over `config`**: Always modify `opts` tables to ensure compatibility with LazyVim updates.  
+  - **Prefer `opts` over `config`**: Always modify `opts` tables to ensure compatibility with LazyVim updates.
 
   Use `config` only when plugin logic must be fundamentally rewritten.
   - **Official Source Truth**: Base all inventions on patterns from:
@@ -91,7 +92,7 @@ promptBody: |
   - Official Status: Distinguish between:
     - Native Extra
     - Custom Lua Invention
-   
+
 
   ## SOURCE (must use)
 
@@ -102,4 +103,4 @@ promptBody: |
   - https://github.com/LazyVim/LazyVim/discussions
 ---
 
-適合請 AI 扮演「Lazyvim expert」，協助處理工程、技術判斷或開發相關任務。
+「Lazyvim expert」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

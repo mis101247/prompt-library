@@ -1,11 +1,12 @@
 ---
 title: "Horoscope l"
-description: "適合請 AI 扮演「Horoscope l」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","horoscope"]
+description: "「Horoscope l」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+category: "資料與研究"
+tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
+requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Horoscope l"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -28,44 +29,44 @@ promptBody: |
   ### STRUCTURE OF THE REPORT – 8 SECTIONS
   Take the birth date, exact time, and place as input. First calculate the sidereal natal chart (Lahiri ayanamsa unless specified otherwise). Then calculate all divisional charts (especially D‑9, D‑10, D‑60), the current Vimshottari dasha sequence, and the 12‑month transit forecast from today’s date. Now deliver:
 
-  **1. CORE PERSONALITY PATTERN**  
+  **1. CORE PERSONALITY PATTERN**
   Based on Ascendant lord, Moon sign/nakshatra, Sun, and the interplay of planetary aspects, explain exactly how I think, decide, and react under pressure. Highlight the dominant element/modality, the tension between Sun and Moon, and what happens when Mars triggers the weakest point in my chart.
 
-  **2. HIDDEN STRENGTHS I UNDERUSE**  
+  **2. HIDDEN STRENGTHS I UNDERUSE**
   Identify 3–4 planets or yogas in my chart that are powerful but likely ignored or suppressed (retrograde planets, 12th‑house strengths, debilitated planets with neechabhanga, unaspected benefics). Show how these hidden gifts already leak into my daily life in subtle ways, and what would shift if I consciously deployed them.
 
-  **3. SELF‑SABOTAGE PATTERNS**  
+  **3. SELF‑SABOTAGE PATTERNS**
   Map the saboteur signatures – hard Mars‑Saturn aspects, 8th/12th‑house lords afflicting the Moon, Rahu‑Ketu axis distortions, etc. Explain the psychological reward I get from staying in the loop, the exact planetary triggers (transits, dasha periods), and the deeper karmic fear that keeps it running.
 
-  **4. EMOTIONAL BLIND SPOTS**  
+  **4. EMOTIONAL BLIND SPOTS**
   Using the Moon, its nakshatra, the 4th and 8th houses, and any lunar afflictions, expose the emotional blind spots I cannot see on my own. Describe exactly how these blind spots damage relationships, self‑worth, and inner peace, and name the defense mechanism that protects the raw wound.
 
-  **5. DECISION‑MAKING STYLE UNDER PRESSURE**  
+  **5. DECISION‑MAKING STYLE UNDER PRESSURE**
   Analyze how I make decisions under stress, uncertainty, or time pressure by deconstructing Mercury (logic), Moon (emotional pull), Mars (impulse), and Saturn (restraint). Pinpoint the specific configuration that gives me a sharp, undeniable edge, and the one that consistently leads to costly mistakes.
 
-  **6. LIFE DIRECTION CALIBRATION**  
+  **6. LIFE DIRECTION CALIBRATION**
   Using my current age, the running dasha, and the condition of the 1st/9th/10th house axis, assess whether my life trajectory is aligned or severely misaligned with my soul’s blueprint. Then prescribe the exact kind of goals – and the pace – that belong to this chapter, not what society pressures me to chase.
 
-  **7. NEXT‑LEVEL GROWTH MAP (12 MONTHS)**  
-  Create a month‑by‑month roadmap for the next 12 months based on major transits, dasha‑sandhi phases, and planetary ingresses. For each month, specify:  
-  - The necessary mindset shift (e.g., when Jupiter transits the 8th, learn to embrace uncertainty)  
-  - The one high‑leverage habit to start or break  
-  - The environment or relational change required  
+  **7. NEXT‑LEVEL GROWTH MAP (12 MONTHS)**
+  Create a month‑by‑month roadmap for the next 12 months based on major transits, dasha‑sandhi phases, and planetary ingresses. For each month, specify:
+  - The necessary mindset shift (e.g., when Jupiter transits the 8th, learn to embrace uncertainty)
+  - The one high‑leverage habit to start or break
+  - The environment or relational change required
   Tie every monthly action directly to the strengths, blind spots, and saboteur patterns you discovered earlier.
 
-  **8. WHAT I MUST NOT DO – EXPLICIT AVOIDANCES**  
+  **8. WHAT I MUST NOT DO – EXPLICIT AVOIDANCES**
   List, with brutal clarity, the specific actions, career moves, relationships, or emotional loops I must refuse over the next 12 months. These “don’ts” will either trigger the self‑sabotage patterns, deepen blind spots, or waste the hidden strengths you identified. Ground each avoidance in precise astrological reasoning.
 
   ---
   ### AFTER THE REPORT
-  - Add a **“RAW ADDENDUM”** – any unfiltered, raw observations from the chart that didn’t fit neatly into the sections but are critical for my growth.  
+  - Add a **“RAW ADDENDUM”** – any unfiltered, raw observations from the chart that didn’t fit neatly into the sections but are critical for my growth.
   - End with a **FINAL SUMMARY TABLE** that captures the essence of all 8 areas in a scannable format (columns: Area, Key Astro‑Drivers, Core Strength, Shadow/Blind Spot, Embrace This, Avoid This).
 
   ---
   ### INPUT MY DETAILS
-  Date: [DD/MM/YYYY]  
-  Time: [HH:MM AM/PM, include timezone]  
+  Date: [DD/MM/YYYY]
+  Time: [HH:MM AM/PM, include timezone]
   Place: [City, Country]
 ---
 
-適合請 AI 扮演「Horoscope l」，協助處理工程、技術判斷或開發相關任務。
+「Horoscope l」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。

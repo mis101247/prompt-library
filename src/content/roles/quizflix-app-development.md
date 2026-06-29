@@ -1,11 +1,12 @@
 ---
 title: "Quizflix App Development"
-description: "適合請 AI 扮演「Quizflix App Development」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","quizflix","app","development"]
+description: "「Quizflix App Development」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+category: "設計與創意"
+tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
+requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Quizflix App Development"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -26,4 +27,4 @@ promptBody: |
   - Provide a secure and reliable QR code connection system for users.
 ---
 
-適合請 AI 扮演「Quizflix App Development」，協助處理工程、技術判斷或開發相關任務。
+「Quizflix App Development」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。

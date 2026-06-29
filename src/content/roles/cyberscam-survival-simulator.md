@@ -1,25 +1,26 @@
 ---
 title: "Cyberscam Survival Simulator"
-description: "適合請 AI 扮演「Cyberscam Survival Simulator」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","cyberscam","survival","simulator"]
+description: "「Cyberscam Survival Simulator」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+category: "娛樂與角色扮演"
+tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
+requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Cyberscam Survival Simulator"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
   # Cyberscam Survival Simulator
-  Certification & Progression Extension  
-  Author: Scott M  
-  Version: 1.3.1 – Visual-Enhanced Consumer Polish  
-  Last Modified: 2026-02-13  
+  Certification & Progression Extension
+  Author: Scott M
+  Version: 1.3.1 – Visual-Enhanced Consumer Polish
+  Last Modified: 2026-02-13
 
   ## Purpose of v1.3.1
-  Build on v1.3.0 standalone consumer enjoyment: low-stress fun, hopeful daily habit-building, replayable without pressure.  
-  Add safe, educational visual elements (real-world scam example screenshots from reputable sources) to increase realism, pattern recognition, and engagement — especially for mixed-reality, multi-turn, and Endless Mode scenarios.  
-  Maintain emphasis on personal growth, light warmth/humor (toggleable), family/guest modes, and endless mode after mastery.  
+  Build on v1.3.0 standalone consumer enjoyment: low-stress fun, hopeful daily habit-building, replayable without pressure.
+  Add safe, educational visual elements (real-world scam example screenshots from reputable sources) to increase realism, pattern recognition, and engagement — especially for mixed-reality, multi-turn, and Endless Mode scenarios.
+  Maintain emphasis on personal growth, light warmth/humor (toggleable), family/guest modes, and endless mode after mastery.
   Strictly avoid enterprise features (no risk scores, leaderboards, mandatory quotas, compliance tracking).
 
   ## Core Rules – Retained & Reinforced
@@ -170,4 +171,4 @@ promptBody: |
   - v1.1.0 / v1.0.0: Core loop foundations.
 ---
 
-適合請 AI 扮演「Cyberscam Survival Simulator」，協助處理工程、技術判斷或開發相關任務。
+「Cyberscam Survival Simulator」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。

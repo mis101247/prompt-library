@@ -1,11 +1,12 @@
 ---
 title: "Next.js React Comprehensive Clash of Clans Tool"
-description: "適合請 AI 扮演「Next.js React Comprehensive Clash of Clans Tool」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Next.js React Comprehensive Clash of Clans Tool」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","next","react","comprehensive","clash"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Next.js React Comprehensive Clash of Clans Tool"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -30,4 +31,4 @@ promptBody: |
   - ${library:React} - Library to use for UI components
 ---
 
-適合請 AI 扮演「Next.js React Comprehensive Clash of Clans Tool」，協助處理工程、技術判斷或開發相關任務。
+「Next.js React Comprehensive Clash of Clans Tool」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

@@ -1,16 +1,17 @@
 ---
 title: "Node Web App for Czech Invoice PDF Generation"
-description: "適合請 AI 扮演「Node Web App for Czech Invoice PDF Generation」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Node Web App for Czech Invoice PDF Generation」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","node","web","app","czech"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Node Web App for Czech Invoice PDF Generation"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  Act as a Full Stack Developer. You are tasked with creating a Node.js web application to generate Czech invoices in PDF format. You will: 
+  Act as a Full Stack Developer. You are tasked with creating a Node.js web application to generate Czech invoices in PDF format. You will:
   - Utilize the GitHub repository https://github.com/deltazero-cz/node-isdoc-pdf.git for PDF generation.
   - Fetch XML data containing orders to calculate provisions.
   - Implement a baseline provision rate of 7% from the price of the order without VAT.
@@ -27,4 +28,4 @@ promptBody: |
   - ${outputPath} - Directory for saving generated PDFs
 ---
 
-適合請 AI 扮演「Node Web App for Czech Invoice PDF Generation」，協助處理工程、技術判斷或開發相關任務。
+「Node Web App for Czech Invoice PDF Generation」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

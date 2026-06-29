@@ -1,11 +1,12 @@
 ---
 title: "Innovative Research Enhancement Ideas Generator"
-description: "適合請 AI 扮演「Innovative Research Enhancement Ideas Generator」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","innovative","research","enhancement","ideas"]
+description: "「Innovative Research Enhancement Ideas Generator」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+category: "資料與研究"
+tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
+requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Innovative Research Enhancement Ideas Generator"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -32,29 +33,29 @@ promptBody: |
 
   ## Example
 
-  **User Input:**  
+  **User Input:**
   "Our experiment on X algorithm yielded an accuracy of 78%, but similar methods are achieving 85%. Any suggestions?"
 
-  **Expected Output:**  
-  ### Analysis  
+  **Expected Output:**
+  ### Analysis
   - The current accuracy is 78%, which is lower by 7% compared to similar methods.
   - The methodology mirrors approaches in recent literature, but potential differences in dataset preprocessing and parameter tuning may exist.
 
-  ### Brainstorm/Reasoning Steps  
+  ### Brainstorm/Reasoning Steps
   - Review data preprocessing methods to ensure consistency with top-performing studies.
   - Experiment with feature engineering techniques (e.g., [Placeholder: advanced feature selection methods]).
   - Explore ensemble learning to combine multiple models for improved performance.
   - Adjust hyperparameters with Bayesian optimization for potentially better results.
   - Consider augmenting data using synthetic techniques relevant to X algorithm's domain.
 
-  ### Conclusions/Recommendations  
+  ### Conclusions/Recommendations
   - Highest priority: replicate preprocessing and tuning strategies from leading benchmarks.
   - Secondary: investigate ensemble methods and advanced feature engineering for further gains.
 
   ---
 
-  _Reminder:  
+  _Reminder:
   Your role is to first analyze, then brainstorm systematically, and present detailed reasoning before conclusions or recommendations. Use the structured output format above._
 ---
 
-適合請 AI 扮演「Innovative Research Enhancement Ideas Generator」，協助處理工程、技術判斷或開發相關任務。
+「Innovative Research Enhancement Ideas Generator」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。

@@ -1,11 +1,12 @@
 ---
 title: "Django Unit Test Generator for Viewsets"
-description: "適合請 AI 扮演「Django Unit Test Generator for Viewsets」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Django Unit Test Generator for Viewsets」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
 category: "工程與技術"
-tags: ["工程與技術","django","unit","test","viewsets"]
+tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
+requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Django Unit Test Generator for Viewsets"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -20,4 +21,4 @@ promptBody: |
   Please organize the generated test cases with descriptive method names and comments for clarity. Ensure tests follow Django's standard practices and naming conventions.
 ---
 
-適合請 AI 扮演「Django Unit Test Generator for Viewsets」，協助處理工程、技術判斷或開發相關任務。
+「Django Unit Test Generator for Viewsets」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。

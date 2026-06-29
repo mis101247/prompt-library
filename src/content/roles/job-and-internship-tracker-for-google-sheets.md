@@ -1,11 +1,12 @@
 ---
 title: "Job and Internship Tracker for Google Sheets"
-description: "適合請 AI 扮演「Job and Internship Tracker for Google Sheets」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","job","internship","tracker","google"]
+description: "「Job and Internship Tracker for Google Sheets」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+category: "產品與商務"
+tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
+requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Job and Internship Tracker for Google Sheets"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -23,7 +24,7 @@ promptBody: |
     - Notes/Comments
     - Relevant Skills Required
     - Follow-Up Dates
-    
+
   - Customize the template to include features useful for a computer engineering major with a minor in Chinese and robotics, focusing on AI/ML and computer vision roles in defense and futuristic warfare applications.
 
   Rules:
@@ -49,4 +50,4 @@ promptBody: |
     - Follow-Up Dates: "2023-11-15"
 ---
 
-適合請 AI 扮演「Job and Internship Tracker for Google Sheets」，協助處理工程、技術判斷或開發相關任務。
+「Job and Internship Tracker for Google Sheets」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。

@@ -1,14 +1,15 @@
 ---
 title: "worldquant"
-description: "適合請 AI 扮演「worldquant」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","worldquant"]
+description: "「worldquant」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+category: "資料與研究"
+tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
+requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: worldquant"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
-promptLanguage: "en"
+promptLanguage: "mixed"
 promptBody: |
   ## Alpha优化自动化专家
 
@@ -20,7 +21,7 @@ promptBody: |
 
   ## 优化目标
   - Sharpe >= 1.58
-  - Fitness >= 1  
+  - Fitness >= 1
   - Robust universe Sharpe >=  1
   - 2 year Sharpe >= 1.58
   - Sub-universe Sharpe pass
@@ -69,7 +70,7 @@ promptBody: |
 
   ### 步骤3: 获取平台资源
   同时调用三个工具：
-  1. 读取文件获取所有可用操作符：**WorldQuant_BRAIN_Operators_Documentation.md** 
+  1. 读取文件获取所有可用操作符：**WorldQuant_BRAIN_Operators_Documentation.md**
   2. get_datasets - 参数：region=IND, universe=TOP500, delay=1
   3. get_datafields - 参数：region=IND, universe=TOP500, delay=1
 
@@ -115,7 +116,7 @@ promptBody: |
   ### 步骤7: 分析结果
   同时调用：
   1. get_alpha_details - 获取详细性能
-  2. get_alpha_pnl - 获取PnL数据  
+  2. get_alpha_pnl - 获取PnL数据
   3. get_alpha_yearly_stats - 获取年度统计
 
   ## 循环逻辑
@@ -154,4 +155,4 @@ promptBody: |
   现在开始第一轮优化。请按步骤执行，保持思考和解释。
 ---
 
-適合請 AI 扮演「worldquant」，協助處理工程、技術判斷或開發相關任務。
+「worldquant」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。

@@ -1,11 +1,12 @@
 ---
 title: "Session Continuity Engine"
-description: "適合請 AI 扮演「Session Continuity Engine」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","session","continuity","engine"]
+description: "「Session Continuity Engine」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+category: "內容與寫作"
+tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
+requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Session Continuity Engine"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -37,7 +38,7 @@ promptBody: |
   PURPOSE & METHODOLOGY
   --------------------------------------------------------------------------
   This document is a static, user-provided project state snapshot. It functions
-  strictly as reference documentation to ground the current session in historical 
+  strictly as reference documentation to ground the current session in historical
   context, established project definitions, and completed technical milestones.
   --------------------------------------------------------------------------
   PROJECT REFERENCE GUIDELINES (v1.2.3)
@@ -63,7 +64,7 @@ promptBody: |
   DEFAULT MODE (Markdown): Use the structure inside the START/END block below.
 
   JSON MODE: If the user explicitly requests "JSON output" or "JSON mode", output
-  a single valid JSON object. Do not wrap it in markdown text. Use these exact 
+  a single valid JSON object. Do not wrap it in markdown text. Use these exact
   camelCase keys:
   {
     "handoffMetadata": {},
@@ -199,4 +200,4 @@ promptBody: |
   END OF PACKAGE CODEBLOCK
 ---
 
-適合請 AI 扮演「Session Continuity Engine」，協助處理工程、技術判斷或開發相關任務。
+「Session Continuity Engine」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。

@@ -1,11 +1,12 @@
 ---
 title: "The Pragmatic Architect: Mastering Tech with Humor and Precision"
-description: "適合請 AI 扮演「The Pragmatic Architect: Mastering Tech with Humor and Precision」，協助處理工程、技術判斷或開發相關任務。"
+description: "「The Pragmatic Architect: Mastering Tech with Humor and Precision」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","pragmatic","architect","mastering","tech"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: The Pragmatic Architect: Mastering Tech with Humor and Precision"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -44,7 +45,7 @@ promptBody: |
   1. **Opening:** Start with "Let's be real:" or similar conversational phrase
   2. **Emoji Usage:** Maximum 2-3 emojis per piece, only in titles or major section breaks
   3. **Specialist Footer:** Always conclude with a "P.S." that reinforces domain expertise:
-     
+
      **P.S.** [Acknowledge potential skepticism about your angle, then reframe it as intentional specialization in Network Security/AI/ML/Cloud/DevOps—whatever is relevant to the topic. Emphasize that deep expertise in high-impact domains beats surface-level knowledge across all of IT.]
 
   TONE CALIBRATION:
@@ -67,4 +68,4 @@ promptBody: |
   - Architecture decision records (ADRs) in narrative form
 ---
 
-適合請 AI 扮演「The Pragmatic Architect: Mastering Tech with Humor and Precision」，協助處理工程、技術判斷或開發相關任務。
+「The Pragmatic Architect: Mastering Tech with Humor and Precision」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

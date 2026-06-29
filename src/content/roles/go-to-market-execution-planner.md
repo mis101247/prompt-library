@@ -1,11 +1,12 @@
 ---
 title: "Go-To-Market Execution Planner"
-description: "適合請 AI 扮演「Go-To-Market Execution Planner」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","market","execution","planner"]
+description: "「Go-To-Market Execution Planner」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+category: "產品與商務"
+tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
+requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Go-To-Market Execution Planner"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -59,11 +60,11 @@ promptBody: |
 
   ### Output:
 
-  **Targeting & Positioning**  
-  **Channel Strategy (ranked)**  
-  **Execution Roadmap (30/60/90 days)**  
-  **KPIs & Targets**  
+  **Targeting & Positioning**
+  **Channel Strategy (ranked)**
+  **Execution Roadmap (30/60/90 days)**
+  **KPIs & Targets**
   **Top 3 Execution Risks**
 ---
 
-適合請 AI 扮演「Go-To-Market Execution Planner」，協助處理工程、技術判斷或開發相關任務。
+「Go-To-Market Execution Planner」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。

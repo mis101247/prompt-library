@@ -1,16 +1,17 @@
 ---
 title: "Ultra-Realistic Handwritten Hospital Note Image"
-description: "適合請 AI 扮演「Ultra-Realistic Handwritten Hospital Note Image」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","ultra","realistic","handwritten","hospital"]
+description: "「Ultra-Realistic Handwritten Hospital Note Image」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Ultra-Realistic Handwritten Hospital Note Image"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  Create an ultra-realistic image depicting a handwritten note on a clean, flat surface. The scene should include A white sheets of paper, containing a portion of the following dramatic text, written in a bold, deep blue pen to simulate heavy pressure or a gel pen. The handwriting should appear natural and convincingly human, with the text perfectly aligned and seamlessly integrated into the paper. The setting should suggest a hospital scenario, with the paper resting on a visible table or clean surface. Ensure the overall image is highly realistic and authentic. 
+  Create an ultra-realistic image depicting a handwritten note on a clean, flat surface. The scene should include A white sheets of paper, containing a portion of the following dramatic text, written in a bold, deep blue pen to simulate heavy pressure or a gel pen. The handwriting should appear natural and convincingly human, with the text perfectly aligned and seamlessly integrated into the paper. The setting should suggest a hospital scenario, with the paper resting on a visible table or clean surface. Ensure the overall image is highly realistic and authentic.
 
   - **Content (Full Text to be Integrated):**
 
@@ -40,4 +41,4 @@ promptBody: |
     - The white sheet must be shown as three different physical notes resting on a surface with bold handwriting in human form.
 ---
 
-適合請 AI 扮演「Ultra-Realistic Handwritten Hospital Note Image」，協助處理工程、技術判斷或開發相關任務。
+「Ultra-Realistic Handwritten Hospital Note Image」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

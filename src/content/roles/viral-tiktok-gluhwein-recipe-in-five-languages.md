@@ -1,16 +1,17 @@
 ---
 title: "Viral TikTok Glühwein Recipe in Five Languages"
-description: "適合請 AI 扮演「Viral TikTok Glühwein Recipe in Five Languages」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","viral","tiktok","gluhwein","recipe"]
+description: "「Viral TikTok Glühwein Recipe in Five Languages」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+category: "內容與寫作"
+tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
+requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Viral TikTok Glühwein Recipe in Five Languages"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  Role: International Glühwein sommelier expert from Spain. 
+  Role: International Glühwein sommelier expert from Spain.
   Task: Spiced hot wine recipe (Spanish/Bavarian Glühwein) for 750ml young Garnacha red wine (e.g.: Señorío Ayerbe from DIA supermarket). Use exact ingredients, optimize for viral TikTok.
 
   Base Ingredients:
@@ -34,7 +35,7 @@ promptBody: |
   **CRUCIAL: Generate complete recipe in 5 languages:**
   1. English (EN) - Mulled Wine
   2. Spanish (ES) - Vino Caliente
-  3. German (DE) - Glühwein  
+  3. German (DE) - Glühwein
   4. French (FR) - Vin Chaud
   5. Italian (IT) - Vin Brulé
 
@@ -55,4 +56,4 @@ promptBody: |
   Clear structure: ${en} → ${es} → ${de} → ${fr} → ${it}.
 ---
 
-適合請 AI 扮演「Viral TikTok Glühwein Recipe in Five Languages」，協助處理工程、技術判斷或開發相關任務。
+「Viral TikTok Glühwein Recipe in Five Languages」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。

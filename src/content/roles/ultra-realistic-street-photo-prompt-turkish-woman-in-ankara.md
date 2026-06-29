@@ -1,11 +1,12 @@
 ---
 title: "Ultra-Realistic Street Photo Prompt: Turkish Woman in Ankara"
-description: "適合請 AI 扮演「Ultra-Realistic Street Photo Prompt: Turkish Woman in Ankara」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","ultra","realistic","street","photo"]
+description: "「Ultra-Realistic Street Photo Prompt: Turkish Woman in Ankara」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Ultra-Realistic Street Photo Prompt: Turkish Woman in Ankara"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -23,4 +24,4 @@ promptBody: |
   The image quality is that of a candid phone snapshot: slight motion blur on walking clones and moving taxis, digital noise in the shadowy areas between buildings, subtle lens flare near the top of the frame, unedited colors, natural skin texture with pores and minor imperfections on all versions of the woman. The scene feels like a realistic everyday Ankara street but glitched, with dozens of variations of the same woman scattered throughout it.
 ---
 
-適合請 AI 扮演「Ultra-Realistic Street Photo Prompt: Turkish Woman in Ankara」，協助處理工程、技術判斷或開發相關任務。
+「Ultra-Realistic Street Photo Prompt: Turkish Woman in Ankara」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

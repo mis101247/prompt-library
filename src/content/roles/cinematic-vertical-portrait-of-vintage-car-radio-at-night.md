@@ -1,11 +1,12 @@
 ---
 title: "Cinematic Vertical Portrait of Vintage Car Radio at Night"
-description: "適合請 AI 扮演「Cinematic Vertical Portrait of Vintage Car Radio at Night」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","cinematic","vertical","portrait","vintage"]
+description: "「Cinematic Vertical Portrait of Vintage Car Radio at Night」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Cinematic Vertical Portrait of Vintage Car Radio at Night"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -16,21 +17,21 @@ promptBody: |
   Weather4Fly
 
   STYLE & LIGHTING:
-  – Warm orange LED glow, soft bloom around each segmented character.  
-  – Dark car interior with minimal ambient light.  
-  – Deep shadows, shallow depth of field, soft bokeh highlights.  
-  – Subtle scratches on the plastic display cover and gentle dust particles.  
+  – Warm orange LED glow, soft bloom around each segmented character.
+  – Dark car interior with minimal ambient light.
+  – Deep shadows, shallow depth of field, soft bokeh highlights.
+  – Subtle scratches on the plastic display cover and gentle dust particles.
   – High contrast, moody, cinematic night-drive aesthetic.
 
   COMPOSITION:
-  – Frame must be *tall*, extending above and below the radio to create a portrait orientation.  
-  – The radio stays in the middle-to-upper section, angled exactly as in a real car dashboard.  
-  – Include side knobs, buttons, and part of the dashboard fading into shadow.  
+  – Frame must be *tall*, extending above and below the radio to create a portrait orientation.
+  – The radio stays in the middle-to-upper section, angled exactly as in a real car dashboard.
+  – Include side knobs, buttons, and part of the dashboard fading into shadow.
   – Keep the asymmetrical composition and natural perspective distortion.
 
   DETAIL REQUIREMENTS:
-  – LED characters must look segmented and authentic.  
-  – Slight reflections on the display surface.  
+  – LED characters must look segmented and authentic.
+  – Slight reflections on the display surface.
   – Warm tones only — no neon or artificial color shifts.
 
   NEGATIVE PROMPT:
@@ -40,4 +41,4 @@ promptBody: |
   A cinematic vertical portrait photograph of an angled vintage radio display showing the specified names.
 ---
 
-適合請 AI 扮演「Cinematic Vertical Portrait of Vintage Car Radio at Night」，協助處理工程、技術判斷或開發相關任務。
+「Cinematic Vertical Portrait of Vintage Car Radio at Night」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

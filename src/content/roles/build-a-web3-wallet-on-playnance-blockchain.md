@@ -1,11 +1,12 @@
 ---
 title: "Build a Web3 Wallet on Playnance Blockchain"
-description: "適合請 AI 扮演「Build a Web3 Wallet on Playnance Blockchain」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Build a Web3 Wallet on Playnance Blockchain」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","build","web3","wallet","playnance"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Build a Web3 Wallet on Playnance Blockchain"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -95,4 +96,4 @@ promptBody: |
   Produce a complete, end‑to‑end guide that I can follow to build, deploy, scale, and monetize a Playnance G Coin wallet from scratch. Every response should move me forward in building the product.${web3}
 ---
 
-適合請 AI 扮演「Build a Web3 Wallet on Playnance Blockchain」，協助處理工程、技術判斷或開發相關任務。
+「Build a Web3 Wallet on Playnance Blockchain」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

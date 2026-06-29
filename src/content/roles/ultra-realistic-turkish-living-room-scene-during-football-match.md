@@ -1,11 +1,12 @@
 ---
 title: "Ultra-Realistic Turkish Living Room Scene During Football Match"
-description: "適合請 AI 扮演「Ultra-Realistic Turkish Living Room Scene During Football Match」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","ultra","realistic","turkish","living"]
+description: "「Ultra-Realistic Turkish Living Room Scene During Football Match」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+category: "設計與創意"
+tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
+requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Ultra-Realistic Turkish Living Room Scene During Football Match"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -23,4 +24,4 @@ promptBody: |
   The framing is imperfect and handheld: she’s a bit off-center, part of one uncle is cut off at the edge, the coffee table is slightly skewed. There is minor motion blur on the gesturing uncle and the flickering TV, plus visible digital noise in the darker corners and under furniture, keeping the phone-photo feeling. Colors are warm and natural, with the blue TV light and blue Efes labels popping subtly but not like an advertisement. Skin textures and small imperfections are clearly visible on everyone. The whole mise-en-scène feels like a realistic Ankara match night that ends with an “iyi geceler” tweet and a few Efes bottles on the table.
 ---
 
-適合請 AI 扮演「Ultra-Realistic Turkish Living Room Scene During Football Match」，協助處理工程、技術判斷或開發相關任務。
+「Ultra-Realistic Turkish Living Room Scene During Football Match」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。

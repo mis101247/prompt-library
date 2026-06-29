@@ -1,21 +1,22 @@
 ---
 title: "Lazy AI Email Detector"
-description: "適合請 AI 扮演「Lazy AI Email Detector」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","lazy","email","detector"]
+description: "「Lazy AI Email Detector」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Lazy AI Email Detector"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
   # Prompt: Lazy AI Email Detector
-  **Author:** Scott M  
-  **Version:** 1.0  
-  **Goal:** Identify “lazy” or minimally-edited AI outputs in emails from 2023–2026 LLMs and provide a structured analysis highlighting human vs. AI characteristics.  
-  **Changelog:**  
-  - 1.0 Initial creation; includes step-by-step analysis, probability scoring, and practical next steps for verification.  
+  **Author:** Scott M
+  **Version:** 1.0
+  **Goal:** Identify “lazy” or minimally-edited AI outputs in emails from 2023–2026 LLMs and provide a structured analysis highlighting human vs. AI characteristics.
+  **Changelog:**
+  - 1.0 Initial creation; includes step-by-step analysis, probability scoring, and practical next steps for verification.
 
   ---
 
@@ -34,19 +35,19 @@ promptBody: |
   - Heavy lists, triplets ("fast, reliable, secure"), em-dashes (—), rhetorical questions immediately answered.
   - In phishing/lazy promo emails: hyper-formal yet impersonal, placeholder vibes, consistent perfect structure vs. human laziness in formatting.
 
-  **Instructions for analysis:**  
+  **Instructions for analysis:**
   Analyze the text below step by step. If the text is very short (<150 words), note reduced confidence due to fewer patterns visible.
 
-  1. Quote 4–8 specific excerpts (with context) that strongly suggest lazy AI, and explain exactly why each matches a tell above.  
-  2. Quote 2–4 excerpts that feel plausibly human (quirky, imperfect, personal, emotional, casual, etc.), or state "None found" and explain absence.  
-  3. Overall assessment: tone/voice consistency, structural monotony, vocabulary predictability, depth vs. shallowness, presence/absence of human imperfections.  
-  4. Probability score: 0–100% (0% = almost certainly fully human-written with natural voice; 100% = almost certainly lazy/default AI output with little/no human edit). Add confidence range (e.g., 75–90%) reflecting text length + detector limits.  
-  5. One-sentence final verdict, e.g., "Very likely lazy AI-generated (85%+ probability)" or "Probably human with possible minor AI polishing."  
+  1. Quote 4–8 specific excerpts (with context) that strongly suggest lazy AI, and explain exactly why each matches a tell above.
+  2. Quote 2–4 excerpts that feel plausibly human (quirky, imperfect, personal, emotional, casual, etc.), or state "None found" and explain absence.
+  3. Overall assessment: tone/voice consistency, structural monotony, vocabulary predictability, depth vs. shallowness, presence/absence of human imperfections.
+  4. Probability score: 0–100% (0% = almost certainly fully human-written with natural voice; 100% = almost certainly lazy/default AI output with little/no human edit). Add confidence range (e.g., 75–90%) reflecting text length + detector limits.
+  5. One-sentence final verdict, e.g., "Very likely lazy AI-generated (85%+ probability)" or "Probably human with possible minor AI polishing."
   6. 3–5 practical next steps to verify: e.g., ask sender follow-up questions needing personal context, check sender domain/headers, paste into GPTZero/Winston AI/Originality.ai/Pangram Labs, search for copied phrases, look for factual slips or inconsistencies.
 
-  **Text to analyze (email body):**  
+  **Text to analyze (email body):**
 
   [PASTE THE EMAIL BODY HERE]
 ---
 
-適合請 AI 扮演「Lazy AI Email Detector」，協助處理工程、技術判斷或開發相關任務。
+「Lazy AI Email Detector」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

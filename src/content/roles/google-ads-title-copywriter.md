@@ -1,11 +1,12 @@
 ---
 title: "Google Ads Title Copywriter"
-description: "適合請 AI 扮演「Google Ads Title Copywriter」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","google","ads","title","copywriter"]
+description: "「Google Ads Title Copywriter」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Google Ads Title Copywriter"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -28,4 +29,4 @@ promptBody: |
   - Output: "Glow Up Your Skin: New Line for Youth"
 ---
 
-適合請 AI 扮演「Google Ads Title Copywriter」，協助處理工程、技術判斷或開發相關任務。
+「Google Ads Title Copywriter」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

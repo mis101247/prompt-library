@@ -1,11 +1,12 @@
 ---
 title: "Creative Storytelling Guide"
-description: "適合請 AI 扮演「Creative Storytelling Guide」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","creative","storytelling","guide"]
+description: "「Creative Storytelling Guide」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+category: "娛樂與角色扮演"
+tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
+requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Creative Storytelling Guide"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -30,4 +31,4 @@ promptBody: |
   - Output: "In the heart of New York City, beneath the bustling streets, Emma stumbled upon a hidden realm where magic was real and adventure awaited at every corner..."
 ---
 
-適合請 AI 扮演「Creative Storytelling Guide」，協助處理工程、技術判斷或開發相關任務。
+「Creative Storytelling Guide」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。

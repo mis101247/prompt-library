@@ -1,11 +1,12 @@
 ---
 title: "Legal Document Generator Agent Role"
-description: "適合請 AI 扮演「Legal Document Generator Agent Role」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","legal","document","agent","role"]
+description: "「Legal Document Generator Agent Role」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+category: "法務與合規"
+tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
+requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Legal Document Generator Agent Role"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -451,4 +452,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_legal-document-generator.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-適合請 AI 扮演「Legal Document Generator Agent Role」，協助處理工程、技術判斷或開發相關任務。
+「Legal Document Generator Agent Role」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。

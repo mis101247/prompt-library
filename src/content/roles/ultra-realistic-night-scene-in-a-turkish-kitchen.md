@@ -1,11 +1,12 @@
 ---
 title: "Ultra-Realistic Night Scene in a Turkish Kitchen"
-description: "適合請 AI 扮演「Ultra-Realistic Night Scene in a Turkish Kitchen」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","ultra","realistic","night","scene"]
+description: "「Ultra-Realistic Night Scene in a Turkish Kitchen」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+category: "設計與創意"
+tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
+requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Ultra-Realistic Night Scene in a Turkish Kitchen"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -19,4 +20,4 @@ promptBody: |
   The vertical framing feels like a quick snap someone took from the doorway: she’s slightly off-center, the top of the fridge is cut off, and part of a chair intrudes into the frame. Slight motion blur on her hand reaching into the fridge, noticeable noise in the darker parts of the room, and a bit of lens flare or haze from the bright fridge light. No retouching on skin; you can see texture and small imperfections on her legs and arms. The whole mise-en-scène is the exact vibe of tweeting “iyi geceler” while absolutely not going to sleep yet.
 ---
 
-適合請 AI 扮演「Ultra-Realistic Night Scene in a Turkish Kitchen」，協助處理工程、技術判斷或開發相關任務。
+「Ultra-Realistic Night Scene in a Turkish Kitchen」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。

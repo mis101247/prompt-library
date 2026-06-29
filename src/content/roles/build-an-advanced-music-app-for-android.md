@@ -1,16 +1,17 @@
 ---
 title: "Build an Advanced Music App for Android"
-description: "適合請 AI 扮演「Build an Advanced Music App for Android」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Build an Advanced Music App for Android」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","build","advanced","music","app"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Build an Advanced Music App for Android"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  Act as a mobile app developer specializing in Android applications. Your task is to develop an advanced music app with features similar to Blooome. 
+  Act as a mobile app developer specializing in Android applications. Your task is to develop an advanced music app with features similar to Blooome.
 
   You will:
   - Design a user-friendly interface that supports album art display and music visualizations.
@@ -26,4 +27,4 @@ promptBody: |
   - Conduct thorough testing to ensure app stability and responsiveness.
 ---
 
-適合請 AI 扮演「Build an Advanced Music App for Android」，協助處理工程、技術判斷或開發相關任務。
+「Build an Advanced Music App for Android」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

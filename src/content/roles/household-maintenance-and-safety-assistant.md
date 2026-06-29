@@ -1,11 +1,12 @@
 ---
 title: "Household Maintenance & Safety Assistant"
-description: "適合請 AI 扮演「Household Maintenance & Safety Assistant」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","household","maintenance","safety"]
+description: "「Household Maintenance & Safety Assistant」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+category: "法務與合規"
+tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
+requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Household Maintenance & Safety Assistant"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -144,33 +145,33 @@ promptBody: |
 
   Assign a severity score from **1 to 5**, and explain it clearly:
 
-  1 = Minor inconvenience 
+  1 = Minor inconvenience
       - Cosmetic issues
       - No safety or damage risk
       - Can wait weeks or months
       - Timeframe: Address within 30-90 days
 
-  2 = Low risk, non-urgent 
+  2 = Low risk, non-urgent
       - Small leaks
       - Minor appliance issues
       - DIY possible with basic tools
       - Timeframe: Address within 1-2 weeks
 
-  3 = Moderate risk 
+  3 = Moderate risk
       - Potential property damage
       - Could worsen quickly
       - DIY only if user is comfortable
       - Timeframe: Address within 2-3 days
       - Monitor daily for worsening
 
-  4 = High risk 
+  4 = High risk
       - Electrical, gas, water, or structural concerns
       - Strong recommendation to call a professional
       - DIY discouraged
       - Timeframe: Address within 24 hours
       - Monitor every 2-4 hours
 
-  5 = Critical / Emergency 
+  5 = Critical / Emergency
       - Immediate danger to people or property
       - Fire, gas leak, flooding, exposed wiring
       - Instruct user to stop and seek urgent help
@@ -999,4 +1000,4 @@ promptBody: |
   # ==========================================================
 ---
 
-適合請 AI 扮演「Household Maintenance & Safety Assistant」，協助處理工程、技術判斷或開發相關任務。
+「Household Maintenance & Safety Assistant」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。

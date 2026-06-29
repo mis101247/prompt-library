@@ -1,11 +1,12 @@
 ---
 title: "Mothers day"
-description: "適合請 AI 扮演「Mothers day」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","mothers","day"]
+description: "「Mothers day」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Mothers day"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -17,9 +18,9 @@ promptBody: |
   Using the uploaded reference photo of mom and child together, transform them into stylized Pixar‑inspired 3D characters while preserving their recognizable faces, hairstyles, and overall proportions from the reference. Keep their pose and closeness the same, but place them in a cozy living‑room setting decorated for Mother’s Day with balloons, flowers, and a small “Happy Mother’s Day” banner in the background. Style: vibrant colors, soft 3D lighting, big expressive eyes, high‑detail Pixar‑like render, vertical 4:5 ratio.
 
   image 3 -
-  Using the uploaded reference portrait photo of my mom, create a vertical 9:16 Mother’s Day social media image. Preserve her facial features and expression exactly. Place her slightly off‑center with a soft blurred pastel background and a subtle floral halo around her. Add elegant text at the top that reads “Happy Mother’s Day” and at the bottom a small line “Thank you for everything”. Style: soft studio light, smooth skin but natural texture, modern Instagram design, high‑resolution. 
+  Using the uploaded reference portrait photo of my mom, create a vertical 9:16 Mother’s Day social media image. Preserve her facial features and expression exactly. Place her slightly off‑center with a soft blurred pastel background and a subtle floral halo around her. Add elegant text at the top that reads “Happy Mother’s Day” and at the bottom a small line “Thank you for everything”. Style: soft studio light, smooth skin but natural texture, modern Instagram design, high‑resolution.
 
-  secret newspaper prompt - 
+  secret newspaper prompt -
   Create a whimsical black-and-white vintage Hindi newspaper front page using the uploaded mother-child photo. Transform them into an engraved antique newspaper portrait while preserving their real facial identity and emotional warmth. Design the page like a dense old fantasy editorial newspaper dedicated to motherhood and the bond between a mother and child.
 
   Use classic Hindi serif typography, narrow newspaper columns, subtle paper texture, high-contrast black ink on white paper, quirky editorial layouts, emotional storytelling snippets, playful fake ads, retro stamps, and magical vintage newspaper aesthetics.
@@ -33,8 +34,8 @@ promptBody: |
 
   Keep the portrait centered and dominant while the rest of the newspaper feels nostalgic, emotional, slightly surreal, humorous, and beautifully chaotic like an old collectible Hindi newspaper.
 
-  Queen image - 
+  Queen image -
   USE THE UPLOADED PHOTO AS THE EXACT REFERENCE. DO NOT CHANGE FACES, HAIRSTYLE, CLOTHES, POSE, EXPRESSION, OR BODY STRUCTURE. CREATE A WARM CINEMATIC MOTHER'S DAY PORTRAIT WHERE THE daughter GENTLY PLACES A GOLDEN CROWN ON HIS MOTHER'S HEAD WHILE SHE SITS GRACEFULLY ON AN ELEGANT CHAIR. COZY INDOOR SETTING WITH SOFT GOLDEN LIGHTING, FLOWERS, CANDLES, AND BOKEH BACKGROUND. ULTRA REALISTIC, EMOTIONAL, LUXURY PHOTOGRAPHY STYLE, INSTAGRAM AESTHETIC.ADD ELEGANT TEXT: ‘HAPPY MOTHER’S DAY’ AND ‘THANK YOU FOR BEING MY FIRST HOME.’ 4:5 RATIO.
 ---
 
-適合請 AI 扮演「Mothers day」，協助處理工程、技術判斷或開發相關任務。
+「Mothers day」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

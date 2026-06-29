@@ -1,11 +1,12 @@
 ---
 title: "Ultra-Realistic Ankara Indie Bar Scene Description"
-description: "適合請 AI 扮演「Ultra-Realistic Ankara Indie Bar Scene Description」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","ultra","realistic","ankara","indie"]
+description: "「Ultra-Realistic Ankara Indie Bar Scene Description」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+category: "設計與創意"
+tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
+requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Ultra-Realistic Ankara Indie Bar Scene Description"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -21,4 +22,4 @@ promptBody: |
   The handheld vertical composition is slightly skewed: the top of a neon **Efes Pilsen** sign is cut off at the top edge; the corner of the bar and one customer are cropped at the side. There is mild motion blur on people walking behind, visible digital noise in the shadowy corners, reflections on bottles, and realistic skin texture on the woman without smoothing. Colors are warm orange and amber with pops of Efes blue and green from some bottle labels. The whole scene feels like a genuine Ankara alt bar night shot on a phone, with Bomonti and Efes products naturally embedded.
 ---
 
-適合請 AI 扮演「Ultra-Realistic Ankara Indie Bar Scene Description」，協助處理工程、技術判斷或開發相關任務。
+「Ultra-Realistic Ankara Indie Bar Scene Description」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。

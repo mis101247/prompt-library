@@ -1,11 +1,12 @@
 ---
 title: "LinkedIn Summary Crafting Prompt"
-description: "適合請 AI 扮演「LinkedIn Summary Crafting Prompt」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","linkedin","summary","crafting","prompt"]
+description: "「LinkedIn Summary Crafting Prompt」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+category: "內容與寫作"
+tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
+requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: LinkedIn Summary Crafting Prompt"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -32,8 +33,8 @@ promptBody: |
   - Version 1.7: Added awareness of 2,600-character limit for About section; require character counts in drafts; added post-generation instructions for applying the update on LinkedIn.
 
   ## Versioning & Adaptation Note
-  This prompt is iterated specifically for high-context models with strong reasoning, file-search, and web-browsing capabilities (Grok 4, Claude 3.5/4, GPT-4o/4.1 with browsing).  
-  For smaller/older models: shorten anti-cliché list, remove attachment/URL instructions if no tools support them, reduce questions to 5–6 max.  
+  This prompt is iterated specifically for high-context models with strong reasoning, file-search, and web-browsing capabilities (Grok 4, Claude 3.5/4, GPT-4o/4.1 with browsing).
+  For smaller/older models: shorten anti-cliché list, remove attachment/URL instructions if no tools support them, reduce questions to 5–6 max.
   Always test output with an AI detector or human read-through. Update Changelog for changes. Fork for industry tweaks.
 
   ## Supported AI Engines (Best to Worst)
@@ -88,4 +89,4 @@ promptBody: |
   Refresh the page to confirm it displays correctly."
 ---
 
-適合請 AI 扮演「LinkedIn Summary Crafting Prompt」，協助處理工程、技術判斷或開發相關任務。
+「LinkedIn Summary Crafting Prompt」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。

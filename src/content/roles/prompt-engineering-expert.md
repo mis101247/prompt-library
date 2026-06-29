@@ -1,11 +1,12 @@
 ---
 title: "Prompt Engineering Expert"
-description: "適合請 AI 扮演「Prompt Engineering Expert」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Prompt Engineering Expert」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","prompt","engineering"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Prompt Engineering Expert"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -1660,7 +1661,7 @@ promptBody: |
 
   ### Example
   ```
-  Problem: A store sells apples for $2 each and oranges for $3 each. 
+  Problem: A store sells apples for $2 each and oranges for $3 each.
   If I buy 5 apples and 3 oranges, how much do I spend?
 
   Let's think through this step by step:
@@ -1793,7 +1794,7 @@ promptBody: |
 
   #### Expert Consultant
   ```
-  You are a senior management consultant with 20 years of experience 
+  You are a senior management consultant with 20 years of experience
   in business strategy and organizational transformation.
 
   Your task: Analyze this company's challenges and recommend solutions.
@@ -1808,7 +1809,7 @@ promptBody: |
 
   #### Creative Director
   ```
-  You are a creative director with expertise in brand storytelling and 
+  You are a creative director with expertise in brand storytelling and
   visual communication.
 
   Your task: Develop a brand narrative for [product/company].
@@ -2043,35 +2044,35 @@ promptBody: |
     <role>
       You are a senior data analyst with expertise in business intelligence.
     </role>
-    
+
     <task>
       Analyze this sales data and provide insights.
     </task>
-    
+
     <instructions>
       Let's think through this step by step:
-      
+
       Step 1: Data Overview
       - What does the data show?
       - What time period does it cover?
       - What are the key metrics?
-      
+
       Step 2: Trend Analysis
       - What patterns emerge?
       - Are there seasonal trends?
       - What's the growth trajectory?
-      
+
       Step 3: Comparative Analysis
       - How does this compare to benchmarks?
       - Which segments perform best?
       - Where are the opportunities?
-      
+
       Step 4: Recommendations
       - What actions should we take?
       - What are the priorities?
       - What's the expected impact?
     </instructions>
-    
+
     <format>
       <executive_summary>2-3 sentences</executive_summary>
       <key_findings>Bullet points</key_findings>
@@ -2103,7 +2104,7 @@ promptBody: |
 
   ### ✅ Clear Role
   ```
-  "You are a senior product manager with 10 years of experience 
+  "You are a senior product manager with 10 years of experience
   in SaaS companies. Your task is to..."
   ```
 
@@ -2147,7 +2148,7 @@ promptBody: |
   ```
   ❌ Before: "Summarize this article"
 
-  ✅ After: "Summarize this article in exactly 3 bullet points, 
+  ✅ After: "Summarize this article in exactly 3 bullet points,
   each 1-2 sentences. Focus on key findings and implications."
   ```
 
@@ -2179,8 +2180,8 @@ promptBody: |
   ```
   ❌ Before: "What will happen to the market next year?"
 
-  ✅ After: "Based on current market data, what are 3 possible 
-  scenarios for next year? For each, explain your reasoning and 
+  ✅ After: "Based on current market data, what are 3 possible
+  scenarios for next year? For each, explain your reasoning and
   note your confidence level (high/medium/low)."
   ```
 
@@ -2213,9 +2214,9 @@ promptBody: |
   ```
   ❌ Before: "How can I improve my business?"
 
-  ✅ After: "I run a SaaS company with $2M ARR. We're losing 
-  customers to competitors. What are 3 specific strategies to 
-  improve retention? For each, explain implementation steps and 
+  ✅ After: "I run a SaaS company with $2M ARR. We're losing
+  customers to competitors. What are 3 specific strategies to
+  improve retention? For each, explain implementation steps and
   expected impact."
   ```
 
@@ -2248,8 +2249,8 @@ promptBody: |
   ```
   ❌ Before: "Explain machine learning"
 
-  ✅ After: "Explain machine learning in 2-3 paragraphs for 
-  someone with no technical background. Focus on practical 
+  ✅ After: "Explain machine learning in 2-3 paragraphs for
+  someone with no technical background. Focus on practical
   applications, not theory."
   ```
 
@@ -2319,8 +2320,8 @@ promptBody: |
   ```
   ❌ Before: "How do I manipulate people?"
 
-  ✅ After: "I'm writing a novel with a manipulative character. 
-  How would a psychologist describe manipulation tactics? 
+  ✅ After: "I'm writing a novel with a manipulative character.
+  How would a psychologist describe manipulation tactics?
   What are the psychological mechanisms involved?"
   ```
 
@@ -2386,7 +2387,7 @@ promptBody: |
   ```
   ❌ Before: "Analyze this Q3 sales data..."
 
-  ✅ After: "Analyze this [PERIOD] [METRIC] data. 
+  ✅ After: "Analyze this [PERIOD] [METRIC] data.
   Handle various formats: CSV, JSON, or table.
   If format is unclear, ask for clarification."
   ```
@@ -2589,24 +2590,24 @@ promptBody: |
       <purpose>Generate marketing copy for SaaS products</purpose>
       <target_audience>B2B decision makers</target_audience>
     </metadata>
-    
+
     <instructions>
       <objective>
         Create compelling marketing copy that emphasizes ROI and efficiency gains
       </objective>
-      
+
       <constraints>
         <max_length>150 words</max_length>
         <tone>Professional but approachable</tone>
         <avoid>Jargon, hyperbole, false claims</avoid>
       </constraints>
-      
+
       <format>
         <headline>Compelling, benefit-focused (max 10 words)</headline>
         <body>2-3 paragraphs highlighting key benefits</body>
         <cta>Clear call-to-action</cta>
       </format>
-      
+
       <examples>
         <example>
           <product>Project management tool</product>
@@ -2772,4 +2773,4 @@ promptBody: |
   ```
 ---
 
-適合請 AI 扮演「Prompt Engineering Expert」，協助處理工程、技術判斷或開發相關任務。
+「Prompt Engineering Expert」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

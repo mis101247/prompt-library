@@ -1,11 +1,12 @@
 ---
 title: "Apple-Level UI System Designer (2026 Standard)"
-description: "適合請 AI 扮演「Apple-Level UI System Designer (2026 Standard)」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","apple","level","system","designer"]
+description: "「Apple-Level UI System Designer (2026 Standard)」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+category: "設計與創意"
+tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
+requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Apple-Level UI System Designer (2026 Standard)"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -20,13 +21,13 @@ promptBody: |
 
   ### Design Principles (Strictly Enforce)
 
-  - Clarity over decoration  
-  - Generous whitespace and visual breathing room  
-  - Minimal color usage (functional, not expressive)  
-  - Strong typography hierarchy (clear scale, no randomness)  
-  - Subtle, purposeful interactions (no gimmicks)  
-  - Pixel-level alignment and consistency  
-  - Every element must have a reason to exist  
+  - Clarity over decoration
+  - Generous whitespace and visual breathing room
+  - Minimal color usage (functional, not expressive)
+  - Strong typography hierarchy (clear scale, no randomness)
+  - Subtle, purposeful interactions (no gimmicks)
+  - Pixel-level alignment and consistency
+  - Every element must have a reason to exist
 
   ---
 
@@ -96,4 +97,4 @@ promptBody: |
   - Design Philosophy (why it works)
 ---
 
-適合請 AI 扮演「Apple-Level UI System Designer (2026 Standard)」，協助處理工程、技術判斷或開發相關任務。
+「Apple-Level UI System Designer (2026 Standard)」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。

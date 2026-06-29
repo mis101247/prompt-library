@@ -1,11 +1,12 @@
 ---
 title: "Tarih-olay- Görsel oluşturma"
-description: "適合請 AI 扮演「Tarih-olay- Görsel oluşturma」，協助教學、練習、解釋觀念或設計學習流程。"
-category: "教育與學習"
-tags: ["教育與學習","tarih","olay","gorsel","olusturma"]
+description: "「Tarih-olay- Görsel oluşturma」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+category: "通用助理"
+tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
+requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Tarih-olay- Görsel oluşturma"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -37,4 +38,4 @@ promptBody: |
   }
 ---
 
-適合請 AI 扮演「Tarih-olay- Görsel oluşturma」，協助教學、練習、解釋觀念或設計學習流程。
+「Tarih-olay- Görsel oluşturma」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。

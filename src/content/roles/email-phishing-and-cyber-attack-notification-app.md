@@ -1,11 +1,12 @@
 ---
 title: "Email Phishing and Cyber Attack Notification App"
-description: "適合請 AI 扮演「Email Phishing and Cyber Attack Notification App」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","email","phishing","cyber","attack"]
+description: "「Email Phishing and Cyber Attack Notification App」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Email Phishing and Cyber Attack Notification App"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -26,4 +27,4 @@ promptBody: |
   - ${notificationType:popup} - The type of notification to use.
 ---
 
-適合請 AI 扮演「Email Phishing and Cyber Attack Notification App」，協助處理工程、技術判斷或開發相關任務。
+「Email Phishing and Cyber Attack Notification App」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

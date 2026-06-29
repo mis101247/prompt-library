@@ -1,11 +1,12 @@
 ---
 title: "Patent Illustration Design with SolidWorks and Origin Styles"
-description: "適合請 AI 扮演「Patent Illustration Design with SolidWorks and Origin Styles」，協助整理資料、分析問題或產出研究觀點。"
-category: "資料與研究"
-tags: ["資料與研究","patent","illustration","design","solidworks"]
+description: "「Patent Illustration Design with SolidWorks and Origin Styles」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Patent Illustration Design with SolidWorks and Origin Styles"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -55,4 +56,4 @@ promptBody: |
   }
 ---
 
-適合請 AI 扮演「Patent Illustration Design with SolidWorks and Origin Styles」，協助整理資料、分析問題或產出研究觀點。
+「Patent Illustration Design with SolidWorks and Origin Styles」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

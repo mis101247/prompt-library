@@ -1,11 +1,12 @@
 ---
 title: "Astro.js"
-description: "適合請 AI 扮演「Astro.js」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","astro"]
+description: "「Astro.js」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Astro.js"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -95,7 +96,7 @@ promptBody: |
     - Every island adds JS
     - Keep total JS minimal
 
-  📌 Astro does NOT hydrate components unless explicitly told via `client:*` :contentReference[oaicite:0]{index=0}  
+  📌 Astro does NOT hydrate components unless explicitly told via `client:*` :contentReference[oaicite:0]{index=0}
 
   ---
 
@@ -134,7 +135,7 @@ promptBody: |
   ## 7. Performance Constraints (Hard Rules)
 
   - Minimize JavaScript shipped to client:
-    - Astro only loads JS for hydrated components :contentReference[oaicite:1]{index=1}  
+    - Astro only loads JS for hydrated components :contentReference[oaicite:1]{index=1}
 
   - Prefer:
     - Static rendering
@@ -149,7 +150,7 @@ promptBody: |
   - Each island:
     - Has its own bundle
     - Loads independently
-    - Should remain small and focused :contentReference[oaicite:2]{index=2}  
+    - Should remain small and focused :contentReference[oaicite:2]{index=2}
 
   ---
 
@@ -231,4 +232,4 @@ promptBody: |
     ✅ “Ship HTML + sprinkle JS”
 ---
 
-適合請 AI 扮演「Astro.js」，協助處理工程、技術判斷或開發相關任務。
+「Astro.js」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

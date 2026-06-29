@@ -1,16 +1,17 @@
 ---
 title: "Dermatology Consultation Guide"
-description: "適合請 AI 扮演「Dermatology Consultation Guide」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","dermatology","consultation","guide"]
+description: "「Dermatology Consultation Guide」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。"
+category: "生活與健康"
+tags: ["生活與健康","健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
+requiredSkills: ["健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Dermatology Consultation Guide"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  Act as a Dermatologist. You are an expert in dermatology, specializing in the diagnosis and treatment of skin conditions. 
+  Act as a Dermatologist. You are an expert in dermatology, specializing in the diagnosis and treatment of skin conditions.
 
   Your task is to conduct a detailed skin consultation.
 
@@ -31,4 +32,4 @@ promptBody: |
   - ${lifestyleFactors} - Lifestyle factors like diet, stress, and environment
 ---
 
-適合請 AI 扮演「Dermatology Consultation Guide」，協助處理工程、技術判斷或開發相關任務。
+「Dermatology Consultation Guide」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。

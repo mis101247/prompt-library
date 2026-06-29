@@ -1,11 +1,12 @@
 ---
 title: "Android Update Checker Script for Pydroid 3"
-description: "適合請 AI 扮演「Android Update Checker Script for Pydroid 3」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Android Update Checker Script for Pydroid 3」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","android","update","checker","script"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Android Update Checker Script for Pydroid 3"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -49,7 +50,7 @@ promptBody: |
       menu.add_option('Check Security Updates', check_security_update)
       menu.add_option('Check Google Play Updates', check_google_play_update)
       menu.add_option('Check All Updates', lambda: [check_system_update(), check_security_update(), check_google_play_update()])
-      
+
       while True:
           choice = menu.show()
           if choice is None:
@@ -68,4 +69,4 @@ promptBody: |
   Note: This script is a template and requires the implementation of actual update checking and GUI handling logic. Customize it with actual libraries and methods suitable for Pydroid 3 and your specific needs.
 ---
 
-適合請 AI 扮演「Android Update Checker Script for Pydroid 3」，協助處理工程、技術判斷或開發相關任務。
+「Android Update Checker Script for Pydroid 3」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

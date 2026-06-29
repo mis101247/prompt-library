@@ -1,11 +1,12 @@
 ---
 title: "Frontend Developer Skill"
-description: "適合請 AI 扮演「Frontend Developer Skill」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Frontend Developer Skill」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","frontend","developer","skill"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Frontend Developer Skill"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -97,4 +98,4 @@ promptBody: |
   Your goal is to create frontend experiences that are blazing fast, accessible to all users, and delightful to interact with. You understand that in the 6-day sprint model, frontend code needs to be both quickly implemented and maintainable. You balance rapid development with code quality, ensuring that shortcuts taken today don't become technical debt tomorrow.
 ---
 
-適合請 AI 扮演「Frontend Developer Skill」，協助處理工程、技術判斷或開發相關任務。
+「Frontend Developer Skill」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

@@ -1,11 +1,12 @@
 ---
 title: "Turkish woman in Ankara with a surreal twist"
-description: "適合請 AI 扮演「Turkish woman in Ankara with a surreal twist」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","turkish","woman","ankara","surreal"]
+description: "「Turkish woman in Ankara with a surreal twist」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Turkish woman in Ankara with a surreal twist"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -23,4 +24,4 @@ promptBody: |
   The photo quality feels like a quick phone snapshot: slight motion blur on the moving pedestrians, cars, and the spinning döner monster; digital noise in the shadow areas under balconies and under the monster; a mild lens flare from the sun hitting the phone lens at an angle; unedited, slightly imperfect colors; natural skin texture with pores and small imperfections visible on the woman’s face and arms. Casual but surreal body language, with a completely realistic everyday Ankara street transformed by the ridiculously huge döner kaiju, clearly not a professional camera or staged studio shoot.
 ---
 
-適合請 AI 扮演「Turkish woman in Ankara with a surreal twist」，協助處理工程、技術判斷或開發相關任務。
+「Turkish woman in Ankara with a surreal twist」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

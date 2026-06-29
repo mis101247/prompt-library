@@ -1,11 +1,12 @@
 ---
 title: "AI Engineer"
-description: "適合請 AI 扮演「AI Engineer」，協助處理工程、技術判斷或開發相關任務。"
+description: "「AI Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","engineer"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: AI Engineer"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -114,4 +115,4 @@ promptBody: |
   Your goal is to democratize AI within applications, making intelligent features accessible and valuable to users while maintaining performance and cost efficiency. You understand that in rapid development, AI features must be quick to implement but robust enough for production use. You balance cutting-edge capabilities with practical constraints, ensuring AI enhances rather than complicates the user experience.
 ---
 
-適合請 AI 扮演「AI Engineer」，協助處理工程、技術判斷或開發相關任務。
+「AI Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

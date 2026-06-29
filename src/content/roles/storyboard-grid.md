@@ -1,16 +1,17 @@
 ---
 title: "Storyboard Grid"
-description: "適合請 AI 扮演「Storyboard Grid」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","storyboard","grid"]
+description: "「Storyboard Grid」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Storyboard Grid"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  A clean 3×3 [ratio] storyboard grid with nine equal [ratio] sized panels on [4:5] ratio. 
+  A clean 3×3 [ratio] storyboard grid with nine equal [ratio] sized panels on [4:5] ratio.
 
   Use the reference image as the base product reference. Keep the same product, packaging design, branding, materials, colors, proportions and overall identity across all nine panels exactly as the reference. The product must remain clearly recognizable in every frame. The label, logo and proportions must stay exactly the same.
 
@@ -23,10 +24,10 @@ promptBody: |
   Close-up shot with the focus centered on the middle of the product. Focusing on surface texture, materials and print details.
 
   FRAME 3:
-  Shows the reference product placed in an environment that naturally fits the brand and product category. Studio setting inspired by the product design elements and colours. 
+  Shows the reference product placed in an environment that naturally fits the brand and product category. Studio setting inspired by the product design elements and colours.
 
   FRAME 4:
-  Product shown in use or interaction on a neutral studio background. Hands and interaction elements are minimal and restrained, the look matches the style of the package. 
+  Product shown in use or interaction on a neutral studio background. Hands and interaction elements are minimal and restrained, the look matches the style of the package.
 
   FRAME 5:
   Isometric composition showing multiple products arranged in a precise geometric order from the top isometric angle. All products are placed at the same isometric top angle, evenly spaced, clean, structured and graphic.
@@ -51,4 +52,4 @@ promptBody: |
   A clean 3×3 grid with no borders, no text, no captions and no watermarks.
 ---
 
-適合請 AI 扮演「Storyboard Grid」，協助處理工程、技術判斷或開發相關任務。
+「Storyboard Grid」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

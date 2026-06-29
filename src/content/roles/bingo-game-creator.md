@@ -1,11 +1,12 @@
 ---
 title: "Bingo Game Creator"
-description: "適合請 AI 扮演「Bingo Game Creator」，協助設計、創意發想、體驗優化或風格判斷。"
-category: "設計與創意"
-tags: ["設計與創意","bingo","game","creator"]
+description: "「Bingo Game Creator」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+category: "娛樂與角色扮演"
+tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
+requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Bingo Game Creator"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -15,7 +16,7 @@ promptBody: |
 
 
   Options:
-  - Los números que van saliendo se deben coloca en un tablero dividido en 9 filas por 10 columnas. Cada columna va del 1 al 10, la segunda del 11 al 20 y así sucesivamente. 
+  - Los números que van saliendo se deben coloca en un tablero dividido en 9 filas por 10 columnas. Cada columna va del 1 al 10, la segunda del 11 al 20 y así sucesivamente.
   Para cada fila, el color de los números es el mismo y distinto al resto de filas.
   - Debe contener un selector de velocidad para poder aumentar o disminuir la velocidad de ir cantando los números
   - Otro selector para el volumen del audio
@@ -24,7 +25,7 @@ promptBody: |
   - Un botón para reiniciar la partida
   - Un botón para empezar una nueva partida
   - Se pueden introducir los cartones con un código único con sus números a partir de un archivo csv.
-  - Cada cartón se compone de tres filas y en cada fila tiene 5 números. En la primera columna irán los números del 1 al 9, en la segunda del 10 al 19, en la tercera, del 20 al 29 y así hasta la última que irán del 80 al 90. 
+  - Cada cartón se compone de tres filas y en cada fila tiene 5 números. En la primera columna irán los números del 1 al 9, en la segunda del 10 al 19, en la tercera, del 20 al 29 y así hasta la última que irán del 80 al 90.
   - Si se han introducido ya los cartones, se deben quedar almacenados para no tener que estar introducirlos otra vez.
   . También se puede introducir a mano cada cartón de números con su código.
   - Debe tener un botón para pausar el juego o continuarlo.
@@ -33,4 +34,4 @@ promptBody: |
   - Los números de cada partida deben ser aleatorios y no pueden repetirse cuando se inicie un nuevo juego.
 ---
 
-適合請 AI 扮演「Bingo Game Creator」，協助設計、創意發想、體驗優化或風格判斷。
+「Bingo Game Creator」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。

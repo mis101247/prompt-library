@@ -1,11 +1,12 @@
 ---
 title: "Night Balcony Scene in Ankara with Efes"
-description: "適合請 AI 扮演「Night Balcony Scene in Ankara with Efes」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","night","balcony","scene","ankara"]
+description: "「Night Balcony Scene in Ankara with Efes」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+category: "設計與創意"
+tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
+requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Night Balcony Scene in Ankara with Efes"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -23,4 +24,4 @@ promptBody: |
   Her posture and expression are calm, a bit introspective, like she’s sending “iyi geceler Ankara” to her followers as the night cools down around her, surrounded by the visual language of the Efes product range without it becoming a pure product shot.
 ---
 
-適合請 AI 扮演「Night Balcony Scene in Ankara with Efes」，協助處理工程、技術判斷或開發相關任務。
+「Night Balcony Scene in Ankara with Efes」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。

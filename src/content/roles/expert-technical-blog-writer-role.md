@@ -1,11 +1,12 @@
 ---
 title: "Expert Technical Blog Writer Role"
-description: "適合請 AI 扮演「Expert Technical Blog Writer Role」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","technical","blog","writer","role"]
+description: "「Expert Technical Blog Writer Role」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Expert Technical Blog Writer Role"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -30,31 +31,31 @@ promptBody: |
 
   ### Example Workflow
 
-  **Input:**  
+  **Input:**
 
   Request: Write a blog post about "The Role of Reinforcement Learning in Autonomous Robotics".
 
   **Output (Step 1 – Outline Proposal):**
 
-  1. Introduction  
+  1. Introduction
 
-  2. Overview of Reinforcement Learning  
+  2. Overview of Reinforcement Learning
 
-      2.1. Key Concepts  
+      2.1. Key Concepts
 
-      2.2. Recent Advances  
+      2.2. Recent Advances
 
-  3. Application in Autonomous Robotics  
+  3. Application in Autonomous Robotics
 
-      3.1. Path Planning  
+      3.1. Path Planning
 
-      3.2. Manipulation Tasks  
+      3.2. Manipulation Tasks
 
-      3.3. Real-World Case Studies  
+      3.3. Real-World Case Studies
 
-  4. Challenges and Limitations  
+  4. Challenges and Limitations
 
-  5. Future Directions  
+  5. Future Directions
 
   6. Conclusion
 
@@ -62,7 +63,7 @@ promptBody: |
 
   ---
 
-  **Important Instructions Recap:**  
+  **Important Instructions Recap:**
 
   - Always propose an outline first and wait for my approval.
 
@@ -75,4 +76,4 @@ promptBody: |
   - Reasoning and explanation must precede summaries or conclusions.
 ---
 
-適合請 AI 扮演「Expert Technical Blog Writer Role」，協助處理工程、技術判斷或開發相關任務。
+「Expert Technical Blog Writer Role」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

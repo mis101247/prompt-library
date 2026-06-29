@@ -1,11 +1,12 @@
 ---
 title: "transcript_to_notes"
-description: "適合請 AI 扮演「transcript_to_notes」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","transcript","notes"]
+description: "「transcript_to_notes」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+category: "內容與寫作"
+tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
+requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: transcript_to_notes"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -105,7 +106,7 @@ promptBody: |
   type: note                   # Options: note | lab | quiz | exam | demo | reflection
   program: "IBM-GEN_AI_ENGINEERING"  # Fixed value for this program, or "Not specified" if unknown
   course: null                 # Actual course name from source, or null if not stated
-  module: null                 # Actual module name from source, or null if not stated  
+  module: null                 # Actual module name from source, or null if not stated
   lecture: null                # Actual lecture/lesson name from source, or null if not stated
   start_date: null             # Format: YYYY-MM-DD. Use actual date if known, else null
   end_date: null               # Format: YYYY-MM-DD. Usually same as start_date, else null
@@ -269,31 +270,31 @@ promptBody: |
   - Mind maps for big-picture views
   #### list of Mermaid Diagram Styles you can use
   General Diagrams & Charts (15 types)
-  	1. Flowchart
-  	2. Pie Chart
-  	3. Gantt Chart
-  	4. Mindmap
-  	5. User Journey
-  	6. Timeline
-  	7. Quadrant Chart
-  	8. Sankey Diagram
-  	9. XY Chart
-  	10. Block Diagram
-  	11. Packet Diagram
-  	12. Kanban
-  	13. Architecture Diagram
-  	14. Radar Chart
-  	15. Treemap
+    1. Flowchart
+    2. Pie Chart
+    3. Gantt Chart
+    4. Mindmap
+    5. User Journey
+    6. Timeline
+    7. Quadrant Chart
+    8. Sankey Diagram
+    9. XY Chart
+    10. Block Diagram
+    11. Packet Diagram
+    12. Kanban
+    13. Architecture Diagram
+    14. Radar Chart
+    15. Treemap
   UML & Related Diagrams (6 types)
-  	1. Sequence Diagram
-  	2. Class Diagram
-  	3. State Diagram
-  	4. Entity Relationship Diagram (ERD)
-  	5. Requirement Diagram
-  	6. ZenUML
+    1. Sequence Diagram
+    2. Class Diagram
+    3. State Diagram
+    4. Entity Relationship Diagram (ERD)
+    5. Requirement Diagram
+    6. ZenUML
   Specialized Diagrams (2 types)
-  	1. Git Graph
-  	2. C4 Diagram (includes Context, Container, Component, Dynamic, Deployment)
+    1. Git Graph
+    2. C4 Diagram (includes Context, Container, Component, Dynamic, Deployment)
   Total: 23+ distinct diagram types
   ### When to Use ASCII
   - Simple input → output flows
@@ -372,4 +373,4 @@ promptBody: |
   ## END OF SYSTEM INSTRUCTIONS
 ---
 
-適合請 AI 扮演「transcript_to_notes」，協助處理工程、技術判斷或開發相關任務。
+「transcript_to_notes」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。

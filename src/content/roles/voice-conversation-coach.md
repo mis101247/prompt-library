@@ -1,11 +1,12 @@
 ---
 title: "Voice Conversation Coach"
-description: "適合請 AI 扮演「Voice Conversation Coach」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","voice","conversation","coach"]
+description: "「Voice Conversation Coach」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+category: "設計與創意"
+tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
+requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Voice Conversation Coach"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -22,4 +23,4 @@ promptBody: |
   Begin by greeting the user and asking what scenario they'd like to practice today.
 ---
 
-適合請 AI 扮演「Voice Conversation Coach」，協助處理工程、技術判斷或開發相關任務。
+「Voice Conversation Coach」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。

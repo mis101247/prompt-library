@@ -1,11 +1,12 @@
 ---
 title: "base-R"
-description: "適合請 AI 扮演「base-R」，協助處理工程、技術判斷或開發相關任務。"
+description: "「base-R」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","base"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: base-R"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -1316,10 +1317,10 @@ promptBody: |
   # Analysis Template — Base R
   # Copy this file, rename it, and fill in your details.
   # ============================================================
-  # Author  : 
-  # Date    : 
-  # Data    : 
-  # Purpose : 
+  # Author  :
+  # Date    :
+  # Data    :
+  # Purpose :
   # ============================================================
 
 
@@ -1530,39 +1531,39 @@ promptBody: |
   # Or:    source("check_data.R"); check_data(read.csv("yourfile.csv"))
 
   check_data <- function(df, top_n_levels = 8) {
-    
+
     if (!is.data.frame(df)) stop("Input must be a data frame.")
-    
+
     n_row <- nrow(df)
     n_col <- ncol(df)
-    
+
     cat("══════════════════════════════════════════\n")
     cat("  DATA QUALITY REPORT\n")
     cat("══════════════════════════════════════════\n")
     cat(sprintf("  Rows: %d    Columns: %d\n", n_row, n_col))
     cat("══════════════════════════════════════════\n\n")
-    
+
     # ── 1. Column overview ──────────────────────
     cat("── COLUMN OVERVIEW ────────────────────────\n")
-    
+
     for (col in names(df)) {
       x     <- df[[col]]
       cls   <- class(x)[1]
       n_na  <- sum(is.na(x))
       pct   <- round(n_na / n_row * 100, 1)
       n_uniq <- length(unique(x[!is.na(x)]))
-      
+
       na_flag <- if (n_na == 0) "" else sprintf("  *** %d NAs (%.1f%%)", n_na, pct)
       cat(sprintf("  %-20s  %-12s  %d unique%s\n",
                   col, cls, n_uniq, na_flag))
     }
-    
+
     # ── 2. NA summary ────────────────────────────
     cat("\n── NA SUMMARY ─────────────────────────────\n")
-    
+
     na_counts <- sapply(df, function(x) sum(is.na(x)))
     cols_with_na <- na_counts[na_counts > 0]
-    
+
     if (length(cols_with_na) == 0) {
       cat("  No missing values. \n")
     } else {
@@ -1575,17 +1576,17 @@ promptBody: |
                     col, bar, cols_with_na[col], pct_na))
       }
     }
-    
+
     # ── 3. Numeric columns ───────────────────────
     num_cols <- names(df)[sapply(df, is.numeric)]
-    
+
     if (length(num_cols) > 0) {
       cat("\n── NUMERIC COLUMNS ────────────────────────\n")
       cat(sprintf("  %-20s  %8s  %8s  %8s  %8s  %8s\n",
                   "Column", "Min", "Mean", "Median", "Max", "SD"))
       cat(sprintf("  %-20s  %8s  %8s  %8s  %8s  %8s\n",
                   "──────", "───", "────", "──────", "───", "──"))
-      
+
       for (col in num_cols) {
         x  <- df[[col]][!is.na(df[[col]])]
         if (length(x) == 0) next
@@ -1594,19 +1595,19 @@ promptBody: |
                     min(x), mean(x), median(x), max(x), sd(x)))
       }
     }
-    
+
     # ── 4. Factor / character columns ───────────
     cat_cols <- names(df)[sapply(df, function(x) is.factor(x) | is.character(x))]
-    
+
     if (length(cat_cols) > 0) {
       cat("\n── CATEGORICAL COLUMNS ────────────────────\n")
-      
+
       for (col in cat_cols) {
         x    <- df[[col]]
         tbl  <- sort(table(x, useNA = "no"), decreasing = TRUE)
         n_lv <- length(tbl)
         cat(sprintf("\n  %s  (%d unique values)\n", col, n_lv))
-        
+
         show <- min(top_n_levels, n_lv)
         for (i in seq_len(show)) {
           lbl <- names(tbl)[i]
@@ -1619,7 +1620,7 @@ promptBody: |
         }
       }
     }
-    
+
     # ── 5. Duplicate rows ────────────────────────
     cat("\n── DUPLICATES ─────────────────────────────\n")
     n_dup <- sum(duplicated(df))
@@ -1629,11 +1630,11 @@ promptBody: |
       cat(sprintf("  %d duplicate row(s) found (%.1f%% of data)\n",
                   n_dup, n_dup / n_row * 100))
     }
-    
+
     cat("\n══════════════════════════════════════════\n")
     cat("  END OF REPORT\n")
     cat("══════════════════════════════════════════\n")
-    
+
     # Return invisibly for programmatic use
     invisible(list(
       dims       = c(rows = n_row, cols = n_col),
@@ -1659,10 +1660,10 @@ promptBody: |
                                  outcome   = "outcome",
                                  group     = "group",
                                  data_file = NULL) {
-    
+
     if (is.null(data_file)) data_file <- paste0(project_name, ".csv")
     out_file <- paste0(project_name, "_analysis.R")
-    
+
     template <- sprintf(
   '# ============================================================
   # Project : %s
@@ -1783,7 +1784,7 @@ promptBody: |
       project_name, project_name, project_name,
       outcome, group
     )
-    
+
     writeLines(template, out_file)
     cat(sprintf("Created: %s\n", out_file))
     invisible(out_file)
@@ -1793,21 +1794,21 @@ promptBody: |
   # ── Run from command line ─────────────────────────────────────
   if (!interactive()) {
     args <- commandArgs(trailingOnly = TRUE)
-    
+
     if (length(args) == 0) {
       cat("Usage: Rscript scaffold_analysis.R <project_name> [outcome_var] [group_var]\n")
       cat("Example: Rscript scaffold_analysis.R myproject score treatment\n")
       quit(status = 1)
     }
-    
+
     project <- args[1]
     outcome <- if (length(args) >= 2) args[2] else "outcome"
     group   <- if (length(args) >= 3) args[3] else "group"
-    
+
     scaffold_analysis(project, outcome = outcome, group = group)
   }
   FILE:README.md
-  # base-r-skill 
+  # base-r-skill
 
   GitHub: https://github.com/iremaydas/base-r-skill
 
@@ -1819,7 +1820,7 @@ promptBody: |
 
   I'm a political science PhD candidate who uses R regularly but would never call myself *an R person*. I needed a Claude Code skill for base R — something without tidyverse, without ggplot2, just plain R — and I couldn't find one anywhere.
 
-  So I made one myself. At 11pm. Asking Claude to help me build a skill for Claude. 
+  So I made one myself. At 11pm. Asking Claude to help me build a skill for Claude.
 
   If you're also someone who Googles `how to drop NA rows in R` every single time, this one's for you. 🫶
 
@@ -1891,4 +1892,4 @@ promptBody: |
   *Made by [@iremaydas](https://github.com/iremaydas) — PhD candidate, occasional R user, full-time Googler of things I should probably know by now.*
 ---
 
-適合請 AI 扮演「base-R」，協助處理工程、技術判斷或開發相關任務。
+「base-R」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

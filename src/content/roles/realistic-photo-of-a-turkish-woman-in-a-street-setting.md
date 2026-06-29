@@ -1,11 +1,12 @@
 ---
 title: "Realistic Photo of a Turkish Woman in a Street Setting"
-description: "適合請 AI 扮演「Realistic Photo of a Turkish Woman in a Street Setting」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","realistic","photo","turkish","woman"]
+description: "「Realistic Photo of a Turkish Woman in a Street Setting」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Realistic Photo of a Turkish Woman in a Street Setting"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -19,4 +20,4 @@ promptBody: |
   shot on a regular iPhone by a friend standing close, handheld, slightly downward angle, horizon not perfectly straight, automatic exposure, no studio lighting, overcast daylight making soft but flat light, a bit of digital noise in darker corners, focus not perfectly sharp on her eyes, everyday Instagram photo quality, unedited colors, casual sexy vibe in a real Turkish street environment, clearly not a professional camera
 ---
 
-適合請 AI 扮演「Realistic Photo of a Turkish Woman in a Street Setting」，協助處理工程、技術判斷或開發相關任務。
+「Realistic Photo of a Turkish Woman in a Street Setting」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

@@ -1,11 +1,12 @@
 ---
 title: "Documentation Update Automation"
-description: "適合請 AI 扮演「Documentation Update Automation」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","documentation","update","automation"]
+description: "「Documentation Update Automation」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+category: "內容與寫作"
+tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
+requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Documentation Update Automation"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -49,7 +50,7 @@ promptBody: |
      ```python
      import re
      from pathlib import Path
-     
+
      def extract_stub_url(file_path):
          with open(file_path, 'r', encoding='utf-8') as f:
              content = f.read()
@@ -68,10 +69,10 @@ promptBody: |
      ```python
      import hashlib
      import requests
-     
+
      def get_content_hash(content):
          return hashlib.md5(content.encode()).hexdigest()
-     
+
      def get_online_content_hash(url):
          response = requests.get(url, timeout=10)
          return get_content_hash(response.text)
@@ -94,20 +95,20 @@ promptBody: |
      ```python
      from bs4 import BeautifulSoup
      from urllib.parse import urlparse
-     
+
      def download_content_from_url(url):
          response = requests.get(url, timeout=10)
          soup = BeautifulSoup(response.text, 'html.parser')
-         
+
          # Extract main content
          main_content = soup.find('main') or soup.find('article')
          if main_content:
              content_text = main_content.get_text(separator='\n')
-         
+
          # Extract title
          title_tag = soup.find('title')
          title = title_tag.get_text().split('|')[0].strip() if title_tag else urlparse(url).path.split('/')[-1]
-         
+
          # Format as markdown
          return f"# {title}\n\n{content_text}\n\n---\n\nFetch live documentation: {url}\n"
      ```
@@ -228,4 +229,4 @@ promptBody: |
   - `references/error_codes.md` - HTTP error code handling guide
 ---
 
-適合請 AI 扮演「Documentation Update Automation」，協助處理工程、技術判斷或開發相關任務。
+「Documentation Update Automation」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。

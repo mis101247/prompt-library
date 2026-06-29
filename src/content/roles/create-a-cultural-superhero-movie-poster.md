@@ -1,11 +1,12 @@
 ---
 title: "Create a Cultural Superhero Movie Poster"
-description: "適合請 AI 扮演「Create a Cultural Superhero Movie Poster」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","create","cultural","superhero","movie"]
+description: "「Create a Cultural Superhero Movie Poster」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Create a Cultural Superhero Movie Poster"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -56,8 +57,8 @@ promptBody: |
   – Main title: "${movie_title}"
   – Tagline (origin-related, serious tone): "${tagline}"
   – Credits block at the bottom (small, realistic):
-    "A ${studio_style} Production  
-     Directed by ${director_style}  
+    "A ${studio_style} Production
+     Directed by ${director_style}
      Starring ${superhero_name}"
 
   Typography must be cinematic, clean, modern, and realistic — no fantasy fonts, no comic lettering.
@@ -82,4 +83,4 @@ promptBody: |
   localized in identity, grounded in realism, cinematic in every detail.
 ---
 
-適合請 AI 扮演「Create a Cultural Superhero Movie Poster」，協助處理工程、技術判斷或開發相關任務。
+「Create a Cultural Superhero Movie Poster」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

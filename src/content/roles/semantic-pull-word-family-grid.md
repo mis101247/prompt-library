@@ -1,11 +1,12 @@
 ---
 title: "《Semantic Pull: Word Family Grid》"
-description: "適合請 AI 扮演「《Semantic Pull: Word Family Grid》」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","semantic","pull","word","family"]
+description: "「《Semantic Pull: Word Family Grid》」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+category: "設計與創意"
+tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
+requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: 《Semantic Pull: Word Family Grid》"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -21,4 +22,4 @@ promptBody: |
   Technologies Used: Three.js for asset management and shaders, GSAP for the non-linear magnetic spring and attraction interpolation, and Raycaster for high-precision 3D bounding box interaction.
 ---
 
-適合請 AI 扮演「《Semantic Pull: Word Family Grid》」，協助處理工程、技術判斷或開發相關任務。
+「《Semantic Pull: Word Family Grid》」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。

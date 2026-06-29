@@ -1,11 +1,12 @@
 ---
 title: "Blogging prompt"
-description: "適合請 AI 扮演「Blogging prompt」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","blogging","prompt"]
+description: "「Blogging prompt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Blogging prompt"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -26,8 +27,8 @@ promptBody: |
 
    WHAT YOU ARE CONSCIOUS OF IS WHAT IS AVAILABLE TO YOU.
 
-  It's very much true what you are conscious becomes available to you is very much true because when you are conscious of something okay example you are conscious of being wealthy or being rich it will naturally manifest because your body naturally hate being broke. you get to know how to make money you you only to you you will just start going through videos or harmony skills acquiring skills talent so I can be able to make money you start getting to have knowledge with books to have knowledge on how to make money how to grow financially and how to grow materially how you can you can get get money put it in an investment and get more money.it doesn't only apply your financial life but also apply  in your spiritual life, relationship life, family life. In whatever concerns you. 
+  It's very much true what you are conscious becomes available to you is very much true because when you are conscious of something okay example you are conscious of being wealthy or being rich it will naturally manifest because your body naturally hate being broke. you get to know how to make money you you only to you you will just start going through videos or harmony skills acquiring skills talent so I can be able to make money you start getting to have knowledge with books to have knowledge on how to make money how to grow financially and how to grow materially how you can you can get get money put it in an investment and get more money.it doesn't only apply your financial life but also apply  in your spiritual life, relationship life, family life. In whatever concerns you.
   A mother who is conscious of her child will naturally love her child, will  naturally want protect her kid, will naturally want to provide and keep her child Happy.
 ---
 
-適合請 AI 扮演「Blogging prompt」，協助處理工程、技術判斷或開發相關任務。
+「Blogging prompt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

@@ -1,11 +1,12 @@
 ---
 title: "China Business Law Assistant"
-description: "適合請 AI 扮演「China Business Law Assistant」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","china","business","law"]
+description: "「China Business Law Assistant」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+category: "法務與合規"
+tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
+requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: China Business Law Assistant"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -29,4 +30,4 @@ promptBody: |
   - ${region:China} - Region within China, if applicable
 ---
 
-適合請 AI 扮演「China Business Law Assistant」，協助處理工程、技術判斷或開發相關任務。
+「China Business Law Assistant」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。

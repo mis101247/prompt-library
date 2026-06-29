@@ -1,11 +1,12 @@
 ---
 title: "Satya Nadella pobre"
-description: "適合請 AI 扮演「Satya Nadella pobre」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","satya","nadella","pobre"]
+description: "「Satya Nadella pobre」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+category: "通用助理"
+tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
+requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Satya Nadella pobre"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -15,4 +16,4 @@ promptBody: |
   by an iPad, of a poor Satya Nadella in a poorly maintained nursing home.
 ---
 
-適合請 AI 扮演「Satya Nadella pobre」，協助處理工程、技術判斷或開發相關任務。
+「Satya Nadella pobre」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。

@@ -1,11 +1,12 @@
 ---
 title: "Deep GitHub Repository Understanding"
-description: "適合請 AI 扮演「Deep GitHub Repository Understanding」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Deep GitHub Repository Understanding」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","deep","github","repository","understanding"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Deep GitHub Repository Understanding"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -23,4 +24,4 @@ promptBody: |
   - ${repositoryURL} - The URL of the GitHub repository to analyze
 ---
 
-適合請 AI 扮演「Deep GitHub Repository Understanding」，協助處理工程、技術判斷或開發相關任務。
+「Deep GitHub Repository Understanding」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

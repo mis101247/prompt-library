@@ -1,11 +1,12 @@
 ---
 title: "Snapshot of a Turkish Hospital Night: A Dramedy Scene"
-description: "適合請 AI 扮演「Snapshot of a Turkish Hospital Night: A Dramedy Scene」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","snapshot","turkish","hospital","night"]
+description: "「Snapshot of a Turkish Hospital Night: A Dramedy Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+category: "設計與創意"
+tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
+requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Snapshot of a Turkish Hospital Night: A Dramedy Scene"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -19,4 +20,4 @@ promptBody: |
   The shot feels like a quick, slightly forbidden phone snapshot: angle a bit low and tilted, part of a chair cut off, the edge of the frame clipping a stranger’s shoulder in the foreground. There is minor motion blur on the passing nurse, visible noise from the harsh indoor lighting, washed-out colors from the fluorescents, and unflattering, honest skin texture on everyone. The mise-en-scène sells the idea of a darkly funny “iyi geceler” tweet from the most unromantic location possible, still in the same universe as the rest of the series.
 ---
 
-適合請 AI 扮演「Snapshot of a Turkish Hospital Night: A Dramedy Scene」，協助處理工程、技術判斷或開發相關任務。
+「Snapshot of a Turkish Hospital Night: A Dramedy Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。

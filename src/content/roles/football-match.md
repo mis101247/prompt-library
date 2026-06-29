@@ -1,11 +1,12 @@
 ---
 title: "Football Match"
-description: "適合請 AI 扮演「Football Match」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","football","match"]
+description: "「Football Match」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Football Match"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -32,9 +33,9 @@ promptBody: |
   Aspect ratio: 16:9 — single continuous front-camera frame, no cuts, no cinematic grading, no slow motion.
 
 
-  2. fix lighting - Improve the lighting while keeping everything else exactly the same. Do not change the person, pose, expression, background, or composition. Fix issues like back lighting, harsh shadows, underexposure or uneven lighting. Transform the original lighting into soft, natural, flattering light coming from slightly above eye level and facing the subject, so the face is evenly lit with realistic skin tones. Keep the result photorealistic and consistent with the original scene. 
+  2. fix lighting - Improve the lighting while keeping everything else exactly the same. Do not change the person, pose, expression, background, or composition. Fix issues like back lighting, harsh shadows, underexposure or uneven lighting. Transform the original lighting into soft, natural, flattering light coming from slightly above eye level and facing the subject, so the face is evenly lit with realistic skin tones. Keep the result photorealistic and consistent with the original scene.
 
-  3. zoom out - 
+  3. zoom out -
 
   4. 🎬 MASTER PROMPT — Live Football Broadcast Crowd Reaction Video
 
@@ -42,15 +43,15 @@ promptBody: |
   Duration: 5 seconds | Ratio: 16:9 | Single continuous shot
   Camera: Handheld broadcast zoom lens, slight organic shake
   Style: Hyper-realistic live TV sports broadcast footage
-  Color Grade: Authentic sports broadcast — warm floodlight tones, 
+  Color Grade: Authentic sports broadcast — warm floodlight tones,
   slight saturation boost, real TV compression artifacts
 
   🎥 SHOT COMPOSITION
-  Front-facing crowd cutaway — both subjects centered, 
-  side-by-side in stadium seats, full upper body visible, 
+  Front-facing crowd cutaway — both subjects centered,
+  side-by-side in stadium seats, full upper body visible,
   both faces directly toward camera lens.
-  Background: packed 80,000-capacity stadium, 
-  blurred crowd motion, waving scarves, floodlight bloom, 
+  Background: packed 80,000-capacity stadium,
+  blurred crowd motion, waving scarves, floodlight bloom,
   authentic depth-of-field from broadcast zoom.
 
   👤 SUBJECT LEFT — MESSI FAN
@@ -60,10 +61,10 @@ promptBody: |
   Seconds 1–5: GOAL REACTION —
     → Eyes widen instantly
     → Erupts into massive smile
-    → Both arms shoot upward simultaneously  
+    → Both arms shoot upward simultaneously
     → Slight rise from seat, body forward
     → Pure euphoric celebration energy
-  Lighting: Warm stadium floodlight hitting face naturally, 
+  Lighting: Warm stadium floodlight hitting face naturally,
             realistic skin reflection, no artificial glow
 
   👤 SUBJECT RIGHT — RONALDO FAN
@@ -76,7 +77,7 @@ promptBody: |
     → Emotional near-tears expression
     → Mouth open, shouting in disappointment
     → Hands to head or face in despair
-  Lighting: Same continuous stadium light, 
+  Lighting: Same continuous stadium light,
             shadow and highlight consistent with left subject
 
   📺 BROADCAST OVERLAY GRAPHICS
@@ -92,14 +93,14 @@ promptBody: |
   English commentator voice (BBC/ITV broadcast style):
 
   0:00–1:00 → Tense ambient crowd murmur, commentator building tension
-  1:00 → "Messi... Messi... MESSI SCORES! 
-           Unbelievable! What a finish from the greatest 
+  1:00 → "Messi... Messi... MESSI SCORES!
+           Unbelievable! What a finish from the greatest
            to ever play this game!"
   1:00+ → Crowd ERUPTS — roar fills stadium
-           Continued commentary: "Five nil! 
-           It is absolutely over. Heartbreak 
+           Continued commentary: "Five nil!
+           It is absolutely over. Heartbreak
            for the other side!"
-  Background: Authentic stadium reverb, 
+  Background: Authentic stadium reverb,
               crowd chants, vuvuzelas distant
 
   ⚙️ CRITICAL TECHNICAL REQUIREMENTS
@@ -115,4 +116,4 @@ promptBody: |
   ✅ Natural motion blur on fast arm movements
 ---
 
-適合請 AI 扮演「Football Match」，協助處理工程、技術判斷或開發相關任務。
+「Football Match」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

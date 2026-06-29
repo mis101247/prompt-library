@@ -1,11 +1,12 @@
 ---
 title: "Android AI App Security Specialist Task"
-description: "適合請 AI 扮演「Android AI App Security Specialist Task」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Android AI App Security Specialist Task」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","android","app","security","specialist"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Android AI App Security Specialist Task"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -41,4 +42,4 @@ promptBody: |
   This setup ensures the privacy of your API key, prevents misuse, supports a subscription-based revenue model, and adheres to Google Play's highest standards. Ensure your backend proxy is scalable and reliable.
 ---
 
-適合請 AI 扮演「Android AI App Security Specialist Task」，協助處理工程、技術判斷或開發相關任務。
+「Android AI App Security Specialist Task」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

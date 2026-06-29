@@ -1,11 +1,12 @@
 ---
 title: "Analogy Generator"
-description: "適合請 AI 扮演「Analogy Generator」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Analogy Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","analogy"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Analogy Generator"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -34,7 +35,7 @@ promptBody: |
   **Case A: User provides a domain.** - Proceed immediately to Step 3 using that domain.
 
   **Case B: User does NOT provide a domain.**
-  - Propose 3 distinct familiar domains. 
+  - Propose 3 distinct familiar domains.
   - **Constraint:** Avoid overused tropes (Computer, Car, or Library) unless they are the absolute best fit. Aim for physical, relatable experiences (e.g., plumbing, a busy kitchen, airport security, a relay race, or gardening).
   - Ask: "Which of these resonates most, or would you like to suggest your own?"
   - *If the user continues without choosing, pick the strongest mechanical fit and proceed.*
@@ -103,4 +104,4 @@ promptBody: |
   3. **GPT-3.5 / Smaller Models** (May miss "Where it Breaks" nuance)
 ---
 
-適合請 AI 扮演「Analogy Generator」，協助處理工程、技術判斷或開發相關任務。
+「Analogy Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

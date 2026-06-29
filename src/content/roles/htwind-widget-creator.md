@@ -1,11 +1,12 @@
 ---
 title: "HTWind-Widget-Creator"
-description: "適合請 AI 扮演「HTWind-Widget-Creator」，協助處理工程、技術判斷或開發相關任務。"
+description: "「HTWind-Widget-Creator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","htwind","widget","creator"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: HTWind-Widget-Creator"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -226,4 +227,4 @@ promptBody: |
   Ship like this widget will be used daily on real desktops.
 ---
 
-適合請 AI 扮演「HTWind-Widget-Creator」，協助處理工程、技術判斷或開發相關任務。
+「HTWind-Widget-Creator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

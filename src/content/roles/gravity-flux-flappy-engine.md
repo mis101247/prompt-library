@@ -1,11 +1,12 @@
 ---
 title: "Gravity Flux Flappy Engine"
-description: "適合請 AI 扮演「Gravity Flux Flappy Engine」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Gravity Flux Flappy Engine」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","gravity","flux","flappy","engine"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Gravity Flux Flappy Engine"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -31,4 +32,4 @@ promptBody: |
   Design style: Zen-like abstract art style. Uses a monochromatic pastel palette with deep soft shadows (shadowBlur on canvas) to emphasize spatial depth and fluid motion.
 ---
 
-適合請 AI 扮演「Gravity Flux Flappy Engine」，協助處理工程、技術判斷或開發相關任務。
+「Gravity Flux Flappy Engine」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

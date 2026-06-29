@@ -1,11 +1,12 @@
 ---
 title: "Enterprise Microservices Architecture Design"
-description: "適合請 AI 扮演「Enterprise Microservices Architecture Design」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Enterprise Microservices Architecture Design」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。"
 category: "工程與技術"
-tags: ["工程與技術","enterprise","microservices","architecture","design"]
+tags: ["工程與技術","基礎設施設計","自動化部署","監控維運","可靠性判斷"]
+requiredSkills: ["基礎設施設計","自動化部署","監控維運","可靠性判斷"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Enterprise Microservices Architecture Design"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -29,4 +30,4 @@ promptBody: |
   - Implementation guidance for development teams
 ---
 
-適合請 AI 扮演「Enterprise Microservices Architecture Design」，協助處理工程、技術判斷或開發相關任務。
+「Enterprise Microservices Architecture Design」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。

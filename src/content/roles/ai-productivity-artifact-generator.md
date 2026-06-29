@@ -1,11 +1,12 @@
 ---
 title: "AI Productivity Artifact Generator"
-description: "適合請 AI 扮演「AI Productivity Artifact Generator」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","productivity","artifact"]
+description: "「AI Productivity Artifact Generator」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+category: "生活與健康"
+tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
+requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: AI Productivity Artifact Generator"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -164,4 +165,4 @@ promptBody: |
   5. Produce docs with a weekly review protocol and study log template
 ---
 
-適合請 AI 扮演「AI Productivity Artifact Generator」，協助處理工程、技術判斷或開發相關任務。
+「AI Productivity Artifact Generator」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。

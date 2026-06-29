@@ -1,11 +1,12 @@
 ---
 title: "SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)"
-description: "適合請 AI 扮演「SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","scisim","pro","simulator","science"]
+description: "「SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+category: "娛樂與角色扮演"
+tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
+requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -88,7 +89,7 @@ promptBody: |
   |   ${m_1}     ${f_1}       |   ${m_2}     ${f_2}       |
   |   (Food)    (Water)     |   (Empty)   (Empty)     |
   +-------------------------+-------------------------+
-  Legend: 
+  Legend:
   [M]: Male Mouse
   [F]: Female Mouse
   (Food/Water): Resources
@@ -119,4 +120,4 @@ promptBody: |
   **INITIATION:** Await the first simulation data input from the user.
 ---
 
-適合請 AI 扮演「SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)」，協助處理工程、技術判斷或開發相關任務。
+「SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。

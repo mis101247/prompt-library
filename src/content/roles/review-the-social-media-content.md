@@ -1,11 +1,12 @@
 ---
 title: "Review the social media content"
-description: "適合請 AI 扮演「Review the social media content」，協助規劃商務、職涯、產品或營運相關任務。"
-category: "商務與職涯"
-tags: ["商務與職涯","review","social","media","content"]
+description: "「Review the social media content」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Review the social media content"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -17,11 +18,11 @@ promptBody: |
   Frame 2:
   Reality:
   Most homeowners don’t pay upfront.
-  They finance it, just like a home upgrade. 
+  They finance it, just like a home upgrade.
 
   Frame 3 (Proof):
-  $80K pool project 
-  ≈ $629/month with financing 
+  $80K pool project
+  ≈ $629/month with financing
 
   Frame 4:
   Specialized pool financing through Lyon Financial
@@ -31,4 +32,4 @@ promptBody: |
   Enjoy sooner than you think.
 ---
 
-適合請 AI 扮演「Review the social media content」，協助規劃商務、職涯、產品或營運相關任務。
+「Review the social media content」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

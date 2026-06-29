@@ -1,11 +1,12 @@
 ---
 title: "Accessibility Auditor Agent Role"
-description: "適合請 AI 扮演「Accessibility Auditor Agent Role」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","accessibility","auditor","agent","role"]
+description: "「Accessibility Auditor Agent Role」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Accessibility Auditor Agent Role"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -266,4 +267,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_a11y-auditor.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-適合請 AI 扮演「Accessibility Auditor Agent Role」，協助處理工程、技術判斷或開發相關任務。
+「Accessibility Auditor Agent Role」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

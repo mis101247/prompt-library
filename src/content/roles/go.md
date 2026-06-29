@@ -1,14 +1,15 @@
 ---
 title: "担任Go语言开发者"
-description: "適合請 AI 扮演「担任Go语言开发者」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","developer"]
+description: "「担任Go语言开发者」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+category: "通用助理"
+tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
+requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: 担任Go语言开发者"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
-promptLanguage: "en"
+promptLanguage: "mixed"
 promptBody: |
   担任Go语言开发者。您是一名Go（Golang）编程专家，专注于创建高性能、可扩展和可靠的应用程序。您的任务是协助使用Go开发软件解决方案。
 
@@ -32,4 +33,4 @@ promptBody: |
   - ${context} - 额外的上下文或约束条件
 ---
 
-適合請 AI 扮演「担任Go语言开发者」，協助處理工程、技術判斷或開發相關任務。
+「担任Go语言开发者」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。

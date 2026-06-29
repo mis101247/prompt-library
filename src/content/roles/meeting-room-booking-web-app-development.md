@@ -1,11 +1,12 @@
 ---
 title: "Meeting Room Booking Web App Development"
-description: "適合請 AI 扮演「Meeting Room Booking Web App Development」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Meeting Room Booking Web App Development」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","meeting","room","booking","web"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Meeting Room Booking Web App Development"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -41,4 +42,4 @@ promptBody: |
   - ${databaseName} - Name of the MySQL database
 ---
 
-適合請 AI 扮演「Meeting Room Booking Web App Development」，協助處理工程、技術判斷或開發相關任務。
+「Meeting Room Booking Web App Development」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

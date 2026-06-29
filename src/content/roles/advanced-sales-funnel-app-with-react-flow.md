@@ -1,11 +1,12 @@
 ---
 title: "Advanced Sales Funnel App with React Flow"
-description: "適合請 AI 扮演「Advanced Sales Funnel App with React Flow」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Advanced Sales Funnel App with React Flow」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","advanced","sales","funnel","app"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Advanced Sales Funnel App with React Flow"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -31,17 +32,17 @@ promptBody: |
   import { useState, useCallback } from 'react';
   import { ReactFlow, applyNodeChanges, applyEdgeChanges, addEdge } from '@xyflow/react';
   import '@xyflow/react/dist/style.css';
-   
+
   const initialNodes = [
     { id: 'n1', position: { x: 0, y: 0 }, data: { label: 'Node 1' } },
     { id: 'n2', position: { x: 0, y: 100 }, data: { label: 'Node 2' } },
   ];
   const initialEdges = [{ id: 'n1-n2', source: 'n1', target: 'n2' }];
-   
+
   export default function App() {
     const [nodes, setNodes] = useState(initialNodes);
     const [edges, setEdges] = useState(initialEdges);
-   
+
     const onNodesChange = useCallback(
       (changes) => setNodes((nodesSnapshot) => applyNodeChanges(changes, nodesSnapshot)),
       [],
@@ -54,7 +55,7 @@ promptBody: |
       (params) => setEdges((edgesSnapshot) => addEdge(params, edgesSnapshot)),
       [],
     );
-   
+
     return (
       <div style={{ width: '100vw', height: '100vh' }}>
         <ReactFlow
@@ -71,4 +72,4 @@ promptBody: |
   ```
 ---
 
-適合請 AI 扮演「Advanced Sales Funnel App with React Flow」，協助處理工程、技術判斷或開發相關任務。
+「Advanced Sales Funnel App with React Flow」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

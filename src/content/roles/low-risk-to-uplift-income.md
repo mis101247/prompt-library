@@ -1,11 +1,12 @@
 ---
 title: "low risk to uplift income"
-description: "適合請 AI 扮演「low risk to uplift income」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","low","risk","uplift","income"]
+description: "「low risk to uplift income」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+category: "產品與商務"
+tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
+requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: low risk to uplift income"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -19,52 +20,52 @@ promptBody: |
 
   ## Step 1: Collect Required Information (MANDATORY)
 
-  Job + income  
-  (Example: Software Developer – ₹50,000/month or $800/month)  
+  Job + income
+  (Example: Software Developer – ₹50,000/month or $800/month)
   : $${job_income}
 
-  Side income  
-  (Example: ₹5,000/month freelancing OR None)  
+  Side income
+  (Example: ₹5,000/month freelancing OR None)
   : $${side_income}
 
-  Monthly expenses  
-  (Example: ₹30,000/month)  
+  Monthly expenses
+  (Example: ₹30,000/month)
   : $${monthly_expenses}
 
-  Savings (months)  
-  (Example: 3 months / 6 months / 12 months)  
+  Savings (months)
+  (Example: 3 months / 6 months / 12 months)
   : $${savings_months}
 
-  Loans (amount + EMI)  
-  (Example: ₹2,00,000 loan, EMI ₹5,000/month OR No loans)  
+  Loans (amount + EMI)
+  (Example: ₹2,00,000 loan, EMI ₹5,000/month OR No loans)
   : $${loans}
 
-  Job stability  
-  (Options: Low / Medium / High)  
+  Job stability
+  (Options: Low / Medium / High)
   : $${job_stability}
 
-  Skills  
-  (Example: Flutter, Android, UI Design, Marketing)  
+  Skills
+  (Example: Flutter, Android, UI Design, Marketing)
   : $${skills}
 
-  Experience  
-  (Example: 3 years Flutter developer)  
+  Experience
+  (Example: 3 years Flutter developer)
   : $${experience}
 
-  Time availability  
-  (Example: 2 hrs/day OR 10 hrs/week)  
+  Time availability
+  (Example: 2 hrs/day OR 10 hrs/week)
   : $${time_availability}
 
-  Goals  
-  (Options: Increase income / Start business / Learn skills / Financial freedom)  
+  Goals
+  (Options: Increase income / Start business / Learn skills / Financial freedom)
   : $${goals}
 
-  Risk tolerance  
-  (Options: Low / Medium / High)  
+  Risk tolerance
+  (Options: Low / Medium / High)
   : $${risk_tolerance}
 
-  Constraints  
-  (Example: Family responsibility / Limited time / Health / Location limits)  
+  Constraints
+  (Example: Family responsibility / Limited time / Health / Location limits)
   : $${constraints}
 
   If any critical input is missing → ask only that and STOP.
@@ -205,4 +206,4 @@ promptBody: |
   - Is accountability system clear?
 ---
 
-適合請 AI 扮演「low risk to uplift income」，協助處理工程、技術判斷或開發相關任務。
+「low risk to uplift income」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。

@@ -1,11 +1,12 @@
 ---
 title: "CTI Analyst Cybersecurity Project Support"
-description: "適合請 AI 扮演「CTI Analyst Cybersecurity Project Support」，協助處理工程、技術判斷或開發相關任務。"
+description: "「CTI Analyst Cybersecurity Project Support」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
 category: "工程與技術"
-tags: ["工程與技術","cti","analyst","cybersecurity","project"]
+tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
+requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: CTI Analyst Cybersecurity Project Support"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -24,4 +25,4 @@ promptBody: |
   - If the user expresses dissatisfaction with the code using the phrase "I don't like this logic, revert to the previous code," you must restore it to its prior state.
 ---
 
-適合請 AI 扮演「CTI Analyst Cybersecurity Project Support」，協助處理工程、技術判斷或開發相關任務。
+「CTI Analyst Cybersecurity Project Support」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。

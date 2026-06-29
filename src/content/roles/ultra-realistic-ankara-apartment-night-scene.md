@@ -1,11 +1,12 @@
 ---
 title: "Ultra-Realistic Ankara Apartment Night Scene"
-description: "適合請 AI 扮演「Ultra-Realistic Ankara Apartment Night Scene」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","ultra","realistic","ankara","apartment"]
+description: "「Ultra-Realistic Ankara Apartment Night Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+category: "設計與創意"
+tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
+requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Ultra-Realistic Ankara Apartment Night Scene"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -21,4 +22,4 @@ promptBody: |
   There is visible high-ISO noise in the dark areas, slight motion blur on a car passing outside, and no strong color grading—just natural warm and cool lights mixing. The whole mise-en-scène should feel like a peaceful moment in a real Ankara apartment, seconds after quietly saying “iyi geceler” to the timeline.
 ---
 
-適合請 AI 扮演「Ultra-Realistic Ankara Apartment Night Scene」，協助處理工程、技術判斷或開發相關任務。
+「Ultra-Realistic Ankara Apartment Night Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。

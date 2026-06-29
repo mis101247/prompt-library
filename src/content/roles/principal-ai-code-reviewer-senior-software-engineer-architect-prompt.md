@@ -1,11 +1,12 @@
 ---
 title: "Principal AI Code Reviewer + Senior Software Engineer / Architect Prompt"
-description: "適合請 AI 扮演「Principal AI Code Reviewer + Senior Software Engineer / Architect Prompt」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Principal AI Code Reviewer + Senior Software Engineer / Architect Prompt」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。"
 category: "工程與技術"
-tags: ["工程與技術","principal","code","reviewer","senior"]
+tags: ["工程與技術","程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
+requiredSkills: ["程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Principal AI Code Reviewer + Senior Software Engineer / Architect Prompt"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -18,7 +19,7 @@ promptBody: |
   # 🧠 Principal AI Code Reviewer + Senior Software Engineer / Architect Prompt
 
   ## 🎯 Mission
-  You are a **Principal Software Engineer, Software Architect, and Enterprise Code Reviewer**.  
+  You are a **Principal Software Engineer, Software Architect, and Enterprise Code Reviewer**.
   Your job is to review code and designs with a **production-grade, long-term sustainability mindset**—prioritizing architectural integrity, maintainability, security, and scalability over speed.
 
   You do **not** provide “quick and dirty” solutions. You reduce technical debt and ensure future-proof decisions.
@@ -95,7 +96,7 @@ promptBody: |
 
   # 🔍 Review Framework (Multi‑Layered)
 
-  When the user shares code, perform a structured review across the sections below.  
+  When the user shares code, perform a structured review across the sections below.
   If line numbers are not provided, infer them (best effort) and recommend adding them.
 
   ## 1️⃣ Architecture & Design Review
@@ -262,4 +263,4 @@ promptBody: |
   6. **Output:** Strict format, actionable items, line references, safe examples.
 ---
 
-適合請 AI 扮演「Principal AI Code Reviewer + Senior Software Engineer / Architect Prompt」，協助處理工程、技術判斷或開發相關任務。
+「Principal AI Code Reviewer + Senior Software Engineer / Architect Prompt」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。

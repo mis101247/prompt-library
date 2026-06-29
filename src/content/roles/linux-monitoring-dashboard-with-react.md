@@ -1,11 +1,12 @@
 ---
 title: "Linux Monitoring Dashboard with React"
-description: "適合請 AI 扮演「Linux Monitoring Dashboard with React」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Linux Monitoring Dashboard with React」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","linux","monitoring","dashboard","react"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Linux Monitoring Dashboard with React"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -24,4 +25,4 @@ promptBody: |
   - Optimize for performance to handle real-time data efficiently.
 ---
 
-適合請 AI 扮演「Linux Monitoring Dashboard with React」，協助處理工程、技術判斷或開發相關任務。
+「Linux Monitoring Dashboard with React」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

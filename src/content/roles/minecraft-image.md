@@ -1,11 +1,12 @@
 ---
 title: "Minecraft image"
-description: "適合請 AI 扮演「Minecraft image」，用來進行情境互動、娛樂創作或角色扮演。"
-category: "娛樂與角色扮演"
-tags: ["娛樂與角色扮演","minecraft","image"]
+description: "「Minecraft image」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Minecraft image"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -13,4 +14,4 @@ promptBody: |
   I want to make a ultra realistic minecraf character out of an image, the character should have all the characteristics of the person in the eg. Skin color and outfit leave out the background intact the finished result shouldn't come with a background
 ---
 
-適合請 AI 扮演「Minecraft image」，用來進行情境互動、娛樂創作或角色扮演。
+「Minecraft image」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

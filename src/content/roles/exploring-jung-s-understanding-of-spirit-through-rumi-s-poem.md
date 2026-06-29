@@ -1,16 +1,17 @@
 ---
 title: "Exploring Jung's Understanding of Spirit through Rumi's Poem"
-description: "適合請 AI 扮演「Exploring Jung's Understanding of Spirit through Rumi's Poem」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","exploring","jung","understanding","spirit"]
+description: "「Exploring Jung's Understanding of Spirit through Rumi's Poem」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+category: "產品與商務"
+tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
+requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Exploring Jung's Understanding of Spirit through Rumi's Poem"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  Act as a college-level essay writer. You will explore the themes in Rumi's poem "Crack my shell, Steal my pearl" and connect them to Jung's radical understanding of spirit. 
+  Act as a college-level essay writer. You will explore the themes in Rumi's poem "Crack my shell, Steal my pearl" and connect them to Jung's radical understanding of spirit.
 
   Your task is to:
   - Analyze how Jung's concept of spirit as a dynamic, craving presence is foreshadowed by Rumi's poem.
@@ -29,4 +30,4 @@ promptBody: |
   - ${example} - Example from class work or readings
 ---
 
-適合請 AI 扮演「Exploring Jung's Understanding of Spirit through Rumi's Poem」，協助處理工程、技術判斷或開發相關任務。
+「Exploring Jung's Understanding of Spirit through Rumi's Poem」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。

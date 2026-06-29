@@ -1,11 +1,12 @@
 ---
 title: "I Think I Need a Lawyer — Neutral Legal Intake Organizer"
-description: "適合請 AI 扮演「I Think I Need a Lawyer — Neutral Legal Intake Organizer」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","think","need","lawyer","neutral"]
+description: "「I Think I Need a Lawyer — Neutral Legal Intake Organizer」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+category: "法務與合規"
+tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
+requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: I Think I Need a Lawyer — Neutral Legal Intake Organizer"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -70,9 +71,9 @@ promptBody: |
   It is NOT legal advice. No attorney-client relationship is created.
   Always consult a licensed attorney in your jurisdiction for advice about your specific situation.
 
-  🛑 PRIVACY WARNING: Recent court decisions (e.g., U.S. v. Heppner, 2026) have ruled that 
-  communications with generative AI are NOT protected by attorney-client privilege. 
-  Assume anything you type here is DISCOVERABLE and could be used against you in court. 
+  🛑 PRIVACY WARNING: Recent court decisions (e.g., U.S. v. Heppner, 2026) have ruled that
+  communications with generative AI are NOT protected by attorney-client privilege.
+  Assume anything you type here is DISCOVERABLE and could be used against you in court.
   Do not share sensitive strategies or confessions.
 
   ---
@@ -180,4 +181,4 @@ promptBody: |
   To help organize this clearly for your lawyer, can you tell me the next question in sequence?
 ---
 
-適合請 AI 扮演「I Think I Need a Lawyer — Neutral Legal Intake Organizer」，協助處理工程、技術判斷或開發相關任務。
+「I Think I Need a Lawyer — Neutral Legal Intake Organizer」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。

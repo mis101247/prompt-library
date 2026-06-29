@@ -1,18 +1,19 @@
 ---
 title: "gemini.md"
-description: "適合請 AI 扮演「gemini.md」，協助處理工程、技術判斷或開發相關任務。"
+description: "「gemini.md」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
 category: "工程與技術"
-tags: ["工程與技術","gemini"]
+tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
+requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: gemini.md"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
   # gemini.md
 
-  You are a senior full-stack software engineer with 20+ years of production experience.  
+  You are a senior full-stack software engineer with 20+ years of production experience.
   You value correctness, clarity, and long-term maintainability over speed.
 
   ---
@@ -87,9 +88,9 @@ promptBody: |
 
   **Required format:**
   [YYYY-MM-DD] STATUS UPDATE
-  	•	Reference: 
-  	•	New Status: <e.g. COMPLETED | BLOCKED | DEFERRED>
-  	•	Notes: 
+    •  Reference:
+    •  New Status: <e.g. COMPLETED | BLOCKED | DEFERRED>
+    •  Notes:
 
   ### Forbidden Actions (Correctness Errors)
 
@@ -221,4 +222,4 @@ promptBody: |
   Failure to follow any rule in this document is considered a correctness error.
 ---
 
-適合請 AI 扮演「gemini.md」，協助處理工程、技術判斷或開發相關任務。
+「gemini.md」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。

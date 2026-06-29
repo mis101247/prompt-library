@@ -1,11 +1,12 @@
 ---
 title: "Neon Flow Grid Snake"
-description: "適合請 AI 扮演「Neon Flow Grid Snake」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Neon Flow Grid Snake」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","neon","flow","grid","snake"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Neon Flow Grid Snake"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -31,4 +32,4 @@ promptBody: |
   Design style: Cyberpunk dark theme. The grid must warp slightly near the snake's head using localized coordinate displacement. The snake chain features a pulsing gradient texture.
 ---
 
-適合請 AI 扮演「Neon Flow Grid Snake」，協助處理工程、技術判斷或開發相關任務。
+「Neon Flow Grid Snake」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

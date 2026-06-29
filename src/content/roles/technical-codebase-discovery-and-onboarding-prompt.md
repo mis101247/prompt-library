@@ -1,21 +1,22 @@
 ---
 title: "Technical Codebase Discovery & Onboarding Prompt"
-description: "適合請 AI 扮演「Technical Codebase Discovery & Onboarding Prompt」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Technical Codebase Discovery & Onboarding Prompt」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","technical","codebase","discovery","onboarding"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Technical Codebase Discovery & Onboarding Prompt"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  **Context:**  
+  **Context:**
   I am a developer who has just joined the project and I am using you, an AI coding assistant, to gain a deep understanding of the existing codebase. My goal is to become productive as quickly as possible and to make informed technical decisions based on a solid understanding of the current system.
 
-  **Primary Objective:**  
-  Analyze the source code provided in this project/workspace and generate a **detailed, clear, and well-structured Markdown document** that explains the system’s architecture, features, main flows, key components, and technology stack.  
-  This document should serve as a **technical onboarding guide**.  
+  **Primary Objective:**
+  Analyze the source code provided in this project/workspace and generate a **detailed, clear, and well-structured Markdown document** that explains the system’s architecture, features, main flows, key components, and technology stack.
+  This document should serve as a **technical onboarding guide**.
   Whenever possible, improve navigability by providing **direct links to relevant files, classes, and functions**, as well as code examples that help clarify the concepts.
 
   ---
@@ -57,17 +58,17 @@ promptBody: |
   ---
 
   ### 4. **Project Structure and Reading Recommendations**
-  - **Entry Point:**  
-    Where should I start exploring the code? Identify the main entry points (e.g., `main.go`, `index.js`, `Program.cs`, `app.py`, `Application.java`).  
+  - **Entry Point:**
+    Where should I start exploring the code? Identify the main entry points (e.g., `main.go`, `index.js`, `Program.cs`, `app.py`, `Application.java`).
     **Provide direct links to these files.**
-  - **General Organization:**  
-    Explain the overall folder and file structure. Highlight important conventions.  
+  - **General Organization:**
+    Explain the overall folder and file structure. Highlight important conventions.
     **Use real folder and file name examples.**
-  - **Configuration:**  
-    Are there main configuration files? (e.g., `config.yaml`, `.env`, `appsettings.json`)  
-    Which configurations are critical?  
+  - **Configuration:**
+    Are there main configuration files? (e.g., `config.yaml`, `.env`, `appsettings.json`)
+    Which configurations are critical?
     **Provide links.**
-  - **Reading Recommendation:**  
+  - **Reading Recommendation:**
     Suggest an order or a set of key files/modules that should be read first to quickly grasp the project’s core concepts.
 
   ---
@@ -99,13 +100,13 @@ promptBody: |
   ---
 
   ### 7. **Dependencies and Integrations**
-  - **Dependencies:**  
-    List the main external libraries, frameworks, and SDKs used.  
-    Briefly explain the role of each one.  
+  - **Dependencies:**
+    List the main external libraries, frameworks, and SDKs used.
+    Briefly explain the role of each one.
     **Provide links to where they are configured or most commonly used.**
-  - **Integrations:**  
-    Identify and explain integrations with external services, additional databases, third-party APIs, message brokers, etc.  
-    How does communication occur?  
+  - **Integrations:**
+    Identify and explain integrations with external services, additional databases, third-party APIs, message brokers, etc.
+    How does communication occur?
     **Point to the modules/classes responsible and include links.**
 
   #### 7.1 **API Documentation (if applicable)**
@@ -192,7 +193,7 @@ promptBody: |
   ---
 
   ### **IMPORTANT**
-  The analysis must consider **ALL files in the project**.  
+  The analysis must consider **ALL files in the project**.
   Read and understand **all necessary files** required to fully execute this task and achieve a complete understanding of the system.
 
   ---
@@ -200,8 +201,8 @@ promptBody: |
   ### **Action**
   Please analyze the source code currently available in my environment/workspace and generate the Markdown document as requested.
 
-  The output file name must follow this format:  
+  The output file name must follow this format:
   `<yyyy-mm-dd-project-name-app-dev-discovery_cursor.md>`
 ---
 
-適合請 AI 扮演「Technical Codebase Discovery & Onboarding Prompt」，協助處理工程、技術判斷或開發相關任務。
+「Technical Codebase Discovery & Onboarding Prompt」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

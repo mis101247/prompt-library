@@ -1,22 +1,23 @@
 ---
 title: "Create Icons"
-description: "適合請 AI 扮演「Create Icons」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","create","icons"]
+description: "「Create Icons」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Create Icons"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  A premium iOS app icon for a running and fitness app, featuring 
-  a stylized abstract runner figure in motion, composed of flowing 
-  gradient ribbons in energetic coral transitioning to vibrant 
-  magenta. The figure suggests speed and forward momentum with 
-  trailing motion elements. Background is a deep navy blue with 
-  subtle radial gradient lighter behind the figure. Dynamic, 
-  energetic, aspirational. Soft lighting with subtle glow around 
+  A premium iOS app icon for a running and fitness app, featuring
+  a stylized abstract runner figure in motion, composed of flowing
+  gradient ribbons in energetic coral transitioning to vibrant
+  magenta. The figure suggests speed and forward momentum with
+  trailing motion elements. Background is a deep navy blue with
+  subtle radial gradient lighter behind the figure. Dynamic,
+  energetic, aspirational. Soft lighting with subtle glow around
   figure. Rounded square format, 1024x1024px.
 
   follow the specs below and the example icon designs attached:
@@ -273,4 +274,4 @@ promptBody: |
   - Examples: Sphere, airplane, book
 ---
 
-適合請 AI 扮演「Create Icons」，協助處理工程、技術判斷或開發相關任務。
+「Create Icons」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

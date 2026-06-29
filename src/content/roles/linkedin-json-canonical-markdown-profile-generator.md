@@ -1,20 +1,21 @@
 ---
 title: "LinkedIn JSON → Canonical Markdown Profile Generator"
-description: "適合請 AI 扮演「LinkedIn JSON → Canonical Markdown Profile Generator」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","linkedin","json","canonical","markdown"]
+description: "「LinkedIn JSON → Canonical Markdown Profile Generator」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: LinkedIn JSON → Canonical Markdown Profile Generator"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
   # LinkedIn JSON → Canonical Markdown Profile Generator
 
-  VERSION: 1.2  
-  AUTHOR: Scott M  
-  LAST UPDATED: 2026-02-19  
+  VERSION: 1.2
+  AUTHOR: Scott M
+  LAST UPDATED: 2026-02-19
   PURPOSE: Convert raw LinkedIn JSON export files into a deterministic, structurally rigid Markdown profile for reuse in downstream AI prompts.
 
   ---
@@ -138,13 +139,13 @@ promptBody: |
 
   # PROFILE_START
 
-  # [Full Name]  
+  # [Full Name]
   (Use preferredLocale → en_US full name from Profile.json. Fallback: firstName + lastName, or any name field. If no name anywhere → "Name not found in export")
 
   ## CONTACT_INFORMATION_START
-  - Location: 
-  - LinkedIn URL: 
-  - Websites: 
+  - Location:
+  - LinkedIn URL:
+  - Websites:
   - Email: (only if explicitly present)
   - Phone: (only if explicitly present)
   ## CONTACT_INFORMATION_END
@@ -164,13 +165,13 @@ promptBody: |
   For each role in Positions.json (most recent first):
 
   ### ROLE_START
-  Title: 
-  Company: 
-  Location: 
+  Title:
+  Company:
+  Location:
   Employment Type: (if present, else Not Provided)
-  Start Date: 
-  End Date: 
-  Currently Employed: Yes/No  
+  Start Date:
+  End Date:
+  Currently Employed: Yes/No
   (Yes only if no endDate exists OR endDate is null/empty AND this is the last/most recent position)
 
   Description:
@@ -189,13 +190,13 @@ promptBody: |
   For each entry (most recent first):
 
   ### EDUCATION_ENTRY_START
-  Institution: 
-  Degree: 
-  Field of Study: 
-  Start Date: 
-  End Date: 
-  Grade: 
-  Activities: 
+  Institution:
+  Degree:
+  Field of Study:
+  Start Date:
+  End Date:
+  Grade:
+  Activities:
   ### EDUCATION_ENTRY_END
 
   If none: Section not provided in export.
@@ -222,10 +223,10 @@ promptBody: |
 
   ## PROJECTS_SECTION_START
   ### PROJECT_ENTRY_START
-  Project Name: 
-  Associated Role: 
-  Description: 
-  Link: 
+  Project Name:
+  Associated Role:
+  Description:
+  Link:
   ### PROJECT_ENTRY_END
   If none: Section not provided in export.
   ## PROJECTS_SECTION_END
@@ -254,24 +255,24 @@ promptBody: |
   ---
 
   ## STRUCTURE_INDEX_START
-  Experience Entries: X  
-  Education Entries: X  
-  Certification Entries: X  
-  Skill Count: X  
-  Project Entries: X  
-  Publication Entries: X  
-  Honors Entries: X  
-  Course Entries: X  
+  Experience Entries: X
+  Education Entries: X
+  Certification Entries: X
+  Skill Count: X
+  Project Entries: X
+  Publication Entries: X
+  Honors Entries: X
+  Course Entries: X
   ## STRUCTURE_INDEX_END
 
   ---
 
   ## PROFILE_METADATA_START
-  Total Roles: X  
-  Total Years Experience: Not Reliably Calculable (removed automatic calculation due to frequent gaps/overlaps)  
-  Has Management Title: Yes/No (strict keyword match only: contains "Manager", "Director", "Lead ", "Head of", "VP ", "Chief ")  
-  Has Certifications: Yes/No  
-  Has Skills Section: Yes/No  
+  Total Roles: X
+  Total Years Experience: Not Reliably Calculable (removed automatic calculation due to frequent gaps/overlaps)
+  Has Management Title: Yes/No (strict keyword match only: contains "Manager", "Director", "Lead ", "Head of", "VP ", "Chief ")
+  Has Certifications: Yes/No
+  Has Skills Section: Yes/No
   Data Gaps Detected:
   - List major missing sections
   ## PROFILE_METADATA_END
@@ -279,15 +280,15 @@ promptBody: |
   ---
 
   ## RAW_JSON_REFERENCE_START
-  Profile.json: Present/Missing  
-  Positions.json: Present/Missing  
-  Education.json: Present/Missing  
-  Skills.json: Present/Missing  
-  Certifications.json: Present/Missing  
-  Projects.json: Present/Missing  
-  Courses.json: Present/Missing  
-  Publications.json: Present/Missing  
-  Honors.json: Present/Missing  
+  Profile.json: Present/Missing
+  Positions.json: Present/Missing
+  Education.json: Present/Missing
+  Skills.json: Present/Missing
+  Certifications.json: Present/Missing
+  Projects.json: Present/Missing
+  Courses.json: Present/Missing
+  Publications.json: Present/Missing
+  Honors.json: Present/Missing
   ## RAW_JSON_REFERENCE_END
 
   # PROFILE_END
@@ -313,10 +314,10 @@ promptBody: |
 
   Return only the completed Markdown document.
 
-  Do not explain the transformation.  
-  Do not include commentary.  
-  Do not summarize.  
+  Do not explain the transformation.
+  Do not include commentary.
+  Do not summarize.
   Do not justify decisions.
 ---
 
-適合請 AI 扮演「LinkedIn JSON → Canonical Markdown Profile Generator」，協助處理工程、技術判斷或開發相關任務。
+「LinkedIn JSON → Canonical Markdown Profile Generator」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

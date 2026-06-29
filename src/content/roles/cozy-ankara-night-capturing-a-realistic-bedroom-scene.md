@@ -1,11 +1,12 @@
 ---
 title: "Cozy Ankara Night: Capturing a Realistic Bedroom Scene"
-description: "適合請 AI 扮演「Cozy Ankara Night: Capturing a Realistic Bedroom Scene」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","cozy","ankara","night","capturing"]
+description: "「Cozy Ankara Night: Capturing a Realistic Bedroom Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+category: "設計與創意"
+tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
+requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Cozy Ankara Night: Capturing a Realistic Bedroom Scene"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -19,4 +20,4 @@ promptBody: |
   Vertical composition with the woman slightly off-center, part of the bed and nightstand cropped at the edges, emphasizing the candid, imperfect framing. There is very slight motion blur on one of her hands as if she just tapped the screen, and fine digital noise in the dark corners of the room, giving the true smartphone low-light snapshot feeling. Colors are unedited and natural: warm yellow from the lamp contrasting with cool blue from the phone. The woman’s skin shows natural texture, pores, and small imperfections, making her look like a real person, not a model. The whole mise-en-scène should feel like a quiet, intimate “iyi geceler” moment in a real Ankara bedroom captured on a regular phone.
 ---
 
-適合請 AI 扮演「Cozy Ankara Night: Capturing a Realistic Bedroom Scene」，協助處理工程、技術判斷或開發相關任務。
+「Cozy Ankara Night: Capturing a Realistic Bedroom Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。

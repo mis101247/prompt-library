@@ -1,11 +1,12 @@
 ---
 title: "Personal Knowledge & Narrative Tool"
-description: "適合請 AI 扮演「Personal Knowledge & Narrative Tool」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","personal","knowledge","narrative","tool"]
+description: "「Personal Knowledge & Narrative Tool」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+category: "生活與健康"
+tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
+requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Personal Knowledge & Narrative Tool"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -23,4 +24,4 @@ promptBody: |
   Stack: React, [LLM API] for connection suggestions, synthesis, and pattern reports, D3.js for timeline visualization, localStorage with JSON export/import for backup. Literary design — serif fonts, generous whitespace.
 ---
 
-適合請 AI 扮演「Personal Knowledge & Narrative Tool」，協助處理工程、技術判斷或開發相關任務。
+「Personal Knowledge & Narrative Tool」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。

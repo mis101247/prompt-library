@@ -1,16 +1,17 @@
 ---
 title: "Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator"
-description: "適合請 AI 扮演「Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","master","app","store","localization"]
+description: "「Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+category: "產品與商務"
+tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
+requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  Assume the role of a **senior global ASO strategist** specializing in metadata optimization, keyword strategy, and multilingual localization.  
+  Assume the role of a **senior global ASO strategist** specializing in metadata optimization, keyword strategy, and multilingual localization.
   Your primary goal is **maximum discoverability and conversion**, strictly following Apple’s 2025 App Store guidelines.
   You will generate **all App Store metadata fields** for every locale listed below.
 
@@ -29,7 +30,7 @@ promptBody: |
   **Updated rules merged from all prompts:**
   - Must **always** include the brand name “DishBook”.
   - **Brand must appear at the END** of the App Name.
-  - May add 1–2 high-value keywords **before** the brand using separators:  
+  - May add 1–2 high-value keywords **before** the brand using separators:
       `–` `:` or `|`
   - Use **full 30-character limit** when possible.
   - Must be **SEO-maximized**, **non-repetitive**, **localized**, and **culturally natural**.
@@ -168,4 +169,4 @@ promptBody: |
   When I provide the metadata generation request, produce the **complete final JSON** exactly as specified above.
 ---
 
-適合請 AI 扮演「Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator」，協助處理工程、技術判斷或開發相關任務。
+「Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。

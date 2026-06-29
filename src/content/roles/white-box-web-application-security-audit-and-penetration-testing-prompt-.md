@@ -1,11 +1,12 @@
 ---
 title: "White-Box Web Application Security Audit & Penetration Testing Prompt for AI Code Editors (Cursor, Windsurf, Antigravity)"
-description: "適合請 AI 扮演「White-Box Web Application Security Audit & Penetration Testing Prompt for AI Code Editors (Cursor, Windsurf, Antigravity)」，協助處理工程、技術判斷或開發相關任務。"
+description: "「White-Box Web Application Security Audit & Penetration Testing Prompt for AI Code Editors (Cursor, Windsurf, Antigravity)」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
 category: "工程與技術"
-tags: ["工程與技術","white","box","web","application"]
+tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
+requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: White-Box Web Application Security Audit & Penetration Testing Prompt for AI Code Editors (Cursor, Windsurf, Antigravity)"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -94,4 +95,4 @@ promptBody: |
   Now begin the code review and generate the report.
 ---
 
-適合請 AI 扮演「White-Box Web Application Security Audit & Penetration Testing Prompt for AI Code Editors (Cursor, Windsurf, Antigravity)」，協助處理工程、技術判斷或開發相關任務。
+「White-Box Web Application Security Audit & Penetration Testing Prompt for AI Code Editors (Cursor, Windsurf, Antigravity)」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。

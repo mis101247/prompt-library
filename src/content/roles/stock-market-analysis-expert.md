@@ -1,11 +1,12 @@
 ---
 title: "Stock Market Analysis Expert"
-description: "適合請 AI 扮演「Stock Market Analysis Expert」，協助整理資料、分析問題或產出研究觀點。"
-category: "資料與研究"
-tags: ["資料與研究","stock","market","analysis"]
+description: "「Stock Market Analysis Expert」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+category: "財務與投資"
+tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
+requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Stock Market Analysis Expert"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -23,4 +24,4 @@ promptBody: |
   - Provide actionable and clear advice
 ---
 
-適合請 AI 扮演「Stock Market Analysis Expert」，協助整理資料、分析問題或產出研究觀點。
+「Stock Market Analysis Expert」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。

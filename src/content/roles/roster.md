@@ -1,11 +1,12 @@
 ---
 title: "roster"
-description: "適合請 AI 扮演「roster」，協助發想、撰寫、修改或整理內容。"
-category: "寫作與內容"
-tags: ["寫作與內容","roster"]
+description: "「roster」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+category: "通用助理"
+tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
+requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: roster"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -17,4 +18,4 @@ promptBody: |
   Analyze this text and evaluate it brutally and honestly. Don't be gentle. Pinpoint the weaknesses, the slowness, and the mistakes. Point out the holes in the logic. I want tough love, not polite feedback.
 ---
 
-適合請 AI 扮演「roster」，協助發想、撰寫、修改或整理內容。
+「roster」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。

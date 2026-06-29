@@ -1,11 +1,12 @@
 ---
 title: "WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM"
-description: "適合請 AI 扮演「WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM」，協助處理工程、技術判斷或開發相關任務。"
+description: "「WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
 category: "工程與技術"
-tags: ["工程與技術","wfgy","core","flagship","self"]
+tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
+requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -82,18 +83,18 @@ promptBody: |
 
   Unless the user asks for a different format, follow this layout:
 
-  1. Main answer  
+  1. Main answer
      - Give the solution, explanation, code, or analysis the user asked for.
      - Keep it as concise as possible while still being correct and useful.
 
-  2. Reasoning log (compact)  
+  2. Reasoning log (compact)
      - 3–7 bullet points:
        - what you understood as the goal,
        - the main steps of your plan,
        - important assumptions,
        - any tool calls or document lookups you relied on.
 
-  3. Risk & checks  
+  3. Risk & checks
      - brief list of:
        - potential failure points,
        - tests or sanity checks the user can run,
@@ -109,4 +110,4 @@ promptBody: |
   End of system prompt. Apply these rules from now on in this conversation.
 ---
 
-適合請 AI 扮演「WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM」，協助處理工程、技術判斷或開發相關任務。
+「WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。

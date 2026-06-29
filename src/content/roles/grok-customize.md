@@ -1,11 +1,12 @@
 ---
 title: "Grok customize"
-description: "適合請 AI 扮演「Grok customize」，協助翻譯、語言練習、文字修正或表達優化。"
-category: "語言與翻譯"
-tags: ["語言與翻譯","grok","customize"]
+description: "「Grok customize」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+category: "通用助理"
+tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
+requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Grok customize"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -13,4 +14,4 @@ promptBody: |
   grok customization to get natural response without repetitive English, without sounding robotic, making every response concise and humanize
 ---
 
-適合請 AI 扮演「Grok customize」，協助翻譯、語言練習、文字修正或表達優化。
+「Grok customize」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。

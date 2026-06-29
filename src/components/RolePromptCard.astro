@@ -7,21 +7,24 @@ interface Props {
   description: string;
   category: string;
   tags: string[];
+  requiredSkills: string[];
   promptBody: string;
+  initiallyVisible?: boolean;
 }
 
-const { id, title, description, category, tags, promptBody } = Astro.props;
-const visibleTags = [...new Set([category, ...tags.filter((tag) => tag !== category)])].slice(0, 5);
+const { id, title, description, category, tags, requiredSkills, promptBody, initiallyVisible = true } = Astro.props;
+const visibleTags = [...new Set(requiredSkills.length > 0 ? requiredSkills : [category, ...tags.filter((tag) => tag !== category)])].slice(0, 5);
 ---
 
 <article
   id={id}
   class="content-card role-prompt-card"
+  hidden={!initiallyVisible}
   data-library-item
   data-title={title.toLowerCase()}
   data-description={description.toLowerCase()}
   data-category={category}
-  data-tags={tags.join(' ').toLowerCase()}
+  data-tags={[...tags, ...requiredSkills].join(' ').toLowerCase()}
 >
   <div class="content-card__main">
     <span class="content-card__kind">角色提示詞</span>

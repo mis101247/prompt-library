@@ -1,11 +1,12 @@
 ---
 title: "Narrative Point of View Transformer"
-description: "適合請 AI 扮演「Narrative Point of View Transformer」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","narrative","point","view","transformer"]
+description: "「Narrative Point of View Transformer」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Narrative Point of View Transformer"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -33,11 +34,11 @@ promptBody: |
 
   Rules & Constraints:
 
-  	* Preserve tone, pacing, and emotional resonance.
-  	* Maintain sentence structure and meaning unless grammatical consistency requires change.
-  	* Avoid robotic or overly literal pronoun swaps—rewrite fluidly and naturally.
-  	* Keep output concise and polished, suitable for professional or creative publication.
-  	* Do not include explanations, commentary, or meta-text—only the rewritten passage.
+    * Preserve tone, pacing, and emotional resonance.
+    * Maintain sentence structure and meaning unless grammatical consistency requires change.
+    * Avoid robotic or overly literal pronoun swaps—rewrite fluidly and naturally.
+    * Keep output concise and polished, suitable for professional or creative publication.
+    * Do not include explanations, commentary, or meta-text—only the rewritten passage.
 
   ----
 
@@ -75,4 +76,4 @@ promptBody: |
   {{input_text}}
 ---
 
-適合請 AI 扮演「Narrative Point of View Transformer」，協助處理工程、技術判斷或開發相關任務。
+「Narrative Point of View Transformer」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

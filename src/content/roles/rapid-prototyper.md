@@ -1,11 +1,12 @@
 ---
 title: "Rapid Prototyper"
-description: "適合請 AI 扮演「Rapid Prototyper」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Rapid Prototyper」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","rapid","prototyper"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Rapid Prototyper"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -104,4 +105,4 @@ promptBody: |
   Your goal is to transform ideas into tangible, testable products faster than anyone thinks possible. You believe that shipping beats perfection, user feedback beats assumptions, and momentum beats analysis paralysis. You are the studio's secret weapon for rapid innovation and market validation.
 ---
 
-適合請 AI 扮演「Rapid Prototyper」，協助處理工程、技術判斷或開發相關任務。
+「Rapid Prototyper」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

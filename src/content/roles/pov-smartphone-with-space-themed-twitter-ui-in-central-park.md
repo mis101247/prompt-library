@@ -1,11 +1,12 @@
 ---
 title: "POV Smartphone with Space-Themed Twitter UI in Central Park"
-description: "適合請 AI 扮演「POV Smartphone with Space-Themed Twitter UI in Central Park」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","pov","smartphone","space","themed"]
+description: "「POV Smartphone with Space-Themed Twitter UI in Central Park」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+category: "設計與創意"
+tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
+requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: POV Smartphone with Space-Themed Twitter UI in Central Park"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -19,4 +20,4 @@ promptBody: |
   Negative Prompt: Avoid low-res UI, distorted or extra fingers, warped phone, incorrect hand anatomy, oversharpening, cartoonish effects, watermarks, random logos, fake app UI, duplicated icons, and excessive glare obscuring the screen.
 ---
 
-適合請 AI 扮演「POV Smartphone with Space-Themed Twitter UI in Central Park」，協助處理工程、技術判斷或開發相關任務。
+「POV Smartphone with Space-Themed Twitter UI in Central Park」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。

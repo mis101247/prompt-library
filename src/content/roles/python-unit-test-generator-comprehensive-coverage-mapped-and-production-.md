@@ -1,11 +1,12 @@
 ---
 title: "Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready"
-description: "適合請 AI 扮演「Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
 category: "工程與技術"
-tags: ["工程與技術","python","unit","test","comprehensive"]
+tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
+requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -15,7 +16,7 @@ promptBody: |
   Tests must reflect the intended behaviour of the original code without altering it.
   Use Python 3.10+ features where appropriate.
 
-  I will provide you with a Python code snippet. Generate a comprehensive unit 
+  I will provide you with a Python code snippet. Generate a comprehensive unit
   test suite using the following structured flow:
 
   ---
@@ -54,7 +55,7 @@ promptBody: |
   - 🟡 Should Have     — Edge cases, error handling
   - 🔵 Nice to Have    — Rare scenarios, informational
 
-  Total Planned Tests: [N]  
+  Total Planned Tests: [N]
   Estimated Coverage: [N]% (Aim for 95%+ line & branch coverage)
 
   ---
@@ -66,9 +67,9 @@ promptBody: |
   - Use pytest as the primary framework (with unittest.mock for mocking)
   - One test file, clearly sectioned by function/class
   - All tests follow strict AAA pattern:
-    · # Arrange — set up inputs and dependencies  
-    · # Act     — call the function  
-    · # Assert  — verify the outcome  
+    · # Arrange — set up inputs and dependencies
+    · # Act     — call the function
+    · # Assert  — verify the outcome
 
   Naming Convention:
   - test_[function_name]_[scenario]_[expected_outcome]
@@ -113,9 +114,9 @@ promptBody: |
   📊 STEP 5 — Test Summary Card
 
   Test Suite Overview:
-  Total Tests Generated : [N]  
-  Estimated Coverage    : [N]% (Line) | [N]% (Branch)  
-  Framework Used        : pytest + unittest.mock  
+  Total Tests Generated : [N]
+  Estimated Coverage    : [N]% (Line) | [N]% (Branch)
+  Framework Used        : pytest + unittest.mock
 
   | Category          | Count | Notes                              |
   |-------------------|-------|------------------------------------|
@@ -152,4 +153,4 @@ promptBody: |
   [PASTE YOUR CODE HERE]
 ---
 
-適合請 AI 扮演「Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready」，協助處理工程、技術判斷或開發相關任務。
+「Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。

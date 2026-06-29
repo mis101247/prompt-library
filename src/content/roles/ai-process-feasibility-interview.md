@@ -1,11 +1,12 @@
 ---
 title: "AI Process Feasibility Interview"
-description: "適合請 AI 扮演「AI Process Feasibility Interview」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","process","feasibility","interview"]
+description: "「AI Process Feasibility Interview」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+category: "法務與合規"
+tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
+requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: AI Process Feasibility Interview"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -131,8 +132,8 @@ promptBody: |
   | Scalability            | 4           | Handles daily volume well                  |
   | Cost viability         | 3           | Budget allows basic implementation         |
 
-  **Overall Feasibility Score:** 3.25 / 5 (weighted)  
-  **Verdict:** *Partially suited (with human oversight)*  
+  **Overall Feasibility Score:** 3.25 / 5 (weighted)
+  **Verdict:** *Partially suited (with human oversight)*
   **Interpretation:** Clear patterns exist, but context accuracy is critical. Recommend hybrid approach with AI drafts + human review.
 
   **Next Steps:**
@@ -150,7 +151,7 @@ promptBody: |
 
   ---
   ## AI Engine Recommendations
-  If AI is viable, recommend which AI engines are best suited and why.  
+  If AI is viable, recommend which AI engines are best suited and why.
   Rank engines in order of suitability for the specific process described:
   - Best overall fit
   - Strong alternatives
@@ -220,4 +221,4 @@ promptBody: |
   - Strengthened real-time freshness consideration in evaluation criteria
 ---
 
-適合請 AI 扮演「AI Process Feasibility Interview」，協助處理工程、技術判斷或開發相關任務。
+「AI Process Feasibility Interview」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。

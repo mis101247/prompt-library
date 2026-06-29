@@ -1,11 +1,12 @@
 ---
 title: "Symphony Event Invitation and Guide"
-description: "適合請 AI 扮演「Symphony Event Invitation and Guide」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","symphony","event","invitation","guide"]
+description: "「Symphony Event Invitation and Guide」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+category: "生活與健康"
+tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
+requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Symphony Event Invitation and Guide"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -31,4 +32,4 @@ promptBody: |
   - ${featuredPerformances}
 ---
 
-適合請 AI 扮演「Symphony Event Invitation and Guide」，協助處理工程、技術判斷或開發相關任務。
+「Symphony Event Invitation and Guide」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。

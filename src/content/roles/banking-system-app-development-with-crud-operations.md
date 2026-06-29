@@ -1,11 +1,12 @@
 ---
 title: "Banking System App Development with CRUD Operations"
-description: "適合請 AI 扮演「Banking System App Development with CRUD Operations」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Banking System App Development with CRUD Operations」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","banking","system","app","development"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Banking System App Development with CRUD Operations"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -29,4 +30,4 @@ promptBody: |
   - ${databaseType:SQLite} - The database to be used for data storage.
 ---
 
-適合請 AI 扮演「Banking System App Development with CRUD Operations」，協助處理工程、技術判斷或開發相關任務。
+「Banking System App Development with CRUD Operations」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

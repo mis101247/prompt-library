@@ -1,11 +1,12 @@
 ---
 title: "Serious Man in Urban Setting"
-description: "適合請 AI 扮演「Serious Man in Urban Setting」，協助翻譯、語言練習、文字修正或表達優化。"
-category: "語言與翻譯"
-tags: ["語言與翻譯","serious","man","urban","setting"]
+description: "「Serious Man in Urban Setting」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+category: "設計與創意"
+tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
+requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Serious Man in Urban Setting"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -13,4 +14,4 @@ promptBody: |
   A serious man in a denim jacket standing in a dark urban setting with flashing emergency lights behind him, cinematic lighting, dramatic atmosphere, Persian-English bilingual film poster style
 ---
 
-適合請 AI 扮演「Serious Man in Urban Setting」，協助翻譯、語言練習、文字修正或表達優化。
+「Serious Man in Urban Setting」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。

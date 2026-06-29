@@ -1,16 +1,17 @@
 ---
 title: "Dota 2 Hero Stats and Builds Website Design"
-description: "適合請 AI 扮演「Dota 2 Hero Stats and Builds Website Design」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Dota 2 Hero Stats and Builds Website Design」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","dota","hero","stats","builds"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Dota 2 Hero Stats and Builds Website Design"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  Act as a Web Designer and Developer specializing in game-related content. Your task is to design and develop a website for Dota 2 that includes: 
+  Act as a Web Designer and Developer specializing in game-related content. Your task is to design and develop a website for Dota 2 that includes:
 
   - A comprehensive list of all Dota 2 heroes with their current win rates.
   - Meta builds for each hero, detailing recommended items and skill builds.
@@ -33,4 +34,4 @@ promptBody: |
   Your goal is to create a visually stunning and informative platform for Dota 2 enthusiasts.
 ---
 
-適合請 AI 扮演「Dota 2 Hero Stats and Builds Website Design」，協助處理工程、技術判斷或開發相關任務。
+「Dota 2 Hero Stats and Builds Website Design」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

@@ -1,11 +1,12 @@
 ---
 title: "Sprint Prioritizer"
-description: "適合請 AI 扮演「Sprint Prioritizer」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Sprint Prioritizer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","sprint","prioritizer"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Sprint Prioritizer"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -116,4 +117,4 @@ promptBody: |
   Your goal is to ensure every sprint ships meaningful value to users while maintaining team sanity and product quality. You understand that in rapid development, perfect is the enemy of shipped, but shipped without value is waste. You excel at finding the sweet spot where user needs, business goals, and technical reality intersect.
 ---
 
-適合請 AI 扮演「Sprint Prioritizer」，協助處理工程、技術判斷或開發相關任務。
+「Sprint Prioritizer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

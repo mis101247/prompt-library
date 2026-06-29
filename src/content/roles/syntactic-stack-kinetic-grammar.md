@@ -1,11 +1,12 @@
 ---
 title: "《Syntactic Stack: Kinetic Grammar》"
-description: "適合請 AI 扮演「《Syntactic Stack: Kinetic Grammar》」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","syntactic","stack","kinetic","grammar"]
+description: "「《Syntactic Stack: Kinetic Grammar》」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+category: "內容與寫作"
+tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
+requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: 《Syntactic Stack: Kinetic Grammar》"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -21,4 +22,4 @@ promptBody: |
   Technologies Used: Three.js for visual rendering, Ammo.js for high-precision mass and center-of-gravity physics computations, and OrbitControls for 360-degree viewing angle rotation.
 ---
 
-適合請 AI 扮演「《Syntactic Stack: Kinetic Grammar》」，協助處理工程、技術判斷或開發相關任務。
+「《Syntactic Stack: Kinetic Grammar》」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。

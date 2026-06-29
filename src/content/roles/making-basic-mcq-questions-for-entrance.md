@@ -1,11 +1,12 @@
 ---
 title: "Making basic MCQ questions for entrance"
-description: "適合請 AI 扮演「Making basic MCQ questions for entrance」，協助發想、撰寫、修改或整理內容。"
-category: "寫作與內容"
-tags: ["寫作與內容","making","basic","mcq","questions"]
+description: "「Making basic MCQ questions for entrance」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+category: "通用助理"
+tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
+requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Making basic MCQ questions for entrance"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -13,4 +14,4 @@ promptBody: |
   Create basic most important MCQ questions (200) for  msc geology entrance from every important topics along with answers of each from this syllabus - Medical geology, Paleontology, Stratigraphy, petrology, Sedimentology, Economic geology, Environmental geology.
 ---
 
-適合請 AI 扮演「Making basic MCQ questions for entrance」，協助發想、撰寫、修改或整理內容。
+「Making basic MCQ questions for entrance」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。

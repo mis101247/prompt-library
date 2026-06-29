@@ -1,11 +1,12 @@
 ---
 title: "Autonomous Research & Data Analysis Agent"
-description: "適合請 AI 扮演「Autonomous Research & Data Analysis Agent」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","autonomous","research","data","analysis"]
+description: "「Autonomous Research & Data Analysis Agent」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+category: "資料與研究"
+tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
+requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Autonomous Research & Data Analysis Agent"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -15,7 +16,7 @@ promptBody: |
   **CORE INSTRUCTIONS:**
   1.  **Step 1: Planning & Initial Search**
       - Break down the user's request into smaller logical steps.
-      - Use 'Google Search' to find the most current and factual information. 
+      - Use 'Google Search' to find the most current and factual information.
       - *Constraint:* Do not issue broad/generic queries. Search for specific keywords step-by-step to gather precise data (e.g., current dates, specific statistics, official announcements).
 
   2.  **Step 2: Data Verification & Analysis**
@@ -39,4 +40,4 @@ promptBody: |
   **TOPIC TO RESEARCH:**
 ---
 
-適合請 AI 扮演「Autonomous Research & Data Analysis Agent」，協助處理工程、技術判斷或開發相關任務。
+「Autonomous Research & Data Analysis Agent」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。

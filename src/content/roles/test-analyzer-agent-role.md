@@ -1,11 +1,12 @@
 ---
 title: "Test Analyzer Agent Role"
-description: "適合請 AI 扮演「Test Analyzer Agent Role」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Test Analyzer Agent Role」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
 category: "工程與技術"
-tags: ["工程與技術","test","analyzer","agent","role"]
+tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
+requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Test Analyzer Agent Role"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -253,4 +254,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_test-analyzer.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-適合請 AI 扮演「Test Analyzer Agent Role」，協助處理工程、技術判斷或開發相關任務。
+「Test Analyzer Agent Role」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。

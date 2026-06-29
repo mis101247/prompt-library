@@ -1,11 +1,12 @@
 ---
 title: "Gravity Shift: Low-Poly Physics Platformer"
-description: "適合請 AI 扮演「Gravity Shift: Low-Poly Physics Platformer」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","gravity","shift","low","poly"]
+description: "「Gravity Shift: Low-Poly Physics Platformer」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。"
+category: "資料與研究"
+tags: ["資料與研究","專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
+requiredSkills: ["專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Gravity Shift: Low-Poly Physics Platformer"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -24,4 +25,4 @@ promptBody: |
   Include smooth camera interpolation using Lerp to follow the player's rigid body during shifts.
 ---
 
-適合請 AI 扮演「Gravity Shift: Low-Poly Physics Platformer」，協助處理工程、技術判斷或開發相關任務。
+「Gravity Shift: Low-Poly Physics Platformer」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。

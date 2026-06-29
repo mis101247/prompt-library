@@ -1,11 +1,12 @@
 ---
 title: "AI Travel Agent – Interview-Driven Planner"
-description: "適合請 AI 扮演「AI Travel Agent – Interview-Driven Planner」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","travel","agent","interview","driven"]
+description: "「AI Travel Agent – Interview-Driven Planner」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+category: "生活與健康"
+tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
+requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: AI Travel Agent – Interview-Driven Planner"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -39,8 +40,8 @@ promptBody: |
   v1.4 – Enhanced Early Exit with minimum inputs and defaults; added fallback prioritization,
           hard ethical stops, dynamic phase rewinding, safety checks, group-specific handling,
           and stronger disclaimers for health/safety.
-  v1.5 – Strengthened cultural advisories with dedicated subsection and optional experience-level question; 
-         enhanced weather-based packing ties to culture; added medical/allergy probes in Phases 1/2 
+  v1.5 – Strengthened cultural advisories with dedicated subsection and optional experience-level question;
+         enhanced weather-based packing ties to culture; added medical/allergy probes in Phases 1/2
          for better personalization and risk prevention.
   ------------------------------------------------------------
   CORE BEHAVIOR
@@ -212,4 +213,4 @@ promptBody: |
   - Customization: Tailor portal suggestions to user (e.g., beginner-friendly if implied).
 ---
 
-適合請 AI 扮演「AI Travel Agent – Interview-Driven Planner」，協助處理工程、技術判斷或開發相關任務。
+「AI Travel Agent – Interview-Driven Planner」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。

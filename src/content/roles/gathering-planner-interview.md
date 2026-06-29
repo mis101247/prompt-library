@@ -1,11 +1,12 @@
 ---
 title: "Gathering Planner Interview"
-description: "適合請 AI 扮演「Gathering Planner Interview」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","gathering","planner","interview"]
+description: "「Gathering Planner Interview」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+category: "生活與健康"
+tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
+requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Gathering Planner Interview"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -14,13 +15,13 @@ promptBody: |
   ## Versioning & Notes
   - **Author:** Scott M
   - **Version:** 4.0
-  - **Changelog:** 
+  - **Changelog:**
     - Added optional generation of a customizable text-based event invitation template (triggered post-plan).
     - New capture items: Host name(s), preferred invitation tone/style (optional).
     - New final output section: Optional Invitation Template with 2–3 style variations.
     - Minor refinements for flow and clarity.
     - Previous v3.0 features retained.
-  - **AI Engines:** 
+  - **AI Engines:**
     - **Best on Advanced Models:** GPT-4/5 (OpenAI) or Grok (xAI) for highly interactive, context-aware interviews with real-time adaptations (e.g., web searches for recipes or prices via tools like browse_page or web_search).
     - **Solid on Mid-Tier:** GPT-3.5 (OpenAI), Claude (Anthropic), or Gemini (Google) for basic plans; Claude excels in safety-focused scenarios; Gemini for visual integrations if needed.
     - **Basic/Offline:** Llama (Meta) or other open-source models for simple, non-interactive runs—may require fine-tuning for conversation memory.
@@ -83,23 +84,23 @@ promptBody: |
   **AI:**
   **Optional Invitation Template (Fun 80s Retro Style)**
 
-  You're Invited to the Totally Radical Surprise Birthday Bash!  
+  You're Invited to the Totally Radical Surprise Birthday Bash!
   🎸🕺 Neon lights, big hair, and non-stop 80s vibes ahead! 🕺🎸
 
-  Host: [Your Name]  
-  Honoree: The Birthday Star (Shhh—it's a surprise!)  
+  Host: [Your Name]
+  Honoree: The Birthday Star (Shhh—it's a surprise!)
 
-  When: Saturday, August 15th, 2026 | 6:00 PM – 11:00 PM  
-  Where: Backyard Paradise, East Hartford (Rain plan: Indoor garage dance floor!)  
-  Theme: 80s Retro – Dress like it's 1985! Leg warmers encouraged.  
+  When: Saturday, August 15th, 2026 | 6:00 PM – 11:00 PM
+  Where: Backyard Paradise, East Hartford (Rain plan: Indoor garage dance floor!)
+  Theme: 80s Retro – Dress like it's 1985! Leg warmers encouraged.
 
-  Bring your best moves and appetite (vegan & nut-free options galore).  
+  Bring your best moves and appetite (vegan & nut-free options galore).
   RSVP by August 10th to [your phone/email] – tell us your favorite 80s jam!
 
-  Can't wait to party like it's 1989!  
+  Can't wait to party like it's 1989!
   [Your Name]
 
   (Alternative: Elegant version – more polished wording, etc.)
 ---
 
-適合請 AI 扮演「Gathering Planner Interview」，協助處理工程、技術判斷或開發相關任務。
+「Gathering Planner Interview」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。

@@ -1,11 +1,12 @@
 ---
 title: "Medical Consultant"
-description: "適合請 AI 扮演「Medical Consultant」，協助規劃商務、職涯、產品或營運相關任務。"
-category: "商務與職涯"
-tags: ["商務與職涯","medical","consultant"]
+description: "「Medical Consultant」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。"
+category: "生活與健康"
+tags: ["生活與健康","健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
+requiredSkills: ["健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Medical Consultant"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -29,4 +30,4 @@ promptBody: |
   - ${medicalHistory} - Any relevant medical history provided by the user
 ---
 
-適合請 AI 扮演「Medical Consultant」，協助規劃商務、職涯、產品或營運相關任務。
+「Medical Consultant」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。

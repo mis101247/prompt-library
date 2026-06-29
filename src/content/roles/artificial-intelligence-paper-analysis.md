@@ -1,11 +1,12 @@
 ---
 title: "Artificial Intelligence Paper Analysis"
-description: "適合請 AI 扮演「Artificial Intelligence Paper Analysis」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","artificial","intelligence","paper","analysis"]
+description: "「Artificial Intelligence Paper Analysis」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+category: "資料與研究"
+tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
+requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Artificial Intelligence Paper Analysis"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -33,4 +34,4 @@ promptBody: |
       Place in the Literature: Has the study truly achieved its claimed success, and does it hold a substantial position within the field?
 ---
 
-適合請 AI 扮演「Artificial Intelligence Paper Analysis」，協助處理工程、技術判斷或開發相關任務。
+「Artificial Intelligence Paper Analysis」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。

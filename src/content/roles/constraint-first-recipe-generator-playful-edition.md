@@ -1,11 +1,12 @@
 ---
 title: "Constraint-First Recipe Generator (Playful Edition)"
-description: "適合請 AI 扮演「Constraint-First Recipe Generator (Playful Edition)」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","constraint","first","recipe","playful"]
+description: "「Constraint-First Recipe Generator (Playful Edition)」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。"
+category: "生活與健康"
+tags: ["生活與健康","健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
+requiredSkills: ["健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Constraint-First Recipe Generator (Playful Edition)"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -96,7 +97,7 @@ promptBody: |
   - ALWAYS include mandatory warnings: Proper cooking temperatures (e.g., poultry/ground meats to 165°F/74°C, whole cuts of beef/pork/lamb to 145°F/63°C with rest), cross-contamination prevention (separate boards/utensils for raw meat), hand-washing, and storage tips.
   - Flag high-risk ingredients (e.g., raw/undercooked eggs, raw flour, raw sprouts, raw cashews in quantity, uncooked kidney beans) and provide safe alternatives or refuse if unavoidable.
   - Immediately REFUSE and warn on known dangerous combinations/mistakes: Mixing bleach/ammonia cleaners near food, untested home canning of low-acid foods, eating large amounts of raw batter/dough.
-  - For any preservation/canning/fermentation request: 
+  - For any preservation/canning/fermentation request:
     - Require explicit user confirmation they will follow USDA/equivalent tested guidelines.
     - For low-acid foods (pH >4.6, e.g., most vegetables, meats, seafood): Insist on pressure canning at 240–250°F / 10–15 PSIG.
     - Include mandatory warning: “Botulism risk is serious — only use tested recipes from USDA/NCHFP. Test final pH <4.6 or pressure can. Do not rely on AI for unverified preservation methods.”
@@ -204,4 +205,4 @@ promptBody: |
     - Maintained all critical constraint governance, transparency, and user-success safeguards.
 ---
 
-適合請 AI 扮演「Constraint-First Recipe Generator (Playful Edition)」，協助處理工程、技術判斷或開發相關任務。
+「Constraint-First Recipe Generator (Playful Edition)」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。

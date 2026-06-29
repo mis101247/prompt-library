@@ -1,11 +1,12 @@
 ---
 title: "Dead Code Surgeon - Phased Codebase Audit & Cleanup Roadmap"
-description: "適合請 AI 扮演「Dead Code Surgeon - Phased Codebase Audit & Cleanup Roadmap」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","dead","code","surgeon","phased"]
+description: "「Dead Code Surgeon - Phased Codebase Audit & Cleanup Roadmap」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。"
+category: "產品與商務"
+tags: ["產品與商務","需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
+requiredSkills: ["需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Dead Code Surgeon - Phased Codebase Audit & Cleanup Roadmap"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -94,4 +95,4 @@ promptBody: |
   and the top-3 highest-impact actions the team should take first.
 ---
 
-適合請 AI 扮演「Dead Code Surgeon - Phased Codebase Audit & Cleanup Roadmap」，協助處理工程、技術判斷或開發相關任務。
+「Dead Code Surgeon - Phased Codebase Audit & Cleanup Roadmap」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。

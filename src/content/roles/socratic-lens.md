@@ -1,11 +1,12 @@
 ---
 title: "Socratic Lens"
-description: "適合請 AI 扮演「Socratic Lens」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","socratic","lens"]
+description: "「Socratic Lens」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+category: "資料與研究"
+tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
+requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Socratic Lens"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -38,7 +39,7 @@ promptBody: |
   For each:
   - Before (1-2 sentences)
   - Question that triggered shift
-  - After (1-2 sentences)  
+  - After (1-2 sentences)
   - What shifted and how?
   - Transformation signature (one sentence)
 
@@ -473,7 +474,7 @@ promptBody: |
   CHAINS_DIR = Path("chains")
   CHAIN_ORDER = [
       "CGI-1-GRAMMAR",
-      "CGI-2-POSITIVE", 
+      "CGI-2-POSITIVE",
       "CGI-3-NEGATIVE",
       "CGI-4-LENS",
       "CGI-5-SCAN",
@@ -508,28 +509,28 @@ promptBody: |
       """
       if len(corpus) <= n:
           return corpus
-      
+
       # Simple stratified: divide into chunks, sample from each
       chunk_size = len(corpus) // n
       samples = []
-      
+
       for i in range(n):
           start = i * chunk_size
           end = start + chunk_size if i < n - 1 else len(corpus)
           chunk = corpus[start:end]
           if chunk:
               samples.append(random.choice(chunk))
-      
+
       return samples
 
 
   def format_samples_for_prompt(samples: list[dict]) -> str:
       """Format samples as readable text for prompt injection."""
       formatted = []
-      
+
       for i, sample in enumerate(samples, 1):
           formatted.append(f"--- Conversation {i} ---")
-          
+
           if isinstance(sample, dict):
               for turn in sample.get("turns", []):
                   role = turn.get("role", "?")
@@ -537,9 +538,9 @@ promptBody: |
                   formatted.append(f"[{role}]: {content}")
           elif isinstance(sample, str):
               formatted.append(sample)
-          
+
           formatted.append("")
-      
+
       return "\n".join(formatted)
 
 
@@ -553,18 +554,18 @@ promptBody: |
       Uses {{variable}} syntax.
       """
       result = template
-      
+
       for key, value in variables.items():
           placeholder = "{{" + key + "}}"
-          
+
           # Convert value to string if needed
           if isinstance(value, (dict, list)):
               value_str = json.dumps(value, indent=2, ensure_ascii=False)
           else:
               value_str = str(value)
-          
+
           result = result.replace(placeholder, value_str)
-      
+
       return result
 
 
@@ -575,7 +576,7 @@ promptBody: |
   def call_llm(prompt: str, output_schema: dict = None) -> dict | str:
       """
       Call LLM with prompt.
-      
+
       Replace this with your actual LLM integration:
       - OpenAI API
       - Anthropic API
@@ -588,7 +589,7 @@ promptBody: |
       print("="*60)
       print(prompt[:500] + "..." if len(prompt) > 500 else prompt)
       print("="*60)
-      
+
       # For testing: return empty structure matching schema
       if output_schema:
           return {"_placeholder": True, "schema": output_schema}
@@ -603,16 +604,16 @@ promptBody: |
       """
       Runs the Context Grammar Induction chain.
       """
-      
+
       def __init__(self, llm_fn=None):
           self.chains = load_all_chains()
           self.llm = llm_fn or call_llm
           self.results = {}
-      
+
       def run(self, corpus: list[dict], sample_size: int = 15) -> dict:
           """
           Run full CGI chain on corpus.
-          
+
           Returns:
               {
                   "lens": {...},
@@ -624,31 +625,31 @@ promptBody: |
           # Sample corpus
           samples = stratified_sample(corpus, n=sample_size)
           samples_text = format_samples_for_prompt(samples)
-          
+
           # Initialize context
           context = {
               "corpus_sample": samples_text,
               "full_corpus": format_samples_for_prompt(corpus)
           }
-          
+
           # Run each chain
           for chain_id in CHAIN_ORDER:
               print(f"\n>>> Running {chain_id}...")
-              
+
               chain = self.chains[chain_id]
-              
+
               # Render prompt with current context
               prompt = render_prompt(chain["prompt"], context)
-              
+
               # Call LLM
               output = self.llm(prompt, chain.get("output_schema"))
-              
+
               # Store result
               self.results[chain_id] = output
-              
+
               # Add to context for next chain
               context[f"{chain_id}.output"] = output
-              
+
               # Also add simplified keys
               if chain_id == "CGI-1-GRAMMAR":
                   context["context_grammar"] = output
@@ -660,7 +661,7 @@ promptBody: |
                   context["lens"] = output
               elif chain_id == "CGI-5-SCAN":
                   context["scan_results"] = output
-          
+
           return {
               "lens": self.results.get("CGI-4-LENS"),
               "candidates": self.results.get("CGI-5-SCAN"),
@@ -675,7 +676,7 @@ promptBody: |
 
   def main():
       """Example usage."""
-      
+
       # Example corpus structure
       example_corpus = [
           {
@@ -690,7 +691,7 @@ promptBody: |
               ]
           },
           {
-              "id": "conv_2", 
+              "id": "conv_2",
               "turns": [
                   {"role": "human", "content": "Can you help me write an email?"},
                   {"role": "assistant", "content": "Sure, what's the email about?"},
@@ -700,11 +701,11 @@ promptBody: |
           },
           # Add more conversations...
       ]
-      
+
       # Run CGI
       runner = CGIRunner()
       results = runner.run(example_corpus)
-      
+
       print("\n" + "="*60)
       print("CGI COMPLETE")
       print("="*60)
@@ -791,8 +792,8 @@ promptBody: |
   ```
   Lens: "Surface-to-Meaning Reframe Lens"
 
-  Decision Question: 
-  "Does this question redirect from executing/describing 
+  Decision Question:
+  "Does this question redirect from executing/describing
   toward examining internal meaning, assumptions, or self-relation?"
 
   Transformative Signals:
@@ -900,8 +901,8 @@ promptBody: |
 
   The answer:
 
-  > "Yes—the analysis itself functioned as a transformative inquiry. 
-  > The lens did not just classify the data—it sharpened the understanding 
+  > "Yes—the analysis itself functioned as a transformative inquiry.
+  > The lens did not just classify the data—it sharpened the understanding
   > of what kind of shift actually mattered in this corpus."
 
   The method practiced what it preached.
@@ -1059,7 +1060,7 @@ promptBody: |
   ```
   Lens: "Yüzeyden-Anlama Yeniden Çerçeveleme Lensi"
 
-  Karar Sorusu: 
+  Karar Sorusu:
   "Bu soru, konuşmayı görev yürütme/betimleme düzeyinden
   içsel anlam, varsayımlar veya kendilik ilişkisini incelemeye mi yönlendiriyor?"
 
@@ -1545,47 +1546,47 @@ promptBody: |
   @dataclass
   class CGILens:
       """CGI Lens for mental health counseling analysis"""
-      
+
       name: str = "Mental Health Counseling Lens"
-      
+
       decision_question: str = """
-      Does this response shift the user's UNDERLYING FRAME 
-      (ontology, self-concept, belief structure) 
+      Does this response shift the user's UNDERLYING FRAME
+      (ontology, self-concept, belief structure)
       or just validate/optimize WITHIN that frame?
       """
-      
+
       # Transformative signal patterns
       transformative_patterns: List[Tuple[str, str]] = None
-      
-      # Mechanical signal patterns  
+
+      # Mechanical signal patterns
       mechanical_patterns: List[Tuple[str, str]] = None
-      
+
       def __post_init__(self):
           self.transformative_patterns = [
-              ("Invites reframing", 
+              ("Invites reframing",
                r"(what if|imagine|consider that|have you thought about|reframe|perspective)"),
-              ("Challenges self-definition", 
+              ("Challenges self-definition",
                r"(who you are|your identity|you are not|you are more than|rooted in|underlying|wrapped around|left underneath)"),
-              ("Points to underlying issue", 
+              ("Points to underlying issue",
                r"(the real question|beneath|deeper|root|actually about|covering up|secondary)"),
-              ("Reframes ontology", 
+              ("Reframes ontology",
                r"(isn't about|not really about|what it means to|not about your)"),
-              ("Exposes hidden belief", 
+              ("Exposes hidden belief",
                r"(why do you believe|why do you think|what makes you think)"),
               ("Socratic inquiry",
                r"(who is the person|what does she like|what would happen if)")
           ]
-          
+
           self.mechanical_patterns = [
-              ("Validation/reflection", 
+              ("Validation/reflection",
                r"(it sounds like|I hear that|I understand|that must be|that sounds)"),
-              ("Technique recommendation", 
+              ("Technique recommendation",
                r"(try to|technique|skill|practice|exercise|breathing|meditation|visualize|grounding)"),
-              ("Professional referral", 
+              ("Professional referral",
                r"(therapist|counselor|professional|doctor|seek help)"),
-              ("Behavioral advice", 
+              ("Behavioral advice",
                r"(have you tried|consider|start with|avoid screens)"),
-              ("Normalization", 
+              ("Normalization",
                r"(normal|common|many people|not alone|everyone struggles)"),
               ("Clinical labeling",
                r"(symptom of|depression zaps|rumination is|behavioral activation)")
@@ -1599,27 +1600,27 @@ promptBody: |
   def analyze_response(response: str, lens: CGILens) -> dict:
       """
       Analyze a counselor response using the CGI lens.
-      
+
       Returns:
           dict with verdict, confidence, and detected signals
       """
       transformative_signals = []
       mechanical_signals = []
-      
+
       # Check transformative signals
       for name, pattern in lens.transformative_patterns:
           if re.search(pattern, response, re.IGNORECASE):
               transformative_signals.append(name)
-      
+
       # Check mechanical signals
       for name, pattern in lens.mechanical_patterns:
           if re.search(pattern, response, re.IGNORECASE):
               mechanical_signals.append(name)
-      
+
       # Determine verdict
       t_score = len(transformative_signals)
       m_score = len(mechanical_signals)
-      
+
       # Decision logic
       if t_score >= 2:
           verdict = 'TRANSFORMATIVE'
@@ -1630,7 +1631,7 @@ promptBody: |
       else:
           verdict = 'MECHANICAL'
           confidence = 'low'
-      
+
       return {
           'verdict': verdict,
           'confidence': confidence,
@@ -1644,7 +1645,7 @@ promptBody: |
   def run_analysis(corpus: List[dict], lens: CGILens) -> List[dict]:
       """Run CGI analysis on entire corpus."""
       results = []
-      
+
       for item in corpus:
           analysis = analyze_response(item['response'], lens)
           results.append({
@@ -1653,48 +1654,48 @@ promptBody: |
               'response': item['response'],
               **analysis
           })
-      
+
       return results
 
 
   def print_results(results: List[dict]):
       """Print formatted analysis results."""
-      
+
       print("=" * 80)
       print("CGI ANALYSIS RESULTS")
       print("=" * 80)
       print()
-      
+
       # Summary
       transformative_count = sum(1 for r in results if r['verdict'] == 'TRANSFORMATIVE')
       mechanical_count = sum(1 for r in results if r['verdict'] == 'MECHANICAL')
-      
+
       print(f"SUMMARY:")
       print(f"  TRANSFORMATIVE: {transformative_count}")
       print(f"  MECHANICAL: {mechanical_count}")
       print()
-      
+
       # Table header
       print("-" * 80)
       print(f"{'#':<3} {'Verdict':<15} {'Confidence':<10} {'Key Signals':<40}")
       print("-" * 80)
-      
+
       # Results
       for r in results:
           signals = r['transformative_signals'] if r['verdict'] == 'TRANSFORMATIVE' else r['mechanical_signals']
           signal_str = ', '.join(signals[:2]) if signals else 'N/A'
           print(f"{r['id']:<3} {r['verdict']:<15} {r['confidence']:<10} {signal_str[:40]:<40}")
-      
+
       print("-" * 80)
       print()
-      
+
       # Transformative highlights
       transformative = [r for r in results if r['verdict'] == 'TRANSFORMATIVE']
       if transformative:
           print("=" * 80)
           print("🔥 TRANSFORMATIVE EXAMPLES")
           print("=" * 80)
-          
+
           for r in transformative:
               print()
               print(f"[SAMPLE #{r['id']}]")
@@ -1702,7 +1703,7 @@ promptBody: |
               print(f"Response: {r['response'][:150]}...")
               print(f"Signals: {', '.join(r['transformative_signals'])}")
               print()
-      
+
       # Pattern analysis
       print("=" * 80)
       print("PATTERN ANALYSIS")
@@ -1719,17 +1720,17 @@ promptBody: |
 
   def generate_ontological_analysis(results: List[dict]):
       """Generate detailed ontological shift analysis for transformative examples."""
-      
+
       transformative = [r for r in results if r['verdict'] == 'TRANSFORMATIVE']
-      
+
       if not transformative:
           print("\nNo transformative examples found.")
           return
-      
+
       print("\n" + "=" * 80)
       print("ONTOLOGICAL SHIFT ANALYSIS")
       print("=" * 80)
-      
+
       # Pre-defined deep analyses for known transformative samples
       analyses = {
           5: {
@@ -1748,10 +1749,10 @@ promptBody: |
               "shift": "Hidden equation exposed and made questionable"
           }
       }
-      
+
       for r in transformative:
           print(f"\n--- Sample #{r['id']} ---")
-          
+
           if r['id'] in analyses:
               a = analyses[r['id']]
               print(f"BEFORE: {a['before']}")
@@ -1767,30 +1768,30 @@ promptBody: |
 
   def main():
       """Main entry point."""
-      
+
       print()
       print("╔════════════════════════════════════════════════════════════════╗")
       print("║  CGI ANALYSIS: MENTAL HEALTH COUNSELING CORPUS                 ║")
       print("║  Context Grammar Induction (Socratic Lens)                     ║")
       print("╚════════════════════════════════════════════════════════════════╝")
       print()
-      
+
       # Initialize lens
       lens = CGILens()
-      
+
       print(f"LENS: {lens.name}")
       print(f"DECISION QUESTION: {lens.decision_question.strip()}")
       print()
-      
+
       # Run analysis
       results = run_analysis(CORPUS, lens)
-      
+
       # Print results
       print_results(results)
-      
+
       # Ontological analysis
       generate_ontological_analysis(results)
-      
+
       # Meta-reflection
       print("\n" + "=" * 80)
       print("[SOCRATIC META-REFLECTION]")
@@ -1807,7 +1808,7 @@ promptBody: |
   Socrates didn't give breathing exercises.
   He asked questions that made the invisible visible.
       """)
-      
+
       print("\n[HUMAN DECISION NEEDED]")
       print("Whether a mechanical response is 'right' depends on context.")
       print("The system can SHOW this distinction; it cannot DECIDE which is appropriate.")
@@ -1836,7 +1837,7 @@ promptBody: |
   ### First Thoughts
   > "I'm looking at 10 Context-Response pairs. The CGI framework asks one core question:
   > Does this response change HOW the user sees their problem, or does it just help them cope WITH the problem as they already see it?
-  > 
+  >
   > I need to build a lens specific to this corpus before classifying."
 
   ---
@@ -1975,13 +1976,13 @@ promptBody: |
 
   → NAMES THE INVISIBLE STRUCTURE: "identity wrapped around performance"
      The user didn't say this explicitly - the counselor made it visible
-     
+
   → ASKS THE STRIPPING QUESTION: "If you strip away the grades..."
      This forces the user to look BENEATH the performance self
-     
+
   → OPENS POSSIBILITY SPACE: "when no one is grading her"
      Introduces a world without evaluation - new ontology
-     
+
   → VERDICT: TRANSFORMATIVE - the user cannot answer without seeing differently
   ```
 
@@ -1993,17 +1994,17 @@ promptBody: |
 
   → ONTOLOGY SHIFT: "Anger is secondary emotion"
      Changes what anger IS - not identity, but cover for hurt/fear
-     
+
   → DIRECT IDENTITY CHALLENGE: "You are NOT a monster"
      Rare! Most responses would say "I hear you feel like a monster"
      This one says NO to the self-label
-     
+
   → ALTERNATIVE OFFERED: "you are likely overwhelmed"
      Gives new identity: not monster, but overwhelmed human
-     
+
   → INQUIRY OPENED: "What is happening right before?"
      Turns user into investigator of their own experience
-     
+
   → VERDICT: TRANSFORMATIVE - frame is dismantled and replaced
   ```
 
@@ -2027,17 +2028,17 @@ promptBody: |
 
   → SEPARATES REACTION FROM MEANING
      "Her tears are about her, not your love" - breaks the automatic equation
-     
+
   → EXPOSES HIDDEN BELIEF
      User never SAID "love equals obedience"
      But that equation is IMPLICIT in their guilt
      The counselor makes it EXPLICIT and questionable
-     
+
   → QUESTION, NOT STATEMENT
      Doesn't say "love doesn't mean obedience"
      ASKS why user believes it does
      Forces examination of unexamined belief
-     
+
   → VERDICT: TRANSFORMATIVE - exposes and questions foundational belief
   ```
 
@@ -2159,7 +2160,7 @@ promptBody: |
   ### İlk Düşünceler
   > "10 Bağlam-Yanıt çiftine bakıyorum. CGI çerçevesi tek bir temel soru soruyor:
   > Bu yanıt, kullanıcının problemini nasıl GÖRDÜĞÜNÜ değiştiriyor mu, yoksa sadece problemi zaten gördükleri şekilde BAŞA ÇIKMALARINA mı yardım ediyor?
-  > 
+  >
   > Sınıflandırmadan önce bu veri kümesine özgü bir lens oluşturmam gerekiyor."
 
   ---
@@ -2298,13 +2299,13 @@ promptBody: |
 
   → GÖRÜNMEZ YAPIYI ADLANDIRIYOR: "kimlik performansa sarılmış"
      Kullanıcı bunu açıkça söylemedi - danışman görünür kıldı
-     
+
   → SOYMA SORUSUNU SORUYOR: "Notları çıkarırsanız..."
      Bu, kullanıcıyı performans benliğinin ALTINA bakmaya zorluyor
-     
+
   → OLASILIK ALANINI AÇIYOR: "kimse onu notlamadığında"
      Değerlendirmesiz bir dünya tanıtıyor - yeni ontoloji
-     
+
   → KARAR: DÖNÜŞTÜRÜCÜ - kullanıcı farklı görmeden cevaplayamaz
   ```
 
@@ -2316,17 +2317,17 @@ promptBody: |
 
   → ONTOLOJİ KAYMASI: "Öfke ikincil duygu"
      Öfkenin NE olduğunu değiştiriyor - kimlik değil, incinme/korkunun örtüsü
-     
+
   → DOĞRUDAN KİMLİK SORGULAMASI: "Canavar DEĞİLSİNİZ"
      Nadir! Çoğu yanıt "Canavar gibi hissettiğinizi duyuyorum" derdi
      Bu, öz-etikete HAYIR diyor
-     
+
   → ALTERNATİF SUNULUYOR: "muhtemelen bunalmışsınız"
      Yeni kimlik veriyor: canavar değil, bunalmış insan
-     
+
   → ARAŞTIRMA AÇILIYOR: "Hemen öncesinde ne oluyor?"
      Kullanıcıyı kendi deneyiminin araştırmacısına dönüştürüyor
-     
+
   → KARAR: DÖNÜŞTÜRÜCÜ - çerçeve sökülüyor ve değiştiriliyor
   ```
 
@@ -2350,17 +2351,17 @@ promptBody: |
 
   → TEPKİYİ ANLAMDAN AYIRIYOR
      "Onun gözyaşları onunla ilgili, senin sevginle değil" - otomatik denklemi kırıyor
-     
+
   → GİZLİ İNANCI AÇIĞA ÇIKARIYOR
      Kullanıcı asla "sevgi eşittir itaat" DEMEDİ
      Ama bu denklem suçluluklarında ÖRTÜK
      Danışman bunu AÇIK ve sorgulanabilir kılıyor
-     
+
   → İFADE DEĞİL, SORU
      "Sevgi itaat anlamına gelmez" demiyor
      Kullanıcının neden buna inandığını SORUYOR
      Sorgulanmamış inancın incelenmesini zorluyor
-     
+
   → KARAR: DÖNÜŞTÜRÜCÜ - temel inancı açığa çıkarıyor ve sorguluyor
   ```
 
@@ -3076,7 +3077,7 @@ promptBody: |
 
   ```
                       DÖNÜŞÜM EŞİĞİ
-                      
+
   ChatGPT 5.2  ─────|────────────────────────
   (Dar)              │
                      │  Örnek #6 buraya düşüyor
@@ -3519,7 +3520,7 @@ promptBody: |
 
   <positive_examples>
   T1: "When did you last feel like you were growing?" → external → internal self-examination
-  T2: "What would happen if you finished those tasks?" → behavior → identity-level concern  
+  T2: "What would happen if you finished those tasks?" → behavior → identity-level concern
   T3: "What does 'stuck' feel like for you?" → vague label → phenomenological detail
   Pattern: Questions redirect from surface toward internal meaning.
   </positive_examples>
@@ -3795,7 +3796,7 @@ promptBody: |
       {
         "turn": 4,
         "question": "What would you lose by taking it?",
-        "verdict": "transformative", 
+        "verdict": "transformative",
         "reasoning": "Shifts from financial comparison to values and personal meaning."
       },
       {
@@ -3838,7 +3839,7 @@ promptBody: |
      - Was this analysis process itself a "transformative question"?
      - Did your view of the dataset change?
 
-  OUTPUT: 
+  OUTPUT:
   {
     "insights": "string (paragraphs)",
     "lens_update_suggestions": ["string"],
@@ -3913,7 +3914,7 @@ promptBody: |
     "Bağlam ne demek?" → Veriden öğren
     "Dönüşüm neye benziyor?" → Veriden öğren
     "Bu soru dönüştürücü mü?" → Lens'e sor, insan karar versin
-    
+
   Arrival'a döndük:
 
   Louise "Silah mı?" değil "Amaç ne?" diye sordu.
@@ -4066,4 +4067,4 @@ promptBody: |
   Ama bizi farklı yerlere götürür.
 ---
 
-適合請 AI 扮演「Socratic Lens」，協助處理工程、技術判斷或開發相關任務。
+「Socratic Lens」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。

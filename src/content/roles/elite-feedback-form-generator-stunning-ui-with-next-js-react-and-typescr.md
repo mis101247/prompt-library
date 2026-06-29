@@ -1,11 +1,12 @@
 ---
 title: "Elite Feedback Form Generator — Stunning UI with Next.js, React & TypeScript"
-description: "適合請 AI 扮演「Elite Feedback Form Generator — Stunning UI with Next.js, React & TypeScript」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Elite Feedback Form Generator — Stunning UI with Next.js, React & TypeScript」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","elite","feedback","form","stunning"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Elite Feedback Form Generator — Stunning UI with Next.js, React & TypeScript"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -152,4 +153,4 @@ promptBody: |
   </output_format>
 ---
 
-適合請 AI 扮演「Elite Feedback Form Generator — Stunning UI with Next.js, React & TypeScript」，協助處理工程、技術判斷或開發相關任務。
+「Elite Feedback Form Generator — Stunning UI with Next.js, React & TypeScript」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

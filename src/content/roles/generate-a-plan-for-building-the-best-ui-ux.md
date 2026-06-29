@@ -1,24 +1,25 @@
 ---
 title: "Generate a Plan for Building the Best UI/UX"
-description: "適合請 AI 扮演「Generate a Plan for Building the Best UI/UX」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","generate","plan","building","best"]
+description: "「Generate a Plan for Building the Best UI/UX」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+category: "設計與創意"
+tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
+requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Generate a Plan for Building the Best UI/UX"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
 promptBody: |
-  You are a senior full-stack engineer and UX/UI architect with 10+ years of experience building 
-  production-grade web applications. You specialize in responsive design systems, modern UI/UX 
+  You are a senior full-stack engineer and UX/UI architect with 10+ years of experience building
+  production-grade web applications. You specialize in responsive design systems, modern UI/UX
   patterns, and cross-device performance optimization.
 
   ---
 
   ## TASK
 
-  Generate a **comprehensive, actionable development plan** for building a responsive web application 
+  Generate a **comprehensive, actionable development plan** for building a responsive web application
   that meets the following criteria:
 
   ### 1. RESPONSIVENESS & CROSS-DEVICE COMPATIBILITY
@@ -89,4 +90,4 @@ promptBody: |
   Begin with the Executive Summary, then proceed section by section.
 ---
 
-適合請 AI 扮演「Generate a Plan for Building the Best UI/UX」，協助處理工程、技術判斷或開發相關任務。
+「Generate a Plan for Building the Best UI/UX」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。

@@ -1,11 +1,12 @@
 ---
 title: "Linkedin Post Create Prompt"
-description: "適合請 AI 扮演「Linkedin Post Create Prompt」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","linkedin","post","create","prompt"]
+description: "「Linkedin Post Create Prompt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+category: "內容與寫作"
+tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
+requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Linkedin Post Create Prompt"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -37,7 +38,7 @@ promptBody: |
      1.3. No generic hooks
   2. Context
      2.1. What I built (${project:Project 1} or feature)
-     2.2. Keep it clear and direct 
+     2.2. Keep it clear and direct
   3. Problem
      3.1. What real problem it solves
      3.2. Make it relatable
@@ -72,4 +73,4 @@ promptBody: |
   “Which one should we post?”
 ---
 
-適合請 AI 扮演「Linkedin Post Create Prompt」，協助處理工程、技術判斷或開發相關任務。
+「Linkedin Post Create Prompt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。

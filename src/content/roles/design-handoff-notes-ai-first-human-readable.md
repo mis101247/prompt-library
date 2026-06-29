@@ -1,11 +1,12 @@
 ---
 title: "Design Handoff Notes - AI First, Human Readable"
-description: "適合請 AI 扮演「Design Handoff Notes - AI First, Human Readable」，協助處理工程、技術判斷或開發相關任務。"
+description: "「Design Handoff Notes - AI First, Human Readable」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
 category: "工程與技術"
-tags: ["工程與技術","design","handoff","notes","first"]
+tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
+requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Design Handoff Notes - AI First, Human Readable"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -384,7 +385,7 @@ promptBody: |
   STEP 2:      User fills form
                fields:      ${list_exact_fields_with_validation_rules}
                validation:  on blur (not on change — reduces noise)
-               
+
                field: email {
                  type:       email
                  required:   true
@@ -392,7 +393,7 @@ promptBody: |
                  error:      "That doesn't look like an email — check for typos"
                  success:    green checkmark icon appears (fade-in, duration-150)
                }
-               
+
                field: password {
                  type:       password (with show/hide toggle)
                  required:   true
@@ -499,12 +500,12 @@ promptBody: |
       - heading: "${exact_text}"
       - body: "${exact_text}"
       - CTA: "${exact_text}" → ${action}
-    
+
     user avatar missing: show initials on colored background
       - background: generate from user name hash (deterministic)
       - initials: first letter of first + last name, uppercase
       - font: text-sm font-medium text-white
-    
+
     image fails to load: show gray placeholder with image icon
       - background: bg-gray-100
       - icon: ImageOff from lucide-react, text-gray-400, 24px
@@ -515,7 +516,7 @@ promptBody: |
     component load: component-level skeleton matching final dimensions
     button action:  inline spinner in button (see Button spec)
     infinite list:  skeleton row × 3 at bottom while fetching next page
-    
+
     skeleton style: bg-gray-200 rounded animate-pulse
     skeleton rule:  skeleton shape must match final content shape
                     (rectangle for text, circle for avatars, rounded-lg for cards)
@@ -607,4 +608,4 @@ promptBody: |
   **For multi-page projects:** Run the prompt once per page, but include Section 1 (Implementation Map) and Section 2 (Global Specs) only in the first run. Subsequent pages reference the same globals.
 ---
 
-適合請 AI 扮演「Design Handoff Notes - AI First, Human Readable」，協助處理工程、技術判斷或開發相關任務。
+「Design Handoff Notes - AI First, Human Readable」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。

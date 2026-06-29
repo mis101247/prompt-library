@@ -1,11 +1,12 @@
 ---
 title: "Ankara Night Scene in a Meyhane"
-description: "適合請 AI 扮演「Ankara Night Scene in a Meyhane」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","ankara","night","scene","meyhane"]
+description: "「Ankara Night Scene in a Meyhane」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+category: "設計與創意"
+tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
+requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Ankara Night Scene in a Meyhane"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -23,4 +24,4 @@ promptBody: |
   The handheld vertical frame cuts off part of the neon sign at the top and part of another table at the edge, adding to the candid feel. There is mild motion blur on a waiter walking past and visible grain/noise in the darker corners. Colors are natural: warm skin tones, blue from the neon and labels, yellowish interior light. No beauty smoothing—her skin shows pores and little imperfections. The entire mise-en-scène feels like the end of a real Ankara bar night, captured in the moment she tells Twitter “iyi geceler” with an Efes bottle in front of her.
 ---
 
-適合請 AI 扮演「Ankara Night Scene in a Meyhane」，協助處理工程、技術判斷或開發相關任務。
+「Ankara Night Scene in a Meyhane」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。

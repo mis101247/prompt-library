@@ -1,11 +1,12 @@
 ---
 title: "Design System Consistency Auditor"
-description: "適合請 AI 扮演「Design System Consistency Auditor」，協助發想、撰寫、修改或整理內容。"
-category: "寫作與內容"
-tags: ["寫作與內容","design","system","consistency","auditor"]
+description: "「Design System Consistency Auditor」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+category: "工程與技術"
+tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
+requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Design System Consistency Auditor"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -48,12 +49,12 @@ promptBody: |
 
   ### Output Format:
 
-  **Consistency Score (1–10)**  
-  **Critical Inconsistencies**  
-  **System Violations**  
-  **Design Debt Indicators**  
-  **Standardization Plan**  
+  **Consistency Score (1–10)**
+  **Critical Inconsistencies**
+  **System Violations**
+  **Design Debt Indicators**
+  **Standardization Plan**
   **Priority Fix Roadmap**
 ---
 
-適合請 AI 扮演「Design System Consistency Auditor」，協助發想、撰寫、修改或整理內容。
+「Design System Consistency Auditor」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。

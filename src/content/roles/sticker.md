@@ -1,11 +1,12 @@
 ---
 title: "Sticker"
-description: "適合請 AI 扮演「Sticker」，協助處理工程、技術判斷或開發相關任務。"
-category: "工程與技術"
-tags: ["工程與技術","sticker"]
+description: "「Sticker」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+category: "設計與創意"
+tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
+requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 featured: false
 publishedAt: 2026-06-28
-updatedAt: 2026-06-28
+updatedAt: 2026-06-29
 sourceTitle: "prompts.chat: Sticker"
 sourceUrl: "https://github.com/f/prompts.chat/blob/12e8d7f/prompts.csv"
 promptLanguage: "en"
@@ -20,8 +21,8 @@ promptBody: |
   Each sticker is clearly separated with empty space around it for offset / die-cut printing.
   Plain white background, no text, no shadows, no scenery.
   High resolution, clean sticker edges, print-ready.
-  NEGATIVE PROMPT 
+  NEGATIVE PROMPT
   redesign, altered characters, wrong outfit, wrong dragon design, same colors for all, missing wings, missing tails, cropped wings, cropped tails, chibi, kawaii, anime style, exaggerated eyes, distorted faces, grid layout, aligned rows, background scenes, shadows, watermark, text
 ---
 
-適合請 AI 扮演「Sticker」，協助處理工程、技術判斷或開發相關任務。
+「Sticker」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
