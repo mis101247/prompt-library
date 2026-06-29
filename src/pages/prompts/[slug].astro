@@ -19,6 +19,7 @@ const { Content } = await render(prompt);
 const guides = (await getCollection('guides')).filter((guide) =>
   prompt.data.relatedGuides.includes(guide.id),
 );
+const shouldShowDemoGeneratorNote = prompt.data.category === '趣味應用' && Boolean(prompt.data.thumbnailUrl);
 ---
 
 <BaseLayout title={prompt.data.title} description={prompt.data.description} width="article">
@@ -50,9 +51,27 @@ const guides = (await getCollection('guides')).filter((guide) =>
       <a class="button button--secondary" href={prompt.data.sourceUrl} target="_blank" rel="noopener noreferrer">查看原始來源</a>
     </section>
 
-    <section class="prose">
+    <section class="prose" data-demo-generator-note={shouldShowDemoGeneratorNote ? 'Demo 圖由 ChatGPT 5.5 實測生成。' : undefined}>
       <Content />
     </section>
+
+    {shouldShowDemoGeneratorNote && (
+      <script is:inline>
+        const demoProse = document.querySelector('[data-demo-generator-note]');
+        const demoNoteText = demoProse?.getAttribute('data-demo-generator-note');
+
+        if (demoProse && demoNoteText) {
+          demoProse.querySelectorAll('img').forEach((image) => {
+            if (image.nextElementSibling?.classList.contains('demo-generator-note')) return;
+
+            const note = document.createElement('p');
+            note.className = 'demo-generator-note';
+            note.textContent = demoNoteText;
+            image.insertAdjacentElement('afterend', note);
+          });
+        }
+      </script>
+    )}
 
     {guides.length > 0 && (
       <section class="section">

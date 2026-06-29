@@ -9,7 +9,16 @@ const prompts = sortFeaturedFirst(await getCollection('prompts'));
 const rolePrompts = sortFeaturedFirst(await getCollection('roles'));
 const guides = sortFeaturedFirst(await getCollection('guides'));
 
-const featuredPrompts = prompts.filter((entry) => entry.data.featured).slice(0, 3);
+const featuredPrompts = [...prompts]
+  .filter((entry) => entry.data.category === '趣味應用' && entry.data.thumbnailUrl)
+  .sort((a, b) => {
+    if (a.data.thumbnailContainWhite !== b.data.thumbnailContainWhite) {
+      return a.data.thumbnailContainWhite ? 1 : -1;
+    }
+    if (a.data.featured !== b.data.featured) return a.data.featured ? -1 : 1;
+    return b.data.publishedAt.getTime() - a.data.publishedAt.getTime();
+  })
+  .slice(0, 3);
 const featuredRolePrompts = rolePrompts.filter((entry) => entry.data.featured).slice(0, 3);
 const featuredGuides = guides.filter((entry) => entry.data.featured).slice(0, 3);
 const recentUpdates = sortByPublishedAt([...prompts, ...guides]).slice(0, 6);
@@ -33,7 +42,7 @@ const collectionLabels = {
     <div class="section-header">
       <div>
         <h2>精選提示詞</h2>
-        <p>可直接複製，也能理解來源與使用情境。</p>
+        <p>有 Demo 圖的趣味應用，優先顯示不需要補白的縮圖。</p>
       </div>
       <a class="quiet-link" href="/prompts/">全部提示詞</a>
     </div>
@@ -41,7 +50,7 @@ const collectionLabels = {
       {featuredPrompts.map((prompt) => (
         <ContentCard
           href={`/prompts/${prompt.id}/`}
-          kind="提示詞"
+          kind={prompt.data.category}
           title={prompt.data.title}
           description={prompt.data.description}
           category={prompt.data.category}
@@ -51,6 +60,8 @@ const collectionLabels = {
           sourcePath={prompt.data.sourcePath}
           thumbnailUrl={prompt.data.thumbnailUrl}
           thumbnailAlt={prompt.data.thumbnailAlt}
+          thumbnailContainWhite={prompt.data.thumbnailContainWhite}
+          showThumbnail={true}
         />
       ))}
     </div>
