@@ -24,6 +24,11 @@ const guides = (await getCollection('guides')).filter((guide) =>
 <BaseLayout title={prompt.data.title} description={prompt.data.description} width="article">
   <article class="stack">
     <header class="hero">
+      <div class="meta-row">
+        <a class="source-badge" href={prompt.data.sourceUrl} title={prompt.data.sourcePath} target="_blank" rel="noopener noreferrer">
+          來源：{prompt.data.sourceRepo}
+        </a>
+      </div>
       <h1>{prompt.data.title}</h1>
       <p>{prompt.data.description}</p>
       <TagList tags={prompt.data.tags} />
@@ -38,6 +43,12 @@ const guides = (await getCollection('guides')).filter((guide) =>
       body={prompt.data.promptBody}
       copyLabel={prompt.data.copyLabel}
     />
+
+    <section class="panel stack">
+      <h2>來源</h2>
+      <p class="source-path">{prompt.data.sourcePath}</p>
+      <a class="button button--secondary" href={prompt.data.sourceUrl} target="_blank" rel="noopener noreferrer">在 GitHub 查看原始 prompt</a>
+    </section>
 
     <section class="prose">
       <Content />

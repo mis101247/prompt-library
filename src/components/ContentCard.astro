@@ -1,6 +1,5 @@
 ---
-import TagList from './TagList.astro';
-import { formatCategory, tagSearchText } from '../utils/taxonomy';
+import { formatCategory, formatTag, tagSearchText } from '../utils/taxonomy';
 
 interface Props {
   href: string;
@@ -9,6 +8,9 @@ interface Props {
   description: string;
   category?: string;
   tags?: string[];
+  sourceRepo?: string;
+  sourceHref?: string;
+  sourcePath?: string;
 }
 
 const {
@@ -18,8 +20,12 @@ const {
   description,
   category,
   tags = [],
+  sourceRepo,
+  sourceHref,
+  sourcePath,
 } = Astro.props;
 const formattedCategory = category ? formatCategory(category) : '';
+const formattedTags = [...new Set(tags.slice(0, 4).map(formatTag))];
 ---
 
 <article
@@ -35,5 +41,14 @@ const formattedCategory = category ? formatCategory(category) : '';
     <h3>{title}</h3>
     <p>{description}</p>
   </a>
-  {tags.length > 0 && <TagList tags={tags.slice(0, 4)} />}
+  {(sourceRepo || tags.length > 0) && (
+    <div class="chip-row">
+      {sourceRepo && sourceHref && (
+        <a class="source-badge" href={sourceHref} title={sourcePath ?? sourceRepo} target="_blank" rel="noopener noreferrer">
+          來源：{sourceRepo}
+        </a>
+      )}
+      {formattedTags.map((tag) => <a class="tag" href={`/tags/${encodeURIComponent(tag)}/`}>{tag}</a>)}
+    </div>
+  )}
 </article>

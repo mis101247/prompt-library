@@ -46,6 +46,9 @@ const collectionLabels = {
           description={prompt.data.description}
           category={prompt.data.category}
           tags={prompt.data.tags}
+          sourceRepo={prompt.data.sourceRepo}
+          sourceHref={prompt.data.sourceUrl}
+          sourcePath={prompt.data.sourcePath}
         />
       ))}
     </div>
@@ -137,6 +140,9 @@ const collectionLabels = {
           description={entry.data.description}
           category={entry.data.category}
           tags={entry.data.tags}
+          sourceRepo={entry.collection === 'prompts' ? entry.data.sourceRepo : undefined}
+          sourceHref={entry.collection === 'prompts' ? entry.data.sourceUrl : undefined}
+          sourcePath={entry.collection === 'prompts' ? entry.data.sourcePath : undefined}
         />
       ))}
     </div>

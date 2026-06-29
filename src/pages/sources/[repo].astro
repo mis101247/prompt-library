@@ -87,6 +87,7 @@ const guides = (await getCollection('guides')).filter(
             difficulty={prompt.data.difficulty}
             timeEstimate={prompt.data.timeEstimate}
             sourceRepo={prompt.data.sourceRepo}
+            sourceHref={prompt.data.sourceUrl}
             sourcePath={prompt.data.sourcePath}
             tools={prompt.data.compatibleTools}
             tags={prompt.data.tags}

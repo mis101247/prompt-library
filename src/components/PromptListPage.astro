@@ -19,12 +19,19 @@ const searchIndex = allPrompts.map((prompt) => ({
   title: prompt.data.title,
   description: prompt.data.description,
   category: formatCategory(prompt.data.category),
+  source: {
+    label: prompt.data.sourceRepo,
+    href: prompt.data.sourceUrl,
+    path: prompt.data.sourcePath,
+  },
   tags: formatTags(prompt.data.tags),
   searchText: [
     prompt.data.title,
     prompt.data.description,
     prompt.data.category,
     formatCategory(prompt.data.category),
+    prompt.data.sourceRepo,
+    prompt.data.sourcePath,
     tagSearchText(prompt.data.tags),
   ].join(' ').toLowerCase(),
   href: `/prompts/${prompt.id}/`,
@@ -67,6 +74,9 @@ const searchIndex = allPrompts.map((prompt) => ({
           description={prompt.data.description}
           category={prompt.data.category}
           tags={prompt.data.tags}
+          sourceRepo={prompt.data.sourceRepo}
+          sourceHref={prompt.data.sourceUrl}
+          sourcePath={prompt.data.sourcePath}
         />
       ))}
     </section>
@@ -121,16 +131,29 @@ const searchIndex = allPrompts.map((prompt) => ({
       link.append(kind, title, description);
       article.append(link);
 
-      if (entry.tags.length > 0) {
-        const tags = document.createElement('div');
-        tags.className = 'tag-list';
+      if (entry.source || entry.tags.length > 0) {
+        const chips = document.createElement('div');
+        chips.className = 'chip-row';
+
+        if (entry.source) {
+          const source = document.createElement('a');
+          source.className = 'source-badge';
+          source.href = entry.source.href;
+          source.title = entry.source.path;
+          source.target = '_blank';
+          source.rel = 'noopener noreferrer';
+          source.textContent = `來源：${entry.source.label}`;
+          chips.append(source);
+        }
+
         entry.tags.slice(0, 4).forEach((tagText) => {
           const tag = document.createElement('span');
           tag.className = 'tag';
           tag.textContent = tagText;
-          tags.append(tag);
+          chips.append(tag);
         });
-        article.append(tags);
+
+        article.append(chips);
       }
 
       return article;

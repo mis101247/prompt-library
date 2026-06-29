@@ -49,8 +49,9 @@ const collectionLabels = {
         category={entry.data.category}
         difficulty={entry.data.difficulty}
         timeEstimate={entry.data.timeEstimate}
-        sourceRepo={entry.data.sourceRepo}
-        sourcePath={entry.data.sourcePath}
+        sourceRepo={entry.collection === 'prompts' ? entry.data.sourceRepo : undefined}
+        sourceHref={entry.collection === 'prompts' ? entry.data.sourceUrl : undefined}
+        sourcePath={entry.collection === 'prompts' ? entry.data.sourcePath : undefined}
         tools={entry.data.tools}
         tags={entry.data.tags}
       />
