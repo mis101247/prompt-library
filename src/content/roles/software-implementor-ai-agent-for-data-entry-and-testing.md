@@ -1,6 +1,6 @@
 ---
 title: "Software Implementor AI Agent for Data Entry and Testing"
-description: "「Software Implementor AI Agent for Data Entry and Testing」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以資料分析與洞察顧問來看，「Software Implementor AI Agent for Data Entr...」要求 AI 掌握表格資料整理、資料理解、指標設計、洞察萃取，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -25,4 +25,4 @@ promptBody: |
   - Report any script errors to the development team for review.
 ---
 
-「Software Implementor AI Agent for Data Entry and Testing」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以資料分析與洞察顧問來看，「Software Implementor AI Agent for Data Entr...」要求 AI 掌握表格資料整理、資料理解、指標設計、洞察萃取，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。

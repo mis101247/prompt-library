@@ -1,6 +1,6 @@
 ---
 title: "AI Productivity Artifact Generator"
-description: "「AI Productivity Artifact Generator」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+description: "「AI Productivity Artifact Generator」的核心不是泛用回覆，而是讓 AI 以營運流程與專案管理顧問身份掌握路線圖與階段規劃、PRD 與需求規格、流程拆解、資源協調，交付專案計畫與 SOP。"
 category: "生活與健康"
 tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
 requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
@@ -165,4 +165,4 @@ promptBody: |
   5. Produce docs with a weekly review protocol and study log template
 ---
 
-「AI Productivity Artifact Generator」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。
+「AI Productivity Artifact Generator」的核心不是泛用回覆，而是讓 AI 以營運流程與專案管理顧問身份掌握路線圖與階段規劃、PRD 與需求規格、流程拆解、資源協調，交付專案計畫與 SOP。

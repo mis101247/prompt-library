@@ -1,6 +1,6 @@
 ---
 title: "Futuristic Alps in 2150"
-description: "「Futuristic Alps in 2150」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "角色價值在於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計：能釐清「Futuristic Alps in 2150」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -14,4 +14,4 @@ promptBody: |
   Create a cinematic wide shot of the Alps in the year 2150. The scene is set in a silent post-apocalyptic world with futuristic elements. Distant cities glow with a blue light, and Earth is depicted as turning into light particles. The atmosphere is vast and empty, with a cold color palette and soft fog. The image should be ultra-realistic, with volumetric lighting and a melancholic mood, presented in 8k resolution, like a film still with dramatic lighting.
 ---
 
-「Futuristic Alps in 2150」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+角色價值在於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計：能釐清「Futuristic Alps in 2150」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。

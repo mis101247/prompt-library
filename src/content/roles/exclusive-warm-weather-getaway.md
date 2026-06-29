@@ -1,6 +1,6 @@
 ---
 title: "Exclusive Warm Weather Getaway"
-description: "「Exclusive Warm Weather Getaway」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+description: "「Exclusive Warm Weather Getaway」適合由研究設計與學術分析顧問處理；所需能力包括研究問題拆解、文獻整理、方法論判斷、論證架構，能將研究主題、文獻或資料轉成研究摘要與論點整理。"
 category: "生活與健康"
 tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
@@ -37,4 +37,4 @@ promptBody: |
   - Travel tips and considerations
 ---
 
-「Exclusive Warm Weather Getaway」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。
+「Exclusive Warm Weather Getaway」適合由研究設計與學術分析顧問處理；所需能力包括研究問題拆解、文獻整理、方法論判斷、論證架構，能將研究主題、文獻或資料轉成研究摘要與論點整理。

@@ -1,6 +1,6 @@
 ---
 title: "Dummy Test Prompt"
-description: "「Dummy Test Prompt」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
+description: "以法務合規與政策風險顧問來看，「Dummy Test Prompt」要求 AI 掌握條款解讀、合規檢核、風險辨識、修訂建議，並將合約、政策或監管情境轉化為法務風險摘要與政策建議。"
 category: "工程與技術"
 tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
@@ -14,4 +14,4 @@ promptBody: |
   Explain {{topic}} in simple terms, as if talking to a 10-year-old.
 ---
 
-「Dummy Test Prompt」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。
+以法務合規與政策風險顧問來看，「Dummy Test Prompt」要求 AI 掌握條款解讀、合規檢核、風險辨識、修訂建議，並將合約、政策或監管情境轉化為法務風險摘要與政策建議。

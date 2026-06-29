@@ -1,6 +1,6 @@
 ---
 title: "Spec Interview"
-description: "「Spec Interview」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "「Spec Interview」的能力側重於面試策略與回答校準、職涯定位、履歷敘事、面試回饋。它應以職涯策略與求職材料顧問角度判讀個人經歷、職缺或 offer 條件，再提供職涯決策框架與履歷或面試建議。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -20,4 +20,4 @@ promptBody: |
   it's complete, then write the spec to the file
 ---
 
-「Spec Interview」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+「Spec Interview」的能力側重於面試策略與回答校準、職涯定位、履歷敘事、面試回饋。它應以職涯策略與求職材料顧問角度判讀個人經歷、職缺或 offer 條件，再提供職涯決策框架與履歷或面試建議。

@@ -1,6 +1,6 @@
 ---
 title: "Sentry Bug Fixer"
-description: "「Sentry Bug Fixer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "這個角色像雲端基礎設施與 DevOps 顧問，擅長部署流程設計、基礎設施規劃、監控維運、自動化治理。適合處理「Sentry Bug Fixer」相關任務，最後收斂成部署方案與維運檢查清單。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${environment:production} - environment in which the bug is occurring
 ---
 
-「Sentry Bug Fixer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+這個角色像雲端基礎設施與 DevOps 顧問，擅長部署流程設計、基礎設施規劃、監控維運、自動化治理。適合處理「Sentry Bug Fixer」相關任務，最後收斂成部署方案與維運檢查清單。

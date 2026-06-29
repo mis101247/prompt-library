@@ -1,6 +1,6 @@
 ---
 title: "Go-To-Market Execution Planner"
-description: "「Go-To-Market Execution Planner」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「Go-To-Market Execution Planner」的核心不是泛用回覆，而是讓 AI 以產品策略與需求管理顧問身份掌握路線圖與階段規劃、風險辨識與優先級、需求釐清、優先級判斷，交付 PRD 草案與功能範圍。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -67,4 +67,4 @@ promptBody: |
   **Top 3 Execution Risks**
 ---
 
-「Go-To-Market Execution Planner」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「Go-To-Market Execution Planner」的核心不是泛用回覆，而是讓 AI 以產品策略與需求管理顧問身份掌握路線圖與階段規劃、風險辨識與優先級、需求釐清、優先級判斷，交付 PRD 草案與功能範圍。

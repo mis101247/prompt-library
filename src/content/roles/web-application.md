@@ -1,6 +1,6 @@
 ---
 title: "Web Application"
-description: "「Web Application」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "「Web Application」的能力側重於介面架構設計、響應式版面判斷、互動細節控管、可用性改善。它應以前端體驗與介面工程顧問角度判讀頁面需求、元件或使用者流程，再提供前端實作建議與介面規格。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -28,4 +28,4 @@ promptBody: |
   - Step 4: Set a timeline for project completion by ${deadline}.
 ---
 
-「Web Application」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+「Web Application」的能力側重於介面架構設計、響應式版面判斷、互動細節控管、可用性改善。它應以前端體驗與介面工程顧問角度判讀頁面需求、元件或使用者流程，再提供前端實作建議與介面規格。

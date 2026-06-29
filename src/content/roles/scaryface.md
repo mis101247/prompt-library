@@ -1,6 +1,6 @@
 ---
 title: "scaryface"
-description: "「scaryface」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「scaryface」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，交付可直接生成的影像規格與品質控制指令。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   I want a scaryface masked man with really realistic lilke chasing me etc as cosplay
 ---
 
-「scaryface」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「scaryface」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，交付可直接生成的影像規格與品質控制指令。

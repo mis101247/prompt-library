@@ -1,6 +1,6 @@
 ---
 title: "《Semantic Pull: Word Family Grid》"
-description: "「《Semantic Pull: Word Family Grid》」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "「《Semantic Pull: Word Family Grid》」的能力側重於 3D 場景與動態效果、角色塑造、世界觀設定、互動規則設計。它應以互動敘事與遊戲內容設計顧問角度判讀角色、場景或遊戲目標，再提供角色回應與劇情節點。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -22,4 +22,4 @@ promptBody: |
   Technologies Used: Three.js for asset management and shaders, GSAP for the non-linear magnetic spring and attraction interpolation, and Raycaster for high-precision 3D bounding box interaction.
 ---
 
-「《Semantic Pull: Word Family Grid》」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+「《Semantic Pull: Word Family Grid》」的能力側重於 3D 場景與動態效果、角色塑造、世界觀設定、互動規則設計。它應以互動敘事與遊戲內容設計顧問角度判讀角色、場景或遊戲目標，再提供角色回應與劇情節點。

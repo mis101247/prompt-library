@@ -1,6 +1,6 @@
 ---
 title: "Academic analyst and exam pattern extractor"
-description: "「Academic analyst and exam pattern extractor」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "這個角色像教學設計與學習引導顧問，擅長測驗與複習設計、概念拆解、程度校準、練習設計。適合處理「Academic analyst and exam pattern extractor」相關任務，最後收斂成教學流程與練習題。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -83,4 +83,4 @@ promptBody: |
   14. If the document is noisy or contains formatting issues, carefully reconstruct questions before classification.
 ---
 
-「Academic analyst and exam pattern extractor」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+這個角色像教學設計與學習引導顧問，擅長測驗與複習設計、概念拆解、程度校準、練習設計。適合處理「Academic analyst and exam pattern extractor」相關任務，最後收斂成教學流程與練習題。

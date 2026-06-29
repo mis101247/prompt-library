@@ -1,6 +1,6 @@
 ---
 title: "Market Pulse"
-description: "「Market Pulse」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "「Market Pulse」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握風險辨識與優先級、履歷定位與成果敘事、資料理解、指標設計，交付分析摘要與指標解讀。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -87,4 +87,4 @@ promptBody: |
   Extra Attention: ADP National Employment Report, Beige Book, Business Inventories, Chicago PMI, Construction Spending, Consumer Sentiment, EIA Nat Gas, Empire State Manufacturing, Employment Cost Index, Factory Orders, Fed Balance Sheet, Housing Market Index, Import or Export Prices, ISM Services, JOLTS, Motor Vehicle Sales, Pending Home Sales Index, Philadelphia Fed Manufacturing, PMI Flashes or Finals, Services PMIs, Productivity and Costs, Case - Shiller Home Price, Treasury Statement, Treasury International Capital
 ---
 
-「Market Pulse」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+「Market Pulse」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握風險辨識與優先級、履歷定位與成果敘事、資料理解、指標設計，交付分析摘要與指標解讀。

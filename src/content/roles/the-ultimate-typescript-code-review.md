@@ -1,6 +1,6 @@
 ---
 title: "The Ultimate TypeScript Code Review"
-description: "「The Ultimate TypeScript Code Review」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向前端體驗與介面工程顧問，面向「The Ultimate TypeScript Code Review」時重點是風險辨識與優先級、檢查清單化輸出、介面架構設計、響應式版面判斷。能把頁面需求、元件或使用者流程整理成前端實作建議與介面規格，並維持可用性與視覺穩定度。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -548,4 +548,4 @@ promptBody: |
      - Maintainability score (1-10)
 ---
 
-「The Ultimate TypeScript Code Review」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向前端體驗與介面工程顧問，面向「The Ultimate TypeScript Code Review」時重點是風險辨識與優先級、檢查清單化輸出、介面架構設計、響應式版面判斷。能把頁面需求、元件或使用者流程整理成前端實作建議與介面規格，並維持可用性與視覺穩定度。

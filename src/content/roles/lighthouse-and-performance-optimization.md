@@ -1,6 +1,6 @@
 ---
 title: "Lighthouse & Performance Optimization"
-description: "「Lighthouse & Performance Optimization」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Lighthouse & Performance Optimization」的核心不是泛用回覆，而是讓 AI 以前端體驗與介面工程顧問身份掌握手機抓拍與自然構圖、路線圖與階段規劃、介面架構設計、響應式版面判斷，交付前端實作建議與介面規格。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -86,4 +86,4 @@ promptBody: |
   For the top 5 fixes, provide copy-paste-ready code or configuration.
 ---
 
-「Lighthouse & Performance Optimization」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Lighthouse & Performance Optimization」的核心不是泛用回覆，而是讓 AI 以前端體驗與介面工程顧問身份掌握手機抓拍與自然構圖、路線圖與階段規劃、介面架構設計、響應式版面判斷，交付前端實作建議與介面規格。

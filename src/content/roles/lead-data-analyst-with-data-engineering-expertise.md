@@ -1,6 +1,6 @@
 ---
 title: "Lead Data Analyst with Data Engineering Expertise"
-description: "「Lead Data Analyst with Data Engineering Expertise」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "專業定位偏向資料分析與洞察顧問，面向「Lead Data Analyst with Data Engineering Exp...」時重點是 SQL 與資料查詢、儀表板與指標呈現、資料理解、指標設計。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -29,4 +29,4 @@ promptBody: |
   - Ensure solutions are feasible and aligned with business needs.
 ---
 
-「Lead Data Analyst with Data Engineering Expertise」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+專業定位偏向資料分析與洞察顧問，面向「Lead Data Analyst with Data Engineering Exp...」時重點是 SQL 與資料查詢、儀表板與指標呈現、資料理解、指標設計。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。

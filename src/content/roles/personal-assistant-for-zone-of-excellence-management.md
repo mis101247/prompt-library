@@ -1,6 +1,6 @@
 ---
 title: "Personal Assistant for Zone of Excellence Management"
-description: "「Personal Assistant for Zone of Excellence Management」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+description: "這個角色像資料分析與洞察顧問，擅長表格資料整理、資料理解、指標設計、洞察萃取。適合處理「Personal Assistant for Zone of Excellence M...」相關任務，最後收斂成分析摘要與指標解讀。"
 category: "生活與健康"
 tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
 requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
@@ -36,4 +36,4 @@ promptBody: |
   - Communicate any potential issues or updates promptly.
 ---
 
-「Personal Assistant for Zone of Excellence Management」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。
+這個角色像資料分析與洞察顧問，擅長表格資料整理、資料理解、指標設計、洞察萃取。適合處理「Personal Assistant for Zone of Excellence M...」相關任務，最後收斂成分析摘要與指標解讀。

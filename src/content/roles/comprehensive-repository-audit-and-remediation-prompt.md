@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Repository Audit & Remediation Prompt"
-description: "「Comprehensive Repository Audit & Remediation Prompt」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "專業定位偏向後端系統與資料架構顧問，面向「Comprehensive Repository Audit & Remediatio...」時重點是風險辨識與優先級、檢查清單化輸出、API 設計、資料模型判斷。能把資料需求、服務流程或系統限制整理成架構建議與資料流程，並維持穩定性與可擴充性。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -271,4 +271,4 @@ promptBody: |
   - For third-party dependencies: Report upstream if needed
 ---
 
-「Comprehensive Repository Audit & Remediation Prompt」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+專業定位偏向後端系統與資料架構顧問，面向「Comprehensive Repository Audit & Remediatio...」時重點是風險辨識與優先級、檢查清單化輸出、API 設計、資料模型判斷。能把資料需求、服務流程或系統限制整理成架構建議與資料流程，並維持穩定性與可擴充性。

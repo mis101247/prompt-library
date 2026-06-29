@@ -1,6 +1,6 @@
 ---
 title: "YT video  geopolitic analysis"
-description: "「YT video  geopolitic analysis」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "「YT video geopolitic analysis」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握表格資料整理、資料理解、指標設計、洞察萃取，交付分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -196,4 +196,4 @@ promptBody: |
   **Areas of Excellence**: Current Events
 ---
 
-「YT video  geopolitic analysis」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+「YT video geopolitic analysis」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握表格資料整理、資料理解、指標設計、洞察萃取，交付分析摘要與指標解讀。

@@ -1,6 +1,6 @@
 ---
 title: "Customized Gift Idea Brainstorm Assistant"
-description: "「Customized Gift Idea Brainstorm Assistant」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「Customized Gift Idea Brainstorm Assistant」適合由品牌視覺與設計系統顧問處理；所需能力包括品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，能將品牌目標、視覺素材或設計限制轉成品牌設計方向與視覺規格。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -34,4 +34,4 @@ promptBody: |
   - ${marketTrend} - Current trends in the market relevant to the brand.
 ---
 
-「Customized Gift Idea Brainstorm Assistant」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「Customized Gift Idea Brainstorm Assistant」適合由品牌視覺與設計系統顧問處理；所需能力包括品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，能將品牌目標、視覺素材或設計限制轉成品牌設計方向與視覺規格。

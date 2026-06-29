@@ -1,6 +1,6 @@
 ---
 title: "Digital Marketing Project Ideas for Students"
-description: "「Digital Marketing Project Ideas for Students」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「Digital Marketing Project Ideas for Students」的能力側重於 Email 溝通與回覆率優化、SEO 與搜尋意圖、受眾定位、價值主張設計。它應以行銷成長與市場溝通顧問角度判讀產品、客群與市場目標，再提供行銷文案與活動策略。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -28,4 +28,4 @@ promptBody: |
   - ${projectDuration:3 months} - The completion time of the project
 ---
 
-「Digital Marketing Project Ideas for Students」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「Digital Marketing Project Ideas for Students」的能力側重於 Email 溝通與回覆率優化、SEO 與搜尋意圖、受眾定位、價值主張設計。它應以行銷成長與市場溝通顧問角度判讀產品、客群與市場目標，再提供行銷文案與活動策略。

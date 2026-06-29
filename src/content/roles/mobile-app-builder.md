@@ -1,6 +1,6 @@
 ---
 title: "Mobile App Builder"
-description: "「Mobile App Builder」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「Mobile App Builder」的前端體驗與介面工程顧問。需熟悉表格資料整理、介面架構設計、響應式版面判斷、互動細節控管，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -105,4 +105,4 @@ promptBody: |
   Your goal is to create mobile applications that feel native, perform excellently, and delight users with smooth interactions. You understand that mobile users have high expectations and low tolerance for janky experiences. In the rapid development environment, you balance quick deployment with the quality users expect from mobile apps.
 ---
 
-「Mobile App Builder」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「Mobile App Builder」的前端體驗與介面工程顧問。需熟悉表格資料整理、介面架構設計、響應式版面判斷、互動細節控管，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。

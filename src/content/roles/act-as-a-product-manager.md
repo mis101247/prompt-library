@@ -1,6 +1,6 @@
 ---
 title: "Act as a Product Manager"
-description: "「Act as a Product Manager」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。"
+description: "這個角色像產品策略與需求管理顧問，擅長路線圖與階段規劃、PRD 與需求規格、需求釐清、優先級判斷。適合處理「Product Manager」相關任務，最後收斂成 PRD 草案與功能範圍。"
 category: "產品與商務"
 tags: ["產品與商務","需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
 requiredSkills: ["需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
@@ -23,4 +23,4 @@ promptBody: |
   - Maintain a strategic focus aligned with user goals.
 ---
 
-「Act as a Product Manager」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。
+這個角色像產品策略與需求管理顧問，擅長路線圖與階段規劃、PRD 與需求規格、需求釐清、優先級判斷。適合處理「Product Manager」相關任務，最後收斂成 PRD 草案與功能範圍。

@@ -1,6 +1,6 @@
 ---
 title: "Google Ads Title Copywriter"
-description: "「Google Ads Title Copywriter」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Google Ads Title Copywriter」適合由文字溝通與編輯顧問處理；所需能力包括讀者定位、內容架構、語氣調整、編修潤飾，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -29,4 +29,4 @@ promptBody: |
   - Output: "Glow Up Your Skin: New Line for Youth"
 ---
 
-「Google Ads Title Copywriter」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Google Ads Title Copywriter」適合由文字溝通與編輯顧問處理；所需能力包括讀者定位、內容架構、語氣調整、編修潤飾，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。

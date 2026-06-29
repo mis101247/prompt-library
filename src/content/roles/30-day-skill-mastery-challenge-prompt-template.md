@@ -1,6 +1,6 @@
 ---
 title: "30-Day Skill Mastery Challenge Prompt Template"
-description: "「30-Day Skill Mastery Challenge Prompt Template」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+description: "「30-Day Skill Mastery Challenge Prompt Template」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握風險辨識與優先級、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制，交付可直接生成的影像規格與品質控制指令。"
 category: "生活與健康"
 tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
 requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
@@ -64,4 +64,4 @@ promptBody: |
   Keep it motivating, achievable, and based on deliberate practice. Make tasks build momentum naturally.
 ---
 
-「30-Day Skill Mastery Challenge Prompt Template」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。
+「30-Day Skill Mastery Challenge Prompt Template」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握風險辨識與優先級、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制，交付可直接生成的影像規格與品質控制指令。

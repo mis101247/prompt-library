@@ -1,6 +1,6 @@
 ---
 title: "SQL Query Generator from Natural Language"
-description: "「SQL Query Generator from Natural Language」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+description: "以資料分析與洞察顧問來看，「SQL Query Generator from Natural Language」要求 AI 掌握 SQL 與資料查詢、Email 溝通與回覆率優化、資料理解、指標設計，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "內容與寫作"
 tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
 requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
@@ -39,4 +39,4 @@ promptBody: |
   }
 ---
 
-「SQL Query Generator from Natural Language」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。
+以資料分析與洞察顧問來看，「SQL Query Generator from Natural Language」要求 AI 掌握 SQL 與資料查詢、Email 溝通與回覆率優化、資料理解、指標設計，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。

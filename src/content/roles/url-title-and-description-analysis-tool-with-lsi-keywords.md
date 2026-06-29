@@ -1,6 +1,6 @@
 ---
 title: "URL, Title, and Description Analysis Tool with LSI Keywords"
-description: "「URL, Title, and Description Analysis Tool with LSI Keywords」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "專業定位偏向資料分析與洞察顧問，面向「URL, Title, and Description Analysis Tool w...」時重點是 SEO 與搜尋意圖、資料理解、指標設計、洞察萃取。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -33,4 +33,4 @@ promptBody: |
   - ${region:Global} - Target region for search volume analysis
 ---
 
-「URL, Title, and Description Analysis Tool with LSI Keywords」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+專業定位偏向資料分析與洞察顧問，面向「URL, Title, and Description Analysis Tool w...」時重點是 SEO 與搜尋意圖、資料理解、指標設計、洞察萃取。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。

@@ -1,6 +1,6 @@
 ---
 title: "Animated Weather Radar Map: Brescia Storm"
-description: "「Animated Weather Radar Map: Brescia Storm」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "角色價值在於部署流程設計、基礎設施規劃、監控維運、自動化治理：能釐清「Animated Weather Radar Map: Brescia Storm」的任務脈絡，提供部署方案與維運檢查清單，同時守住可靠性與可回復性。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -23,4 +23,4 @@ promptBody: |
   Your task is to ensure that the animation is both informative and visually engaging, suitable for a TV weather forecast.
 ---
 
-「Animated Weather Radar Map: Brescia Storm」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+角色價值在於部署流程設計、基礎設施規劃、監控維運、自動化治理：能釐清「Animated Weather Radar Map: Brescia Storm」的任務脈絡，提供部署方案與維運檢查清單，同時守住可靠性與可回復性。

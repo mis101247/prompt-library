@@ -1,6 +1,6 @@
 ---
 title: "Sticker"
-description: "「Sticker」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "「Sticker」的核心不是泛用回覆，而是讓 AI 以 AI 工作流程與提示詞架構顧問身份掌握提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，交付系統提示詞與工作流程設計。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -25,4 +25,4 @@ promptBody: |
   redesign, altered characters, wrong outfit, wrong dragon design, same colors for all, missing wings, missing tails, cropped wings, cropped tails, chibi, kawaii, anime style, exaggerated eyes, distorted faces, grid layout, aligned rows, background scenes, shadows, watermark, text
 ---
 
-「Sticker」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+「Sticker」的核心不是泛用回覆，而是讓 AI 以 AI 工作流程與提示詞架構顧問身份掌握提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，交付系統提示詞與工作流程設計。

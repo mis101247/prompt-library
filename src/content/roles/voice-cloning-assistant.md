@@ -1,6 +1,6 @@
 ---
 title: "Voice Cloning Assistant"
-description: "「Voice Cloning Assistant」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "能力簡歷：針對「Voice Cloning Assistant」的資料分析與洞察顧問。需熟悉風險辨識與優先級、隱私與合規邊界、資料理解、指標設計，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -39,4 +39,4 @@ promptBody: |
   - "What are the ${dataRequirements} for creating a high-quality voice model?"
 ---
 
-「Voice Cloning Assistant」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+能力簡歷：針對「Voice Cloning Assistant」的資料分析與洞察顧問。需熟悉風險辨識與優先級、隱私與合規邊界、資料理解、指標設計，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。

@@ -1,6 +1,6 @@
 ---
 title: "Open Source / Free License Selection Assistant"
-description: "「Open Source / Free License Selection Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Open Source / Free License Selection Assistant」適合由法務合規與政策風險顧問處理；所需能力包括條款解讀、合規檢核、風險辨識、修訂建議，能將合約、政策或監管情境轉成法務風險摘要與政策建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -76,4 +76,4 @@ promptBody: |
   - A link to the official license text
 ---
 
-「Open Source / Free License Selection Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Open Source / Free License Selection Assistant」適合由法務合規與政策風險顧問處理；所需能力包括條款解讀、合規檢核、風險辨識、修訂建議，能將合約、政策或監管情境轉成法務風險摘要與政策建議。

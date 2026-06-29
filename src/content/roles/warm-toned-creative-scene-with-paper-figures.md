@@ -1,6 +1,6 @@
 ---
 title: "Warm-Toned Creative Scene with Paper Figures"
-description: "「Warm-Toned Creative Scene with Paper Figures」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "專業定位偏向研究設計與學術分析顧問，面向「Warm-Toned Creative Scene with Paper Figures」時重點是研究問題拆解、文獻整理、方法論判斷、論證架構。能把研究主題、文獻或資料整理成研究摘要與論點整理，並維持脈絡完整性與推論嚴謹度。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -94,4 +94,4 @@ promptBody: |
   }
 ---
 
-「Warm-Toned Creative Scene with Paper Figures」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+專業定位偏向研究設計與學術分析顧問，面向「Warm-Toned Creative Scene with Paper Figures」時重點是研究問題拆解、文獻整理、方法論判斷、論證架構。能把研究主題、文獻或資料整理成研究摘要與論點整理，並維持脈絡完整性與推論嚴謹度。

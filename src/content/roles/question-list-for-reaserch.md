@@ -1,6 +1,6 @@
 ---
 title: "question list for reaserch"
-description: "「question list for reaserch」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "以互動敘事與遊戲內容設計顧問來看，「question list for reaserch」要求 AI 掌握面試策略與回答校準、角色塑造、世界觀設定、互動規則設計，並將角色、場景或遊戲目標轉化為角色回應與劇情節點。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   Create a list of interview questions for researching ${topic} in ${community}.
 ---
 
-「question list for reaserch」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+以互動敘事與遊戲內容設計顧問來看，「question list for reaserch」要求 AI 掌握面試策略與回答校準、角色塑造、世界觀設定、互動規則設計，並將角色、場景或遊戲目標轉化為角色回應與劇情節點。

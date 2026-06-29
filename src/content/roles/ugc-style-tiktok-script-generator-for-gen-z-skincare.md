@@ -1,6 +1,6 @@
 ---
 title: "UGC-Style TikTok Script Generator for Gen Z Skincare"
-description: "「UGC-Style TikTok Script Generator for Gen Z Skincare」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "以文字溝通與編輯顧問來看，「UGC-Style TikTok Script Generator for Gen Z...」要求 AI 掌握讀者定位、內容架構、語氣調整、編修潤飾，並將主題、素材或既有文本轉化為可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -33,4 +33,4 @@ promptBody: |
   - ${callToAction} - a natural call to action for viewers
 ---
 
-「UGC-Style TikTok Script Generator for Gen Z Skincare」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+以文字溝通與編輯顧問來看，「UGC-Style TikTok Script Generator for Gen Z...」要求 AI 掌握讀者定位、內容架構、語氣調整、編修潤飾，並將主題、素材或既有文本轉化為可發布的文字草稿與改寫版本。

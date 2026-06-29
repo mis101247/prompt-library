@@ -1,6 +1,6 @@
 ---
 title: "Work on Linear Issue"
-description: "「Work on Linear Issue」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向文字溝通與編輯顧問，面向「Work on Linear Issue」時重點是讀者定位、內容架構、語氣調整、編修潤飾。能把主題、素材或既有文本整理成可發布的文字草稿與改寫版本，並維持清晰度與語氣一致性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -26,4 +26,4 @@ promptBody: |
   6. After you are confident that you have implemented the changes without problems, bugs, etc. create a PR to the main branch.
 ---
 
-「Work on Linear Issue」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向文字溝通與編輯顧問，面向「Work on Linear Issue」時重點是讀者定位、內容架構、語氣調整、編修潤飾。能把主題、素材或既有文本整理成可發布的文字草稿與改寫版本，並維持清晰度與語氣一致性。

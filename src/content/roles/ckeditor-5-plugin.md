@@ -1,6 +1,6 @@
 ---
 title: "CKEditor 5 Plugin"
-description: "「CKEditor 5 Plugin」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於讀者定位、內容架構、語氣調整、編修潤飾：能釐清「CKEditor 5 Plugin」的任務脈絡，提供可發布的文字草稿與改寫版本，同時守住清晰度與語氣一致性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -145,4 +145,4 @@ promptBody: |
   Follow CKEditor 5 best practices strictly.
 ---
 
-「CKEditor 5 Plugin」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於讀者定位、內容架構、語氣調整、編修潤飾：能釐清「CKEditor 5 Plugin」的任務脈絡，提供可發布的文字草稿與改寫版本，同時守住清晰度與語氣一致性。

@@ -1,6 +1,6 @@
 ---
 title: "Ultra-Realistic Young Woman Portrait Generation"
-description: "「Ultra-Realistic Young Woman Portrait Generation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「Ultra-Realistic Young Woman Portrait Genera...」的能力側重於手機抓拍與自然構圖、人物姿態與肖像質感、視覺提示詞撰寫、構圖與鏡頭語言。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -24,4 +24,4 @@ promptBody: |
   Ensure the image is high in realism, capturing the essence of a candid photo with all specified details.
 ---
 
-「Ultra-Realistic Young Woman Portrait Generation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「Ultra-Realistic Young Woman Portrait Genera...」的能力側重於手機抓拍與自然構圖、人物姿態與肖像質感、視覺提示詞撰寫、構圖與鏡頭語言。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。

@@ -1,6 +1,6 @@
 ---
 title: "Visual QA & Cross-Browser Audit"
-description: "「Visual QA & Cross-Browser Audit」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
+description: "「Visual QA & Cross-Browser Audit」的能力側重於檢查清單化輸出、介面架構設計、響應式版面判斷、互動細節控管。它應以前端體驗與介面工程顧問角度判讀頁面需求、元件或使用者流程，再提供前端實作建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
@@ -103,4 +103,4 @@ promptBody: |
   - **Low:** Minor polish issue, nice-to-have fix
 ---
 
-「Visual QA & Cross-Browser Audit」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。
+「Visual QA & Cross-Browser Audit」的能力側重於檢查清單化輸出、介面架構設計、響應式版面判斷、互動細節控管。它應以前端體驗與介面工程顧問角度判讀頁面需求、元件或使用者流程，再提供前端實作建議與介面規格。

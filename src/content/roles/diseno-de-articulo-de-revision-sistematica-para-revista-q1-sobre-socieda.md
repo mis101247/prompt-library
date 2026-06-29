@@ -1,6 +1,6 @@
 ---
 title: "Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña"
-description: "「Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "能力簡歷：針對「Diseño de Artículo de Revisión Sistemática ...」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -24,4 +24,4 @@ promptBody: |
   - Evitar lenguaje redundante y asegurar claridad y concisión.
 ---
 
-「Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+能力簡歷：針對「Diseño de Artículo de Revisión Sistemática ...」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。

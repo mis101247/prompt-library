@@ -1,6 +1,6 @@
 ---
 title: "Viral TikTok Glühwein Recipe in Five Languages"
-description: "「Viral TikTok Glühwein Recipe in Five Languages」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+description: "能力簡歷：針對「Viral TikTok Glühwein Recipe in Five Languages」的餐飲應用與料理體驗顧問。需熟悉食譜流程與料理情境、食譜資訊架構、飲食限制判斷、搜尋篩選設計，從食材、飲食限制、食譜資料或餐飲產品需求抓出重點，產出食譜搜尋體驗與營養資訊呈現。"
 category: "內容與寫作"
 tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
 requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
@@ -56,4 +56,4 @@ promptBody: |
   Clear structure: ${en} → ${es} → ${de} → ${fr} → ${it}.
 ---
 
-「Viral TikTok Glühwein Recipe in Five Languages」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。
+能力簡歷：針對「Viral TikTok Glühwein Recipe in Five Languages」的餐飲應用與料理體驗顧問。需熟悉食譜流程與料理情境、食譜資訊架構、飲食限制判斷、搜尋篩選設計，從食材、飲食限制、食譜資料或餐飲產品需求抓出重點，產出食譜搜尋體驗與營養資訊呈現。

@@ -1,6 +1,6 @@
 ---
 title: "App Store Screenshots Gallery Generator"
-description: "「App Store Screenshots Gallery Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「App Store Screenshots Gallery Generator」的能力側重於手機抓拍與自然構圖、儀表板與指標呈現、視覺提示詞撰寫、構圖與鏡頭語言。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -185,4 +185,4 @@ promptBody: |
   The AI will generate a production-ready gallery that looks professionally designed.
 ---
 
-「App Store Screenshots Gallery Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「App Store Screenshots Gallery Generator」的能力側重於手機抓拍與自然構圖、儀表板與指標呈現、視覺提示詞撰寫、構圖與鏡頭語言。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。

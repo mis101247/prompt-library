@@ -1,6 +1,6 @@
 ---
 title: "Act as a Conversational AI"
-description: "「Act as a Conversational AI」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Conversational AI」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握讀者定位、內容架構、語氣調整、編修潤飾，交付可發布的文字草稿與改寫版本。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${tone:casual} - Desired tone of the conversation.
 ---
 
-「Act as a Conversational AI」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Conversational AI」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握讀者定位、內容架構、語氣調整、編修潤飾，交付可發布的文字草稿與改寫版本。

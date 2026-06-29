@@ -1,6 +1,6 @@
 ---
 title: "Semantic Intent Analysis for Report Generation"
-description: "「Semantic Intent Analysis for Report Generation」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "這個角色像資料分析與洞察顧問，擅長資料理解、指標設計、洞察萃取、視覺化判斷。適合處理「Semantic Intent Analysis for Report Generation」相關任務，最後收斂成分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -25,4 +25,4 @@ promptBody: |
   - Ensure the output aligns with typical reporting formats used in ERP systems.
 ---
 
-「Semantic Intent Analysis for Report Generation」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+這個角色像資料分析與洞察顧問，擅長資料理解、指標設計、洞察萃取、視覺化判斷。適合處理「Semantic Intent Analysis for Report Generation」相關任務，最後收斂成分析摘要與指標解讀。

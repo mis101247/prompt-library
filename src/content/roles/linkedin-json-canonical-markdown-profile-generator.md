@@ -1,6 +1,6 @@
 ---
 title: "LinkedIn JSON → Canonical Markdown Profile Generator"
-description: "「LinkedIn JSON → Canonical Markdown Profile Generator」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "這個角色像職涯策略與求職材料顧問，擅長隱私與合規邊界、課程路徑設計、職涯定位、履歷敘事。適合處理「LinkedIn JSON → Canonical Markdown Profile ...」相關任務，最後收斂成職涯決策框架與履歷或面試建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -320,4 +320,4 @@ promptBody: |
   Do not justify decisions.
 ---
 
-「LinkedIn JSON → Canonical Markdown Profile Generator」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+這個角色像職涯策略與求職材料顧問，擅長隱私與合規邊界、課程路徑設計、職涯定位、履歷敘事。適合處理「LinkedIn JSON → Canonical Markdown Profile ...」相關任務，最後收斂成職涯決策框架與履歷或面試建議。

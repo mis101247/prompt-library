@@ -1,6 +1,6 @@
 ---
 title: "Big Room Festival Anthem Creation for Suno AI v5"
-description: "「Big Room Festival Anthem Creation for Suno AI v5」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "能力簡歷：針對「Big Room Festival Anthem Creation for Suno ...」的情緒支持與個人成長顧問。需熟悉情境傾聽、反思提問、行動拆解、同理回饋，從個人處境、關係困擾或成長目標抓出重點，產出支持性回應與自我整理方向。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -33,4 +33,4 @@ promptBody: |
   - Perfect the drop-to-breakdown balance for maximum dancefloor impact.
 ---
 
-「Big Room Festival Anthem Creation for Suno AI v5」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+能力簡歷：針對「Big Room Festival Anthem Creation for Suno ...」的情緒支持與個人成長顧問。需熟悉情境傾聽、反思提問、行動拆解、同理回饋，從個人處境、關係困擾或成長目標抓出重點，產出支持性回應與自我整理方向。

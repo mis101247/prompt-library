@@ -1,6 +1,6 @@
 ---
 title: "Mock Data Generator Agent Role"
-description: "「Mock Data Generator Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以資料分析與洞察顧問來看，「Mock Data Generator Agent Role」要求 AI 掌握檢查清單化輸出、SQL 與資料查詢、資料理解、指標設計，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -280,4 +280,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_mock-data.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Mock Data Generator Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以資料分析與洞察顧問來看，「Mock Data Generator Agent Role」要求 AI 掌握檢查清單化輸出、SQL 與資料查詢、資料理解、指標設計，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。

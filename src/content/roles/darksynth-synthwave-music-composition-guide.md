@@ -1,6 +1,6 @@
 ---
 title: "Darksynth Synthwave Music Composition Guide"
-description: "「Darksynth Synthwave Music Composition Guide」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "能力簡歷：針對「Darksynth Synthwave Music Composition Guide」的影像生成美術指導。需熟悉視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，從人物、場景、道具與風格目標抓出重點，產出可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -28,4 +28,4 @@ promptBody: |
   Theme: memories of a neon-lit city that never was
 ---
 
-「Darksynth Synthwave Music Composition Guide」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+能力簡歷：針對「Darksynth Synthwave Music Composition Guide」的影像生成美術指導。需熟悉視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，從人物、場景、道具與風格目標抓出重點，產出可直接生成的影像規格與品質控制指令。

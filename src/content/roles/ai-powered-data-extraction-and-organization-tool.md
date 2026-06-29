@@ -1,6 +1,6 @@
 ---
 title: "AI-powered data extraction and organization tool"
-description: "「AI-powered data extraction and organization tool」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "專業定位偏向資料分析與洞察顧問，面向「AI-powered data extraction and organization...」時重點是資料理解、指標設計、洞察萃取、視覺化判斷。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -14,4 +14,4 @@ promptBody: |
   Develop an AI-powered data extraction and organization tool that revolutionizes the way professionals across content creation, web development, academia, and business entrepreneurship gather, analyze, and utilize information. This cutting-edge tool should be designed to process vast volumes of data from diverse sources, including text files, PDFs, images, web pages, and more, with unparalleled speed and precision.
 ---
 
-「AI-powered data extraction and organization tool」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+專業定位偏向資料分析與洞察顧問，面向「AI-powered data extraction and organization...」時重點是資料理解、指標設計、洞察萃取、視覺化判斷。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。

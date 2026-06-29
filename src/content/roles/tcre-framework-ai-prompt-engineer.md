@@ -1,6 +1,6 @@
 ---
 title: "TCRE Framework - AI Prompt Engineer"
-description: "「TCRE Framework - AI Prompt Engineer」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "能力簡歷：針對「TCRE Framework - AI Prompt Engineer」的 AI 工作流程與提示詞架構顧問。需熟悉提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，從任務目標、工具限制與上下文抓出重點，產出系統提示詞與工作流程設計。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -24,4 +24,4 @@ promptBody: |
   If anything is unclear or you need more context or examples, please ask follow-up questions before proceeding. You may apply best practices from prompt engineering where helpful.
 ---
 
-「TCRE Framework - AI Prompt Engineer」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+能力簡歷：針對「TCRE Framework - AI Prompt Engineer」的 AI 工作流程與提示詞架構顧問。需熟悉提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，從任務目標、工具限制與上下文抓出重點，產出系統提示詞與工作流程設計。

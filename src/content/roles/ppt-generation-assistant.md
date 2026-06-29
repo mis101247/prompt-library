@@ -1,6 +1,6 @@
 ---
 title: "PPT Generation Assistant"
-description: "「PPT Generation Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "以簡報敘事與資訊設計顧問來看，「PPT Generation Assistant」要求 AI 掌握訊息層級設計、簡報架構、視覺敘事、重點萃取，並將資料、主題或提案目標轉化為投影片架構與視覺呈現建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -28,4 +28,4 @@ promptBody: |
   - Keep the number of slides within ${slideLimit:20}.
 ---
 
-「PPT Generation Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+以簡報敘事與資訊設計顧問來看，「PPT Generation Assistant」要求 AI 掌握訊息層級設計、簡報架構、視覺敘事、重點萃取，並將資料、主題或提案目標轉化為投影片架構與視覺呈現建議。

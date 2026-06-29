@@ -1,6 +1,6 @@
 ---
 title: "Premium Classy Interview Presentation Design"
-description: "「Premium Classy Interview Presentation Design」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "角色價值在於面試策略與回答校準、訊息層級設計、簡報架構、視覺敘事：能釐清「Premium Classy Interview Presentation Design」的任務脈絡，提供投影片架構與視覺呈現建議，同時守住說服力與可讀性。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -30,4 +30,4 @@ promptBody: |
   - Ensure hyperlinks are functional and direct to credible sources
 ---
 
-「Premium Classy Interview Presentation Design」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+角色價值在於面試策略與回答校準、訊息層級設計、簡報架構、視覺敘事：能釐清「Premium Classy Interview Presentation Design」的任務脈絡，提供投影片架構與視覺呈現建議，同時守住說服力與可讀性。

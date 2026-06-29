@@ -1,6 +1,6 @@
 ---
 title: "Review the social media content"
-description: "「Review the social media content」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Review the social media content」適合由行銷成長與市場溝通顧問處理；所需能力包括社群內容節奏、受眾定位、價值主張設計、轉換路徑規劃，能將產品、客群與市場目標轉成行銷文案與活動策略。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -32,4 +32,4 @@ promptBody: |
   Enjoy sooner than you think.
 ---
 
-「Review the social media content」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Review the social media content」適合由行銷成長與市場溝通顧問處理；所需能力包括社群內容節奏、受眾定位、價值主張設計、轉換路徑規劃，能將產品、客群與市場目標轉成行銷文案與活動策略。

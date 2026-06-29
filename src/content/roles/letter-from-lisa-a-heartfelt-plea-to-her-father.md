@@ -1,6 +1,6 @@
 ---
 title: "Letter from Lisa: A Heartfelt Plea to Her Father"
-description: "「Letter from Lisa: A Heartfelt Plea to Her Father」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "「Letter from Lisa: A Heartfelt Plea to Her F...」的核心不是泛用回覆，而是讓 AI 以健康資訊與照護溝通顧問身份掌握症狀資訊整理、風險提醒、照護溝通、資源建議，交付健康資訊摘要與就醫溝通準備。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -30,4 +30,4 @@ promptBody: |
   - A testament to be remembered by when you are no longer in this world.
 ---
 
-「Letter from Lisa: A Heartfelt Plea to Her Father」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+「Letter from Lisa: A Heartfelt Plea to Her F...」的核心不是泛用回覆，而是讓 AI 以健康資訊與照護溝通顧問身份掌握症狀資訊整理、風險提醒、照護溝通、資源建議，交付健康資訊摘要與就醫溝通準備。

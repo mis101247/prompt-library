@@ -1,6 +1,6 @@
 ---
 title: "Underwater Veo 3 video"
-description: "「Underwater Veo 3 video」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "「Underwater Veo 3 video」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，交付可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -14,4 +14,4 @@ promptBody: |
   Ultra-realistic 6-second cinematic underwater video: A sleek predator fish darts through a vibrant coral reef, scattering a school of colorful tropical fish. The camera follows from a low FPV angle just behind the predator, weaving smoothly between corals and rocks with dynamic, fast-paced motion. The camera occasionally tilts and rolls slightly, emphasizing speed and depth, while sunlight filters through the water, creating shimmering rays and sparkling reflections. Tiny bubbles and particles float in the water for immersive realism. Ultra-realistic textures, cinematic lighting, dramatic depth of field. Audio: bubbling water, swishing fins, subtle underwater ambience.
 ---
 
-「Underwater Veo 3 video」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+「Underwater Veo 3 video」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，交付可直接生成的影像規格與品質控制指令。

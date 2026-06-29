@@ -1,6 +1,6 @@
 ---
 title: "TypeScript Unit Testing with Vitest"
-description: "「TypeScript Unit Testing with Vitest」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
+description: "能力簡歷：針對「TypeScript Unit Testing with Vitest」的文字溝通與編輯顧問。需熟悉讀者定位、內容架構、語氣調整、編修潤飾，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
@@ -58,4 +58,4 @@ promptBody: |
   })```
 ---
 
-「TypeScript Unit Testing with Vitest」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。
+能力簡歷：針對「TypeScript Unit Testing with Vitest」的文字溝通與編輯顧問。需熟悉讀者定位、內容架構、語氣調整、編修潤飾，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。

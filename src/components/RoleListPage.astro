@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PaginationNav from './PaginationNav.astro';
 import RolePromptCard from './RolePromptCard.astro';
+import { sourceLinkFromUrl } from '../utils/source';
 import { formatCategory, formatTags, sortCategories, tagSearchText } from '../utils/taxonomy';
 
 interface Props {
@@ -16,13 +17,25 @@ interface Props {
 const { rolePrompts, allRolePrompts, currentPage, totalPages, pageSize } = Astro.props;
 const categories = sortCategories(allRolePrompts.map((entry) => entry.data.category));
 const pageHref = (page: number) => (page === 1 ? '/roles/' : `/roles/page/${page}/`);
+const roleSourceLinks = new Map(
+  allRolePrompts.map((rolePrompt) => [
+    rolePrompt.id,
+    sourceLinkFromUrl(rolePrompt.data.sourceTitle, rolePrompt.data.sourceUrl),
+  ]),
+);
+const visibleRolePrompts = rolePrompts.map((rolePrompt) => ({
+  entry: rolePrompt,
+  source: roleSourceLinks.get(rolePrompt.id) ?? sourceLinkFromUrl(rolePrompt.data.sourceTitle, rolePrompt.data.sourceUrl),
+}));
 const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
   id: rolePrompt.id,
   title: rolePrompt.data.title,
   description: rolePrompt.data.description,
   category: formatCategory(rolePrompt.data.category),
+  source: roleSourceLinks.get(rolePrompt.id),
   tags: formatTags(rolePrompt.data.tags),
   requiredSkills: formatTags(rolePrompt.data.requiredSkills),
+  promptBody: rolePrompt.data.promptBody,
   visibleTags: formatTags(
     rolePrompt.data.requiredSkills.length > 0
       ? rolePrompt.data.requiredSkills
@@ -33,6 +46,7 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
     rolePrompt.data.description,
     rolePrompt.data.category,
     formatCategory(rolePrompt.data.category),
+    roleSourceLinks.get(rolePrompt.id)?.label,
     tagSearchText(rolePrompt.data.tags),
     tagSearchText(rolePrompt.data.requiredSkills),
   ].join(' ').toLowerCase(),
@@ -40,10 +54,10 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
 }));
 ---
 
-<BaseLayout title="角色提示詞" description="整理 prompts.chat 的角色型 prompt，快速找到產品、設計、工程、資料與內容工作需要的角色提示詞。" width="wide">
+<BaseLayout title="角色提示詞" description="整理不同來源的角色型 prompt，快速找到產品、設計、工程、資料與內容工作需要的角色提示詞。" width="wide">
   <section class="hero">
     <h1>角色提示詞</h1>
-    <p>收錄 prompts.chat 的 {allRolePrompts.length.toLocaleString('zh-TW')} 個角色型 prompt。每筆都整理成正體中文能力摘要，說明這個角色提示詞需要 AI 動用哪些專業判斷。</p>
+    <p>收錄 {allRolePrompts.length.toLocaleString('zh-TW')} 個角色型 prompt。每筆都整理成正體中文能力摘要，並附上可點擊的來源標籤，方便回到原始倉庫追溯脈絡。</p>
   </section>
 
   <section class="filter-bar" aria-label="角色提示詞搜尋與篩選">
@@ -67,7 +81,7 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
     />
 
     <section class="grid grid--two" id="items">
-      {rolePrompts.map((rolePrompt) => (
+      {visibleRolePrompts.map(({ entry: rolePrompt, source }) => (
         <RolePromptCard
           id={rolePrompt.id}
           title={rolePrompt.data.title}
@@ -76,6 +90,8 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
           tags={rolePrompt.data.tags}
           requiredSkills={rolePrompt.data.requiredSkills}
           promptBody={rolePrompt.data.promptBody}
+          sourceLabel={source?.label ?? '來源'}
+          sourceHref={source?.href ?? rolePrompt.data.sourceUrl}
         />
       ))}
     </section>
@@ -111,7 +127,8 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
 
     function createResultCard(entry) {
       const article = document.createElement('article');
-      article.className = 'content-card';
+      article.className = 'content-card role-prompt-card';
+      article.dataset.libraryItem = '';
 
       const link = document.createElement('a');
       link.className = 'content-card__main';
@@ -131,18 +148,49 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
       article.append(link);
 
       const visibleTags = entry.visibleTags;
+      const chips = document.createElement('div');
+      chips.className = 'chip-row';
+
+      if (entry.source) {
+        const source = document.createElement('a');
+        source.className = 'source-badge';
+        source.href = entry.source.href;
+        source.target = '_blank';
+        source.rel = 'noopener noreferrer';
+        source.textContent = `來源：${entry.source.label}`;
+        chips.append(source);
+      }
 
       if (visibleTags.length > 0) {
-        const tags = document.createElement('div');
-        tags.className = 'tag-list';
         visibleTags.forEach((tagText) => {
           const tag = document.createElement('span');
           tag.className = 'tag';
           tag.textContent = tagText;
-          tags.append(tag);
+          chips.append(tag);
         });
-        article.append(tags);
       }
+
+      if (chips.children.length > 0) article.append(chips);
+
+      const copyButton = document.createElement('button');
+      copyButton.className = 'copy-button';
+      copyButton.type = 'button';
+      copyButton.dataset.copyRolePrompt = '';
+      copyButton.textContent = '複製角色提示詞';
+
+      const details = document.createElement('details');
+      details.className = 'role-prompt-card__prompt';
+
+      const summary = document.createElement('summary');
+      summary.textContent = '查看提示詞';
+
+      const pre = document.createElement('pre');
+      const code = document.createElement('code');
+      code.textContent = entry.promptBody;
+      pre.append(code);
+      details.append(summary, pre);
+
+      article.append(copyButton, details);
 
       return article;
     }
@@ -178,6 +226,7 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
       const start = (searchPage - 1) * pageSize;
       const visibleItems = matches.slice(start, start + pageSize);
       results.replaceChildren(...visibleItems.map(createResultCard));
+      bindRolePromptCards();
 
       empty.style.display = matches.length === 0 ? 'block' : 'none';
       const firstVisible = matches.length === 0 ? 0 : start + 1;
@@ -206,6 +255,8 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
       }
 
       document.querySelectorAll('[data-copy-role-prompt]').forEach((button) => {
+        if (button.dataset.copyBound === 'true') return;
+        button.dataset.copyBound = 'true';
         const originalLabel = button.textContent || '複製角色提示詞';
 
         button.addEventListener('click', async () => {
@@ -228,6 +279,9 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
       });
 
       document.querySelectorAll('.role-prompt-card__prompt').forEach((details) => {
+        if (details.dataset.promptBound === 'true') return;
+        details.dataset.promptBound = 'true';
+
         details.querySelector('summary')?.addEventListener('click', () => {
           const card = details.closest('[data-library-item]');
           if (card) keepCardInPlace(card);

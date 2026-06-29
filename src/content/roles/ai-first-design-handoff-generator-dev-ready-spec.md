@@ -1,6 +1,6 @@
 ---
 title: "AI-First Design Handoff Generator (Dev-Ready Spec)"
-description: "「AI-First Design Handoff Generator (Dev-Ready Spec)」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「AI-First Design Handoff Generator (Dev-Read...」的核心不是泛用回覆，而是讓 AI 以前端體驗與介面工程顧問身份掌握介面架構設計、響應式版面判斷、互動細節控管、可用性改善，交付前端實作建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -73,4 +73,4 @@ promptBody: |
   **Implementation Notes**
 ---
 
-「AI-First Design Handoff Generator (Dev-Ready Spec)」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「AI-First Design Handoff Generator (Dev-Read...」的核心不是泛用回覆，而是讓 AI 以前端體驗與介面工程顧問身份掌握介面架構設計、響應式版面判斷、互動細節控管、可用性改善，交付前端實作建議與介面規格。

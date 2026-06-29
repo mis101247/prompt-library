@@ -1,6 +1,6 @@
 ---
 title: "Python Code Performance & Quality Enhancer"
-description: "「Python Code Performance & Quality Enhancer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以技術文件與知識管理顧問來看，「Python Code Performance & Quality Enhancer」要求 AI 掌握風險辨識與優先級、技術脈絡整理、文件架構設計、受眾轉譯，並將程式碼、系統資訊或開發流程轉化為技術文件草稿與知識庫結構。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -77,4 +77,4 @@ promptBody: |
   ${paste_your_code_here}
 ---
 
-「Python Code Performance & Quality Enhancer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以技術文件與知識管理顧問來看，「Python Code Performance & Quality Enhancer」要求 AI 掌握風險辨識與優先級、技術脈絡整理、文件架構設計、受眾轉譯，並將程式碼、系統資訊或開發流程轉化為技術文件草稿與知識庫結構。

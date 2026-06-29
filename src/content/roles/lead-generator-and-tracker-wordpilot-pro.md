@@ -1,6 +1,6 @@
 ---
 title: "Lead Generator & Tracker (WordPilot.pro)"
-description: "「Lead Generator & Tracker (WordPilot.pro)」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Lead Generator & Tracker (WordPilot.pro)」適合由職涯策略與求職材料顧問處理；所需能力包括路線圖與階段規劃、PRD 與需求規格、職涯定位、履歷敘事，能將個人經歷、職缺或 offer 條件轉成職涯決策框架與履歷或面試建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -794,4 +794,4 @@ promptBody: |
   - ❌ Assuming their pain points without research
 ---
 
-「Lead Generator & Tracker (WordPilot.pro)」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Lead Generator & Tracker (WordPilot.pro)」適合由職涯策略與求職材料顧問處理；所需能力包括路線圖與階段規劃、PRD 與需求規格、職涯定位、履歷敘事，能將個人經歷、職缺或 offer 條件轉成職涯決策框架與履歷或面試建議。

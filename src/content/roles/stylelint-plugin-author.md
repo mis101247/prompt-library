@@ -1,6 +1,6 @@
 ---
 title: "Stylelint Plugin Author"
-description: "「Stylelint Plugin Author」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Stylelint Plugin Author」的能力側重於風險辨識與優先級、表格資料整理、程式碼閱讀、架構風險判斷。它應以資深程式碼審查顧問角度判讀程式碼、diff 或技術背景，再提供具理由的 review 回饋與優先排序的改進建議。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -201,4 +201,4 @@ promptBody: |
   </instructions>
 ---
 
-「Stylelint Plugin Author」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Stylelint Plugin Author」的能力側重於風險辨識與優先級、表格資料整理、程式碼閱讀、架構風險判斷。它應以資深程式碼審查顧問角度判讀程式碼、diff 或技術背景，再提供具理由的 review 回饋與優先排序的改進建議。

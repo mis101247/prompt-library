@@ -1,6 +1,6 @@
 ---
 title: "Crypto Market Outlook Analyst"
-description: "「Crypto Market Outlook Analyst」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "以資料分析與洞察顧問來看，「Crypto Market Outlook Analyst」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${institutionName} - The name of the institution providing the outlook
 ---
 
-「Crypto Market Outlook Analyst」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+以資料分析與洞察顧問來看，「Crypto Market Outlook Analyst」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。

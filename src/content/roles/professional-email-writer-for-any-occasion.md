@@ -1,6 +1,6 @@
 ---
 title: "Professional Email Writer for Any Occasion"
-description: "「Professional Email Writer for Any Occasion」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "能力簡歷：針對「Professional Email Writer for Any Occasion」的文字溝通與編輯顧問。需熟悉 Email 溝通與回覆率優化、讀者定位、內容架構、語氣調整，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -36,4 +36,4 @@ promptBody: |
   This prompt allows users to easily adjust the email's tone, language, and length to suit their specific needs.
 ---
 
-「Professional Email Writer for Any Occasion」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+能力簡歷：針對「Professional Email Writer for Any Occasion」的文字溝通與編輯顧問。需熟悉 Email 溝通與回覆率優化、讀者定位、內容架構、語氣調整，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。

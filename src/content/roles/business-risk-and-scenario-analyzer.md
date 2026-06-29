@@ -1,6 +1,6 @@
 ---
 title: "Business Risk & Scenario Analyzer"
-description: "「Business Risk & Scenario Analyzer」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「Business Risk & Scenario Analyzer」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握風險辨識與優先級、資料理解、指標設計、洞察萃取，交付分析摘要與指標解讀。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -67,4 +67,4 @@ promptBody: |
   **Key Decision Points**
 ---
 
-「Business Risk & Scenario Analyzer」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「Business Risk & Scenario Analyzer」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握風險辨識與優先級、資料理解、指標設計、洞察萃取，交付分析摘要與指標解讀。

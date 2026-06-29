@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive User Manual Creation for Multiple Modules"
-description: "「Comprehensive User Manual Creation for Multiple Modules」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+description: "能力簡歷：針對「Comprehensive User Manual Creation for Mult...」的產品策略與需求管理顧問。需熟悉需求釐清、優先級判斷、使用者故事設計、路線圖規劃，從產品目標、使用者需求與限制抓出重點，產出 PRD 草案與功能範圍。"
 category: "內容與寫作"
 tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
 requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
@@ -31,4 +31,4 @@ promptBody: |
   - Ensure consistency in how features and modules are documented across the guide.
 ---
 
-「Comprehensive User Manual Creation for Multiple Modules」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。
+能力簡歷：針對「Comprehensive User Manual Creation for Mult...」的產品策略與需求管理顧問。需熟悉需求釐清、優先級判斷、使用者故事設計、路線圖規劃，從產品目標、使用者需求與限制抓出重點，產出 PRD 草案與功能範圍。

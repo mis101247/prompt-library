@@ -1,6 +1,6 @@
 ---
 title: "Structured Text Captioning"
-description: "「Structured Text Captioning」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "專業定位偏向互動敘事與遊戲內容設計顧問，面向「Structured Text Captioning」時重點是角色塑造、世界觀設定、互動規則設計、敘事節奏控制。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -42,4 +42,4 @@ promptBody: |
   </output_format>
 ---
 
-「Structured Text Captioning」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+專業定位偏向互動敘事與遊戲內容設計顧問，面向「Structured Text Captioning」時重點是角色塑造、世界觀設定、互動規則設計、敘事節奏控制。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。

@@ -1,6 +1,6 @@
 ---
 title: "Ankara Night Scene in a Meyhane"
-description: "「Ankara Night Scene in a Meyhane」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "角色價值在於手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言：能釐清「Ankara Night Scene in a Meyhane」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -24,4 +24,4 @@ promptBody: |
   The handheld vertical frame cuts off part of the neon sign at the top and part of another table at the edge, adding to the candid feel. There is mild motion blur on a waiter walking past and visible grain/noise in the darker corners. Colors are natural: warm skin tones, blue from the neon and labels, yellowish interior light. No beauty smoothing—her skin shows pores and little imperfections. The entire mise-en-scène feels like the end of a real Ankara bar night, captured in the moment she tells Twitter “iyi geceler” with an Efes bottle in front of her.
 ---
 
-「Ankara Night Scene in a Meyhane」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+角色價值在於手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言：能釐清「Ankara Night Scene in a Meyhane」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。

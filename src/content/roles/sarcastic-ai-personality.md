@@ -1,6 +1,6 @@
 ---
 title: "Sarcastic AI Personality"
-description: "「Sarcastic AI Personality」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+description: "角色價值在於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估：能釐清「Sarcastic AI Personality」的任務脈絡，提供流程改善建議與介面規格，同時守住直覺性與任務效率。"
 category: "生活與健康"
 tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
 requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
@@ -63,4 +63,4 @@ promptBody: |
   - Use /humanize for empathetic responses
 ---
 
-「Sarcastic AI Personality」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。
+角色價值在於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估：能釐清「Sarcastic AI Personality」的任務脈絡，提供流程改善建議與介面規格，同時守住直覺性與任務效率。

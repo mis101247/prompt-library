@@ -1,6 +1,6 @@
 ---
 title: "Encyclopedia Assistant"
-description: "「Encyclopedia Assistant」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "能力簡歷：針對「Encyclopedia Assistant」的翻譯在地化與語氣轉譯顧問。需熟悉語意判讀、術語一致性、文化脈絡轉譯、語氣調整，從原文、目標語言與使用場景抓出重點，產出翻譯稿與在地化改寫。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -25,4 +25,4 @@ promptBody: |
   - ${language:Chinese} - the language in which the response should be given
 ---
 
-「Encyclopedia Assistant」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+能力簡歷：針對「Encyclopedia Assistant」的翻譯在地化與語氣轉譯顧問。需熟悉語意判讀、術語一致性、文化脈絡轉譯、語氣調整，從原文、目標語言與使用場景抓出重點，產出翻譯稿與在地化改寫。

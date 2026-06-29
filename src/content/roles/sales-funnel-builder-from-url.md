@@ -1,6 +1,6 @@
 ---
 title: "Sales Funnel Builder from URL"
-description: "「Sales Funnel Builder from URL」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「Sales Funnel Builder from URL」的能力側重於 Email 溝通與回覆率優化、受眾定位、價值主張設計、轉換路徑規劃。它應以行銷成長與市場溝通顧問角度判讀產品、客群與市場目標，再提供行銷文案與活動策略。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -24,4 +24,4 @@ promptBody: |
   - Maintain a customer-centric approach throughout the funnel design.
 ---
 
-「Sales Funnel Builder from URL」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「Sales Funnel Builder from URL」的能力側重於 Email 溝通與回覆率優化、受眾定位、價值主張設計、轉換路徑規劃。它應以行銷成長與市場溝通顧問角度判讀產品、客群與市場目標，再提供行銷文案與活動策略。

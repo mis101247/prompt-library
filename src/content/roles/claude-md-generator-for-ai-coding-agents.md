@@ -1,6 +1,6 @@
 ---
 title: "CLAUDE.md Generator for AI Coding Agents"
-description: "「CLAUDE.md Generator for AI Coding Agents」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "角色價值在於檢查清單化輸出、流程拆解、資源協調、風險控管：能釐清「CLAUDE.md Generator for AI Coding Agents」的任務脈絡，提供專案計畫與 SOP，同時守住落地性與責任清楚。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -84,4 +84,4 @@ promptBody: |
   Now ask me about my project, or generate a CLAUDE.md if I've already provided enough detail.
 ---
 
-「CLAUDE.md Generator for AI Coding Agents」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+角色價值在於檢查清單化輸出、流程拆解、資源協調、風險控管：能釐清「CLAUDE.md Generator for AI Coding Agents」的任務脈絡，提供專案計畫與 SOP，同時守住落地性與責任清楚。

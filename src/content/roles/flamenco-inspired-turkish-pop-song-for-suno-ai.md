@@ -1,6 +1,6 @@
 ---
 title: "Flamenco inspired Turkish Pop song for Suno AI"
-description: "「Flamenco inspired Turkish Pop song for Suno AI」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "這個角色像創意與視覺設計顧問，擅長風格判斷、構圖規劃、視覺細節控管、素材轉譯。適合處理「Flamenco inspired Turkish Pop song for Suno AI」相關任務，最後收斂成可執行的創意規格與圖像或介面提示。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -19,4 +19,4 @@ promptBody: |
   Samimi, insani, hafif kusurlu performans — yapay veya stok müzik hissi yok.
 ---
 
-「Flamenco inspired Turkish Pop song for Suno AI」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+這個角色像創意與視覺設計顧問，擅長風格判斷、構圖規劃、視覺細節控管、素材轉譯。適合處理「Flamenco inspired Turkish Pop song for Suno AI」相關任務，最後收斂成可執行的創意規格與圖像或介面提示。

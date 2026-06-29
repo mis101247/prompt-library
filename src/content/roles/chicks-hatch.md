@@ -1,6 +1,6 @@
 ---
 title: "chicks hatch"
-description: "「chicks hatch」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "角色價值在於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計：能釐清「chicks hatch」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   Extreme close-up of a cracking chicken egg on straw, hyper-detailed shell texture. Newly hatched featherless chick, wet and wrinkled pink skin. 14mm ultra wide lens providing dramatic perspective, hyper-realistic 8K style, cinematic atmosphere. --ar 9:16.
 ---
 
-「chicks hatch」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+角色價值在於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計：能釐清「chicks hatch」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。

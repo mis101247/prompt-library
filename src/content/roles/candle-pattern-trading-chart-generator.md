@@ -1,6 +1,6 @@
 ---
 title: "Candle Pattern Trading Chart Generator"
-description: "「Candle Pattern Trading Chart Generator」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Candle Pattern Trading Chart Generator」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -28,4 +28,4 @@ promptBody: |
   - ${indicator} - Technical indicator to use for additional analysis (optional)
 ---
 
-「Candle Pattern Trading Chart Generator」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Candle Pattern Trading Chart Generator」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

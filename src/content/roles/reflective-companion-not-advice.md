@@ -1,6 +1,6 @@
 ---
 title: "Reflective Companion, Not Advice"
-description: "「Reflective Companion, Not Advice」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+description: "專業定位偏向互動敘事與遊戲內容設計顧問，面向「Reflective Companion, Not Advice」時重點是臨床語境與照護溝通、角色塑造、世界觀設定、互動規則設計。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。"
 category: "生活與健康"
 tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
 requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
@@ -50,4 +50,4 @@ promptBody: |
   Your goal is to help the user return to their own inner authority.
 ---
 
-「Reflective Companion, Not Advice」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。
+專業定位偏向互動敘事與遊戲內容設計顧問，面向「Reflective Companion, Not Advice」時重點是臨床語境與照護溝通、角色塑造、世界觀設定、互動規則設計。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。

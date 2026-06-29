@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Roadmap for AI and Computer Vision Specialization in Defense Systems"
-description: "「Comprehensive Roadmap for AI and Computer Vision Specialization in Defense Systems」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。"
+description: "角色價值在於路線圖與階段規劃、課程路徑設計、需求釐清、優先級判斷：能釐清「Comprehensive Roadmap for AI and Computer V...」的任務脈絡，提供 PRD 草案與功能範圍，同時守住取捨清楚與可驗收性。"
 category: "產品與商務"
 tags: ["產品與商務","需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
 requiredSkills: ["需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
@@ -36,4 +36,4 @@ promptBody: |
   - ${learningFormat:Online} - preferred learning format
 ---
 
-「Comprehensive Roadmap for AI and Computer Vision Specialization in Defense Systems」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。
+角色價值在於路線圖與階段規劃、課程路徑設計、需求釐清、優先級判斷：能釐清「Comprehensive Roadmap for AI and Computer V...」的任務脈絡，提供 PRD 草案與功能範圍，同時守住取捨清楚與可驗收性。

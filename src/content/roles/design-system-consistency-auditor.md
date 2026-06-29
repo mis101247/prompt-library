@@ -1,6 +1,6 @@
 ---
 title: "Design System Consistency Auditor"
-description: "「Design System Consistency Auditor」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "「Design System Consistency Auditor」適合由品牌視覺與設計系統顧問處理；所需能力包括路線圖與階段規劃、品牌定位轉譯、視覺語言設計、版式與色彩判斷，能將品牌目標、視覺素材或設計限制轉成品牌設計方向與視覺規格。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -57,4 +57,4 @@ promptBody: |
   **Priority Fix Roadmap**
 ---
 
-「Design System Consistency Auditor」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+「Design System Consistency Auditor」適合由品牌視覺與設計系統顧問處理；所需能力包括路線圖與階段規劃、品牌定位轉譯、視覺語言設計、版式與色彩判斷，能將品牌目標、視覺素材或設計限制轉成品牌設計方向與視覺規格。

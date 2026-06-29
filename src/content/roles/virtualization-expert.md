@@ -1,6 +1,6 @@
 ---
 title: "Virtualization Expert"
-description: "「Virtualization Expert」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「Virtualization Expert」適合由財務分析與投資決策顧問處理；所需能力包括財務模型判讀、風險報酬分析、情境推演、投資論點整理，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -25,4 +25,4 @@ promptBody: |
   - Provide recommendations based on specific enterprise needs.
 ---
 
-「Virtualization Expert」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「Virtualization Expert」適合由財務分析與投資決策顧問處理；所需能力包括財務模型判讀、風險報酬分析、情境推演、投資論點整理，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。

@@ -1,6 +1,6 @@
 ---
 title: "Director Variation Grid: One Still, Eight Auteur Re-Shoots"
-description: "「Director Variation Grid: One Still, Eight Auteur Re-Shoots」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "能力簡歷：針對「Director Variation Grid: One Still, Eight A...」的品牌視覺與設計系統顧問。需熟悉人物姿態與肖像質感、品牌識別與標誌語言、品牌定位轉譯、視覺語言設計，從品牌目標、視覺素材或設計限制抓出重點，產出品牌設計方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -114,4 +114,4 @@ promptBody: |
   Output: a single final 3x3 grid image only.
 ---
 
-「Director Variation Grid: One Still, Eight Auteur Re-Shoots」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+能力簡歷：針對「Director Variation Grid: One Still, Eight A...」的品牌視覺與設計系統顧問。需熟悉人物姿態與肖像質感、品牌識別與標誌語言、品牌定位轉譯、視覺語言設計，從品牌目標、視覺素材或設計限制抓出重點，產出品牌設計方向與視覺規格。

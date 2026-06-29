@@ -1,6 +1,6 @@
 ---
 title: "Step 2: Outline Creation"
-description: "「Step 2: Outline Creation」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "角色價值在於任務釐清、脈絡整理、步驟拆解、回覆架構：能釐清「Step 2: Outline Creation」的任務脈絡，提供結構化回答與下一步建議，同時守住清晰度與可操作性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -22,4 +22,4 @@ promptBody: |
   Format the outline in a clear, hierarchical structure.
 ---
 
-「Step 2: Outline Creation」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+角色價值在於任務釐清、脈絡整理、步驟拆解、回覆架構：能釐清「Step 2: Outline Creation」的任務脈絡，提供結構化回答與下一步建議，同時守住清晰度與可操作性。

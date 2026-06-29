@@ -1,6 +1,6 @@
 ---
 title: "GPT_conversation_output"
-description: "「GPT_conversation_output」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "「GPT_conversation_output」適合由資料分析與洞察顧問處理；所需能力包括資料理解、指標設計、洞察萃取、視覺化判斷，能將資料表、指標或業務問題轉成分析摘要與指標解讀。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -87,4 +87,4 @@ promptBody: |
   * Maintain original ordering and pairing logic strictly.
 ---
 
-「GPT_conversation_output」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+「GPT_conversation_output」適合由資料分析與洞察顧問處理；所需能力包括資料理解、指標設計、洞察萃取、視覺化判斷，能將資料表、指標或業務問題轉成分析摘要與指標解讀。

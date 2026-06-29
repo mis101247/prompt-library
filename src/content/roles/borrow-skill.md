@@ -1,6 +1,6 @@
 ---
 title: "Borrow Skill"
-description: "「Borrow Skill」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "以 AI 工作流程與提示詞架構顧問來看，「Borrow Skill」要求 AI 掌握手機抓拍與自然構圖、提示詞架構設計、工具使用規劃、上下文管理，並將任務目標、工具限制與上下文轉化為系統提示詞與工作流程設計。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -23,4 +23,4 @@ promptBody: |
   5. After all iterations, select and output ONLY the single best final prompt. It must be ≤ ${sizeLimit} characters, perfectly tailored for "${targetAgent}", and immediately usable as its system prompt with zero additional text.
 ---
 
-「Borrow Skill」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+以 AI 工作流程與提示詞架構顧問來看，「Borrow Skill」要求 AI 掌握手機抓拍與自然構圖、提示詞架構設計、工具使用規劃、上下文管理，並將任務目標、工具限制與上下文轉化為系統提示詞與工作流程設計。

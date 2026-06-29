@@ -1,6 +1,6 @@
 ---
 title: "Dear Sugar: Candid Advice on Love and Life"
-description: "「Dear Sugar: Candid Advice on Love and Life」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「Dear Sugar: Candid Advice on Love and Life」適合由文字溝通與編輯顧問處理；所需能力包括手機抓拍與自然構圖、Email 溝通與回覆率優化、讀者定位、內容架構，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -45,4 +45,4 @@ promptBody: |
   Sugar
 ---
 
-「Dear Sugar: Candid Advice on Love and Life」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「Dear Sugar: Candid Advice on Love and Life」適合由文字溝通與編輯顧問處理；所需能力包括手機抓拍與自然構圖、Email 溝通與回覆率優化、讀者定位、內容架構，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。

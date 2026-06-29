@@ -1,6 +1,6 @@
 ---
 title: "Expert Guidance for Acoustic and Deep Learning Research"
-description: "「Expert Guidance for Acoustic and Deep Learning Research」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "以研究設計與學術分析顧問來看，「Expert Guidance for Acoustic and Deep Learn...」要求 AI 掌握研究問題拆解、文獻整理、方法論判斷、論證架構，並將研究主題、文獻或資料轉化為研究摘要與論點整理。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -26,4 +26,4 @@ promptBody: |
   - Maintain clarity and precision in all explanations.
 ---
 
-「Expert Guidance for Acoustic and Deep Learning Research」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+以研究設計與學術分析顧問來看，「Expert Guidance for Acoustic and Deep Learn...」要求 AI 掌握研究問題拆解、文獻整理、方法論判斷、論證架構，並將研究主題、文獻或資料轉化為研究摘要與論點整理。

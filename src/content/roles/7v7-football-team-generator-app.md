@@ -1,6 +1,6 @@
 ---
 title: "7v7 Football Team Generator App"
-description: "「7v7 Football Team Generator App」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「7v7 Football Team Generator App」的能力側重於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。它應以 UX 與產品介面設計顧問角度判讀產品需求、使用者情境或介面草案，再提供流程改善建議與介面規格。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${teamPreferences:defaultPreferences}: Any additional team preferences
 ---
 
-「7v7 Football Team Generator App」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「7v7 Football Team Generator App」的能力側重於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。它應以 UX 與產品介面設計顧問角度判讀產品需求、使用者情境或介面草案，再提供流程改善建議與介面規格。

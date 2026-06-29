@@ -1,6 +1,6 @@
 ---
 title: "Modern Video Player with Sharp UI"
-description: "「Modern Video Player with Sharp UI」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "這個角色像前端體驗與介面工程顧問，擅長介面架構設計、響應式版面判斷、互動細節控管、可用性改善。適合處理「Modern Video Player with Sharp UI」相關任務，最後收斂成前端實作建議與介面規格。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -30,4 +30,4 @@ promptBody: |
   - Optimize for performance and fast loading times.
 ---
 
-「Modern Video Player with Sharp UI」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+這個角色像前端體驗與介面工程顧問，擅長介面架構設計、響應式版面判斷、互動細節控管、可用性改善。適合處理「Modern Video Player with Sharp UI」相關任務，最後收斂成前端實作建議與介面規格。

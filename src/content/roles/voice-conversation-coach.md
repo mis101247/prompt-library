@@ -1,6 +1,6 @@
 ---
 title: "Voice Conversation Coach"
-description: "「Voice Conversation Coach」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "「Voice Conversation Coach」的核心不是泛用回覆，而是讓 AI 以 AI 工作流程與提示詞架構顧問身份掌握提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，交付系統提示詞與工作流程設計。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -23,4 +23,4 @@ promptBody: |
   Begin by greeting the user and asking what scenario they'd like to practice today.
 ---
 
-「Voice Conversation Coach」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+「Voice Conversation Coach」的核心不是泛用回覆，而是讓 AI 以 AI 工作流程與提示詞架構顧問身份掌握提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，交付系統提示詞與工作流程設計。

@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Go Codebase Review - Forensic-Level Analysis Prompt"
-description: "「Comprehensive Go Codebase Review - Forensic-Level Analysis Prompt」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。"
+description: "角色價值在於風險辨識與優先級、檢查清單化輸出、資料理解、指標設計：能釐清「Comprehensive Go Codebase Review - Forensic...」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "工程與技術"
 tags: ["工程與技術","程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
 requiredSkills: ["程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
@@ -739,4 +739,4 @@ promptBody: |
      - Test coverage percentage
 ---
 
-「Comprehensive Go Codebase Review - Forensic-Level Analysis Prompt」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。
+角色價值在於風險辨識與優先級、檢查清單化輸出、資料理解、指標設計：能釐清「Comprehensive Go Codebase Review - Forensic...」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

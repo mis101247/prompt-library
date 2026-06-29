@@ -1,6 +1,6 @@
 ---
 title: "Generate a Plan for Building the Best UI/UX"
-description: "「Generate a Plan for Building the Best UI/UX」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "「Generate a Plan for Building the Best UI/UX」適合由 UX 與產品介面設計顧問處理；所需能力包括 MVP 範圍收斂、檢查清單化輸出、使用者流程診斷、資訊架構設計，能將產品需求、使用者情境或介面草案轉成流程改善建議與介面規格。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -90,4 +90,4 @@ promptBody: |
   Begin with the Executive Summary, then proceed section by section.
 ---
 
-「Generate a Plan for Building the Best UI/UX」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+「Generate a Plan for Building the Best UI/UX」適合由 UX 與產品介面設計顧問處理；所需能力包括 MVP 範圍收斂、檢查清單化輸出、使用者流程診斷、資訊架構設計，能將產品需求、使用者情境或介面草案轉成流程改善建議與介面規格。

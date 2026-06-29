@@ -1,6 +1,6 @@
 ---
 title: "Develop a Lazy Learner Software"
-description: "「Develop a Lazy Learner Software」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向教學設計與學習引導顧問，面向「Develop a Lazy Learner Software」時重點是概念拆解、程度校準、練習設計、回饋引導。能把學習目標、教材或學生程度整理成教學流程與練習題，並維持理解友善與循序漸進。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -26,4 +26,4 @@ promptBody: |
   Consider how the software can be marketed to appeal to a wide audience, emphasizing its benefits for busy individuals or those with low motivation for traditional learning methods.
 ---
 
-「Develop a Lazy Learner Software」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向教學設計與學習引導顧問，面向「Develop a Lazy Learner Software」時重點是概念拆解、程度校準、練習設計、回饋引導。能把學習目標、教材或學生程度整理成教學流程與練習題，並維持理解友善與循序漸進。

@@ -1,6 +1,6 @@
 ---
 title: "Zero to One Solo-Founder Launch System"
-description: "「Zero to One Solo-Founder Launch System」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「Zero to One Solo-Founder Launch System」的能力側重於面試策略與回答校準、Email 溝通與回覆率優化、提示詞架構設計、工具使用規劃。它應以 AI 工作流程與提示詞架構顧問角度判讀任務目標、工具限制與上下文，再提供系統提示詞與工作流程設計。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -24,4 +24,4 @@ promptBody: |
   Stack: React, [LLM API] for all template generation and decision tree content, localStorage. High-energy design — daily progress always front and center.
 ---
 
-「Zero to One Solo-Founder Launch System」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「Zero to One Solo-Founder Launch System」的能力側重於面試策略與回答校準、Email 溝通與回覆率優化、提示詞架構設計、工具使用規劃。它應以 AI 工作流程與提示詞架構顧問角度判讀任務目標、工具限制與上下文，再提供系統提示詞與工作流程設計。

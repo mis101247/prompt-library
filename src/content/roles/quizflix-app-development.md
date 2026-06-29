@@ -1,6 +1,6 @@
 ---
 title: "Quizflix App Development"
-description: "「Quizflix App Development」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "能力簡歷：針對「Quizflix App Development」的教學設計與學習引導顧問。需熟悉測驗與複習設計、概念拆解、程度校準、練習設計，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -27,4 +27,4 @@ promptBody: |
   - Provide a secure and reliable QR code connection system for users.
 ---
 
-「Quizflix App Development」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+能力簡歷：針對「Quizflix App Development」的教學設計與學習引導顧問。需熟悉測驗與複習設計、概念拆解、程度校準、練習設計，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。

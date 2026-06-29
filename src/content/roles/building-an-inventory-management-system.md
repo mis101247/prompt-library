@@ -1,6 +1,6 @@
 ---
 title: "Building an Inventory Management System"
-description: "「Building an Inventory Management System」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於儀表板與指標呈現、API 設計、資料模型判斷、權限流程規劃：能釐清「Building an Inventory Management System」的任務脈絡，提供架構建議與資料流程，同時守住穩定性與可擴充性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -26,4 +26,4 @@ promptBody: |
   - Ensure the system supports multi-user access and role-based permissions.
 ---
 
-「Building an Inventory Management System」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於儀表板與指標呈現、API 設計、資料模型判斷、權限流程規劃：能釐清「Building an Inventory Management System」的任務脈絡，提供架構建議與資料流程，同時守住穩定性與可擴充性。

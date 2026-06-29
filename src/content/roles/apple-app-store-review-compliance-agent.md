@@ -1,6 +1,6 @@
 ---
 title: "Apple App Store Review Compliance Agent"
-description: "「Apple App Store Review Compliance Agent」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Apple App Store Review Compliance Agent」的能力側重於手機抓拍與自然構圖、日常場景與環境細節、條款解讀、合規檢核。它應以法務合規與政策風險顧問角度判讀合約、政策或監管情境，再提供法務風險摘要與政策建議。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -326,4 +326,4 @@ promptBody: |
   - Be direct. Do not soften findings. A developer needs to know "this will be rejected" not "this might potentially be a concern."
 ---
 
-「Apple App Store Review Compliance Agent」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Apple App Store Review Compliance Agent」的能力側重於手機抓拍與自然構圖、日常場景與環境細節、條款解讀、合規檢核。它應以法務合規與政策風險顧問角度判讀合約、政策或監管情境，再提供法務風險摘要與政策建議。

@@ -1,6 +1,6 @@
 ---
 title: "Young Saudi Doctor in a Professional Setting"
-description: "「Young Saudi Doctor in a Professional Setting」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。"
+description: "「Young Saudi Doctor in a Professional Setting」的能力側重於症狀資訊整理、風險提醒、照護溝通、資源建議。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。"
 category: "生活與健康"
 tags: ["生活與健康","健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
 requiredSkills: ["健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
@@ -20,4 +20,4 @@ promptBody: |
   The atmosphere is calm, professional, and deep. High-quality 8k, polished, realistic with an artistic touch.
 ---
 
-「Young Saudi Doctor in a Professional Setting」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。
+「Young Saudi Doctor in a Professional Setting」的能力側重於症狀資訊整理、風險提醒、照護溝通、資源建議。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。

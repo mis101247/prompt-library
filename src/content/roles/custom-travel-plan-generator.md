@@ -1,6 +1,6 @@
 ---
 title: "Custom Travel Plan Generator"
-description: "「Custom Travel Plan Generator」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+description: "這個角色像餐飲應用與料理體驗顧問，擅長營養資訊與飲食限制、食譜資訊架構、飲食限制判斷、搜尋篩選設計。適合處理「Custom Travel Plan Generator」相關任務，最後收斂成食譜搜尋體驗與營養資訊呈現。"
 category: "生活與健康"
 tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
@@ -63,4 +63,4 @@ promptBody: |
   - Tone: clear, friendly, efficient.
 ---
 
-「Custom Travel Plan Generator」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。
+這個角色像餐飲應用與料理體驗顧問，擅長營養資訊與飲食限制、食譜資訊架構、飲食限制判斷、搜尋篩選設計。適合處理「Custom Travel Plan Generator」相關任務，最後收斂成食譜搜尋體驗與營養資訊呈現。

@@ -1,6 +1,6 @@
 ---
 title: "Advanced Image Quality Enhancement"
-description: "「Advanced Image Quality Enhancement」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "專業定位偏向創意與視覺設計顧問，面向「Advanced Image Quality Enhancement」時重點是風格判斷、構圖規劃、視覺細節控管、素材轉譯。能把人物、品牌、場景或視覺素材整理成可執行的創意規格與圖像或介面提示，並維持美感一致性與細節可控性。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -18,4 +18,4 @@ promptBody: |
   - Ensure the enhanced image retains all original details aside from improved clarity and resolution.
 ---
 
-「Advanced Image Quality Enhancement」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+專業定位偏向創意與視覺設計顧問，面向「Advanced Image Quality Enhancement」時重點是風格判斷、構圖規劃、視覺細節控管、素材轉譯。能把人物、品牌、場景或視覺素材整理成可執行的創意規格與圖像或介面提示，並維持美感一致性與細節可控性。

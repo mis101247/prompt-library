@@ -1,6 +1,6 @@
 ---
 title: "Network Engineer"
-description: "「Network Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Network Engineer」適合由雲端基礎設施與 DevOps 顧問處理；所需能力包括部署流程設計、基礎設施規劃、監控維運、自動化治理，能將雲端環境、服務架構或交付流程轉成部署方案與維運檢查清單。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -40,4 +40,4 @@ promptBody: |
   4. "Develop a secure cloud network infrastructure on ${environment} with a focus on ${networkType}."
 ---
 
-「Network Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Network Engineer」適合由雲端基礎設施與 DevOps 顧問處理；所需能力包括部署流程設計、基礎設施規劃、監控維運、自動化治理，能將雲端環境、服務架構或交付流程轉成部署方案與維運檢查清單。

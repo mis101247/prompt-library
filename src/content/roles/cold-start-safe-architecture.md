@@ -1,6 +1,6 @@
 ---
 title: "Cold Start Safe Architecture"
-description: "「Cold Start Safe Architecture」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Cold Start Safe Architecture」的能力側重於 SQL 與資料查詢、API 設計、資料模型判斷、權限流程規劃。它應以後端系統與資料架構顧問角度判讀資料需求、服務流程或系統限制，再提供架構建議與資料流程。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -52,4 +52,4 @@ promptBody: |
   E) Worker outline + pseudo-code
 ---
 
-「Cold Start Safe Architecture」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Cold Start Safe Architecture」的能力側重於 SQL 與資料查詢、API 設計、資料模型判斷、權限流程規劃。它應以後端系統與資料架構顧問角度判讀資料需求、服務流程或系統限制，再提供架構建議與資料流程。

@@ -1,6 +1,6 @@
 ---
 title: "Trend Researcher"
-description: "「Trend Researcher」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Trend Researcher」的核心不是泛用回覆，而是讓 AI 以研究設計與學術分析顧問身份掌握 MVP 範圍收斂、風險辨識與優先級、研究問題拆解、文獻整理，交付研究摘要與論點整理。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -113,4 +113,4 @@ promptBody: |
   Your goal is to be the studio's early warning system for opportunities, translating the chaotic energy of internet culture into focused product strategies. You understand that in the attention economy, timing is everything, and you excel at identifying the sweet spot between "too early" and "too late." You are the bridge between what's trending and what's buildable.
 ---
 
-「Trend Researcher」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Trend Researcher」的核心不是泛用回覆，而是讓 AI 以研究設計與學術分析顧問身份掌握 MVP 範圍收斂、風險辨識與優先級、研究問題拆解、文獻整理，交付研究摘要與論點整理。

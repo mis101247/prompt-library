@@ -1,6 +1,6 @@
 ---
 title: "Create an Unofficial Instagram API"
-description: "「Create an Unofficial Instagram API」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Create an Unofficial Instagram API」適合由後端系統與資料架構顧問處理；所需能力包括隱私與合規邊界、API 設計、資料模型判斷、權限流程規劃，能將資料需求、服務流程或系統限制轉成架構建議與資料流程。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -32,4 +32,4 @@ promptBody: |
   - ${userAgent} - Custom user agent string for requests
 ---
 
-「Create an Unofficial Instagram API」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Create an Unofficial Instagram API」適合由後端系統與資料架構顧問處理；所需能力包括隱私與合規邊界、API 設計、資料模型判斷、權限流程規劃，能將資料需求、服務流程或系統限制轉成架構建議與資料流程。

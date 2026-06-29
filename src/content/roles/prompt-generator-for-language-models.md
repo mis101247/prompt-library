@@ -1,6 +1,6 @@
 ---
 title: "Prompt Generator for Language Models"
-description: "「Prompt Generator for Language Models」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "以 AI 工作流程與提示詞架構顧問來看，「Prompt Generator for Language Models」要求 AI 掌握提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，並將任務目標、工具限制與上下文轉化為系統提示詞與工作流程設計。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -44,4 +44,4 @@ promptBody: |
   Return **only** the final generated prompt (or clarification questions, if required).
 ---
 
-「Prompt Generator for Language Models」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+以 AI 工作流程與提示詞架構顧問來看，「Prompt Generator for Language Models」要求 AI 掌握提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，並將任務目標、工具限制與上下文轉化為系統提示詞與工作流程設計。

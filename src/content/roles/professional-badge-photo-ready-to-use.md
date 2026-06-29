@@ -1,6 +1,6 @@
 ---
 title: "Professional Badge Photo, Ready to Use"
-description: "「Professional Badge Photo, Ready to Use」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "角色價值在於品牌識別與標誌語言、Email 溝通與回覆率優化、視覺提示詞撰寫、構圖與鏡頭語言：能釐清「Professional Badge Photo, Ready to Use」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -33,4 +33,4 @@ promptBody: |
   Make the result look like an upgraded, well-lit, professional version of a corporate ID or access badge photo, ready to be dropped into internal tools, email accounts or passes.
 ---
 
-「Professional Badge Photo, Ready to Use」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+角色價值在於品牌識別與標誌語言、Email 溝通與回覆率優化、視覺提示詞撰寫、構圖與鏡頭語言：能釐清「Professional Badge Photo, Ready to Use」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。

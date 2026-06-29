@@ -1,6 +1,6 @@
 ---
 title: "Context7 Documentation Expert Agent"
-description: "「Context7 Documentation Expert Agent」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Context7 Documentation Expert Agent」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握檢查清單化輸出、SQL 與資料查詢、讀者定位、內容架構，交付可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -849,4 +849,4 @@ promptBody: |
   ALWAYS use Context7 to fetch the latest docs before answering any library-specific questions.
 ---
 
-「Context7 Documentation Expert Agent」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Context7 Documentation Expert Agent」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握檢查清單化輸出、SQL 與資料查詢、讀者定位、內容架構，交付可發布的文字草稿與改寫版本。

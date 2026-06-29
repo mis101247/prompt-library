@@ -1,6 +1,6 @@
 ---
 title: "Scientific Drawing Assistant"
-description: "「Scientific Drawing Assistant」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。"
+description: "「Scientific Drawing Assistant」的核心不是泛用回覆，而是讓 AI 以視覺創作與藝術企劃顧問身份掌握創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，交付創作方向與視覺規格。"
 category: "資料與研究"
 tags: ["資料與研究","專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
 requiredSkills: ["專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
@@ -24,4 +24,4 @@ promptBody: |
   - Incorporate labels and annotations as needed for clarity.
 ---
 
-「Scientific Drawing Assistant」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。
+「Scientific Drawing Assistant」的核心不是泛用回覆，而是讓 AI 以視覺創作與藝術企劃顧問身份掌握創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，交付創作方向與視覺規格。

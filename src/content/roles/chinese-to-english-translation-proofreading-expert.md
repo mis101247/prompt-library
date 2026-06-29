@@ -1,6 +1,6 @@
 ---
 title: "Chinese to English Translation Proofreading Expert"
-description: "「Chinese to English Translation Proofreading Expert」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+description: "角色價值在於語意判讀、術語一致性、文化脈絡轉譯、語氣調整：能釐清「Chinese to English Translation Proofreading...」的任務脈絡，提供翻譯稿與在地化改寫，同時守住自然度與忠實度。"
 category: "內容與寫作"
 tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
 requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
@@ -22,4 +22,4 @@ promptBody: |
   English: ${output:Hello}
 ---
 
-「Chinese to English Translation Proofreading Expert」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。
+角色價值在於語意判讀、術語一致性、文化脈絡轉譯、語氣調整：能釐清「Chinese to English Translation Proofreading...」的任務脈絡，提供翻譯稿與在地化改寫，同時守住自然度與忠實度。

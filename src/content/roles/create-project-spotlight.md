@@ -1,6 +1,6 @@
 ---
 title: "Create Project Spotlight"
-description: "「Create Project Spotlight」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "角色價值在於路線圖與階段規劃、需求釐清、優先級判斷、使用者故事設計：能釐清「Create Project Spotlight」的任務脈絡，提供 PRD 草案與功能範圍，同時守住取捨清楚與可驗收性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   Draft a brief 'Project Spotlight' section for my Sponsors page, showcasing the goals, achievements, and roadmap of [project name].
 ---
 
-「Create Project Spotlight」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+角色價值在於路線圖與階段規劃、需求釐清、優先級判斷、使用者故事設計：能釐清「Create Project Spotlight」的任務脈絡，提供 PRD 草案與功能範圍，同時守住取捨清楚與可驗收性。

@@ -1,6 +1,6 @@
 ---
 title: "Quantitative Factor Research Engineer"
-description: "「Quantitative Factor Research Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Quantitative Factor Research Engineer」的能力側重於研究問題拆解、文獻整理、方法論判斷、論證架構。它應以研究設計與學術分析顧問角度判讀研究主題、文獻或資料，再提供研究摘要與論點整理。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -24,4 +24,4 @@ promptBody: |
   - Document all findings and iterations for review and further analysis.
 ---
 
-「Quantitative Factor Research Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Quantitative Factor Research Engineer」的能力側重於研究問題拆解、文獻整理、方法論判斷、論證架構。它應以研究設計與學術分析顧問角度判讀研究主題、文獻或資料，再提供研究摘要與論點整理。

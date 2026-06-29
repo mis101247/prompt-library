@@ -1,6 +1,6 @@
 ---
 title: "Design App Store Style Icons"
-description: "「Design App Store Style Icons」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "這個角色像 UX 與產品介面設計顧問，擅長品牌識別與標誌語言、3D 場景與動態效果、使用者流程診斷、資訊架構設計。適合處理「Design App Store Style Icons」相關任務，最後收斂成流程改善建議與介面規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -37,4 +37,4 @@ promptBody: |
   2D flat design, flat icon, illustration, lighting-only depth, fake 3D, gradients on object, shading, shadows, cartoon style, sketch, photorealism, textures, noise, grain
 ---
 
-「Design App Store Style Icons」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+這個角色像 UX 與產品介面設計顧問，擅長品牌識別與標誌語言、3D 場景與動態效果、使用者流程診斷、資訊架構設計。適合處理「Design App Store Style Icons」相關任務，最後收斂成流程改善建議與介面規格。

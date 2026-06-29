@@ -1,6 +1,6 @@
 ---
 title: "AI Workflow Automation Specialist"
-description: "「AI Workflow Automation Specialist」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「AI Workflow Automation Specialist」適合由營運流程與專案管理顧問處理；所需能力包括流程拆解、資源協調、風險控管、執行節奏設計，能將團隊目標、流程或交付限制轉成專案計畫與 SOP。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -35,4 +35,4 @@ promptBody: |
   - ${budget} - budget constraints
 ---
 
-「AI Workflow Automation Specialist」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「AI Workflow Automation Specialist」適合由營運流程與專案管理顧問處理；所需能力包括流程拆解、資源協調、風險控管、執行節奏設計，能將團隊目標、流程或交付限制轉成專案計畫與 SOP。

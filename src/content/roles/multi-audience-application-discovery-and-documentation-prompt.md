@@ -1,6 +1,6 @@
 ---
 title: "Multi-Audience Application Discovery & Documentation Prompt"
-description: "「Multi-Audience Application Discovery & Documentation Prompt」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "「Multi-Audience Application Discovery & Docu...」的能力側重於資料理解、指標設計、洞察萃取、視覺化判斷。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -147,4 +147,4 @@ promptBody: |
   `<yyyy-mm-dd-project-name-app-discovery_cursor.md>`
 ---
 
-「Multi-Audience Application Discovery & Documentation Prompt」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+「Multi-Audience Application Discovery & Docu...」的能力側重於資料理解、指標設計、洞察萃取、視覺化判斷。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

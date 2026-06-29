@@ -1,6 +1,6 @@
 ---
 title: "Subway Platform (street candid, moody)"
-description: "「Subway Platform (street candid, moody)」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "這個角色像品牌視覺與設計系統顧問，擅長手機抓拍與自然構圖、人物姿態與肖像質感、品牌定位轉譯、視覺語言設計。適合處理「Subway Platform (street candid, moody)」相關任務，最後收斂成品牌設計方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -105,4 +105,4 @@ promptBody: |
   }
 ---
 
-「Subway Platform (street candid, moody)」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+這個角色像品牌視覺與設計系統顧問，擅長手機抓拍與自然構圖、人物姿態與肖像質感、品牌定位轉譯、視覺語言設計。適合處理「Subway Platform (street candid, moody)」相關任務，最後收斂成品牌設計方向與視覺規格。

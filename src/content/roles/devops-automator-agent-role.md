@@ -1,6 +1,6 @@
 ---
 title: "DevOps Automator Agent Role"
-description: "「DevOps Automator Agent Role」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。"
+description: "專業定位偏向雲端基礎設施與 DevOps 顧問，面向「DevOps Automator Agent Role」時重點是檢查清單化輸出、履歷定位與成果敘事、部署流程設計、基礎設施規劃。能把雲端環境、服務架構或交付流程整理成部署方案與維運檢查清單，並維持可靠性與可回復性。"
 category: "工程與技術"
 tags: ["工程與技術","基礎設施設計","自動化部署","監控維運","可靠性判斷"]
 requiredSkills: ["基礎設施設計","自動化部署","監控維運","可靠性判斷"]
@@ -270,4 +270,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_devops-automator.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「DevOps Automator Agent Role」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。
+專業定位偏向雲端基礎設施與 DevOps 顧問，面向「DevOps Automator Agent Role」時重點是檢查清單化輸出、履歷定位與成果敘事、部署流程設計、基礎設施規劃。能把雲端環境、服務架構或交付流程整理成部署方案與維運檢查清單，並維持可靠性與可回復性。

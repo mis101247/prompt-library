@@ -1,6 +1,6 @@
 ---
 title: "Eerie Shadows: A Creepy Horror RPG Adventure"
-description: "「Eerie Shadows: A Creepy Horror RPG Adventure」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "「Eerie Shadows: A Creepy Horror RPG Adventure」的核心不是泛用回覆，而是讓 AI 以互動敘事與遊戲內容設計顧問身份掌握角色塑造、世界觀設定、互動規則設計、敘事節奏控制，交付角色回應與劇情節點。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -22,4 +22,4 @@ promptBody: |
   - Keep the horror elements intense but balanced with moments of relief.
 ---
 
-「Eerie Shadows: A Creepy Horror RPG Adventure」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+「Eerie Shadows: A Creepy Horror RPG Adventure」的核心不是泛用回覆，而是讓 AI 以互動敘事與遊戲內容設計顧問身份掌握角色塑造、世界觀設定、互動規則設計、敘事節奏控制，交付角色回應與劇情節點。

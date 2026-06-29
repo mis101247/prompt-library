@@ -1,6 +1,6 @@
 ---
 title: "A Clay-Crafted City: Mini [CITY NAME] World"
-description: "「A Clay-Crafted City: Mini [CITY NAME] World」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "專業定位偏向雲端基礎設施與 DevOps 顧問，面向「A Clay-Crafted City: Mini [CITY NAME] World」時重點是 3D 場景與動態效果、部署流程設計、基礎設施規劃、監控維運。能把雲端環境、服務架構或交付流程整理成部署方案與維運檢查清單，並維持可靠性與可回復性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -18,4 +18,4 @@ promptBody: |
   Include no other text, words, or signage anywhere else in the scene. Only sculptural clay elements should define the location through recognizable architectural features. 1080x1080 dimension.
 ---
 
-「A Clay-Crafted City: Mini [CITY NAME] World」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+專業定位偏向雲端基礎設施與 DevOps 顧問，面向「A Clay-Crafted City: Mini [CITY NAME] World」時重點是 3D 場景與動態效果、部署流程設計、基礎設施規劃、監控維運。能把雲端環境、服務架構或交付流程整理成部署方案與維運檢查清單，並維持可靠性與可回復性。

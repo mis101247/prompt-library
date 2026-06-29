@@ -1,6 +1,6 @@
 ---
 title: "Impact Metrics"
-description: "「Impact Metrics」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Impact Metrics」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -14,4 +14,4 @@ promptBody: |
   Create a compelling data-driven section showing the impact of [project name]: downloads, users helped, issues resolved, and community growth statistics.
 ---
 
-「Impact Metrics」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Impact Metrics」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

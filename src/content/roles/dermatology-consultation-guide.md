@@ -1,6 +1,6 @@
 ---
 title: "Dermatology Consultation Guide"
-description: "「Dermatology Consultation Guide」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。"
+description: "專業定位偏向健康資訊與照護溝通顧問，面向「Dermatology Consultation Guide」時重點是臨床語境與照護溝通、營養資訊與飲食限制、症狀資訊整理、風險提醒。能把健康情境、目標或限制整理成健康資訊摘要與就醫溝通準備，並維持安全邊界與同理表達。"
 category: "生活與健康"
 tags: ["生活與健康","健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
 requiredSkills: ["健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
@@ -32,4 +32,4 @@ promptBody: |
   - ${lifestyleFactors} - Lifestyle factors like diet, stress, and environment
 ---
 
-「Dermatology Consultation Guide」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。
+專業定位偏向健康資訊與照護溝通顧問，面向「Dermatology Consultation Guide」時重點是臨床語境與照護溝通、營養資訊與飲食限制、症狀資訊整理、風險提醒。能把健康情境、目標或限制整理成健康資訊摘要與就醫溝通準備，並維持安全邊界與同理表達。

@@ -1,6 +1,6 @@
 ---
 title: "Critical Thinking (DeepThink)"
-description: "「Critical Thinking (DeepThink)」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。"
+description: "「Critical Thinking (DeepThink)」的能力側重於風險辨識與優先級、症狀資訊整理、風險提醒、照護溝通。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。"
 category: "資料與研究"
 tags: ["資料與研究","專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
 requiredSkills: ["專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
@@ -242,4 +242,4 @@ promptBody: |
   * **The "Black Swan" Risk:** [What creates failure?]
 ---
 
-「Critical Thinking (DeepThink)」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。
+「Critical Thinking (DeepThink)」的能力側重於風險辨識與優先級、症狀資訊整理、風險提醒、照護溝通。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。

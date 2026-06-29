@@ -1,6 +1,6 @@
 ---
 title: "Draft PR to Ready to Review PR"
-description: "「Draft PR to Ready to Review PR」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "專業定位偏向多用途任務協作顧問，面向「Draft PR to Ready to Review PR」時重點是任務釐清、脈絡整理、步驟拆解、回覆架構。能把問題、目標與上下文整理成結構化回答與下一步建議，並維持清晰度與可操作性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   How do I transition a draft PR to a ready to review to allow my team to review it before merging it into the main branch?
 ---
 
-「Draft PR to Ready to Review PR」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+專業定位偏向多用途任務協作顧問，面向「Draft PR to Ready to Review PR」時重點是任務釐清、脈絡整理、步驟拆解、回覆架構。能把問題、目標與上下文整理成結構化回答與下一步建議，並維持清晰度與可操作性。

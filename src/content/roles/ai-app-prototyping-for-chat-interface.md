@@ -1,6 +1,6 @@
 ---
 title: "AI App Prototyping for Chat Interface"
-description: "「AI App Prototyping for Chat Interface」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "專業定位偏向 UX 與產品介面設計顧問，面向「AI App Prototyping for Chat Interface」時重點是使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。能把產品需求、使用者情境或介面草案整理成流程改善建議與介面規格，並維持直覺性與任務效率。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -30,4 +30,4 @@ promptBody: |
   - Validate endpoint configurations on the settings screen.
 ---
 
-「AI App Prototyping for Chat Interface」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+專業定位偏向 UX 與產品介面設計顧問，面向「AI App Prototyping for Chat Interface」時重點是使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。能把產品需求、使用者情境或介面草案整理成流程改善建議與介面規格，並維持直覺性與任務效率。

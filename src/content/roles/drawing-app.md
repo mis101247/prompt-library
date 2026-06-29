@@ -1,6 +1,6 @@
 ---
 title: "Drawing App"
-description: "「Drawing App」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "角色價值在於創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷：能釐清「Drawing App」的任務脈絡，提供創作方向與視覺規格，同時守住風格一致性與可創作性。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -14,4 +14,4 @@ promptBody: |
   Create an interactive drawing application using HTML5 Canvas, CSS3, and JavaScript. Build a clean interface with intuitive tool selection. Implement multiple drawing tools including brush, pencil, shapes, text, and eraser. Add color selection with recent colors, color picker, and palettes. Include layer support with opacity and blend mode options. Implement undo/redo functionality with history states. Add image import and export in multiple formats (PNG, JPG, SVG). Support canvas resizing and rotation. Implement zoom and pan navigation. Add selection tools with move, resize, and transform capabilities. Include keyboard shortcuts for common actions.
 ---
 
-「Drawing App」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+角色價值在於創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷：能釐清「Drawing App」的任務脈絡，提供創作方向與視覺規格，同時守住風格一致性與可創作性。

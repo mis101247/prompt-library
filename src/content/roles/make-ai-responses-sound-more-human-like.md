@@ -1,6 +1,6 @@
 ---
 title: "Make AI responses sound more Human-like"
-description: "「Make AI responses sound more Human-like」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "「Make AI responses sound more Human-like」的核心不是泛用回覆，而是讓 AI 以互動敘事與遊戲內容設計顧問身份掌握風險辨識與優先級、社群內容節奏、角色塑造、世界觀設定，交付角色回應與劇情節點。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -56,4 +56,4 @@ promptBody: |
   Important: Review your response and ensure no em dashes
 ---
 
-「Make AI responses sound more Human-like」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+「Make AI responses sound more Human-like」的核心不是泛用回覆，而是讓 AI 以互動敘事與遊戲內容設計顧問身份掌握風險辨識與優先級、社群內容節奏、角色塑造、世界觀設定，交付角色回應與劇情節點。

@@ -1,6 +1,6 @@
 ---
 title: "Extreme Close-up Macro Photography of a Young Woman's Face"
-description: "「Extreme Close-up Macro Photography of a Young Woman's Face」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「Extreme Close-up Macro Photography of a You...」的能力側重於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -14,4 +14,4 @@ promptBody: |
   Extreme close-up macro photograph of a young woman’s face during golden hour. Warm natural sunlight coming from the side creates glowing highlights on dewy, freckled skin. The right hazel eye is in sharp focus, reflecting light with high clarity. Shallow depth of field isolates the eye, skin texture, nose and lips while the background completely melts away. Skin texture is highly detailed and realistic, pores and freckles visible, no heavy retouching. Color palette dominated by warm bronze, tan, gold and soft brown tones. Calm, intimate, sun-kissed mood. Cinematic beauty photography, hyperrealistic, natural look, high detail.
 ---
 
-「Extreme Close-up Macro Photography of a Young Woman's Face」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「Extreme Close-up Macro Photography of a You...」的能力側重於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。

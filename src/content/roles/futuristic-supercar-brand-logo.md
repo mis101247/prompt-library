@@ -1,6 +1,6 @@
 ---
 title: "Futuristic Supercar Brand Logo"
-description: "「Futuristic Supercar Brand Logo」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「Futuristic Supercar Brand Logo」的核心不是泛用回覆，而是讓 AI 以品牌視覺與設計系統顧問身份掌握品牌識別與標誌語言、表格資料整理、品牌定位轉譯、視覺語言設計，交付品牌設計方向與視覺規格。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -25,4 +25,4 @@ promptBody: |
   Your task is to create a logo that stands out as a symbol of cutting-edge automotive excellence.
 ---
 
-「Futuristic Supercar Brand Logo」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「Futuristic Supercar Brand Logo」的核心不是泛用回覆，而是讓 AI 以品牌視覺與設計系統顧問身份掌握品牌識別與標誌語言、表格資料整理、品牌定位轉譯、視覺語言設計，交付品牌設計方向與視覺規格。

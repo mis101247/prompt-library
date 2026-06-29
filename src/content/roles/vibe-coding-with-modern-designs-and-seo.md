@@ -1,6 +1,6 @@
 ---
 title: "Vibe Coding with Modern Designs and SEO"
-description: "「Vibe Coding with Modern Designs and SEO」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "以行銷成長與市場溝通顧問來看，「Vibe Coding with Modern Designs and SEO」要求 AI 掌握 3D 場景與動態效果、SEO 與搜尋意圖、受眾定位、價值主張設計，並將產品、客群與市場目標轉化為行銷文案與活動策略。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -25,4 +25,4 @@ promptBody: |
   - Regularly update SEO keywords to reflect market trends.
 ---
 
-「Vibe Coding with Modern Designs and SEO」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+以行銷成長與市場溝通顧問來看，「Vibe Coding with Modern Designs and SEO」要求 AI 掌握 3D 場景與動態效果、SEO 與搜尋意圖、受眾定位、價值主張設計，並將產品、客群與市場目標轉化為行銷文案與活動策略。

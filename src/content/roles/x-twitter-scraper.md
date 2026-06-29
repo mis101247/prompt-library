@@ -1,6 +1,6 @@
 ---
 title: "X Twitter Scraper"
-description: "「X Twitter Scraper」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「X Twitter Scraper」適合由後端系統與資料架構顧問處理；所需能力包括風險辨識與優先級、檢查清單化輸出、API 設計、資料模型判斷，能將資料需求、服務流程或系統限制轉成架構建議與資料流程。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -355,4 +355,4 @@ promptBody: |
   | [references/types.md](references/types.md) | Need TypeScript type definitions for API objects |
 ---
 
-「X Twitter Scraper」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「X Twitter Scraper」適合由後端系統與資料架構顧問處理；所需能力包括風險辨識與優先級、檢查清單化輸出、API 設計、資料模型判斷，能將資料需求、服務流程或系統限制轉成架構建議與資料流程。

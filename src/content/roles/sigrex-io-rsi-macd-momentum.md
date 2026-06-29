@@ -1,6 +1,6 @@
 ---
 title: "[sigrex.io] RSI + MACD Momentum"
-description: "「[sigrex.io] RSI + MACD Momentum」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "能力簡歷：針對「[sigrex.io] RSI + MACD Momentum」的互動敘事與遊戲內容設計顧問。需熟悉角色塑造、世界觀設定、互動規則設計、敘事節奏控制，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -47,4 +47,4 @@ promptBody: |
   Use {{trigger_history}} to avoid repeating the same signal twice in a row without an EXIT in between.
 ---
 
-「[sigrex.io] RSI + MACD Momentum」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+能力簡歷：針對「[sigrex.io] RSI + MACD Momentum」的互動敘事與遊戲內容設計顧問。需熟悉角色塑造、世界觀設定、互動規則設計、敘事節奏控制，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。

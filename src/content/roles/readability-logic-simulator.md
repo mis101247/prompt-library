@@ -1,6 +1,6 @@
 ---
 title: "Readability Logic Simulator - 全功能翻译版"
-description: "「Readability Logic Simulator - 全功能翻译版」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "角色價值在於手機抓拍與自然構圖、隱私與合規邊界、語意判讀、術語一致性：能釐清「Readability Logic Simulator - 全功能翻译版」的任務脈絡，提供翻譯稿與在地化改寫，同時守住自然度與忠實度。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -120,4 +120,4 @@ promptBody: |
   </system_prompt>
 ---
 
-「Readability Logic Simulator - 全功能翻译版」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+角色價值在於手機抓拍與自然構圖、隱私與合規邊界、語意判讀、術語一致性：能釐清「Readability Logic Simulator - 全功能翻译版」的任務脈絡，提供翻譯稿與在地化改寫，同時守住自然度與忠實度。

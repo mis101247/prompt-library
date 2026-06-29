@@ -1,6 +1,6 @@
 ---
 title: "Continue Coding Assistant"
-description: "「Continue Coding Assistant」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於語意判讀、術語一致性、文化脈絡轉譯、語氣調整：能釐清「Continue Coding Assistant」的任務脈絡，提供翻譯稿與在地化改寫，同時守住自然度與忠實度。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -24,4 +24,4 @@ promptBody: |
   - Only use libraries that are compatible with the existing codebase.
 ---
 
-「Continue Coding Assistant」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於語意判讀、術語一致性、文化脈絡轉譯、語氣調整：能釐清「Continue Coding Assistant」的任務脈絡，提供翻譯稿與在地化改寫，同時守住自然度與忠實度。

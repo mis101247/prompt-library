@@ -1,6 +1,6 @@
 ---
 title: "ISC Class 12th Exam Paper Analyzer and evaluator"
-description: "「ISC Class 12th Exam Paper Analyzer and evaluator」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「ISC Class 12th Exam Paper Analyzer and eval...」的核心不是泛用回覆，而是讓 AI 以教學設計與學習引導顧問身份掌握表格資料整理、測驗與複習設計、概念拆解、程度校準，交付教學流程與練習題。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -24,4 +24,4 @@ promptBody: |
   - Use reliable sources for gathering past exam papers.
 ---
 
-「ISC Class 12th Exam Paper Analyzer and evaluator」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「ISC Class 12th Exam Paper Analyzer and eval...」的核心不是泛用回覆，而是讓 AI 以教學設計與學習引導顧問身份掌握表格資料整理、測驗與複習設計、概念拆解、程度校準，交付教學流程與練習題。

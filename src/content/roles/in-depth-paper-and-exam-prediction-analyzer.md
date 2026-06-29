@@ -1,6 +1,6 @@
 ---
 title: "In-Depth Paper and Exam Prediction Analyzer"
-description: "「In-Depth Paper and Exam Prediction Analyzer」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "專業定位偏向教學設計與學習引導顧問，面向「In-Depth Paper and Exam Prediction Analyzer」時重點是課程路徑設計、測驗與複習設計、概念拆解、程度校準。能把學習目標、教材或學生程度整理成教學流程與練習題，並維持理解友善與循序漸進。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -35,4 +35,4 @@ promptBody: |
   - ${subject} - the subject or course for which the exam prediction is needed
 ---
 
-「In-Depth Paper and Exam Prediction Analyzer」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+專業定位偏向教學設計與學習引導顧問，面向「In-Depth Paper and Exam Prediction Analyzer」時重點是課程路徑設計、測驗與複習設計、概念拆解、程度校準。能把學習目標、教材或學生程度整理成教學流程與練習題，並維持理解友善與循序漸進。

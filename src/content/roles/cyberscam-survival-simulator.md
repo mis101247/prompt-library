@@ -1,6 +1,6 @@
 ---
 title: "Cyberscam Survival Simulator"
-description: "「Cyberscam Survival Simulator」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "「Cyberscam Survival Simulator」的核心不是泛用回覆，而是讓 AI 以資安風險與防護策略顧問身份掌握品牌識別與標誌語言、風險辨識與優先級、威脅建模、攻擊面分析，交付風險清單與防護建議。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -171,4 +171,4 @@ promptBody: |
   - v1.1.0 / v1.0.0: Core loop foundations.
 ---
 
-「Cyberscam Survival Simulator」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+「Cyberscam Survival Simulator」的核心不是泛用回覆，而是讓 AI 以資安風險與防護策略顧問身份掌握品牌識別與標誌語言、風險辨識與優先級、威脅建模、攻擊面分析，交付風險清單與防護建議。

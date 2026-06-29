@@ -1,6 +1,6 @@
 ---
 title: "AI Tour Guide Business Plan for Foreign Tourists in China"
-description: "「AI Tour Guide Business Plan for Foreign Tourists in China」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "這個角色像財務分析與投資決策顧問，擅長財務模型判讀、風險報酬分析、情境推演、投資論點整理。適合處理「AI Tour Guide Business Plan for Foreign Tou...」相關任務，最後收斂成財務摘要與風險提示。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -26,4 +26,4 @@ promptBody: |
   - Incorporate variable aspects like ${budget} and ${targetAudience} for flexibility in planning.
 ---
 
-「AI Tour Guide Business Plan for Foreign Tourists in China」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+這個角色像財務分析與投資決策顧問，擅長財務模型判讀、風險報酬分析、情境推演、投資論點整理。適合處理「AI Tour Guide Business Plan for Foreign Tou...」相關任務，最後收斂成財務摘要與風險提示。

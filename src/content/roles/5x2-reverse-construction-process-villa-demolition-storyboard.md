@@ -1,6 +1,6 @@
 ---
 title: "5x2 Reverse Construction Process - Villa Demolition Storyboard"
-description: "「5x2 Reverse Construction Process - Villa Demolition Storyboard」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「5x2 Reverse Construction Process - Villa De...」適合由互動敘事與遊戲內容設計顧問處理；所需能力包括角色塑造、世界觀設定、互動規則設計、敘事節奏控制，能將角色、場景或遊戲目標轉成角色回應與劇情節點。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -60,4 +60,4 @@ promptBody: |
   **Camera Stability**: Use identical camera angle, composition, and depth of field across all frames. Viewing perspective must be locked.
 ---
 
-「5x2 Reverse Construction Process - Villa Demolition Storyboard」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「5x2 Reverse Construction Process - Villa De...」適合由互動敘事與遊戲內容設計顧問處理；所需能力包括角色塑造、世界觀設定、互動規則設計、敘事節奏控制，能將角色、場景或遊戲目標轉成角色回應與劇情節點。

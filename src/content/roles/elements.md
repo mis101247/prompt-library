@@ -1,6 +1,6 @@
 ---
 title: "Elements"
-description: "「Elements」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "角色價值在於 3D 場景與動態效果、角色塑造、世界觀設定、互動規則設計：能釐清「Elements」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -14,4 +14,4 @@ promptBody: |
   I want to create a 4k image of 3D character of each element in the periodic table. I want them to look cute but has distinct features
 ---
 
-「Elements」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+角色價值在於 3D 場景與動態效果、角色塑造、世界觀設定、互動規則設計：能釐清「Elements」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。

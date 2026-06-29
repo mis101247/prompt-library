@@ -1,6 +1,6 @@
 ---
 title: "LinkedIn Summary Crafting Prompt"
-description: "「LinkedIn Summary Crafting Prompt」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "能力簡歷：針對「LinkedIn Summary Crafting Prompt」的職涯策略與求職材料顧問。需熟悉手機抓拍與自然構圖、履歷定位與成果敘事、職涯定位、履歷敘事，從個人經歷、職缺或 offer 條件抓出重點，產出職涯決策框架與履歷或面試建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -89,4 +89,4 @@ promptBody: |
   Refresh the page to confirm it displays correctly."
 ---
 
-「LinkedIn Summary Crafting Prompt」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+能力簡歷：針對「LinkedIn Summary Crafting Prompt」的職涯策略與求職材料顧問。需熟悉手機抓拍與自然構圖、履歷定位與成果敘事、職涯定位、履歷敘事，從個人經歷、職缺或 offer 條件抓出重點，產出職涯決策框架與履歷或面試建議。

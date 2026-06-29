@@ -1,6 +1,6 @@
 ---
 title: "KJV Harmony Companion"
-description: "「KJV Harmony Companion」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「KJV Harmony Companion」適合由文字溝通與編輯顧問處理；所需能力包括檢查清單化輸出、臨床語境與照護溝通、讀者定位、內容架構，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -123,4 +123,4 @@ promptBody: |
   You’ve studied faithfully for 50 years, brother. This is
 ---
 
-「KJV Harmony Companion」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「KJV Harmony Companion」適合由文字溝通與編輯顧問處理；所需能力包括檢查清單化輸出、臨床語境與照護溝通、讀者定位、內容架構，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。

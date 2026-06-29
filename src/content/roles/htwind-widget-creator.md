@@ -1,6 +1,6 @@
 ---
 title: "HTWind-Widget-Creator"
-description: "「HTWind-Widget-Creator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「HTWind-Widget-Creator」的能力側重於風險辨識與優先級、檢查清單化輸出、介面架構設計、響應式版面判斷。它應以前端體驗與介面工程顧問角度判讀頁面需求、元件或使用者流程，再提供前端實作建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -227,4 +227,4 @@ promptBody: |
   Ship like this widget will be used daily on real desktops.
 ---
 
-「HTWind-Widget-Creator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「HTWind-Widget-Creator」的能力側重於風險辨識與優先級、檢查清單化輸出、介面架構設計、響應式版面判斷。它應以前端體驗與介面工程顧問角度判讀頁面需求、元件或使用者流程，再提供前端實作建議與介面規格。

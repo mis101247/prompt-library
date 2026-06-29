@@ -1,6 +1,6 @@
 ---
 title: "Research Prompt (Mistral)"
-description: "「Research Prompt (Mistral)」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "以資料分析與洞察顧問來看，「Research Prompt (Mistral)」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -183,4 +183,4 @@ promptBody: |
   - Structured — answers divided into logical sections. `
 ---
 
-「Research Prompt (Mistral)」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+以資料分析與洞察顧問來看，「Research Prompt (Mistral)」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。

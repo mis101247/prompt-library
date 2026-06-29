@@ -1,6 +1,6 @@
 ---
 title: "Project System and Art Style Consistency Instructions"
-description: "「Project System and Art Style Consistency Instructions」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Project System and Art Style Consistency In...」的能力側重於創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷。它應以視覺創作與藝術企劃顧問角度判讀藝術主題、風格目標或創作素材，再提供創作方向與視覺規格。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -34,4 +34,4 @@ promptBody: |
   - "Generate an image using assets from ${projectPath} in the style of ${artStyle}."
 ---
 
-「Project System and Art Style Consistency Instructions」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Project System and Art Style Consistency In...」的能力側重於創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷。它應以視覺創作與藝術企劃顧問角度判讀藝術主題、風格目標或創作素材，再提供創作方向與視覺規格。

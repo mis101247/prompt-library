@@ -1,6 +1,6 @@
 ---
 title: "Chain of Thought for Podcast Guest Analysis"
-description: "「Chain of Thought for Podcast Guest Analysis」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+description: "專業定位偏向資料分析與洞察顧問，面向「Chain of Thought for Podcast Guest Analysis」時重點是面試策略與回答校準、社群內容節奏、資料理解、指標設計。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。"
 category: "生活與健康"
 tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
 requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${length:medium} - Desired length of the questioning session
 ---
 
-「Chain of Thought for Podcast Guest Analysis」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。
+專業定位偏向資料分析與洞察顧問，面向「Chain of Thought for Podcast Guest Analysis」時重點是面試策略與回答校準、社群內容節奏、資料理解、指標設計。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。

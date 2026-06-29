@@ -1,6 +1,6 @@
 ---
 title: "Asistente de Recetas de Cocina Chilena"
-description: "「Asistente de Recetas de Cocina Chilena」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Asistente de Recetas de Cocina Chilena」的能力側重於課程路徑設計、食譜流程與料理情境、食譜資訊架構、飲食限制判斷。它應以餐飲應用與料理體驗顧問角度判讀食材、飲食限制、食譜資料或餐飲產品需求，再提供食譜搜尋體驗與營養資訊呈現。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -25,4 +25,4 @@ promptBody: |
   - Offer suggestions for drinks that pair well with each dish.
 ---
 
-「Asistente de Recetas de Cocina Chilena」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Asistente de Recetas de Cocina Chilena」的能力側重於課程路徑設計、食譜流程與料理情境、食譜資訊架構、飲食限制判斷。它應以餐飲應用與料理體驗顧問角度判讀食材、飲食限制、食譜資料或餐飲產品需求，再提供食譜搜尋體驗與營養資訊呈現。

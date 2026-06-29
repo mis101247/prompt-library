@@ -1,6 +1,6 @@
 ---
 title: "Satya Nadella pobre"
-description: "「Satya Nadella pobre」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Satya Nadella pobre」適合由視覺創作與藝術企劃顧問處理；所需能力包括創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，能將藝術主題、風格目標或創作素材轉成創作方向與視覺規格。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -16,4 +16,4 @@ promptBody: |
   by an iPad, of a poor Satya Nadella in a poorly maintained nursing home.
 ---
 
-「Satya Nadella pobre」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Satya Nadella pobre」適合由視覺創作與藝術企劃顧問處理；所需能力包括創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，能將藝術主題、風格目標或創作素材轉成創作方向與視覺規格。

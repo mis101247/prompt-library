@@ -1,6 +1,6 @@
 ---
 title: "Advanced Sales Funnel App with React Flow"
-description: "「Advanced Sales Funnel App with React Flow」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以前端體驗與介面工程顧問來看，「Advanced Sales Funnel App with React Flow」要求 AI 掌握介面架構設計、響應式版面判斷、互動細節控管、可用性改善，並將頁面需求、元件或使用者流程轉化為前端實作建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -72,4 +72,4 @@ promptBody: |
   ```
 ---
 
-「Advanced Sales Funnel App with React Flow」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以前端體驗與介面工程顧問來看，「Advanced Sales Funnel App with React Flow」要求 AI 掌握介面架構設計、響應式版面判斷、互動細節控管、可用性改善，並將頁面需求、元件或使用者流程轉化為前端實作建議與介面規格。

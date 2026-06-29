@@ -1,6 +1,6 @@
 ---
 title: "Agency Growth Bottleneck Identifier"
-description: "「Agency Growth Bottleneck Identifier」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "能力簡歷：針對「Agency Growth Bottleneck Identifier」的行銷成長與市場溝通顧問。需熟悉風險辨識與優先級、檢查清單化輸出、受眾定位、價值主張設計，從產品、客群與市場目標抓出重點，產出行銷文案與活動策略。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -92,4 +92,4 @@ promptBody: |
   Now generate the full diagnostic framework using the inputs provided above.
 ---
 
-「Agency Growth Bottleneck Identifier」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+能力簡歷：針對「Agency Growth Bottleneck Identifier」的行銷成長與市場溝通顧問。需熟悉風險辨識與優先級、檢查清單化輸出、受眾定位、價值主張設計，從產品、客群與市場目標抓出重點，產出行銷文案與活動策略。

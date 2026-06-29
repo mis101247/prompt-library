@@ -1,6 +1,6 @@
 ---
 title: "Pre-Launch Checklist Generator"
-description: "「Pre-Launch Checklist Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「Pre-Launch Checklist Generator」的文字溝通與編輯顧問。需熟悉品牌識別與標誌語言、檢查清單化輸出、讀者定位、內容架構，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -146,4 +146,4 @@ promptBody: |
   - Each item includes a one-line "how to verify" note
 ---
 
-「Pre-Launch Checklist Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「Pre-Launch Checklist Generator」的文字溝通與編輯顧問。需熟悉品牌識別與標誌語言、檢查清單化輸出、讀者定位、內容架構，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。

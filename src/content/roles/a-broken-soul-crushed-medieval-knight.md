@@ -1,6 +1,6 @@
 ---
 title: "A broken, soul-crushed medieval knight"
-description: "「A broken, soul-crushed medieval knight」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「A broken, soul-crushed medieval knight」的能力側重於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -53,4 +53,4 @@ promptBody: |
   }
 ---
 
-「A broken, soul-crushed medieval knight」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「A broken, soul-crushed medieval knight」的能力側重於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。

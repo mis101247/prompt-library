@@ -1,6 +1,6 @@
 ---
 title: "License Selection Assistant from Intellectual Property expert"
-description: "「License Selection Assistant from Intellectual Property expert」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "以法務合規與政策風險顧問來看，「License Selection Assistant from Intellectu...」要求 AI 掌握 3D 場景與動態效果、隱私與合規邊界、條款解讀、合規檢核，並將合約、政策或監管情境轉化為法務風險摘要與政策建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -106,4 +106,4 @@ promptBody: |
   - A link to the official license text or template
 ---
 
-「License Selection Assistant from Intellectual Property expert」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+以法務合規與政策風險顧問來看，「License Selection Assistant from Intellectu...」要求 AI 掌握 3D 場景與動態效果、隱私與合規邊界、條款解讀、合規檢核，並將合約、政策或監管情境轉化為法務風險摘要與政策建議。

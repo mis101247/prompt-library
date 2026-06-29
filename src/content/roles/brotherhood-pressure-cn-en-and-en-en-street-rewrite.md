@@ -1,6 +1,6 @@
 ---
 title: "Brotherhood Pressure — CN→EN & EN→EN Street Rewrite"
-description: "「Brotherhood Pressure — CN→EN & EN→EN Street Rewrite」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "能力簡歷：針對「Brotherhood Pressure — CN→EN & EN→EN Street...」的文字溝通與編輯顧問。需熟悉風險辨識與優先級、讀者定位、內容架構、語氣調整，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -380,4 +380,4 @@ promptBody: |
   - Output should sound like real street conversation
 ---
 
-「Brotherhood Pressure — CN→EN & EN→EN Street Rewrite」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+能力簡歷：針對「Brotherhood Pressure — CN→EN & EN→EN Street...」的文字溝通與編輯顧問。需熟悉風險辨識與優先級、讀者定位、內容架構、語氣調整，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。

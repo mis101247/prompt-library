@@ -1,6 +1,6 @@
 ---
 title: "Blog System Development Guide"
-description: "「Blog System Development Guide」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Blog System Development Guide」的能力側重於隱私與合規邊界、SEO 與搜尋意圖、讀者定位、內容架構。它應以文字溝通與編輯顧問角度判讀主題、素材或既有文本，再提供可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -34,4 +34,4 @@ promptBody: |
   Your goal is to deliver a high-performance blog system that meets all requirements and exceeds user expectations.
 ---
 
-「Blog System Development Guide」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Blog System Development Guide」的能力側重於隱私與合規邊界、SEO 與搜尋意圖、讀者定位、內容架構。它應以文字溝通與編輯顧問角度判讀主題、素材或既有文本，再提供可發布的文字草稿與改寫版本。

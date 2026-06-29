@@ -1,6 +1,6 @@
 ---
 title: "Modify Front-End Webpage with Codex and Image Input"
-description: "「Modify Front-End Webpage with Codex and Image Input」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "角色價值在於介面架構設計、響應式版面判斷、互動細節控管、可用性改善：能釐清「Modify Front-End Webpage with Codex and Ima...」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -24,4 +24,4 @@ promptBody: |
   - Ensure cross-browser compatibility.
 ---
 
-「Modify Front-End Webpage with Codex and Image Input」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+角色價值在於介面架構設計、響應式版面判斷、互動細節控管、可用性改善：能釐清「Modify Front-End Webpage with Codex and Ima...」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。

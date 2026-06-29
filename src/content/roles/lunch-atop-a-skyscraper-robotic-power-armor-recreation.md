@@ -1,6 +1,6 @@
 ---
 title: "Lunch atop a Skyscraper - Robotic Power Armor Recreation"
-description: "「Lunch atop a Skyscraper - Robotic Power Armor Recreation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "這個角色像影像生成美術指導，擅長視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。適合處理「Lunch atop a Skyscraper - Robotic Power Arm...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -28,4 +28,4 @@ promptBody: |
   All robots sitting in a row with legs dangling over the beam edge, hundreds of meters above the city. Weathered industrial look on all armors. Vintage 1930s black and white photography aesthetic. Wide horizontal composition.
 ---
 
-「Lunch atop a Skyscraper - Robotic Power Armor Recreation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+這個角色像影像生成美術指導，擅長視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。適合處理「Lunch atop a Skyscraper - Robotic Power Arm...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。

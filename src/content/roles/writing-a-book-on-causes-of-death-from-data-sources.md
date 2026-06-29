@@ -1,6 +1,6 @@
 ---
 title: "Writing a Book on Causes of Death from Data Sources"
-description: "「Writing a Book on Causes of Death from Data Sources」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Writing a Book on Causes of Death from Data...」的能力側重於資料理解、指標設計、洞察萃取、視覺化判斷。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${audience:general public} - Target audience.
 ---
 
-「Writing a Book on Causes of Death from Data Sources」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Writing a Book on Causes of Death from Data...」的能力側重於資料理解、指標設計、洞察萃取、視覺化判斷。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

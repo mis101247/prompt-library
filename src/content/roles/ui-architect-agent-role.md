@@ -1,6 +1,6 @@
 ---
 title: "UI Architect Agent Role"
-description: "「UI Architect Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向視覺創作與藝術企劃顧問，面向「UI Architect Agent Role」時重點是檢查清單化輸出、Email 溝通與回覆率優化、創意主題轉譯、視覺風格規劃。能把藝術主題、風格目標或創作素材整理成創作方向與視覺規格，並維持風格一致性與可創作性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -270,4 +270,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_ui-architect.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「UI Architect Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向視覺創作與藝術企劃顧問，面向「UI Architect Agent Role」時重點是檢查清單化輸出、Email 溝通與回覆率優化、創意主題轉譯、視覺風格規劃。能把藝術主題、風格目標或創作素材整理成創作方向與視覺規格，並維持風格一致性與可創作性。

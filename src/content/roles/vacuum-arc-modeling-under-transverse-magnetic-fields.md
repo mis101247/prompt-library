@@ -1,6 +1,6 @@
 ---
 title: "Vacuum Arc Modeling under Transverse Magnetic Fields"
-description: "「Vacuum Arc Modeling under Transverse Magnetic Fields」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向研究設計與學術分析顧問，面向「Vacuum Arc Modeling under Transverse Magnet...」時重點是研究問題拆解、文獻整理、方法論判斷、論證架構。能把研究主題、文獻或資料整理成研究摘要與論點整理，並維持脈絡完整性與推論嚴謹度。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${guidanceLevel:beginner} - Level of guidance required
 ---
 
-「Vacuum Arc Modeling under Transverse Magnetic Fields」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向研究設計與學術分析顧問，面向「Vacuum Arc Modeling under Transverse Magnet...」時重點是研究問題拆解、文獻整理、方法論判斷、論證架構。能把研究主題、文獻或資料整理成研究摘要與論點整理，並維持脈絡完整性與推論嚴謹度。

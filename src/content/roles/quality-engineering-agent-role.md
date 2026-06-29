@@ -1,6 +1,6 @@
 ---
 title: "Quality Engineering Agent Role"
-description: "「Quality Engineering Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於風險辨識與優先級、檢查清單化輸出、提示詞架構設計、工具使用規劃：能釐清「Quality Engineering Agent Role」的任務脈絡，提供系統提示詞與工作流程設計，同時守住穩定性與可驗證性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -341,4 +341,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_quality-engineering.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Quality Engineering Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於風險辨識與優先級、檢查清單化輸出、提示詞架構設計、工具使用規劃：能釐清「Quality Engineering Agent Role」的任務脈絡，提供系統提示詞與工作流程設計，同時守住穩定性與可驗證性。

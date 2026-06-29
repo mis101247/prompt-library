@@ -1,6 +1,6 @@
 ---
 title: "Algorithm Analysis and Improvement Advisor"
-description: "「Algorithm Analysis and Improvement Advisor」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。"
+description: "以資料分析與洞察顧問來看，「Algorithm Analysis and Improvement Advisor」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
 requiredSkills: ["專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
@@ -27,4 +27,4 @@ promptBody: |
   - ${algorithmDescription} - A detailed description of the algorithm to analyze.
 ---
 
-「Algorithm Analysis and Improvement Advisor」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。
+以資料分析與洞察顧問來看，「Algorithm Analysis and Improvement Advisor」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。

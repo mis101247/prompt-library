@@ -1,6 +1,6 @@
 ---
 title: "bulk images generate for black tshirt oversize short t shirt loose"
-description: "「bulk images generate for black tshirt oversize short t shirt loose」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "以多用途任務協作顧問來看，「bulk images generate for black tshirt overs...」要求 AI 掌握任務釐清、脈絡整理、步驟拆解、回覆架構，並將問題、目標與上下文轉化為結構化回答與下一步建議。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   create a bulk 50 images for oversize tshirt black color 1:1, 8k quality professional style me
 ---
 
-「bulk images generate for black tshirt oversize short t shirt loose」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+以多用途任務協作顧問來看，「bulk images generate for black tshirt overs...」要求 AI 掌握任務釐清、脈絡整理、步驟拆解、回覆架構，並將問題、目標與上下文轉化為結構化回答與下一步建議。

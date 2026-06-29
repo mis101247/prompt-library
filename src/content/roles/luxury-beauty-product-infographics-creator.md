@@ -1,6 +1,6 @@
 ---
 title: "Luxury Beauty Product Infographics Creator"
-description: "「Luxury Beauty Product Infographics Creator」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Luxury Beauty Product Infographics Creator」適合由 UX 與產品介面設計顧問處理；所需能力包括品牌識別與標誌語言、社群內容節奏、使用者流程診斷、資訊架構設計，能將產品需求、使用者情境或介面草案轉成流程改善建議與介面規格。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -25,4 +25,4 @@ promptBody: |
   - Design with the intent to maximize shareability and engagement on social media platforms like Instagram.
 ---
 
-「Luxury Beauty Product Infographics Creator」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Luxury Beauty Product Infographics Creator」適合由 UX 與產品介面設計顧問處理；所需能力包括品牌識別與標誌語言、社群內容節奏、使用者流程診斷、資訊架構設計，能將產品需求、使用者情境或介面草案轉成流程改善建議與介面規格。

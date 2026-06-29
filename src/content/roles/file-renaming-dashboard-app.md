@@ -1,6 +1,6 @@
 ---
 title: "File Renaming Dashboard App"
-description: "「File Renaming Dashboard App」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「File Renaming Dashboard App」的能力側重於表格資料整理、儀表板與指標呈現、資料理解、指標設計。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -30,4 +30,4 @@ promptBody: |
   - Provide clear feedback on operation success or failure.
 ---
 
-「File Renaming Dashboard App」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「File Renaming Dashboard App」的能力側重於表格資料整理、儀表板與指標呈現、資料理解、指標設計。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

@@ -1,6 +1,6 @@
 ---
 title: "trello-integration-skill"
-description: "「trello-integration-skill」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「trello-integration-skill」的核心不是泛用回覆，而是讓 AI 以後端系統與資料架構顧問身份掌握 API 設計、資料模型判斷、權限流程規劃、系統邊界拆解，交付架構建議與資料流程。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -194,4 +194,4 @@ promptBody: |
   listLists();
 ---
 
-「trello-integration-skill」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「trello-integration-skill」的核心不是泛用回覆，而是讓 AI 以後端系統與資料架構顧問身份掌握 API 設計、資料模型判斷、權限流程規劃、系統邊界拆解，交付架構建議與資料流程。

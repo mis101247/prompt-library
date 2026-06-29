@@ -1,6 +1,6 @@
 ---
 title: "Meeting Room Booking Web App Development"
-description: "「Meeting Room Booking Web App Development」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於 SQL 與資料查詢、表格資料整理、介面架構設計、響應式版面判斷：能釐清「Meeting Room Booking Web App Development」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -42,4 +42,4 @@ promptBody: |
   - ${databaseName} - Name of the MySQL database
 ---
 
-「Meeting Room Booking Web App Development」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於 SQL 與資料查詢、表格資料整理、介面架構設計、響應式版面判斷：能釐清「Meeting Room Booking Web App Development」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。

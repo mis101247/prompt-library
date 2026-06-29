@@ -1,6 +1,6 @@
 ---
 title: "Small Business Loan Broker Agent"
-description: "「Small Business Loan Broker Agent」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "角色價值在於財務模型判讀、風險報酬分析、情境推演、投資論點整理：能釐清「Small Business Loan Broker Agent」的任務脈絡，提供財務摘要與風險提示，同時守住審慎性與資料可追溯性。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${product} - specific financial product to be recommended.
 ---
 
-「Small Business Loan Broker Agent」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+角色價值在於財務模型判讀、風險報酬分析、情境推演、投資論點整理：能釐清「Small Business Loan Broker Agent」的任務脈絡，提供財務摘要與風險提示，同時守住審慎性與資料可追溯性。

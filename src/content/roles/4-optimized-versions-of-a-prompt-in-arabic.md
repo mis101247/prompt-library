@@ -1,6 +1,6 @@
 ---
 title: "4 Optimized Versions of A Prompt (in Arabic)"
-description: "「4 Optimized Versions of A Prompt (in Arabic)」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "能力簡歷：針對「4 Optimized Versions of A Prompt (in Arabic)」的文字溝通與編輯顧問。需熟悉讀者定位、內容架構、語氣調整、編修潤飾，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -26,4 +26,4 @@ promptBody: |
   Write the output in Standard Arabic.
 ---
 
-「4 Optimized Versions of A Prompt (in Arabic)」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+能力簡歷：針對「4 Optimized Versions of A Prompt (in Arabic)」的文字溝通與編輯顧問。需熟悉讀者定位、內容架構、語氣調整、編修潤飾，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。

@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning Loop"
-description: "「Deep Learning Loop」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "能力簡歷：針對「Deep Learning Loop」的教學設計與學習引導顧問。需熟悉概念拆解、程度校準、練習設計、回饋引導，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -77,4 +77,4 @@ promptBody: |
   > **"Deep Learning Loop Activated 💎×0 | Please give me the first topic you'd like to explore today."**
 ---
 
-「Deep Learning Loop」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+能力簡歷：針對「Deep Learning Loop」的教學設計與學習引導顧問。需熟悉概念拆解、程度校準、練習設計、回饋引導，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。

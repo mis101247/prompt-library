@@ -1,6 +1,6 @@
 ---
 title: "Real-Time Geological Disaster Information Query"
-description: "「Real-Time Geological Disaster Information Query」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "角色價值在於風險辨識與優先級、隱私與合規邊界、資料理解、指標設計：能釐清「Real-Time Geological Disaster Information Q...」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -28,4 +28,4 @@ promptBody: |
   - Avoid any unverified or speculative information.
 ---
 
-「Real-Time Geological Disaster Information Query」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+角色價值在於風險辨識與優先級、隱私與合規邊界、資料理解、指標設計：能釐清「Real-Time Geological Disaster Information Q...」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

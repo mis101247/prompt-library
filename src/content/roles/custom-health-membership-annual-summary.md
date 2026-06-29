@@ -1,6 +1,6 @@
 ---
 title: "Custom Health Membership Annual Summary"
-description: "「Custom Health Membership Annual Summary」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "以健康資訊與照護溝通顧問來看，「Custom Health Membership Annual Summary」要求 AI 掌握症狀資訊整理、風險提醒、照護溝通、資源建議，並將健康情境、目標或限制轉化為健康資訊摘要與就醫溝通準備。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -32,4 +32,4 @@ promptBody: |
   - ${year} - the current year
 ---
 
-「Custom Health Membership Annual Summary」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+以健康資訊與照護溝通顧問來看，「Custom Health Membership Annual Summary」要求 AI 掌握症狀資訊整理、風險提醒、照護溝通、資源建議，並將健康情境、目標或限制轉化為健康資訊摘要與就醫溝通準備。

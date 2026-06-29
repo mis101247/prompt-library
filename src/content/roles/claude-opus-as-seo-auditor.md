@@ -1,6 +1,6 @@
 ---
 title: "Claude Opus as SEO Auditor"
-description: "「Claude Opus as SEO Auditor」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "「Claude Opus as SEO Auditor」的能力側重於風險辨識與優先級、SEO 與搜尋意圖、受眾定位、價值主張設計。它應以行銷成長與市場溝通顧問角度判讀產品、客群與市場目標，再提供行銷文案與活動策略。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -220,4 +220,4 @@ promptBody: |
   ${domainname}
 ---
 
-「Claude Opus as SEO Auditor」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+「Claude Opus as SEO Auditor」的能力側重於風險辨識與優先級、SEO 與搜尋意圖、受眾定位、價值主張設計。它應以行銷成長與市場溝通顧問角度判讀產品、客群與市場目標，再提供行銷文案與活動策略。

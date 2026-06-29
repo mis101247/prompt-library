@@ -1,6 +1,6 @@
 ---
 title: "Refactoring Expert Agent Role"
-description: "「Refactoring Expert Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Refactoring Expert Agent Role」適合由資深程式碼審查顧問處理；所需能力包括手機抓拍與自然構圖、路線圖與階段規劃、程式碼閱讀、架構風險判斷，能將程式碼、diff 或技術背景轉成具理由的 review 回饋與優先排序的改進建議。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -250,4 +250,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_refactoring-expert.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Refactoring Expert Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Refactoring Expert Agent Role」適合由資深程式碼審查顧問處理；所需能力包括手機抓拍與自然構圖、路線圖與階段規劃、程式碼閱讀、架構風險判斷，能將程式碼、diff 或技術背景轉成具理由的 review 回饋與優先排序的改進建議。

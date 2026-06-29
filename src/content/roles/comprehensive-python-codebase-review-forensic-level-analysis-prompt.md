@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Python Codebase Review - Forensic-Level Analysis Prompt"
-description: "「Comprehensive Python Codebase Review - Forensic-Level Analysis Prompt」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。"
+description: "這個角色像資料分析與洞察顧問，擅長風險辨識與優先級、檢查清單化輸出、資料理解、指標設計。適合處理「Comprehensive Python Codebase Review - Fore...」相關任務，最後收斂成分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
 requiredSkills: ["程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
@@ -736,4 +736,4 @@ promptBody: |
      - Test coverage percentage
 ---
 
-「Comprehensive Python Codebase Review - Forensic-Level Analysis Prompt」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。
+這個角色像資料分析與洞察顧問，擅長風險辨識與優先級、檢查清單化輸出、資料理解、指標設計。適合處理「Comprehensive Python Codebase Review - Fore...」相關任務，最後收斂成分析摘要與指標解讀。

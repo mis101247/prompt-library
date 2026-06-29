@@ -1,6 +1,6 @@
 ---
 title: "Constraint-First Recipe Generator (Playful Edition)"
-description: "「Constraint-First Recipe Generator (Playful Edition)」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。"
+description: "這個角色像餐飲應用與料理體驗顧問，擅長風險辨識與優先級、表格資料整理、食譜資訊架構、飲食限制判斷。適合處理「Constraint-First Recipe Generator (Playful ...」相關任務，最後收斂成食譜搜尋體驗與營養資訊呈現。"
 category: "生活與健康"
 tags: ["生活與健康","健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
 requiredSkills: ["健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
@@ -205,4 +205,4 @@ promptBody: |
     - Maintained all critical constraint governance, transparency, and user-success safeguards.
 ---
 
-「Constraint-First Recipe Generator (Playful Edition)」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。
+這個角色像餐飲應用與料理體驗顧問，擅長風險辨識與優先級、表格資料整理、食譜資訊架構、飲食限制判斷。適合處理「Constraint-First Recipe Generator (Playful ...」相關任務，最後收斂成食譜搜尋體驗與營養資訊呈現。

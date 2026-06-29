@@ -1,6 +1,6 @@
 ---
 title: "Logic-Flow Educational Puzzle"
-description: "「Logic-Flow Educational Puzzle」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "能力簡歷：針對「Logic-Flow Educational Puzzle」的互動敘事與遊戲內容設計顧問。需熟悉 3D 場景與動態效果、角色塑造、世界觀設定、互動規則設計，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -16,4 +16,4 @@ promptBody: |
   Create a link-based puzzle. Use a force-simulation logic to prevent bubble overlapping. When two correct bubbles are clicked, draw a CatmullRomCurve3 between them with a glowing neon texture.
 ---
 
-「Logic-Flow Educational Puzzle」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+能力簡歷：針對「Logic-Flow Educational Puzzle」的互動敘事與遊戲內容設計顧問。需熟悉 3D 場景與動態效果、角色塑造、世界觀設定、互動規則設計，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。

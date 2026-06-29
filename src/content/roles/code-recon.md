@@ -1,6 +1,6 @@
 ---
 title: "Code Recon"
-description: "「Code Recon」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "「Code Recon」的能力側重於路線圖與階段規劃、風險辨識與優先級、資料理解、指標設計。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -74,4 +74,4 @@ promptBody: |
   - **v2.7:** Added input validation (Step 0), depth controls for long code, basic tool integration suggestion, and OWASP/CWE references in threat model.
 ---
 
-「Code Recon」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+「Code Recon」的能力側重於路線圖與階段規劃、風險辨識與優先級、資料理解、指標設計。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

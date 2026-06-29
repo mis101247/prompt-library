@@ -1,6 +1,6 @@
 ---
 title: "Personalized Digital Avatar Generator"
-description: "「Personalized Digital Avatar Generator」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「Personalized Digital Avatar Generator」的能力側重於 MVP 範圍收斂、使用者流程診斷、資訊架構設計、原型規劃。它應以 UX 與產品介面設計顧問角度判讀產品需求、使用者情境或介面草案，再提供流程改善建議與介面規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -26,4 +26,4 @@ promptBody: |
   Stack: React, fal.ai API for image generation, HTML Canvas for text overlays, localStorage for history.
 ---
 
-「Personalized Digital Avatar Generator」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「Personalized Digital Avatar Generator」的能力側重於 MVP 範圍收斂、使用者流程診斷、資訊架構設計、原型規劃。它應以 UX 與產品介面設計顧問角度判讀產品需求、使用者情境或介面草案，再提供流程改善建議與介面規格。

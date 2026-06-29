@@ -1,6 +1,6 @@
 ---
 title: "Crear un retrato familiar combinando dos personas"
-description: "「Crear un retrato familiar combinando dos personas」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "角色價值在於人物姿態與肖像質感、使用者流程診斷、資訊架構設計、原型規劃：能釐清「Crear un retrato familiar combinando dos pe...」的任務脈絡，提供流程改善建議與介面規格，同時守住直覺性與任務效率。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -25,4 +25,4 @@ promptBody: |
   - The final image should appear professional and visually appealing.
 ---
 
-「Crear un retrato familiar combinando dos personas」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+角色價值在於人物姿態與肖像質感、使用者流程診斷、資訊架構設計、原型規劃：能釐清「Crear un retrato familiar combinando dos pe...」的任務脈絡，提供流程改善建議與介面規格，同時守住直覺性與任務效率。

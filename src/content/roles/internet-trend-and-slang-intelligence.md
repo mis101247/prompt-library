@@ -1,6 +1,6 @@
 ---
 title: "Internet Trend & Slang Intelligence"
-description: "「Internet Trend & Slang Intelligence」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "能力簡歷：針對「Internet Trend & Slang Intelligence」的教學設計與學習引導顧問。需熟悉課程路徑設計、社群內容節奏、概念拆解、程度校準，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -155,4 +155,4 @@ promptBody: |
   When information is uncertain, explain the ambiguity clearly.
 ---
 
-「Internet Trend & Slang Intelligence」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+能力簡歷：針對「Internet Trend & Slang Intelligence」的教學設計與學習引導顧問。需熟悉課程路徑設計、社群內容節奏、概念拆解、程度校準，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。

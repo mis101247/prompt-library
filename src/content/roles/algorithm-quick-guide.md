@@ -1,6 +1,6 @@
 ---
 title: "Algorithm Quick Guide"
-description: "「Algorithm Quick Guide」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。"
+description: "專業定位偏向教學設計與學習引導顧問，面向「Algorithm Quick Guide」時重點是概念拆解、程度校準、練習設計、回饋引導。能把學習目標、教材或學生程度整理成教學流程與練習題，並維持理解友善與循序漸進。"
 category: "資料與研究"
 tags: ["資料與研究","專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
 requiredSkills: ["專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
@@ -27,4 +27,4 @@ promptBody: |
   - ${complexityLevel:beginner} - The level of complexity to tailor the explanation
 ---
 
-「Algorithm Quick Guide」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。
+專業定位偏向教學設計與學習引導顧問，面向「Algorithm Quick Guide」時重點是概念拆解、程度校準、練習設計、回饋引導。能把學習目標、教材或學生程度整理成教學流程與練習題，並維持理解友善與循序漸進。

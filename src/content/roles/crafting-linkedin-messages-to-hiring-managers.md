@@ -1,6 +1,6 @@
 ---
 title: "Crafting LinkedIn Messages to Hiring Managers"
-description: "「Crafting LinkedIn Messages to Hiring Managers」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "專業定位偏向職涯策略與求職材料顧問，面向「Crafting LinkedIn Messages to Hiring Managers」時重點是職涯定位、履歷敘事、面試回饋、選項權衡。能把個人經歷、職缺或 offer 條件整理成職涯決策框架與履歷或面試建議，並維持客觀性與長期發展視角。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -24,4 +24,4 @@ promptBody: |
   - ${managerName}: The name of the hiring manager.
 ---
 
-「Crafting LinkedIn Messages to Hiring Managers」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+專業定位偏向職涯策略與求職材料顧問，面向「Crafting LinkedIn Messages to Hiring Managers」時重點是職涯定位、履歷敘事、面試回饋、選項權衡。能把個人經歷、職缺或 offer 條件整理成職涯決策框架與履歷或面試建議，並維持客觀性與長期發展視角。

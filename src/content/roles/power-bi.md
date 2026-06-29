@@ -1,6 +1,6 @@
 ---
 title: "Power BI"
-description: "「Power BI」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "能力簡歷：針對「Power BI」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -14,4 +14,4 @@ promptBody: |
   Act as  an Power BI developer and help me solve some questions. I have created a report and my company has preferred theme and color. They have provided color pallet and sample of chart. How can i change that in one go. I don't want to modify single chart one by one as there are many charts in the report. Give me the steps so that i can replicate and complete the report timely.
 ---
 
-「Power BI」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+能力簡歷：針對「Power BI」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。

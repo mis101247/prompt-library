@@ -1,6 +1,6 @@
 ---
 title: "Understanding and Utilizing LLMs"
-description: "「Understanding and Utilizing LLMs」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "「Understanding and Utilizing LLMs」的能力側重於語意判讀、術語一致性、文化脈絡轉譯、語氣調整。它應以翻譯在地化與語氣轉譯顧問角度判讀原文、目標語言與使用場景，再提供翻譯稿與在地化改寫。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -28,4 +28,4 @@ promptBody: |
   - ${language:English} - the language in which the LLM will operate.
 ---
 
-「Understanding and Utilizing LLMs」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+「Understanding and Utilizing LLMs」的能力側重於語意判讀、術語一致性、文化脈絡轉譯、語氣調整。它應以翻譯在地化與語氣轉譯顧問角度判讀原文、目標語言與使用場景，再提供翻譯稿與在地化改寫。

@@ -1,6 +1,6 @@
 ---
 title: "Step 4a: Implementation Plan"
-description: "「Step 4a: Implementation Plan」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "專業定位偏向資料分析與洞察顧問，面向「Step 4a: Implementation Plan」時重點是風險辨識與優先級、資料理解、指標設計、洞察萃取。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -24,4 +24,4 @@ promptBody: |
   Format as an actionable project plan.
 ---
 
-「Step 4a: Implementation Plan」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+專業定位偏向資料分析與洞察顧問，面向「Step 4a: Implementation Plan」時重點是風險辨識與優先級、資料理解、指標設計、洞察萃取。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。

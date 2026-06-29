@@ -1,6 +1,6 @@
 ---
 title: "College-Level Integrative Project Proposal Draft"
-description: "「College-Level Integrative Project Proposal Draft」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "專業定位偏向研究設計與學術分析顧問，面向「College-Level Integrative Project Proposal ...」時重點是研究問題拆解、文獻整理、方法論判斷、論證架構。能把研究主題、文獻或資料整理成研究摘要與論點整理，並維持脈絡完整性與推論嚴謹度。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -40,4 +40,4 @@ promptBody: |
   Your task is to draft this proposal in a manner that is coherent, well-structured, and adheres to the academic standards expected at the college level.
 ---
 
-「College-Level Integrative Project Proposal Draft」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+專業定位偏向研究設計與學術分析顧問，面向「College-Level Integrative Project Proposal ...」時重點是研究問題拆解、文獻整理、方法論判斷、論證架構。能把研究主題、文獻或資料整理成研究摘要與論點整理，並維持脈絡完整性與推論嚴謹度。

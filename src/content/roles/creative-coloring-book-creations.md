@@ -1,6 +1,6 @@
 ---
 title: "Creative Coloring Book Creations"
-description: "「Creative Coloring Book Creations」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Creative Coloring Book Creations」的核心不是泛用回覆，而是讓 AI 以視覺創作與藝術企劃顧問身份掌握創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，交付創作方向與視覺規格。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -24,4 +24,4 @@ promptBody: |
   - Include a variety of themes to cater to different interests.
 ---
 
-「Creative Coloring Book Creations」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Creative Coloring Book Creations」的核心不是泛用回覆，而是讓 AI 以視覺創作與藝術企劃顧問身份掌握創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，交付創作方向與視覺規格。

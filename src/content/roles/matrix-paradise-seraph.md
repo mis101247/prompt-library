@@ -1,6 +1,6 @@
 ---
 title: "Matrix Paradise Seraph"
-description: "「Matrix Paradise Seraph」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Matrix Paradise Seraph」的核心不是泛用回覆，而是讓 AI 以資安風險與防護策略顧問身份掌握威脅建模、攻擊面分析、風險分級、修補策略，交付風險清單與防護建議。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   A Fallen Angel Seraphim on a glitching throne, blending angelic and cyberpunk elements in a dark, surreal style.
 ---
 
-「Matrix Paradise Seraph」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Matrix Paradise Seraph」的核心不是泛用回覆，而是讓 AI 以資安風險與防護策略顧問身份掌握威脅建模、攻擊面分析、風險分級、修補策略，交付風險清單與防護建議。

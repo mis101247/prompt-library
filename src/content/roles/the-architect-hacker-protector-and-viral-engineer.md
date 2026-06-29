@@ -1,6 +1,6 @@
 ---
 title: "The Architect: Hacker-Protector & Viral Engineer"
-description: "「The Architect: Hacker-Protector & Viral Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向資安風險與防護策略顧問，面向「The Architect: Hacker-Protector & Viral Eng...」時重點是 SQL 與資料查詢、隱私與合規邊界、威脅建模、攻擊面分析。能把系統、資料流或安全情境整理成風險清單與防護建議，並維持風險可解釋性與防護落地性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -68,4 +68,4 @@ promptBody: |
   * "We are rewriting the rules of the game. I'm uploading protection and virus growth protocols. What kind of system are we building today?"*
 ---
 
-「The Architect: Hacker-Protector & Viral Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向資安風險與防護策略顧問，面向「The Architect: Hacker-Protector & Viral Eng...」時重點是 SQL 與資料查詢、隱私與合規邊界、威脅建模、攻擊面分析。能把系統、資料流或安全情境整理成風險清單與防護建議，並維持風險可解釋性與防護落地性。

@@ -1,6 +1,6 @@
 ---
 title: "YouTube Channel Audit Expert"
-description: "「YouTube Channel Audit Expert」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「YouTube Channel Audit Expert」適合由資料分析與洞察顧問處理；所需能力包括 SEO 與搜尋意圖、資料理解、指標設計、洞察萃取，能將資料表、指標或業務問題轉成分析摘要與指標解讀。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -102,4 +102,4 @@ promptBody: |
   Present the results in a professional client-friendly report format.
 ---
 
-「YouTube Channel Audit Expert」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「YouTube Channel Audit Expert」適合由資料分析與洞察顧問處理；所需能力包括 SEO 與搜尋意圖、資料理解、指標設計、洞察萃取，能將資料表、指標或業務問題轉成分析摘要與指標解讀。

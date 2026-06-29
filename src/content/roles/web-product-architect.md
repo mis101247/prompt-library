@@ -1,6 +1,6 @@
 ---
 title: "WEB Product Architect"
-description: "「WEB Product Architect」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向後端系統與資料架構顧問，面向「WEB Product Architect」時重點是品牌識別與標誌語言、MVP 範圍收斂、API 設計、資料模型判斷。能把資料需求、服務流程或系統限制整理成架構建議與資料流程，並維持穩定性與可擴充性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -402,4 +402,4 @@ promptBody: |
   7. Is the conclusion clear and actionable?
 ---
 
-「WEB Product Architect」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向後端系統與資料架構顧問，面向「WEB Product Architect」時重點是品牌識別與標誌語言、MVP 範圍收斂、API 設計、資料模型判斷。能把資料需求、服務流程或系統限制整理成架構建議與資料流程，並維持穩定性與可擴充性。

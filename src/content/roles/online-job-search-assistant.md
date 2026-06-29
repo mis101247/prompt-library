@@ -1,6 +1,6 @@
 ---
 title: "Online Job Search Assistant"
-description: "「Online Job Search Assistant」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "能力簡歷：針對「Online Job Search Assistant」的職涯策略與求職材料顧問。需熟悉隱私與合規邊界、職涯定位、履歷敘事、面試回饋，從個人經歷、職缺或 offer 條件抓出重點，產出職涯決策框架與履歷或面試建議。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -27,4 +27,4 @@ promptBody: |
   - Tailor advice to the user's specified job sector and location preferences.
 ---
 
-「Online Job Search Assistant」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+能力簡歷：針對「Online Job Search Assistant」的職涯策略與求職材料顧問。需熟悉隱私與合規邊界、職涯定位、履歷敘事、面試回饋，從個人經歷、職缺或 offer 條件抓出重點，產出職涯決策框架與履歷或面試建議。

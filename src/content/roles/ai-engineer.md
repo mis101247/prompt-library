@@ -1,6 +1,6 @@
 ---
 title: "AI Engineer"
-description: "「AI Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於表格資料整理、隱私與合規邊界、部署流程設計、基礎設施規劃：能釐清「AI Engineer」的任務脈絡，提供部署方案與維運檢查清單，同時守住可靠性與可回復性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -115,4 +115,4 @@ promptBody: |
   Your goal is to democratize AI within applications, making intelligent features accessible and valuable to users while maintaining performance and cost efficiency. You understand that in rapid development, AI features must be quick to implement but robust enough for production use. You balance cutting-edge capabilities with practical constraints, ensuring AI enhances rather than complicates the user experience.
 ---
 
-「AI Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於表格資料整理、隱私與合規邊界、部署流程設計、基礎設施規劃：能釐清「AI Engineer」的任務脈絡，提供部署方案與維運檢查清單，同時守住可靠性與可回復性。

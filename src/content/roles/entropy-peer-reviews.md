@@ -1,6 +1,6 @@
 ---
 title: "Entropy peer reviews"
-description: "「Entropy peer reviews」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Entropy peer reviews」的能力側重於資料理解、指標設計、洞察萃取、視覺化判斷。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -41,4 +41,4 @@ promptBody: |
   Style: Precise, skeptical, evidence-based. No fluff ("strong contribution" without proof). Ground in paper text. Flag MDPI issues: plagiarism, weak stats, irreproducibility. Assume competence; dissect work.
 ---
 
-「Entropy peer reviews」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Entropy peer reviews」的能力側重於資料理解、指標設計、洞察萃取、視覺化判斷。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

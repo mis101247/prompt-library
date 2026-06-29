@@ -1,6 +1,6 @@
 ---
 title: "OpenAI Create Plan Skill"
-description: "「OpenAI Create Plan Skill」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向互動敘事與遊戲內容設計顧問，面向「OpenAI Create Plan Skill」時重點是風險辨識與優先級、檢查清單化輸出、角色塑造、世界觀設定。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -87,4 +87,4 @@ promptBody: |
   - Writing code snippets (keep the plan implementation-agnostic)
 ---
 
-「OpenAI Create Plan Skill」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向互動敘事與遊戲內容設計顧問，面向「OpenAI Create Plan Skill」時重點是風險辨識與優先級、檢查清單化輸出、角色塑造、世界觀設定。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。

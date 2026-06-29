@@ -1,6 +1,6 @@
 ---
 title: "Augmented Reality Real Estate Staging"
-description: "「Augmented Reality Real Estate Staging」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Augmented Reality Real Estate Staging」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -28,4 +28,4 @@ promptBody: |
   - Allow the user to request adjustments to the staging layout if needed.
 ---
 
-「Augmented Reality Real Estate Staging」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Augmented Reality Real Estate Staging」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

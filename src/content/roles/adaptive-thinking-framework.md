@@ -1,6 +1,6 @@
 ---
 title: "Adaptive Thinking Framework"
-description: "「Adaptive Thinking Framework」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+description: "專業定位偏向互動敘事與遊戲內容設計顧問，面向「Adaptive Thinking Framework」時重點是檢查清單化輸出、課程路徑設計、角色塑造、世界觀設定。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。"
 category: "內容與寫作"
 tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
 requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
@@ -149,4 +149,4 @@ promptBody: |
   “If I had to identify the single biggest flaw or weakness in this answer, what would it be?”
 ---
 
-「Adaptive Thinking Framework」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。
+專業定位偏向互動敘事與遊戲內容設計顧問，面向「Adaptive Thinking Framework」時重點是檢查清單化輸出、課程路徑設計、角色塑造、世界觀設定。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。

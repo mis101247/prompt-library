@@ -1,6 +1,6 @@
 ---
 title: "Workplace English Speaking Coach"
-description: "「Workplace English Speaking Coach」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「Workplace English Speaking Coach」的能力側重於提示詞架構設計、工具使用規劃、上下文管理、代理流程評估。它應以 AI 工作流程與提示詞架構顧問角度判讀任務目標、工具限制與上下文，再提供系統提示詞與工作流程設計。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${languageLevel:intermediate} - The user's current English proficiency level
 ---
 
-「Workplace English Speaking Coach」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「Workplace English Speaking Coach」的能力側重於提示詞架構設計、工具使用規劃、上下文管理、代理流程評估。它應以 AI 工作流程與提示詞架構顧問角度判讀任務目標、工具限制與上下文，再提供系統提示詞與工作流程設計。

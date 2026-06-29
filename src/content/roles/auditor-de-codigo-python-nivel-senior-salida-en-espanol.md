@@ -1,6 +1,6 @@
 ---
 title: "Auditor de Código Python: Nivel Senior (Salida en Español)"
-description: "「Auditor de Código Python: Nivel Senior (Salida en Español)」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Auditor de Código Python: Nivel Senior (Sal...」適合由資深程式碼審查顧問處理；所需能力包括程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計，能將程式碼、diff 或技術背景轉成具理由的 review 回饋與優先排序的改進建議。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -42,4 +42,4 @@ promptBody: |
   ${codigo}
 ---
 
-「Auditor de Código Python: Nivel Senior (Salida en Español)」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Auditor de Código Python: Nivel Senior (Sal...」適合由資深程式碼審查顧問處理；所需能力包括程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計，能將程式碼、diff 或技術背景轉成具理由的 review 回饋與優先排序的改進建議。

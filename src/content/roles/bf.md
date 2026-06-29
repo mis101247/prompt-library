@@ -1,6 +1,6 @@
 ---
 title: "Bf"
-description: "「Bf」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Bf」的能力側重於任務釐清、脈絡整理、步驟拆解、回覆架構。它應以多用途任務協作顧問角度判讀問題、目標與上下文，再提供結構化回答與下一步建議。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   make boyfriend on the side hugging make the boyfriend have a mod cut septum pericing tall and goatee mustache and make him emo
 ---
 
-「Bf」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Bf」的能力側重於任務釐清、脈絡整理、步驟拆解、回覆架構。它應以多用途任務協作顧問角度判讀問題、目標與上下文，再提供結構化回答與下一步建議。

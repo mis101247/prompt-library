@@ -1,6 +1,6 @@
 ---
 title: "Realistic Photo of a Turkish Woman in a Street Setting"
-description: "「Realistic Photo of a Turkish Woman in a Street Setting」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "這個角色像影像生成美術指導，擅長手機抓拍與自然構圖、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制。適合處理「Realistic Photo of a Turkish Woman in a Str...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -20,4 +20,4 @@ promptBody: |
   shot on a regular iPhone by a friend standing close, handheld, slightly downward angle, horizon not perfectly straight, automatic exposure, no studio lighting, overcast daylight making soft but flat light, a bit of digital noise in darker corners, focus not perfectly sharp on her eyes, everyday Instagram photo quality, unedited colors, casual sexy vibe in a real Turkish street environment, clearly not a professional camera
 ---
 
-「Realistic Photo of a Turkish Woman in a Street Setting」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+這個角色像影像生成美術指導，擅長手機抓拍與自然構圖、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制。適合處理「Realistic Photo of a Turkish Woman in a Str...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。

@@ -1,6 +1,6 @@
 ---
 title: "Interdisciplinary Connections and Applications"
-description: "「Interdisciplinary Connections and Applications」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "專業定位偏向跨領域研究與創新應用顧問，面向「Interdisciplinary Connections and Applications」時重點是跨領域連結、應用情境設計、協作機會辨識、洞察整合。能把主題、學科脈絡或研究問題整理成跨域應用案例與合作方向，並維持連結清楚與啟發性。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -14,4 +14,4 @@ promptBody: |
   "Explore how [topic] connects with other fields or disciplines. Provide examples of cross-disciplinary applications, collaborative opportunities, and how integrating insights from different areas can enhance understanding or innovation in [topic]."
 ---
 
-「Interdisciplinary Connections and Applications」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+專業定位偏向跨領域研究與創新應用顧問，面向「Interdisciplinary Connections and Applications」時重點是跨領域連結、應用情境設計、協作機會辨識、洞察整合。能把主題、學科脈絡或研究問題整理成跨域應用案例與合作方向，並維持連結清楚與啟發性。

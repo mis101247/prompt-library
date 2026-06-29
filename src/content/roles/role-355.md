@@ -1,6 +1,6 @@
 ---
 title: "小红书邮轮项目推广提示词"
-description: "「小红书邮轮项目推广提示词」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「小红书邮轮项目推广提示词」的能力側重於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。它應以 UX 與產品介面設計顧問角度判讀產品需求、使用者情境或介面草案，再提供流程改善建議與介面規格。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -32,4 +32,4 @@ promptBody: |
   "Embark on an unforgettable journey with ${projectName}! Experience the ${uniqueFeature} while floating across serene waters. Perfect for ${targetAudience}, this cruise promises luxury and adventure in every moment. #CruiseLife #TravelDreams"
 ---
 
-「小红书邮轮项目推广提示词」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「小红书邮轮项目推广提示词」的能力側重於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。它應以 UX 與產品介面設計顧問角度判讀產品需求、使用者情境或介面草案，再提供流程改善建議與介面規格。

@@ -1,6 +1,6 @@
 ---
 title: "Balcony Coffee (morning haze, plant vibe)"
-description: "「Balcony Coffee (morning haze, plant vibe)」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "以品牌視覺與設計系統顧問來看，「Balcony Coffee (morning haze, plant vibe)」要求 AI 掌握手機抓拍與自然構圖、人物姿態與肖像質感、品牌定位轉譯、視覺語言設計，並將品牌目標、視覺素材或設計限制轉化為品牌設計方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -103,4 +103,4 @@ promptBody: |
   }
 ---
 
-「Balcony Coffee (morning haze, plant vibe)」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+以品牌視覺與設計系統顧問來看，「Balcony Coffee (morning haze, plant vibe)」要求 AI 掌握手機抓拍與自然構圖、人物姿態與肖像質感、品牌定位轉譯、視覺語言設計，並將品牌目標、視覺素材或設計限制轉化為品牌設計方向與視覺規格。

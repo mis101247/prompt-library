@@ -1,6 +1,6 @@
 ---
 title: "POV Smartphone with Space-Themed Twitter UI in Central Park"
-description: "「POV Smartphone with Space-Themed Twitter UI in Central Park」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "角色價值在於品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制：能釐清「POV Smartphone with Space-Themed Twitter UI...」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -20,4 +20,4 @@ promptBody: |
   Negative Prompt: Avoid low-res UI, distorted or extra fingers, warped phone, incorrect hand anatomy, oversharpening, cartoonish effects, watermarks, random logos, fake app UI, duplicated icons, and excessive glare obscuring the screen.
 ---
 
-「POV Smartphone with Space-Themed Twitter UI in Central Park」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+角色價值在於品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制：能釐清「POV Smartphone with Space-Themed Twitter UI...」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。

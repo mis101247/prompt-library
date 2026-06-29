@@ -1,6 +1,6 @@
 ---
 title: "Security Guard Image Prompt"
-description: "「Security Guard Image Prompt」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「Security Guard Image Prompt」的能力側重於威脅建模、攻擊面分析、風險分級、修補策略。它應以資安風險與防護策略顧問角度判讀系統、資料流或安全情境，再提供風險清單與防護建議。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -14,4 +14,4 @@ promptBody: |
   Create an image of a Latino private security guard. The guard should be depicted wearing a tactical helmet and a bulletproof vest. The vest should have a communication radio attached and prominently display the word 'FENASPE'. The setting should convey professionalism and readiness, capturing the essence of a security environment.
 ---
 
-「Security Guard Image Prompt」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「Security Guard Image Prompt」的能力側重於威脅建模、攻擊面分析、風險分級、修補策略。它應以資安風險與防護策略顧問角度判讀系統、資料流或安全情境，再提供風險清單與防護建議。

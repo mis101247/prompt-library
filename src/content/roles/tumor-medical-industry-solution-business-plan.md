@@ -1,6 +1,6 @@
 ---
 title: "Tumor Medical Industry Solution Business Plan"
-description: "「Tumor Medical Industry Solution Business Plan」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「Tumor Medical Industry Solution Business Plan」的能力側重於風險辨識與優先級、臨床語境與照護溝通、症狀資訊整理、風險提醒。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -33,4 +33,4 @@ promptBody: |
   }
 ---
 
-「Tumor Medical Industry Solution Business Plan」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「Tumor Medical Industry Solution Business Plan」的能力側重於風險辨識與優先級、臨床語境與照護溝通、症狀資訊整理、風險提醒。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。

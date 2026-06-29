@@ -1,6 +1,6 @@
 ---
 title: "Create Python Dev Container"
-description: "「Create Python Dev Container」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「Create Python Dev Container」的雲端基礎設施與 DevOps 顧問。需熟悉部署流程設計、基礎設施規劃、監控維運、自動化治理，從雲端環境、服務架構或交付流程抓出重點，產出部署方案與維運檢查清單。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -33,4 +33,4 @@ promptBody: |
   Assume the user is in the root folder of their Python project on the host.
 ---
 
-「Create Python Dev Container」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「Create Python Dev Container」的雲端基礎設施與 DevOps 顧問。需熟悉部署流程設計、基礎設施規劃、監控維運、自動化治理，從雲端環境、服務架構或交付流程抓出重點，產出部署方案與維運檢查清單。

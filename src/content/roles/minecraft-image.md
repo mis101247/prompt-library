@@ -1,6 +1,6 @@
 ---
 title: "Minecraft image"
-description: "「Minecraft image」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "專業定位偏向互動敘事與遊戲內容設計顧問，面向「Minecraft image」時重點是角色塑造、世界觀設定、互動規則設計、敘事節奏控制。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -14,4 +14,4 @@ promptBody: |
   I want to make a ultra realistic minecraf character out of an image, the character should have all the characteristics of the person in the eg. Skin color and outfit leave out the background intact the finished result shouldn't come with a background
 ---
 
-「Minecraft image」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+專業定位偏向互動敘事與遊戲內容設計顧問，面向「Minecraft image」時重點是角色塑造、世界觀設定、互動規則設計、敘事節奏控制。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。

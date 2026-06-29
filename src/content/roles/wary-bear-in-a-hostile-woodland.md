@@ -1,6 +1,6 @@
 ---
 title: "Wary Bear in a Hostile Woodland"
-description: "「Wary Bear in a Hostile Woodland」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "這個角色像互動敘事與遊戲內容設計顧問，擅長角色塑造、世界觀設定、互動規則設計、敘事節奏控制。適合處理「Wary Bear in a Hostile Woodland」相關任務，最後收斂成角色回應與劇情節點。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -23,4 +23,4 @@ promptBody: |
   - Maintain a narrative tone that captures the reader's attention.
 ---
 
-「Wary Bear in a Hostile Woodland」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+這個角色像互動敘事與遊戲內容設計顧問，擅長角色塑造、世界觀設定、互動規則設計、敘事節奏控制。適合處理「Wary Bear in a Hostile Woodland」相關任務，最後收斂成角色回應與劇情節點。

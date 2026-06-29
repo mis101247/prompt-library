@@ -1,6 +1,6 @@
 ---
 title: "Create a detailed travel itinerary in HTML format"
-description: "「Create a detailed travel itinerary in HTML format」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+description: "角色價值在於日常場景與環境細節、食譜流程與料理情境、介面架構設計、響應式版面判斷：能釐清「Create a detailed travel itinerary in HTML ...」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。"
 category: "生活與健康"
 tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
@@ -58,4 +58,4 @@ promptBody: |
   </html>
 ---
 
-「Create a detailed travel itinerary in HTML format」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。
+角色價值在於日常場景與環境細節、食譜流程與料理情境、介面架構設計、響應式版面判斷：能釐清「Create a detailed travel itinerary in HTML ...」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。

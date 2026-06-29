@@ -1,6 +1,6 @@
 ---
 title: "Beach Walk Golden Hour (full-body, travel)"
-description: "「Beach Walk Golden Hour (full-body, travel)」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+description: "「Beach Walk Golden Hour (full-body, travel)」的能力側重於手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。"
 category: "生活與健康"
 tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
@@ -92,4 +92,4 @@ promptBody: |
   }
 ---
 
-「Beach Walk Golden Hour (full-body, travel)」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。
+「Beach Walk Golden Hour (full-body, travel)」的能力側重於手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言。它應以影像生成美術指導角度判讀人物、場景、道具與風格目標，再提供可直接生成的影像規格與品質控制指令。

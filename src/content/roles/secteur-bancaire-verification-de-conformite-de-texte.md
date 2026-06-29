@@ -1,6 +1,6 @@
 ---
 title: "Secteur Bancaire - Vérification de conformité de texte"
-description: "「Secteur Bancaire - Vérification de conformité de texte」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "專業定位偏向法務合規與政策風險顧問，面向「Secteur Bancaire - Vérification de conformi...」時重點是條款解讀、合規檢核、風險辨識、修訂建議。能把合約、政策或監管情境整理成法務風險摘要與政策建議，並維持邊界清楚與低幻覺風險。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -21,4 +21,4 @@ promptBody: |
   – Texte original / Texte reformulé
 ---
 
-「Secteur Bancaire - Vérification de conformité de texte」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+專業定位偏向法務合規與政策風險顧問，面向「Secteur Bancaire - Vérification de conformi...」時重點是條款解讀、合規檢核、風險辨識、修訂建議。能把合約、政策或監管情境整理成法務風險摘要與政策建議，並維持邊界清楚與低幻覺風險。

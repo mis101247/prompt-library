@@ -1,6 +1,6 @@
 ---
 title: "Create Organizational Charts and Workflows for University Departments"
-description: "「Create Organizational Charts and Workflows for University Departments」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向營運流程與專案管理顧問，面向「Create Organizational Charts and Workflows ...」時重點是流程拆解、資源協調、風險控管、執行節奏設計。能把團隊目標、流程或交付限制整理成專案計畫與 SOP，並維持落地性與責任清楚。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -32,4 +32,4 @@ promptBody: |
   - ${regulations} - The set of regulations to follow for workflow creation.
 ---
 
-「Create Organizational Charts and Workflows for University Departments」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向營運流程與專案管理顧問，面向「Create Organizational Charts and Workflows ...」時重點是流程拆解、資源協調、風險控管、執行節奏設計。能把團隊目標、流程或交付限制整理成專案計畫與 SOP，並維持落地性與責任清楚。

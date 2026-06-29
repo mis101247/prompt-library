@@ -1,6 +1,6 @@
 ---
 title: "Sabarudin System - Executive Architecture"
-description: "「Sabarudin System - Executive Architecture」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+description: "專業定位偏向資料分析與洞察顧問，面向「Sabarudin System - Executive Architecture」時重點是風險辨識與優先級、檢查清單化輸出、資料理解、指標設計。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。"
 category: "法務與合規"
 tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
@@ -846,4 +846,4 @@ promptBody: |
   > Protect Family. Build Institutions. Advise with Precision. Create Meaningful Impact.
 ---
 
-「Sabarudin System - Executive Architecture」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。
+專業定位偏向資料分析與洞察顧問，面向「Sabarudin System - Executive Architecture」時重點是風險辨識與優先級、檢查清單化輸出、資料理解、指標設計。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。

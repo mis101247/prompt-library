@@ -1,6 +1,6 @@
 ---
 title: "Repository Workflow Editor Agent Role"
-description: "「Repository Workflow Editor Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於檢查清單化輸出、面試策略與回答校準、流程拆解、資源協調：能釐清「Repository Workflow Editor Agent Role」的任務脈絡，提供專案計畫與 SOP，同時守住落地性與責任清楚。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -277,4 +277,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_repo-workflow-editor.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Repository Workflow Editor Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於檢查清單化輸出、面試策略與回答校準、流程拆解、資源協調：能釐清「Repository Workflow Editor Agent Role」的任務脈絡，提供專案計畫與 SOP，同時守住落地性與責任清楚。

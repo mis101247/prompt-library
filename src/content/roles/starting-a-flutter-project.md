@@ -1,6 +1,6 @@
 ---
 title: "Starting a Flutter Project"
-description: "「Starting a Flutter Project」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以影像生成美術指導來看，「Starting a Flutter Project」要求 AI 掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，並將人物、場景、道具與風格目標轉化為可直接生成的影像規格與品質控制指令。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${ide:Android Studio} - The preferred IDE for setup instructions.
 ---
 
-「Starting a Flutter Project」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以影像生成美術指導來看，「Starting a Flutter Project」要求 AI 掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，並將人物、場景、道具與風格目標轉化為可直接生成的影像規格與品質控制指令。

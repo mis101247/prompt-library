@@ -1,6 +1,6 @@
 ---
 title: "Viral Video Analyzer for TikTok and Xiaohongshu"
-description: "「Viral Video Analyzer for TikTok and Xiaohongshu」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "專業定位偏向資料分析與洞察顧問，面向「Viral Video Analyzer for TikTok and Xiaohon...」時重點是資料理解、指標設計、洞察萃取、視覺化判斷。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -33,4 +33,4 @@ promptBody: |
   - Consider cultural and platform-specific nuances.
 ---
 
-「Viral Video Analyzer for TikTok and Xiaohongshu」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+專業定位偏向資料分析與洞察顧問，面向「Viral Video Analyzer for TikTok and Xiaohon...」時重點是資料理解、指標設計、洞察萃取、視覺化判斷。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。

@@ -1,6 +1,6 @@
 ---
 title: "Business Idea Evaluation and Scoring"
-description: "「Business Idea Evaluation and Scoring」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「Business Idea Evaluation and Scoring」的核心不是泛用回覆，而是讓 AI 以財務分析與投資決策顧問身份掌握風險辨識與優先級、財務模型判讀、風險報酬分析、情境推演，交付財務摘要與風險提示。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -36,4 +36,4 @@ promptBody: |
   - ${targetAudience} - the primary target audience for the business idea
 ---
 
-「Business Idea Evaluation and Scoring」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「Business Idea Evaluation and Scoring」的核心不是泛用回覆，而是讓 AI 以財務分析與投資決策顧問身份掌握風險辨識與優先級、財務模型判讀、風險報酬分析、情境推演，交付財務摘要與風險提示。

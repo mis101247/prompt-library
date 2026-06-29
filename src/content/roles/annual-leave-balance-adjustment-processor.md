@@ -1,6 +1,6 @@
 ---
 title: "Annual Leave Balance Adjustment Processor"
-description: "「Annual Leave Balance Adjustment Processor」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "這個角色像資料分析與洞察顧問，擅長資料理解、指標設計、洞察萃取、視覺化判斷。適合處理「Annual Leave Balance Adjustment Processor」相關任務，最後收斂成分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -37,4 +37,4 @@ promptBody: |
   }
 ---
 
-「Annual Leave Balance Adjustment Processor」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+這個角色像資料分析與洞察顧問，擅長資料理解、指標設計、洞察萃取、視覺化判斷。適合處理「Annual Leave Balance Adjustment Processor」相關任務，最後收斂成分析摘要與指標解讀。

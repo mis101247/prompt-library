@@ -1,6 +1,6 @@
 ---
 title: "Taglish Technical Storytelling Editor"
-description: "「Taglish Technical Storytelling Editor」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "以文字溝通與編輯顧問來看，「Taglish Technical Storytelling Editor」要求 AI 掌握讀者定位、內容架構、語氣調整、編修潤飾，並將主題、素材或既有文本轉化為可發布的文字草稿與改寫版本。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -62,4 +62,4 @@ promptBody: |
   ```
 ---
 
-「Taglish Technical Storytelling Editor」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+以文字溝通與編輯顧問來看，「Taglish Technical Storytelling Editor」要求 AI 掌握讀者定位、內容架構、語氣調整、編修潤飾，並將主題、素材或既有文本轉化為可發布的文字草稿與改寫版本。

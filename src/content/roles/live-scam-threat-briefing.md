@@ -1,6 +1,6 @@
 ---
 title: "Live Scam Threat Briefing"
-description: "「Live Scam Threat Briefing」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "以資安風險與防護策略顧問來看，「Live Scam Threat Briefing」要求 AI 掌握風險辨識與優先級、Email 溝通與回覆率優化、威脅建模、攻擊面分析，並將系統、資料流或安全情境轉化為風險清單與防護建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -351,4 +351,4 @@ promptBody: |
   -------------------------------------
 ---
 
-「Live Scam Threat Briefing」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+以資安風險與防護策略顧問來看，「Live Scam Threat Briefing」要求 AI 掌握風險辨識與優先級、Email 溝通與回覆率優化、威脅建模、攻擊面分析，並將系統、資料流或安全情境轉化為風險清單與防護建議。

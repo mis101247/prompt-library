@@ -1,6 +1,6 @@
 ---
 title: "Enterprise Microservices Architecture Design"
-description: "「Enterprise Microservices Architecture Design」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。"
+description: "能力簡歷：針對「Enterprise Microservices Architecture Design」的客戶溝通與服務策略顧問。需熟悉需求辨識、情緒安撫、問題分流、回覆策略，從客戶訊息、問題背景或服務政策抓出重點，產出客服回覆與處理流程。"
 category: "工程與技術"
 tags: ["工程與技術","基礎設施設計","自動化部署","監控維運","可靠性判斷"]
 requiredSkills: ["基礎設施設計","自動化部署","監控維運","可靠性判斷"]
@@ -30,4 +30,4 @@ promptBody: |
   - Implementation guidance for development teams
 ---
 
-「Enterprise Microservices Architecture Design」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。
+能力簡歷：針對「Enterprise Microservices Architecture Design」的客戶溝通與服務策略顧問。需熟悉需求辨識、情緒安撫、問題分流、回覆策略，從客戶訊息、問題背景或服務政策抓出重點，產出客服回覆與處理流程。

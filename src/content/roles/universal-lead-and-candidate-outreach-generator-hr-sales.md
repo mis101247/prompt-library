@@ -1,6 +1,6 @@
 ---
 title: "Universal Lead & Candidate Outreach Generator (HR, SALES)"
-description: "「Universal Lead & Candidate Outreach Generator (HR, SALES)」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "「Universal Lead & Candidate Outreach Generat...」適合由資料分析與洞察顧問處理；所需能力包括手機抓拍與自然構圖、offer 取捨分析、資料理解、指標設計，能將資料表、指標或業務問題轉成分析摘要與指標解讀。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -232,4 +232,4 @@ promptBody: |
   - Ensure consistency across multiple profiles when generating messages in bulk.
 ---
 
-「Universal Lead & Candidate Outreach Generator (HR, SALES)」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+「Universal Lead & Candidate Outreach Generat...」適合由資料分析與洞察顧問處理；所需能力包括手機抓拍與自然構圖、offer 取捨分析、資料理解、指標設計，能將資料表、指標或業務問題轉成分析摘要與指標解讀。

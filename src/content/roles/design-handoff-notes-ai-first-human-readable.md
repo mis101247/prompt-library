@@ -1,6 +1,6 @@
 ---
 title: "Design Handoff Notes - AI First, Human Readable"
-description: "「Design Handoff Notes - AI First, Human Readable」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Design Handoff Notes - AI First, Human Read...」的核心不是泛用回覆，而是讓 AI 以品牌視覺與設計系統顧問身份掌握檢查清單化輸出、儀表板與指標呈現、品牌定位轉譯、視覺語言設計，交付品牌設計方向與視覺規格。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -608,4 +608,4 @@ promptBody: |
   **For multi-page projects:** Run the prompt once per page, but include Section 1 (Implementation Map) and Section 2 (Global Specs) only in the first run. Subsequent pages reference the same globals.
 ---
 
-「Design Handoff Notes - AI First, Human Readable」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Design Handoff Notes - AI First, Human Read...」的核心不是泛用回覆，而是讓 AI 以品牌視覺與設計系統顧問身份掌握檢查清單化輸出、儀表板與指標呈現、品牌定位轉譯、視覺語言設計，交付品牌設計方向與視覺規格。

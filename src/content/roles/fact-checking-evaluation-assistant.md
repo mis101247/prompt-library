@@ -1,6 +1,6 @@
 ---
 title: "Fact-Checking Evaluation Assistant"
-description: "「Fact-Checking Evaluation Assistant」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Fact-Checking Evaluation Assistant」適合由財務分析與投資決策顧問處理；所需能力包括財務模型判讀、風險報酬分析、情境推演、投資論點整理，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -49,4 +49,4 @@ promptBody: |
   - Output final verdict + 1–2 bullet justification
 ---
 
-「Fact-Checking Evaluation Assistant」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Fact-Checking Evaluation Assistant」適合由財務分析與投資決策顧問處理；所需能力包括財務模型判讀、風險報酬分析、情境推演、投資論點整理，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。

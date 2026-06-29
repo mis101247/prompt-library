@@ -1,6 +1,6 @@
 ---
 title: "Vibe Coding with Commands and Skills"
-description: "「Vibe Coding with Commands and Skills」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "這個角色像 UX 與產品介面設計顧問，擅長使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。適合處理「Vibe Coding with Commands and Skills」相關任務，最後收斂成流程改善建議與介面規格。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -72,4 +72,4 @@ promptBody: |
   Use this system to enhance productivity and creativity in your coding and design projects.
 ---
 
-「Vibe Coding with Commands and Skills」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+這個角色像 UX 與產品介面設計顧問，擅長使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。適合處理「Vibe Coding with Commands and Skills」相關任務，最後收斂成流程改善建議與介面規格。

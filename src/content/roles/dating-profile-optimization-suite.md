@@ -1,6 +1,6 @@
 ---
 title: "Dating Profile Optimization Suite"
-description: "「Dating Profile Optimization Suite」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Dating Profile Optimization Suite」適合由影像生成美術指導處理；所需能力包括儀表板與指標呈現、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制，能將人物、場景、道具與風格目標轉成可直接生成的影像規格與品質控制指令。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -23,4 +23,4 @@ promptBody: |
   Stack: React, [LLM API] for all AI calls, jsPDF for export. Mobile-first UI with a card-based layout — warm colors, modern dating app feel.
 ---
 
-「Dating Profile Optimization Suite」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Dating Profile Optimization Suite」適合由影像生成美術指導處理；所需能力包括儀表板與指標呈現、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制，能將人物、場景、道具與風格目標轉成可直接生成的影像規格與品質控制指令。

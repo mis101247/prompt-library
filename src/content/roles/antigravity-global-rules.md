@@ -1,6 +1,6 @@
 ---
 title: "# ANTIGRAVITY GLOBAL RULES"
-description: "「# ANTIGRAVITY GLOBAL RULES」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "這個角色像文字溝通與編輯顧問，擅長讀者定位、內容架構、語氣調整、編修潤飾。適合處理「# ANTIGRAVITY GLOBAL RULES」相關任務，最後收斂成可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -79,4 +79,4 @@ promptBody: |
   - **i18n & a11y:** NEVER hardcode user-facing strings (use i18n). ALWAYS ensure semantic HTML and accessibility (a11y).
 ---
 
-「# ANTIGRAVITY GLOBAL RULES」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+這個角色像文字溝通與編輯顧問，擅長讀者定位、內容架構、語氣調整、編修潤飾。適合處理「# ANTIGRAVITY GLOBAL RULES」相關任務，最後收斂成可發布的文字草稿與改寫版本。

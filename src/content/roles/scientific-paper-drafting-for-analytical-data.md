@@ -1,6 +1,6 @@
 ---
 title: "Scientific Paper Drafting for Analytical Data"
-description: "「Scientific Paper Drafting for Analytical Data」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Scientific Paper Drafting for Analytical Data」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -35,4 +35,4 @@ promptBody: |
   - ${length:medium} - The desired length of the paper.
 ---
 
-「Scientific Paper Drafting for Analytical Data」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Scientific Paper Drafting for Analytical Data」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

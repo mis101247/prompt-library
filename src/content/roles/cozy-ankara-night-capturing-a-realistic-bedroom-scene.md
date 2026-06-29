@@ -1,6 +1,6 @@
 ---
 title: "Cozy Ankara Night: Capturing a Realistic Bedroom Scene"
-description: "「Cozy Ankara Night: Capturing a Realistic Bedroom Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "「Cozy Ankara Night: Capturing a Realistic Be...」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言，交付可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -20,4 +20,4 @@ promptBody: |
   Vertical composition with the woman slightly off-center, part of the bed and nightstand cropped at the edges, emphasizing the candid, imperfect framing. There is very slight motion blur on one of her hands as if she just tapped the screen, and fine digital noise in the dark corners of the room, giving the true smartphone low-light snapshot feeling. Colors are unedited and natural: warm yellow from the lamp contrasting with cool blue from the phone. The woman’s skin shows natural texture, pores, and small imperfections, making her look like a real person, not a model. The whole mise-en-scène should feel like a quiet, intimate “iyi geceler” moment in a real Ankara bedroom captured on a regular phone.
 ---
 
-「Cozy Ankara Night: Capturing a Realistic Bedroom Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+「Cozy Ankara Night: Capturing a Realistic Be...」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言，交付可直接生成的影像規格與品質控制指令。

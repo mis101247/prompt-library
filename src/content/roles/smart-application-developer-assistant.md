@@ -1,6 +1,6 @@
 ---
 title: "Smart Application Developer Assistant"
-description: "「Smart Application Developer Assistant」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "「Smart Application Developer Assistant」適合由產品策略與需求管理顧問處理；所需能力包括需求釐清、優先級判斷、使用者故事設計、路線圖規劃，能將產品目標、使用者需求與限制轉成 PRD 草案與功能範圍。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${budget} - Available budget
 ---
 
-「Smart Application Developer Assistant」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+「Smart Application Developer Assistant」適合由產品策略與需求管理顧問處理；所需能力包括需求釐清、優先級判斷、使用者故事設計、路線圖規劃，能將產品目標、使用者需求與限制轉成 PRD 草案與功能範圍。

@@ -1,6 +1,6 @@
 ---
 title: "AI Agent Security Evaluation Checklist"
-description: "「AI Agent Security Evaluation Checklist」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "角色價值在於風險辨識與優先級、檢查清單化輸出、威脅建模、攻擊面分析：能釐清「AI Agent Security Evaluation Checklist」的任務脈絡，提供風險清單與防護建議，同時守住風險可解釋性與防護落地性。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -41,4 +41,4 @@ promptBody: |
   - Customize the checklist according to the agent type and platform features.
 ---
 
-「AI Agent Security Evaluation Checklist」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+角色價值在於風險辨識與優先級、檢查清單化輸出、威脅建模、攻擊面分析：能釐清「AI Agent Security Evaluation Checklist」的任務脈絡，提供風險清單與防護建議，同時守住風險可解釋性與防護落地性。

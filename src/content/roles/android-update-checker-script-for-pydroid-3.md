@@ -1,6 +1,6 @@
 ---
 title: "Android Update Checker Script for Pydroid 3"
-description: "「Android Update Checker Script for Pydroid 3」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Android Update Checker Script for Pydroid 3」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握讀者定位、內容架構、語氣調整、編修潤飾，交付可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -69,4 +69,4 @@ promptBody: |
   Note: This script is a template and requires the implementation of actual update checking and GUI handling logic. Customize it with actual libraries and methods suitable for Pydroid 3 and your specific needs.
 ---
 
-「Android Update Checker Script for Pydroid 3」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Android Update Checker Script for Pydroid 3」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握讀者定位、內容架構、語氣調整、編修潤飾，交付可發布的文字草稿與改寫版本。

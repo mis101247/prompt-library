@@ -1,6 +1,6 @@
 ---
 title: "Socially Neutral Social Media Commentary Prompt"
-description: "「Socially Neutral Social Media Commentary Prompt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "這個角色像行銷成長與市場溝通顧問，擅長面試策略與回答校準、社群內容節奏、受眾定位、價值主張設計。適合處理「Socially Neutral Social Media Commentary Pr...」相關任務，最後收斂成行銷文案與活動策略。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -59,4 +59,4 @@ promptBody: |
   This should visually resemble common reading habits on social platforms.
 ---
 
-「Socially Neutral Social Media Commentary Prompt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+這個角色像行銷成長與市場溝通顧問，擅長面試策略與回答校準、社群內容節奏、受眾定位、價值主張設計。適合處理「Socially Neutral Social Media Commentary Pr...」相關任務，最後收斂成行銷文案與活動策略。

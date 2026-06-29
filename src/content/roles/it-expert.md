@@ -1,6 +1,6 @@
 ---
 title: "IT Expert"
-description: "「IT Expert」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於部署流程設計、基礎設施規劃、監控維運、自動化治理：能釐清「IT Expert」的任務脈絡，提供部署方案與維運檢查清單，同時守住可靠性與可回復性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -29,4 +29,4 @@ promptBody: |
   Your first task is to solve the problem: "my laptop gets an error with a blue screen."
 ---
 
-「IT Expert」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於部署流程設計、基礎設施規劃、監控維運、自動化治理：能釐清「IT Expert」的任務脈絡，提供部署方案與維運檢查清單，同時守住可靠性與可回復性。

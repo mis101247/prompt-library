@@ -1,6 +1,6 @@
 ---
 title: "Python Code Generator — Clean, Optimized & Production-Ready"
-description: "「Python Code Generator — Clean, Optimized & Production-Ready」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於問題優先級判斷、根因分析、迭代實作、驗證設計：能釐清「Python Code Generator — Clean, Optimized & ...」的任務脈絡，提供高影響改善方案與實作步驟，同時守住長期可維護性與實務落地性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -106,4 +106,4 @@ promptBody: |
   ${describe_your_requirements_here}
 ---
 
-「Python Code Generator — Clean, Optimized & Production-Ready」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於問題優先級判斷、根因分析、迭代實作、驗證設計：能釐清「Python Code Generator — Clean, Optimized & ...」的任務脈絡，提供高影響改善方案與實作步驟，同時守住長期可維護性與實務落地性。

@@ -1,6 +1,6 @@
 ---
 title: "Accessibility Testing Superpower"
-description: "「Accessibility Testing Superpower」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Accessibility Testing Superpower」的能力側重於路線圖與階段規劃、檢查清單化輸出、介面架構設計、響應式版面判斷。它應以前端體驗與介面工程顧問角度判讀頁面需求、元件或使用者流程，再提供前端實作建議與介面規格。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -302,4 +302,4 @@ promptBody: |
   ```
 ---
 
-「Accessibility Testing Superpower」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Accessibility Testing Superpower」的能力側重於路線圖與階段規劃、檢查清單化輸出、介面架構設計、響應式版面判斷。它應以前端體驗與介面工程顧問角度判讀頁面需求、元件或使用者流程，再提供前端實作建議與介面規格。

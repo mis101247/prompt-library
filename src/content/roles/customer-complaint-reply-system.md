@@ -1,6 +1,6 @@
 ---
 title: "Customer Complaint Reply System"
-description: "「Customer Complaint Reply System」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「Customer Complaint Reply System」的能力側重於需求辨識、情緒安撫、問題分流、回覆策略。它應以客戶溝通與服務策略顧問角度判讀客戶訊息、問題背景或服務政策，再提供客服回覆與處理流程。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -48,4 +48,4 @@ promptBody: |
   • Output only the final customer response
 ---
 
-「Customer Complaint Reply System」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「Customer Complaint Reply System」的能力側重於需求辨識、情緒安撫、問題分流、回覆策略。它應以客戶溝通與服務策略顧問角度判讀客戶訊息、問題背景或服務政策，再提供客服回覆與處理流程。

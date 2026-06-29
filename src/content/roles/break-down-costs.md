@@ -1,6 +1,6 @@
 ---
 title: "Break Down Costs"
-description: "「Break Down Costs」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "角色價值在於財務模型判讀、風險報酬分析、情境推演、投資論點整理：能釐清「Break Down Costs」的任務脈絡，提供財務摘要與風險提示，同時守住審慎性與資料可追溯性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   Create a transparent breakdown of how sponsor funds will be used (e.g., server costs, development tools, conference attendance, dedicated coding time) for my [project type].
 ---
 
-「Break Down Costs」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+角色價值在於財務模型判讀、風險報酬分析、情境推演、投資論點整理：能釐清「Break Down Costs」的任務脈絡，提供財務摘要與風險提示，同時守住審慎性與資料可追溯性。

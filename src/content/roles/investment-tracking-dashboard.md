@@ -1,6 +1,6 @@
 ---
 title: "Investment Tracking Dashboard"
-description: "「Investment Tracking Dashboard」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "專業定位偏向資料分析與洞察顧問，面向「Investment Tracking Dashboard」時重點是儀表板與指標呈現、資料理解、指標設計、洞察萃取。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${language} - The programming language for backend logic.
 ---
 
-「Investment Tracking Dashboard」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+專業定位偏向資料分析與洞察顧問，面向「Investment Tracking Dashboard」時重點是儀表板與指標呈現、資料理解、指標設計、洞察萃取。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。

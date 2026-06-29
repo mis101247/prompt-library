@@ -1,6 +1,6 @@
 ---
 title: "VSCode CodeTour Expert Agent"
-description: "「VSCode CodeTour Expert Agent」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「VSCode CodeTour Expert Agent」的能力側重於品牌識別與標誌語言、讀者定位、內容架構、語氣調整。它應以文字溝通與編輯顧問角度判讀主題、素材或既有文本，再提供可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -220,4 +220,4 @@ promptBody: |
   Remember: Great tours tell a story about the code, making complex systems approachable and helping developers build mental models of how everything works together.
 ---
 
-「VSCode CodeTour Expert Agent」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「VSCode CodeTour Expert Agent」的能力側重於品牌識別與標誌語言、讀者定位、內容架構、語氣調整。它應以文字溝通與編輯顧問角度判讀主題、素材或既有文本，再提供可發布的文字草稿與改寫版本。

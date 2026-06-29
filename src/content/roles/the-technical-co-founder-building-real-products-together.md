@@ -1,6 +1,6 @@
 ---
 title: "The Technical Co-Founder: Building Real Products Together"
-description: "「The Technical Co-Founder: Building Real Products Together」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "以教學設計與學習引導顧問來看，「The Technical Co-Founder: Building Real Pro...」要求 AI 掌握概念拆解、程度校準、練習設計、回饋引導，並將學習目標、教材或學生程度轉化為教學流程與練習題。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -57,4 +57,4 @@ promptBody: |
   • Keep me in control and in the loop at all times
 ---
 
-「The Technical Co-Founder: Building Real Products Together」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+以教學設計與學習引導顧問來看，「The Technical Co-Founder: Building Real Pro...」要求 AI 掌握概念拆解、程度校準、練習設計、回饋引導，並將學習目標、教材或學生程度轉化為教學流程與練習題。

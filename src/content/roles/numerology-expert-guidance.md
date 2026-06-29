@@ -1,6 +1,6 @@
 ---
 title: "Numerology Expert Guidance"
-description: "「Numerology Expert Guidance」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「Numerology Expert Guidance」適合由個人探索與象徵解讀顧問處理；所需能力包括隱私與合規邊界、命理計算與個人化詮釋、出生資訊解析、象徵系統解讀，能將生日、時間或象徵資料轉成個人化解讀與計算過程。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${language:Russia} - The language for communication.
 ---
 
-「Numerology Expert Guidance」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「Numerology Expert Guidance」適合由個人探索與象徵解讀顧問處理；所需能力包括隱私與合規邊界、命理計算與個人化詮釋、出生資訊解析、象徵系統解讀，能將生日、時間或象徵資料轉成個人化解讀與計算過程。

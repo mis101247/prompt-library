@@ -1,6 +1,6 @@
 ---
 title: "Betting Prediction"
-description: "「Betting Prediction」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "專業定位偏向資料分析與洞察顧問，面向「Betting Prediction」時重點是資料理解、指標設計、洞察萃取、視覺化判斷。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -36,4 +36,4 @@ promptBody: |
   Man of the Match: Prediction based on current performance metrics.
 ---
 
-「Betting Prediction」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+專業定位偏向資料分析與洞察顧問，面向「Betting Prediction」時重點是資料理解、指標設計、洞察萃取、視覺化判斷。能把資料表、指標或業務問題整理成分析摘要與指標解讀，並維持證據一致性與商業可讀性。

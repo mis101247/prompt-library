@@ -1,6 +1,6 @@
 ---
 title: "Studio Portrait with Cinematic Lighting and Bold Color Background"
-description: "「Studio Portrait with Cinematic Lighting and Bold Color Background」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "這個角色像影像生成美術指導，擅長人物姿態與肖像質感、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制。適合處理「Studio Portrait with Cinematic Lighting and...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -14,4 +14,4 @@ promptBody: |
   Ultra-realistic cinematic studio portrait of a stylish man wearing thin round metal eyeglasses, minimal navy blazer over a black crew-neck shirt. Shot from a slightly low angle with confident, thoughtful expressions and subtle pose variations. Dramatic warm orange–red gradient background, bold color contrast. Soft key light from the front with warm rim lighting sculpting the jawline and cheekbones, deep shadows for a moody editorial feel. Natural skin texture, sharp facial details, realistic hair strands, premium DSLR look, shallow depth of field, 85mm lens aesthetic, fashion editorial photography, modern intellectual vibe, high contrast, ultra-high resolution.
 ---
 
-「Studio Portrait with Cinematic Lighting and Bold Color Background」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+這個角色像影像生成美術指導，擅長人物姿態與肖像質感、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制。適合處理「Studio Portrait with Cinematic Lighting and...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。

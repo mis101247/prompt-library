@@ -1,6 +1,6 @@
 ---
 title: "Professional Networking Language for Career Fairs"
-description: "「Professional Networking Language for Career Fairs」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "角色價值在於職涯定位、履歷敘事、面試回饋、選項權衡：能釐清「Professional Networking Language for Career...」的任務脈絡，提供職涯決策框架與履歷或面試建議，同時守住客觀性與長期發展視角。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${questions} - questions the user plans to ask
 ---
 
-「Professional Networking Language for Career Fairs」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+角色價值在於職涯定位、履歷敘事、面試回饋、選項權衡：能釐清「Professional Networking Language for Career...」的任務脈絡，提供職涯決策框架與履歷或面試建議，同時守住客觀性與長期發展視角。

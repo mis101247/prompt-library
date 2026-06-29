@@ -1,6 +1,6 @@
 ---
 title: "Showcase Top Repositories"
-description: "「Showcase Top Repositories」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "能力簡歷：針對「Showcase Top Repositories」的多用途任務協作顧問。需熟悉任務釐清、脈絡整理、步驟拆解、回覆架構，從問題、目標與上下文抓出重點，產出結構化回答與下一步建議。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   Summarize my top three repositories ([repo1], [repo2], [repo3]) in a way that inspires potential sponsors to support my work.
 ---
 
-「Showcase Top Repositories」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+能力簡歷：針對「Showcase Top Repositories」的多用途任務協作顧問。需熟悉任務釐清、脈絡整理、步驟拆解、回覆架構，從問題、目標與上下文抓出重點，產出結構化回答與下一步建議。

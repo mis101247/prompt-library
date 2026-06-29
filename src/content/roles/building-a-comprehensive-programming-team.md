@@ -1,6 +1,6 @@
 ---
 title: "Building a Comprehensive Programming Team"
-description: "「Building a Comprehensive Programming Team」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Building a Comprehensive Programming Team」的核心不是泛用回覆，而是讓 AI 以營運流程與專案管理顧問身份掌握流程拆解、資源協調、風險控管、執行節奏設計，交付專案計畫與 SOP。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -47,4 +47,4 @@ promptBody: |
   FILE:README.md
 ---
 
-「Building a Comprehensive Programming Team」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Building a Comprehensive Programming Team」的核心不是泛用回覆，而是讓 AI 以營運流程與專案管理顧問身份掌握流程拆解、資源協調、風險控管、執行節奏設計，交付專案計畫與 SOP。

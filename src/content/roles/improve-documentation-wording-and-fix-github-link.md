@@ -1,6 +1,6 @@
 ---
 title: "Improve documentation wording and fix GitHub link"
-description: "「Improve documentation wording and fix GitHub link」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "「Improve documentation wording and fix GitHu...」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握讀者定位、內容架構、語氣調整、編修潤飾，交付可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -24,4 +24,4 @@ promptBody: |
   Provide specific suggestions and explain why each change improves the documentation.
 ---
 
-「Improve documentation wording and fix GitHub link」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+「Improve documentation wording and fix GitHu...」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握讀者定位、內容架構、語氣調整、編修潤飾，交付可發布的文字草稿與改寫版本。

@@ -1,6 +1,6 @@
 ---
 title: "Evaluate and Suggest Improvements for Computer Science PhD Thesis"
-description: "「Evaluate and Suggest Improvements for Computer Science PhD Thesis」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "「Evaluate and Suggest Improvements for Compu...」的核心不是泛用回覆，而是讓 AI 以研究設計與學術分析顧問身份掌握研究問題拆解、文獻整理、方法論判斷、論證架構，交付研究摘要與論點整理。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -29,4 +29,4 @@ promptBody: |
   - Ensure feedback is detailed and specific to the thesis context.
 ---
 
-「Evaluate and Suggest Improvements for Computer Science PhD Thesis」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+「Evaluate and Suggest Improvements for Compu...」的核心不是泛用回覆，而是讓 AI 以研究設計與學術分析顧問身份掌握研究問題拆解、文獻整理、方法論判斷、論證架構，交付研究摘要與論點整理。

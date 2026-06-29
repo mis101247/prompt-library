@@ -1,6 +1,6 @@
 ---
 title: "Full-Stack Engineer for Airline Simulation Center App"
-description: "「Full-Stack Engineer for Airline Simulation Center App」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Full-Stack Engineer for Airline Simulation ...」的核心不是泛用回覆，而是讓 AI 以後端系統與資料架構顧問身份掌握 API 設計、資料模型判斷、權限流程規劃、系統邊界拆解，交付架構建議與資料流程。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -33,4 +33,4 @@ promptBody: |
   - ${database:MongoDB}
 ---
 
-「Full-Stack Engineer for Airline Simulation Center App」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Full-Stack Engineer for Airline Simulation ...」的核心不是泛用回覆，而是讓 AI 以後端系統與資料架構顧問身份掌握 API 設計、資料模型判斷、權限流程規劃、系統邊界拆解，交付架構建議與資料流程。

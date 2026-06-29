@@ -1,6 +1,6 @@
 ---
 title: "Ultra Realistic Bedroom Selfie Description"
-description: "「Ultra Realistic Bedroom Selfie Description」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "以影像生成美術指導來看，「Ultra Realistic Bedroom Selfie Description」要求 AI 掌握手機抓拍與自然構圖、人物姿態與肖像質感、視覺提示詞撰寫、構圖與鏡頭語言，並將人物、場景、道具與風格目標轉化為可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -14,4 +14,4 @@ promptBody: |
   ultra realistic photo of a 25-year-old woman taking a full-body mirror selfie in a cozy bedroom, oversized hoodie and biker shorts, messy bed, warm afternoon window light, shot on a regular iPhone in one hand, casual handheld photo, automatic exposure, slight digital noise, imperfect framing, no studio lighting, everyday amateur Instagram style, natural skin texture, a bit of lens smudge, unedited colors
 ---
 
-「Ultra Realistic Bedroom Selfie Description」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+以影像生成美術指導來看，「Ultra Realistic Bedroom Selfie Description」要求 AI 掌握手機抓拍與自然構圖、人物姿態與肖像質感、視覺提示詞撰寫、構圖與鏡頭語言，並將人物、場景、道具與風格目標轉化為可直接生成的影像規格與品質控制指令。

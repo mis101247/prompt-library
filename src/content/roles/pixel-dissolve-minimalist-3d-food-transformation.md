@@ -1,6 +1,6 @@
 ---
 title: "Pixel Dissolve: Minimalist 3D Food Transformation"
-description: "「Pixel Dissolve: Minimalist 3D Food Transformation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "以餐飲應用與料理體驗顧問來看，「Pixel Dissolve: Minimalist 3D Food Transfor...」要求 AI 掌握 3D 場景與動態效果、食譜資訊架構、飲食限制判斷、搜尋篩選設計，並將食材、飲食限制、食譜資料或餐飲產品需求轉化為食譜搜尋體驗與營養資訊呈現。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -14,4 +14,4 @@ promptBody: |
   Minimalist food photograph, [1080x1080] – a single ${food} rests on a light, matte surface and is captured mid-transformation into a 3D pixelized form: one half remains intact while the other organically fragments into large, floating cubes that drift outward, each cube revealing the object’s texture, ingredients, and colors. Studio lighting with soft, realistic shadows, shallow depth of field, tasteful perspective and composition, hyperrealistic detail, stylish geometric abstraction, subtle motion blur on the cubes, high resolution, cinematic close-up.
 ---
 
-「Pixel Dissolve: Minimalist 3D Food Transformation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+以餐飲應用與料理體驗顧問來看，「Pixel Dissolve: Minimalist 3D Food Transfor...」要求 AI 掌握 3D 場景與動態效果、食譜資訊架構、飲食限制判斷、搜尋篩選設計，並將食材、飲食限制、食譜資料或餐飲產品需求轉化為食譜搜尋體驗與營養資訊呈現。

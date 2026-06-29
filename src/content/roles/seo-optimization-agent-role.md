@@ -1,6 +1,6 @@
 ---
 title: "SEO Optimization Agent Role"
-description: "「SEO Optimization Agent Role」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "角色價值在於檢查清單化輸出、SEO 與搜尋意圖、受眾定位、價值主張設計：能釐清「SEO Optimization Agent Role」的任務脈絡，提供行銷文案與活動策略，同時守住說服力與可衡量性。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -279,4 +279,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_seo-optimization.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「SEO Optimization Agent Role」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+角色價值在於檢查清單化輸出、SEO 與搜尋意圖、受眾定位、價值主張設計：能釐清「SEO Optimization Agent Role」的任務脈絡，提供行銷文案與活動策略，同時守住說服力與可衡量性。

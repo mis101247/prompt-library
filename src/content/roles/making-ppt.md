@@ -1,6 +1,6 @@
 ---
 title: "making ppt"
-description: "「making ppt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "角色價值在於訊息層級設計、簡報架構、視覺敘事、重點萃取：能釐清「making ppt」的任務脈絡，提供投影片架構與視覺呈現建議，同時守住說服力與可讀性。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -15,4 +15,4 @@ promptBody: |
   ". Support with Ellen White writings and quotes with pages and refernces. Translate all in Tagalog presentation.
 ---
 
-「making ppt」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+角色價值在於訊息層級設計、簡報架構、視覺敘事、重點萃取：能釐清「making ppt」的任務脈絡，提供投影片架構與視覺呈現建議，同時守住說服力與可讀性。

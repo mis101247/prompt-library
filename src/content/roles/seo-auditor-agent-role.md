@@ -1,6 +1,6 @@
 ---
 title: "SEO Auditor Agent Role"
-description: "「SEO Auditor Agent Role」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "能力簡歷：針對「SEO Auditor Agent Role」的行銷成長與市場溝通顧問。需熟悉路線圖與階段規劃、風險辨識與優先級、受眾定位、價值主張設計，從產品、客群與市場目標抓出重點，產出行銷文案與活動策略。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -419,4 +419,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_seo-auditor.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「SEO Auditor Agent Role」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+能力簡歷：針對「SEO Auditor Agent Role」的行銷成長與市場溝通顧問。需熟悉路線圖與階段規劃、風險辨識與優先級、受眾定位、價值主張設計，從產品、客群與市場目標抓出重點，產出行銷文案與活動策略。

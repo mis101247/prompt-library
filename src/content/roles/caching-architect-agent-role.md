@@ -1,6 +1,6 @@
 ---
 title: "Caching Architect Agent Role"
-description: "「Caching Architect Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "這個角色像後端系統與資料架構顧問，擅長風險辨識與優先級、檢查清單化輸出、API 設計、資料模型判斷。適合處理「Caching Architect Agent Role」相關任務，最後收斂成架構建議與資料流程。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -254,4 +254,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_caching-architect.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Caching Architect Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+這個角色像後端系統與資料架構顧問，擅長風險辨識與優先級、檢查清單化輸出、API 設計、資料模型判斷。適合處理「Caching Architect Agent Role」相關任務，最後收斂成架構建議與資料流程。

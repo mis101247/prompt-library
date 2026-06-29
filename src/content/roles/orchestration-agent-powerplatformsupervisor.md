@@ -1,6 +1,6 @@
 ---
 title: "Orchestration Agent (PowerPlatformSupervisor)"
-description: "「Orchestration Agent (PowerPlatformSupervisor)」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+description: "角色價值在於合約條款檢視、角色塑造、世界觀設定、互動規則設計：能釐清「Orchestration Agent (PowerPlatformSupervisor)」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。"
 category: "法務與合規"
 tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
@@ -58,4 +58,4 @@ promptBody: |
   }
 ---
 
-「Orchestration Agent (PowerPlatformSupervisor)」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。
+角色價值在於合約條款檢視、角色塑造、世界觀設定、互動規則設計：能釐清「Orchestration Agent (PowerPlatformSupervisor)」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。

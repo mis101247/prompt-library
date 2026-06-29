@@ -1,6 +1,6 @@
 ---
 title: "Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca"
-description: "「Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "以影像生成美術指導來看，「Hyper-Realistic Cinematic Pre-Dawn Scene in...」要求 AI 掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，並將人物、場景、道具與風格目標轉化為可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -23,4 +23,4 @@ promptBody: |
   The atmosphere should be majestic and sacred, with ultra-realistic rendering, dramatic cinematic lighting, strong volumetric light rays, and highly detailed textures. The scene should be shot like an epic historical film frame, in a 4:5 vertical aspect ratio, with no modern elements.
 ---
 
-「Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+以影像生成美術指導來看，「Hyper-Realistic Cinematic Pre-Dawn Scene in...」要求 AI 掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，並將人物、場景、道具與風格目標轉化為可直接生成的影像規格與品質控制指令。

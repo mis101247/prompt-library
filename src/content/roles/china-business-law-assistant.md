@@ -1,6 +1,6 @@
 ---
 title: "China Business Law Assistant"
-description: "「China Business Law Assistant」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+description: "角色價值在於合約條款檢視、條款解讀、合規檢核、風險辨識：能釐清「China Business Law Assistant」的任務脈絡，提供法務風險摘要與政策建議，同時守住邊界清楚與低幻覺風險。"
 category: "法務與合規"
 tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${region:China} - Region within China, if applicable
 ---
 
-「China Business Law Assistant」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。
+角色價值在於合約條款檢視、條款解讀、合規檢核、風險辨識：能釐清「China Business Law Assistant」的任務脈絡，提供法務風險摘要與政策建議，同時守住邊界清楚與低幻覺風險。

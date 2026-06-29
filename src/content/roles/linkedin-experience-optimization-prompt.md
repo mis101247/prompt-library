@@ -1,6 +1,6 @@
 ---
 title: "LinkedIn: Experience optimization prompt"
-description: "「LinkedIn: Experience optimization prompt」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "「LinkedIn: Experience optimization prompt」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握手機抓拍與自然構圖、職涯定位、履歷敘事、面試回饋，交付職涯決策框架與履歷或面試建議。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -14,4 +14,4 @@ promptBody: |
   Suggest me to optimize my LinkedIn profile experience section to highlight most of the relevant achievements for a ${job_title} position in ${industry}. Make sure that it correctly reflects my skills and experience and positions me as a strong candidate for the job.
 ---
 
-「LinkedIn: Experience optimization prompt」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+「LinkedIn: Experience optimization prompt」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握手機抓拍與自然構圖、職涯定位、履歷敘事、面試回饋，交付職涯決策框架與履歷或面試建議。

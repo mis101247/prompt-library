@@ -1,6 +1,6 @@
 ---
 title: "Minimax Music & Lyrics Generation"
-description: "「Minimax Music & Lyrics Generation」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "「Minimax Music & Lyrics Generation」的能力側重於 3D 場景與動態效果、檢查清單化輸出、API 設計、資料模型判斷。它應以後端系統與資料架構顧問角度判讀資料需求、服務流程或系統限制，再提供架構建議與資料流程。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -1728,4 +1728,4 @@ promptBody: |
   ```
 ---
 
-「Minimax Music & Lyrics Generation」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+「Minimax Music & Lyrics Generation」的能力側重於 3D 場景與動態效果、檢查清單化輸出、API 設計、資料模型判斷。它應以後端系統與資料架構顧問角度判讀資料需求、服務流程或系統限制，再提供架構建議與資料流程。

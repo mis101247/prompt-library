@@ -1,6 +1,6 @@
 ---
 title: "Bug Discovery Code Assistant"
-description: "「Bug Discovery Code Assistant」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計：能釐清「Bug Discovery Code Assistant」的任務脈絡，提供具理由的 review 回饋與優先排序的改進建議，同時守住可維護性與可執行性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -23,4 +23,4 @@ promptBody: |
   - Use variable placeholders (e.g., ${code}) to make the prompt reusable
 ---
 
-「Bug Discovery Code Assistant」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計：能釐清「Bug Discovery Code Assistant」的任務脈絡，提供具理由的 review 回饋與優先排序的改進建議，同時守住可維護性與可執行性。

@@ -1,6 +1,6 @@
 ---
 title: "Step 3a: Technical Deep Dive"
-description: "「Step 3a: Technical Deep Dive」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "這個角色像資料分析與洞察顧問，擅長資料理解、指標設計、洞察萃取、視覺化判斷。適合處理「Step 3a: Technical Deep Dive」相關任務，最後收斂成分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -23,4 +23,4 @@ promptBody: |
   Provide a detailed technical assessment with recommendations.
 ---
 
-「Step 3a: Technical Deep Dive」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+這個角色像資料分析與洞察顧問，擅長資料理解、指標設計、洞察萃取、視覺化判斷。適合處理「Step 3a: Technical Deep Dive」相關任務，最後收斂成分析摘要與指標解讀。

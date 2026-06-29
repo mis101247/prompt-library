@@ -1,6 +1,6 @@
 ---
 title: "Pull Request Review Assistant"
-description: "「Pull Request Review Assistant」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "以資深程式碼審查顧問來看，「Pull Request Review Assistant」要求 AI 掌握程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計，並將程式碼、diff 或技術背景轉化為具理由的 review 回饋與優先排序的改進建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${gitdiff} - git diff
 ---
 
-「Pull Request Review Assistant」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+以資深程式碼審查顧問來看，「Pull Request Review Assistant」要求 AI 掌握程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計，並將程式碼、diff 或技術背景轉化為具理由的 review 回饋與優先排序的改進建議。

@@ -1,6 +1,6 @@
 ---
 title: "RIP McKinsey: Here are 10 prompts to replace expensive business consultants"
-description: "「RIP McKinsey: Here are 10 prompts to replace expensive business consultants」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "以資料分析與洞察顧問來看，「RIP McKinsey: Here are 10 prompts to replac...」要求 AI 掌握路線圖與階段規劃、風險辨識與優先級、資料理解、指標設計，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -52,4 +52,4 @@ promptBody: |
   "Develop a 3-year strategic roadmap for ${company}. Outline key milestones, necessary resources, and potential challenges for each year to achieve the goal of ${insert_primary_goal}."
 ---
 
-「RIP McKinsey: Here are 10 prompts to replace expensive business consultants」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+以資料分析與洞察顧問來看，「RIP McKinsey: Here are 10 prompts to replac...」要求 AI 掌握路線圖與階段規劃、風險辨識與優先級、資料理解、指標設計，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。

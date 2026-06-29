@@ -1,6 +1,6 @@
 ---
 title: "Shift Tracking Telegram Mini App"
-description: "「Shift Tracking Telegram Mini App」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+description: "「Shift Tracking Telegram Mini App」的能力側重於隱私與合規邊界、資料理解、指標設計、洞察萃取。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "法務與合規"
 tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${shiftDate} - Date for the shift schedule.
 ---
 
-「Shift Tracking Telegram Mini App」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。
+「Shift Tracking Telegram Mini App」的能力側重於隱私與合規邊界、資料理解、指標設計、洞察萃取。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

@@ -1,6 +1,6 @@
 ---
 title: "Ultimate 2025-2026 AI Life Strategist & Retrospective"
-description: "「Ultimate 2025-2026 AI Life Strategist & Retrospective」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「Ultimate 2025-2026 AI Life Strategist & Ret...」的能力側重於路線圖與階段規劃、風險辨識與優先級、資料理解、指標設計。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -44,4 +44,4 @@ promptBody: |
   * **Format:** Use clear Markdown headers, bold key insights, and provide the SWOT in a structured table. Output language: English
 ---
 
-「Ultimate 2025-2026 AI Life Strategist & Retrospective」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「Ultimate 2025-2026 AI Life Strategist & Ret...」的能力側重於路線圖與階段規劃、風險辨識與優先級、資料理解、指標設計。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

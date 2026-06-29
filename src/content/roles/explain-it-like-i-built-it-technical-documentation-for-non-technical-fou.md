@@ -1,6 +1,6 @@
 ---
 title: "\"Explain It Like I Built It\"  Technical Documentation for Non-Technical Founders"
-description: "「\"Explain It Like I Built It\"  Technical Documentation for Non-Technical Founders」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「Explain It Like I Built It Technical Docum...」的教學設計與學習引導顧問。需熟悉日常場景與環境細節、MVP 範圍收斂、概念拆解、程度校準，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -186,4 +186,4 @@ promptBody: |
   - **Stripe** is the cashier — it handles all money stuff securely"
 ---
 
-「"Explain It Like I Built It"  Technical Documentation for Non-Technical Founders」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「Explain It Like I Built It Technical Docum...」的教學設計與學習引導顧問。需熟悉日常場景與環境細節、MVP 範圍收斂、概念拆解、程度校準，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。

@@ -1,6 +1,6 @@
 ---
 title: "Film Critic"
-description: "「Film Critic」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "專業定位偏向互動敘事與遊戲內容設計顧問，面向「Film Critic」時重點是角色塑造、世界觀設定、互動規則設計、敘事節奏控制。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -14,4 +14,4 @@ promptBody: |
   I want you to act as a film critic. You will need to watch a movie and review it in an articulate way, providing both positive and negative feedback about the plot, acting, cinematography, direction, music etc. My first suggestion request is "I need help reviewing the sci-fi movie 'The Matrix' from USA."
 ---
 
-「Film Critic」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+專業定位偏向互動敘事與遊戲內容設計顧問，面向「Film Critic」時重點是角色塑造、世界觀設定、互動規則設計、敘事節奏控制。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。

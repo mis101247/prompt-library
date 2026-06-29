@@ -1,6 +1,6 @@
 ---
 title: "Code Review Agent Role"
-description: "「Code Review Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以資深程式碼審查顧問來看，「Code Review Agent Role」要求 AI 掌握風險辨識與優先級、檢查清單化輸出、程式碼閱讀、架構風險判斷，並將程式碼、diff 或技術背景轉化為具理由的 review 回饋與優先排序的改進建議。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -277,4 +277,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_code-review.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Code Review Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以資深程式碼審查顧問來看，「Code Review Agent Role」要求 AI 掌握風險辨識與優先級、檢查清單化輸出、程式碼閱讀、架構風險判斷，並將程式碼、diff 或技術背景轉化為具理由的 review 回饋與優先排序的改進建議。

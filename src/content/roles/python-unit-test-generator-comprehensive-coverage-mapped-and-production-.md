@@ -1,6 +1,6 @@
 ---
 title: "Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready"
-description: "「Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
+description: "能力簡歷：針對「Python Unit Test Generator — Comprehensive,...」的 AI 工作流程與提示詞架構顧問。需熟悉風險辨識與優先級、提示詞架構設計、工具使用規劃、上下文管理，從任務目標、工具限制與上下文抓出重點，產出系統提示詞與工作流程設計。"
 category: "工程與技術"
 tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
@@ -153,4 +153,4 @@ promptBody: |
   [PASTE YOUR CODE HERE]
 ---
 
-「Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。
+能力簡歷：針對「Python Unit Test Generator — Comprehensive,...」的 AI 工作流程與提示詞架構顧問。需熟悉風險辨識與優先級、提示詞架構設計、工具使用規劃、上下文管理，從任務目標、工具限制與上下文抓出重點，產出系統提示詞與工作流程設計。

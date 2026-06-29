@@ -1,6 +1,6 @@
 ---
 title: "Habit Tracker"
-description: "「Habit Tracker」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+description: "「Habit Tracker」的能力側重於情境傾聽、反思提問、行動拆解、同理回饋。它應以情緒支持與個人成長顧問角度判讀個人處境、關係困擾或成長目標，再提供支持性回應與自我整理方向。"
 category: "生活與健康"
 tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
 requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
@@ -14,4 +14,4 @@ promptBody: |
   Create a habit tracking application using HTML5, CSS3, and JavaScript. Build a clean interface showing daily, weekly, and monthly views. Implement habit creation with frequency, reminders, and goals. Add streak tracking with visual indicators and milestone celebrations. Include detailed statistics and progress graphs. Support habit categories and tags for organization. Implement calendar integration for scheduling. Add data visualization showing patterns and trends. Create a responsive design for all devices. Include data export and backup functionality. Add gamification elements with achievements and rewards.
 ---
 
-「Habit Tracker」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。
+「Habit Tracker」的能力側重於情境傾聽、反思提問、行動拆解、同理回饋。它應以情緒支持與個人成長顧問角度判讀個人處境、關係困擾或成長目標，再提供支持性回應與自我整理方向。

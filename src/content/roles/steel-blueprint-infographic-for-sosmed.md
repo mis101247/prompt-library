@@ -1,6 +1,6 @@
 ---
 title: "Steel Blueprint Infographic For SosMed"
-description: "「Steel Blueprint Infographic For SosMed」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Steel Blueprint Infographic For SosMed」的能力側重於風險辨識與優先級、檢查清單化輸出、API 設計、資料模型判斷。它應以後端系統與資料架構顧問角度判讀資料需求、服務流程或系統限制，再提供架構建議與資料流程。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -221,4 +221,4 @@ promptBody: |
   }
 ---
 
-「Steel Blueprint Infographic For SosMed」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Steel Blueprint Infographic For SosMed」的能力側重於風險辨識與優先級、檢查清單化輸出、API 設計、資料模型判斷。它應以後端系統與資料架構顧問角度判讀資料需求、服務流程或系統限制，再提供架構建議與資料流程。

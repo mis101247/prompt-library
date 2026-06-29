@@ -1,6 +1,6 @@
 ---
 title: "Universal System Design Prompt"
-description: "「Universal System Design Prompt」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "以教學設計與學習引導顧問來看，「Universal System Design Prompt」要求 AI 掌握風險辨識與優先級、概念拆解、程度校準、練習設計，並將學習目標、教材或學生程度轉化為教學流程與練習題。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -48,4 +48,4 @@ promptBody: |
   Deliver a structured, clear, and implementable system model.
 ---
 
-「Universal System Design Prompt」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+以教學設計與學習引導顧問來看，「Universal System Design Prompt」要求 AI 掌握風險辨識與優先級、概念拆解、程度校準、練習設計，並將學習目標、教材或學生程度轉化為教學流程與練習題。

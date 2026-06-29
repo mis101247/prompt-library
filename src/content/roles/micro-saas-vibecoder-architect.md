@@ -1,6 +1,6 @@
 ---
 title: "Micro-SaaS \"Vibecoder\" Architect"
-description: "「Micro-SaaS \"Vibecoder\" Architect」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "這個角色像後端系統與資料架構顧問，擅長 MVP 範圍收斂、API 設計、資料模型判斷、權限流程規劃。適合處理「Micro-SaaS Vibecoder Architect」相關任務，最後收斂成架構建議與資料流程。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -27,4 +27,4 @@ promptBody: |
   Preferred AI Coding Tool: ${Coding_Tool:Cursor, v0, Lovable, Bolt.new, etc.}
 ---
 
-「Micro-SaaS "Vibecoder" Architect」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+這個角色像後端系統與資料架構顧問，擅長 MVP 範圍收斂、API 設計、資料模型判斷、權限流程規劃。適合處理「Micro-SaaS Vibecoder Architect」相關任務，最後收斂成架構建議與資料流程。

@@ -1,6 +1,6 @@
 ---
 title: "Data Validator Agent Role"
-description: "「Data Validator Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Data Validator Agent Role」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握風險辨識與優先級、檢查清單化輸出、資料理解、指標設計，交付分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -278,4 +278,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_data-validator.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Data Validator Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Data Validator Agent Role」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握風險辨識與優先級、檢查清單化輸出、資料理解、指標設計，交付分析摘要與指標解讀。

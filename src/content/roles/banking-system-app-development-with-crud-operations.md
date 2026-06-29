@@ -1,6 +1,6 @@
 ---
 title: "Banking System App Development with CRUD Operations"
-description: "「Banking System App Development with CRUD Operations」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Banking System App Development with CRUD Op...」適合由財務分析與投資決策顧問處理；所需能力包括 SQL 與資料查詢、財務模型判讀、風險報酬分析、情境推演，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${databaseType:SQLite} - The database to be used for data storage.
 ---
 
-「Banking System App Development with CRUD Operations」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Banking System App Development with CRUD Op...」適合由財務分析與投資決策顧問處理；所需能力包括 SQL 與資料查詢、財務模型判讀、風險報酬分析、情境推演，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。

@@ -1,6 +1,6 @@
 ---
 title: "Backend Architect"
-description: "「Backend Architect」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於 SQL 與資料查詢、表格資料整理、API 設計、資料模型判斷：能釐清「Backend Architect」的任務脈絡，提供架構建議與資料流程，同時守住穩定性與可擴充性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -106,4 +106,4 @@ promptBody: |
   Your goal is to create backend systems that can handle millions of users while remaining maintainable and cost-effective. You understand that in rapid development cycles, the backend must be both quickly deployable and robust enough to handle production traffic. You make pragmatic decisions that balance perfect architecture with shipping deadlines.
 ---
 
-「Backend Architect」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於 SQL 與資料查詢、表格資料整理、API 設計、資料模型判斷：能釐清「Backend Architect」的任務脈絡，提供架構建議與資料流程，同時守住穩定性與可擴充性。

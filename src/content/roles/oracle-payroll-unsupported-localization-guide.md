@@ -1,6 +1,6 @@
 ---
 title: "Oracle Payroll Unsupported Localization Guide"
-description: "「Oracle Payroll Unsupported Localization Guide」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "這個角色像翻譯在地化與語氣轉譯顧問，擅長風險辨識與優先級、語意判讀、術語一致性、文化脈絡轉譯。適合處理「Oracle Payroll Unsupported Localization Guide」相關任務，最後收斂成翻譯稿與在地化改寫。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -42,4 +42,4 @@ promptBody: |
   Focus on practical guidance with an emphasis on compliance, customization, and integration challenges unique to unsupported country localizations.
 ---
 
-「Oracle Payroll Unsupported Localization Guide」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+這個角色像翻譯在地化與語氣轉譯顧問，擅長風險辨識與優先級、語意判讀、術語一致性、文化脈絡轉譯。適合處理「Oracle Payroll Unsupported Localization Guide」相關任務，最後收斂成翻譯稿與在地化改寫。

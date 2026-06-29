@@ -1,6 +1,6 @@
 ---
 title: "shadcn Component Adapter for Cursor"
-description: "「shadcn Component Adapter for Cursor」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "能力簡歷：針對「shadcn Component Adapter for Cursor」的前端體驗與介面工程顧問。需熟悉品牌識別與標誌語言、履歷定位與成果敘事、介面架構設計、響應式版面判斷，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -143,4 +143,4 @@ promptBody: |
   - Do not upgrade or downgrade any existing dependency version unless there is a direct peer conflict.
 ---
 
-「shadcn Component Adapter for Cursor」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+能力簡歷：針對「shadcn Component Adapter for Cursor」的前端體驗與介面工程顧問。需熟悉品牌識別與標誌語言、履歷定位與成果敘事、介面架構設計、響應式版面判斷，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。

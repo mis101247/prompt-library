@@ -1,6 +1,6 @@
 ---
 title: "Harry Potter / Marauder’s Map"
-description: "「Harry Potter / Marauder’s Map」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "以品牌視覺與設計系統顧問來看，「Harry Potter / Marauder’s Map」要求 AI 掌握品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，並將品牌目標、視覺素材或設計限制轉化為品牌設計方向與視覺規格。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -35,4 +35,4 @@ promptBody: |
   The map should feel like a living, enchanted artifact — a secret wizard’s map created by ancient witches and wizards.
 ---
 
-「Harry Potter / Marauder’s Map」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+以品牌視覺與設計系統顧問來看，「Harry Potter / Marauder’s Map」要求 AI 掌握品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，並將品牌目標、視覺素材或設計限制轉化為品牌設計方向與視覺規格。

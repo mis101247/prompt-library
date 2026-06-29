@@ -1,6 +1,6 @@
 ---
 title: "Create a Video with Top Athletes"
-description: "「Create a Video with Top Athletes」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "「Create a Video with Top Athletes」適合由文字溝通與編輯顧問處理；所需能力包括讀者定位、內容架構、語氣調整、編修潤飾，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -23,4 +23,4 @@ promptBody: |
   - User’s uploaded video clip
 ---
 
-「Create a Video with Top Athletes」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+「Create a Video with Top Athletes」適合由文字溝通與編輯顧問處理；所需能力包括讀者定位、內容架構、語氣調整、編修潤飾，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。

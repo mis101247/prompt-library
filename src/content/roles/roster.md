@@ -1,6 +1,6 @@
 ---
 title: "roster"
-description: "「roster」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "這個角色像多用途任務協作顧問，擅長任務釐清、脈絡整理、步驟拆解、回覆架構。適合處理「roster」相關任務，最後收斂成結構化回答與下一步建議。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -18,4 +18,4 @@ promptBody: |
   Analyze this text and evaluate it brutally and honestly. Don't be gentle. Pinpoint the weaknesses, the slowness, and the mistakes. Point out the holes in the logic. I want tough love, not polite feedback.
 ---
 
-「roster」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+這個角色像多用途任務協作顧問，擅長任務釐清、脈絡整理、步驟拆解、回覆架構。適合處理「roster」相關任務，最後收斂成結構化回答與下一步建議。

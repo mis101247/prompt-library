@@ -1,6 +1,6 @@
 ---
 title: "SaaS Payment Plan Options"
-description: "「SaaS Payment Plan Options」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "角色價值在於介面架構設計、響應式版面判斷、互動細節控管、可用性改善：能釐清「SaaS Payment Plan Options」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -24,4 +24,4 @@ promptBody: |
   Your task is to visually convey the pricing tiers effectively and attractively to users.
 ---
 
-「SaaS Payment Plan Options」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+角色價值在於介面架構設計、響應式版面判斷、互動細節控管、可用性改善：能釐清「SaaS Payment Plan Options」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。

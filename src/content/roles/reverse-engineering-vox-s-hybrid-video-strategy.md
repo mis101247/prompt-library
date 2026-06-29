@@ -1,6 +1,6 @@
 ---
 title: "Reverse-Engineering Vox's Hybrid Video Strategy"
-description: "「Reverse-Engineering Vox's Hybrid Video Strategy」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Reverse-Engineering Vox's Hybrid Video Stra...」適合由互動敘事與遊戲內容設計顧問處理；所需能力包括角色塑造、世界觀設定、互動規則設計、敘事節奏控制，能將角色、場景或遊戲目標轉成角色回應與劇情節點。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -24,4 +24,4 @@ promptBody: |
   - Create a scalable content strategy by repurposing long-form videos into short-form clips.
 ---
 
-「Reverse-Engineering Vox's Hybrid Video Strategy」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Reverse-Engineering Vox's Hybrid Video Stra...」適合由互動敘事與遊戲內容設計顧問處理；所需能力包括角色塑造、世界觀設定、互動規則設計、敘事節奏控制，能將角色、場景或遊戲目標轉成角色回應與劇情節點。

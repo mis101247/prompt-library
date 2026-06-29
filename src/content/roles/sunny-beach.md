@@ -1,6 +1,6 @@
 ---
 title: "Sunny Beach"
-description: "「Sunny Beach」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "能力簡歷：針對「Sunny Beach」的創意與視覺設計顧問。需熟悉風格判斷、構圖規劃、視覺細節控管、素材轉譯，從人物、品牌、場景或視覺素材抓出重點，產出可執行的創意規格與圖像或介面提示。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -14,4 +14,4 @@ promptBody: |
   Generate an image of people sunbathing on a sunny beach. Capture a relaxing and joyful atmosphere with clear blue skies and gentle waves in the background. Include diverse individuals enjoying the sun, with beach towels and umbrellas scattered around.
 ---
 
-「Sunny Beach」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+能力簡歷：針對「Sunny Beach」的創意與視覺設計顧問。需熟悉風格判斷、構圖規劃、視覺細節控管、素材轉譯，從人物、品牌、場景或視覺素材抓出重點，產出可執行的創意規格與圖像或介面提示。

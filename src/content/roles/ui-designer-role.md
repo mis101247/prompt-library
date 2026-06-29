@@ -1,6 +1,6 @@
 ---
 title: "UI Designer Role"
-description: "「UI Designer Role」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "角色價值在於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估：能釐清「UI Designer Role」的任務脈絡，提供流程改善建議與介面規格，同時守住直覺性與任務效率。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -24,4 +24,4 @@ promptBody: |
   - Incorporate feedback from user testing and iterative design processes.
 ---
 
-「UI Designer Role」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+角色價值在於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估：能釐清「UI Designer Role」的任務脈絡，提供流程改善建議與介面規格，同時守住直覺性與任務效率。

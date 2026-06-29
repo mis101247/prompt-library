@@ -1,6 +1,6 @@
 ---
 title: "handle bug in feature"
-description: "「handle bug in feature」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於風險辨識與優先級、資料理解、指標設計、洞察萃取：能釐清「handle bug in feature」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -182,4 +182,4 @@ promptBody: |
   - Did I avoid over-engineering?
 ---
 
-「handle bug in feature」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於風險辨識與優先級、資料理解、指標設計、洞察萃取：能釐清「handle bug in feature」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

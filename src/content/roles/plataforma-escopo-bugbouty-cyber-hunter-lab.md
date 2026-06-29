@@ -1,6 +1,6 @@
 ---
 title: "Plataforma Escopo Bugbouty Cyber Hunter Lab"
-description: "「Plataforma Escopo Bugbouty Cyber Hunter Lab」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Plataforma Escopo Bugbouty Cyber Hunter Lab」適合由資安風險與防護策略顧問處理；所需能力包括威脅建模、攻擊面分析、風險分級、修補策略，能將系統、資料流或安全情境轉成風險清單與防護建議。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -55,4 +55,4 @@ promptBody: |
   Provide the complete, executable Python framework with all three components integrated. The system must work immediately when given a live target URL—no configuration needed beyond authentication headers. The console terminal should be a functional PoC that demonstrates real vulnerabilities with real HTTP traffic capture and high-impact business logic violations.
 ---
 
-「Plataforma Escopo Bugbouty Cyber Hunter Lab」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Plataforma Escopo Bugbouty Cyber Hunter Lab」適合由資安風險與防護策略顧問處理；所需能力包括威脅建模、攻擊面分析、風險分級、修補策略，能將系統、資料流或安全情境轉成風險清單與防護建議。

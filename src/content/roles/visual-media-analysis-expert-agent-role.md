@@ -1,6 +1,6 @@
 ---
 title: "Visual Media Analysis Expert Agent Role"
-description: "「Visual Media Analysis Expert Agent Role」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "角色價值在於手機抓拍與自然構圖、品牌識別與標誌語言、資料理解、指標設計：能釐清「Visual Media Analysis Expert Agent Role」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -283,4 +283,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_visual-media-analysis.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Visual Media Analysis Expert Agent Role」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+角色價值在於手機抓拍與自然構圖、品牌識別與標誌語言、資料理解、指標設計：能釐清「Visual Media Analysis Expert Agent Role」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

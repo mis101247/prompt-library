@@ -1,6 +1,6 @@
 ---
 title: "Household Maintenance & Safety Assistant"
-description: "「Household Maintenance & Safety Assistant」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+description: "專業定位偏向客戶溝通與服務策略顧問，面向「Household Maintenance & Safety Assistant」時重點是風險辨識與優先級、檢查清單化輸出、需求辨識、情緒安撫。能把客戶訊息、問題背景或服務政策整理成客服回覆與處理流程，並維持同理心與問題解決效率。"
 category: "法務與合規"
 tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
@@ -1000,4 +1000,4 @@ promptBody: |
   # ==========================================================
 ---
 
-「Household Maintenance & Safety Assistant」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。
+專業定位偏向客戶溝通與服務策略顧問，面向「Household Maintenance & Safety Assistant」時重點是風險辨識與優先級、檢查清單化輸出、需求辨識、情緒安撫。能把客戶訊息、問題背景或服務政策整理成客服回覆與處理流程，並維持同理心與問題解決效率。

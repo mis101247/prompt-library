@@ -1,6 +1,6 @@
 ---
 title: "Impressionistic Urban Solitude"
-description: "「Impressionistic Urban Solitude」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "能力簡歷：針對「Impressionistic Urban Solitude」的視覺創作與藝術企劃顧問。需熟悉創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，從藝術主題、風格目標或創作素材抓出重點，產出創作方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -95,4 +95,4 @@ promptBody: |
   }
 ---
 
-「Impressionistic Urban Solitude」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+能力簡歷：針對「Impressionistic Urban Solitude」的視覺創作與藝術企劃顧問。需熟悉創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，從藝術主題、風格目標或創作素材抓出重點，產出創作方向與視覺規格。

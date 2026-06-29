@@ -1,6 +1,6 @@
 ---
 title: "Analyze PDF and Create MATLAB Code"
-description: "「Analyze PDF and Create MATLAB Code」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "「Analyze PDF and Create MATLAB Code」適合由簡報敘事與資訊設計顧問處理；所需能力包括訊息層級設計、簡報架構、視覺敘事、重點萃取，能將資料、主題或提案目標轉成投影片架構與視覺呈現建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -32,4 +32,4 @@ promptBody: |
   - Prepare a comprehensive PowerPoint presentation at the end.
 ---
 
-「Analyze PDF and Create MATLAB Code」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+「Analyze PDF and Create MATLAB Code」適合由簡報敘事與資訊設計顧問處理；所需能力包括訊息層級設計、簡報架構、視覺敘事、重點萃取，能將資料、主題或提案目標轉成投影片架構與視覺呈現建議。

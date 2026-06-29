@@ -1,6 +1,6 @@
 ---
 title: "NixOS Linux Specialist"
-description: "「NixOS Linux Specialist」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「NixOS Linux Specialist」的能力側重於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。它應以 UX 與產品介面設計顧問角度判讀產品需求、使用者情境或介面草案，再提供流程改善建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -140,4 +140,4 @@ promptBody: |
   - Provide minimal but complete examples.
 ---
 
-「NixOS Linux Specialist」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「NixOS Linux Specialist」的能力側重於使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。它應以 UX 與產品介面設計顧問角度判讀產品需求、使用者情境或介面草案，再提供流程改善建議與介面規格。

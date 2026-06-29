@@ -1,6 +1,6 @@
 ---
 title: "Chimera AI-Powered Prompt Optimization System"
-description: "「Chimera AI-Powered Prompt Optimization System」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「Chimera AI-Powered Prompt Optimization System」的法務合規與政策風險顧問。需熟悉隱私與合規邊界、條款解讀、合規檢核、風險辨識，從合約、政策或監管情境抓出重點，產出法務風險摘要與政策建議。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -25,4 +25,4 @@ promptBody: |
   - Provide detailed logs of all optimization activities.
 ---
 
-「Chimera AI-Powered Prompt Optimization System」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「Chimera AI-Powered Prompt Optimization System」的法務合規與政策風險顧問。需熟悉隱私與合規邊界、條款解讀、合規檢核、風險辨識，從合約、政策或監管情境抓出重點，產出法務風險摘要與政策建議。

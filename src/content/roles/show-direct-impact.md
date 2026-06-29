@@ -1,6 +1,6 @@
 ---
 title: "Show Direct Impact"
-description: "「Show Direct Impact」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "能力簡歷：針對「Show Direct Impact」的 AI 工作流程與提示詞架構顧問。需熟悉提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，從任務目標、工具限制與上下文抓出重點，產出系統提示詞與工作流程設計。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   Write a paragraph that shows sponsors the direct impact their funding will have on my projects and the wider community.
 ---
 
-「Show Direct Impact」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+能力簡歷：針對「Show Direct Impact」的 AI 工作流程與提示詞架構顧問。需熟悉提示詞架構設計、工具使用規劃、上下文管理、代理流程評估，從任務目標、工具限制與上下文抓出重點，產出系統提示詞與工作流程設計。

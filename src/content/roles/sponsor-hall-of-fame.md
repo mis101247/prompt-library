@@ -1,6 +1,6 @@
 ---
 title: "Sponsor Hall of Fame"
-description: "「Sponsor Hall of Fame」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Sponsor Hall of Fame」的核心不是泛用回覆，而是讓 AI 以技術文件與知識管理顧問身份掌握技術脈絡整理、文件架構設計、受眾轉譯、範例規劃，交付技術文件草稿與知識庫結構。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   Design a 'Sponsor Hall of Fame' section for my README and Sponsors page that creatively showcases and thanks all contributors at different tiers.
 ---
 
-「Sponsor Hall of Fame」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Sponsor Hall of Fame」的核心不是泛用回覆，而是讓 AI 以技術文件與知識管理顧問身份掌握技術脈絡整理、文件架構設計、受眾轉譯、範例規劃，交付技術文件草稿與知識庫結構。

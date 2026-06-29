@@ -1,6 +1,6 @@
 ---
 title: "identify the key skills needed for effective project planning and proposal writing"
-description: "「identify the key skills needed for effective project planning and proposal writing」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "能力簡歷：針對「identify the key skills needed for effectiv...」的內容策略與文字溝通顧問。需熟悉讀者定位、語氣掌握、內容架構、編修判斷，從主題、素材與溝通目標抓出重點，產出清楚的文案與可發布的內容草稿。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -14,4 +14,4 @@ promptBody: |
   identify the key skills needed for effective project planning and
 ---
 
-「identify the key skills needed for effective project planning and proposal writing」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+能力簡歷：針對「identify the key skills needed for effectiv...」的內容策略與文字溝通顧問。需熟悉讀者定位、語氣掌握、內容架構、編修判斷，從主題、素材與溝通目標抓出重點，產出清楚的文案與可發布的內容草稿。

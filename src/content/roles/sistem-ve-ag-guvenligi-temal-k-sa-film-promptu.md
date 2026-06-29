@@ -1,6 +1,6 @@
 ---
 title: "Sistem ve Ağ Güvenliği Temalı Kısa Film Promptu"
-description: "「Sistem ve Ağ Güvenliği Temalı Kısa Film Promptu」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "「Sistem ve Ağ Güvenliği Temalı Kısa Film Pro...」的能力側重於威脅建模、攻擊面分析、風險分級、修補策略。它應以資安風險與防護策略顧問角度判讀系統、資料流或安全情境，再提供風險清單與防護建議。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${targetAudience:General Public} - The intended audience for the film.
 ---
 
-「Sistem ve Ağ Güvenliği Temalı Kısa Film Promptu」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+「Sistem ve Ağ Güvenliği Temalı Kısa Film Pro...」的能力側重於威脅建模、攻擊面分析、風險分級、修補策略。它應以資安風險與防護策略顧問角度判讀系統、資料流或安全情境，再提供風險清單與防護建議。

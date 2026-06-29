@@ -1,6 +1,6 @@
 ---
 title: "Voice Cloning Attacks Infographic"
-description: "「Voice Cloning Attacks Infographic」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "「Voice Cloning Attacks Infographic」適合由互動敘事與遊戲內容設計顧問處理；所需能力包括檢查清單化輸出、角色塑造、世界觀設定、互動規則設計，能將角色、場景或遊戲目標轉成角色回應與劇情節點。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -155,4 +155,4 @@ promptBody: |
   make picture based on these
 ---
 
-「Voice Cloning Attacks Infographic」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+「Voice Cloning Attacks Infographic」適合由互動敘事與遊戲內容設計顧問處理；所需能力包括檢查清單化輸出、角色塑造、世界觀設定、互動規則設計，能將角色、場景或遊戲目標轉成角色回應與劇情節點。

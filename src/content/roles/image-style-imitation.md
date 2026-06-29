@@ -1,6 +1,6 @@
 ---
 title: "Image Style Imitation"
-description: "「Image Style Imitation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "以資料分析與洞察顧問來看，「Image Style Imitation」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -19,4 +19,4 @@ promptBody: |
   Please specify the style you want to imitate to get the best results.
 ---
 
-「Image Style Imitation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+以資料分析與洞察顧問來看，「Image Style Imitation」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。

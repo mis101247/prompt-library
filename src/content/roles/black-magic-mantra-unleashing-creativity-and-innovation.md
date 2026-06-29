@@ -1,6 +1,6 @@
 ---
 title: "Black Magic Mantra: Unleashing Creativity and Innovation"
-description: "「Black Magic Mantra: Unleashing Creativity and Innovation」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Black Magic Mantra: Unleashing Creativity a...」適合由影像生成美術指導處理；所需能力包括視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，能將人物、場景、道具與風格目標轉成可直接生成的影像規格與品質控制指令。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -24,4 +24,4 @@ promptBody: |
   No FDA approval: zero peer-reviewed evidence; infinite cinematic appearances.
 ---
 
-「Black Magic Mantra: Unleashing Creativity and Innovation」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Black Magic Mantra: Unleashing Creativity a...」適合由影像生成美術指導處理；所需能力包括視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，能將人物、場景、道具與風格目標轉成可直接生成的影像規格與品質控制指令。

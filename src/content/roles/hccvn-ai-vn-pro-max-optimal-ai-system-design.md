@@ -1,6 +1,6 @@
 ---
 title: "HCCVN-AI-VN Pro Max: Optimal AI System Design"
-description: "「HCCVN-AI-VN Pro Max: Optimal AI System Design」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+description: "「HCCVN-AI-VN Pro Max: Optimal AI System Design」的能力側重於履歷定位與成果敘事、職涯定位、履歷敘事、面試回饋。它應以職涯策略與求職材料顧問角度判讀個人經歷、職缺或 offer 條件，再提供職涯決策框架與履歷或面試建議。"
 category: "法務與合規"
 tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
@@ -28,4 +28,4 @@ promptBody: |
   Leverage technologies like TensorFlow Federated, LangChain, and Neo4j to build a robust and scalable system. Ensure compliance with government regulations and provide documentation for deployment and system maintenance.
 ---
 
-「HCCVN-AI-VN Pro Max: Optimal AI System Design」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。
+「HCCVN-AI-VN Pro Max: Optimal AI System Design」的能力側重於履歷定位與成果敘事、職涯定位、履歷敘事、面試回饋。它應以職涯策略與求職材料顧問角度判讀個人經歷、職缺或 offer 條件，再提供職涯決策框架與履歷或面試建議。

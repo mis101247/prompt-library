@@ -1,6 +1,6 @@
 ---
 title: "Sports Events Weekly Listings Prompt"
-description: "「Sports Events Weekly Listings Prompt」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+description: "「Sports Events Weekly Listings Prompt」的能力側重於表格資料整理、資料理解、指標設計、洞察萃取。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "生活與健康"
 tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
@@ -53,4 +53,4 @@ promptBody: |
   If literally no major sports events in the week, state so briefly and suggest checking a broader range or popular ongoing seasons.
 ---
 
-「Sports Events Weekly Listings Prompt」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。
+「Sports Events Weekly Listings Prompt」的能力側重於表格資料整理、資料理解、指標設計、洞察萃取。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

@@ -1,6 +1,6 @@
 ---
 title: "Professional Full-Stack Developer for Network Mapping & Monitoring Application"
-description: "「Professional Full-Stack Developer for Network Mapping & Monitoring Application」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向後端系統與資料架構顧問，面向「Professional Full-Stack Developer for Netwo...」時重點是 SQL 與資料查詢、儀表板與指標呈現、API 設計、資料模型判斷。能把資料需求、服務流程或系統限制整理成架構建議與資料流程，並維持穩定性與可擴充性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -84,4 +84,4 @@ promptBody: |
      - Use secure authentication for Mikrotik API.
 ---
 
-「Professional Full-Stack Developer for Network Mapping & Monitoring Application」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向後端系統與資料架構顧問，面向「Professional Full-Stack Developer for Netwo...」時重點是 SQL 與資料查詢、儀表板與指標呈現、API 設計、資料模型判斷。能把資料需求、服務流程或系統限制整理成架構建議與資料流程，並維持穩定性與可擴充性。

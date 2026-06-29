@@ -1,6 +1,6 @@
 ---
 title: "Improve the following code"
-description: "「Improve the following code」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "這個角色像資深程式碼審查顧問，擅長程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計。適合處理「Improve the following code」相關任務，最後收斂成具理由的 review 回饋與優先排序的改進建議。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -26,4 +26,4 @@ promptBody: |
   Provide the improved code along with explanations for each enhancement.
 ---
 
-「Improve the following code」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+這個角色像資深程式碼審查顧問，擅長程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計。適合處理「Improve the following code」相關任務，最後收斂成具理由的 review 回饋與優先排序的改進建議。

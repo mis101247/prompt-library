@@ -1,6 +1,6 @@
 ---
 title: "Compare Top Virtualization Solutions"
-description: "「Compare Top Virtualization Solutions」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "角色價值在於財務模型判讀、風險報酬分析、情境推演、投資論點整理：能釐清「Compare Top Virtualization Solutions」的任務脈絡，提供財務摘要與風險提示，同時守住審慎性與資料可追溯性。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${focusArea:features} - Specific area to focus on (e.g., performance, cost)
 ---
 
-「Compare Top Virtualization Solutions」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+角色價值在於財務模型判讀、風險報酬分析、情境推演、投資論點整理：能釐清「Compare Top Virtualization Solutions」的任務脈絡，提供財務摘要與風險提示，同時守住審慎性與資料可追溯性。

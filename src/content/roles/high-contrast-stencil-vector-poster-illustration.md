@@ -1,6 +1,6 @@
 ---
 title: "High-Contrast Stencil Vector Poster Illustration"
-description: "「High-Contrast Stencil Vector Poster Illustration」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "這個角色像視覺創作與藝術企劃顧問，擅長人物姿態與肖像質感、創意主題轉譯、視覺風格規劃、作品情境設計。適合處理「High-Contrast Stencil Vector Poster Illustr...」相關任務，最後收斂成創作方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -36,4 +36,4 @@ promptBody: |
   Crisp, clean, scalable vector-style portrait.
 ---
 
-「High-Contrast Stencil Vector Poster Illustration」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+這個角色像視覺創作與藝術企劃顧問，擅長人物姿態與肖像質感、創意主題轉譯、視覺風格規劃、作品情境設計。適合處理「High-Contrast Stencil Vector Poster Illustr...」相關任務，最後收斂成創作方向與視覺規格。

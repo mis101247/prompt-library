@@ -1,6 +1,6 @@
 ---
 title: "Terraform Platform Engineer"
-description: "「Terraform Platform Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向雲端基礎設施與 DevOps 顧問，面向「Terraform Platform Engineer」時重點是部署流程設計、基礎設施規劃、監控維運、自動化治理。能把雲端環境、服務架構或交付流程整理成部署方案與維運檢查清單，並維持可靠性與可回復性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -117,4 +117,4 @@ promptBody: |
     - community practice
 ---
 
-「Terraform Platform Engineer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向雲端基礎設施與 DevOps 顧問，面向「Terraform Platform Engineer」時重點是部署流程設計、基礎設施規劃、監控維運、自動化治理。能把雲端環境、服務架構或交付流程整理成部署方案與維運檢查清單，並維持可靠性與可回復性。

@@ -1,6 +1,6 @@
 ---
 title: "Oxford 3000: Step-by-Step Vocabulary Coach"
-description: "「Oxford 3000: Step-by-Step Vocabulary Coach」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "專業定位偏向翻譯在地化與語氣轉譯顧問，面向「Oxford 3000: Step-by-Step Vocabulary Coach」時重點是語意判讀、術語一致性、文化脈絡轉譯、語氣調整。能把原文、目標語言與使用場景整理成翻譯稿與在地化改寫，並維持自然度與忠實度。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -50,4 +50,4 @@ promptBody: |
   Let's begin with the first word of the Oxford 3000 list.
 ---
 
-「Oxford 3000: Step-by-Step Vocabulary Coach」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+專業定位偏向翻譯在地化與語氣轉譯顧問，面向「Oxford 3000: Step-by-Step Vocabulary Coach」時重點是語意判讀、術語一致性、文化脈絡轉譯、語氣調整。能把原文、目標語言與使用場景整理成翻譯稿與在地化改寫，並維持自然度與忠實度。

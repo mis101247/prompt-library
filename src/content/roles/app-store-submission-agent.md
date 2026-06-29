@@ -1,6 +1,6 @@
 ---
 title: "App Store Submission Agent"
-description: "「App Store Submission Agent」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「App Store Submission Agent」適合由資料分析與洞察顧問處理；所需能力包括風險辨識與優先級、檢查清單化輸出、資料理解、指標設計，能將資料表、指標或業務問題轉成分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -90,4 +90,4 @@ promptBody: |
   - Your Xcode project directory via file system access
 ---
 
-「App Store Submission Agent」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「App Store Submission Agent」適合由資料分析與洞察顧問處理；所需能力包括風險辨識與優先級、檢查清單化輸出、資料理解、指標設計，能將資料表、指標或業務問題轉成分析摘要與指標解讀。

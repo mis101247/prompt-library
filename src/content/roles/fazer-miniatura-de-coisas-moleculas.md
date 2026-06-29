@@ -1,6 +1,6 @@
 ---
 title: "Fazer miniatura de coisas/moleculas"
-description: "「Fazer miniatura de coisas/moleculas」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。"
+description: "「Fazer miniatura de coisas/moleculas」適合由翻譯在地化與語氣轉譯顧問處理；所需能力包括臨床語境與照護溝通、語意判讀、術語一致性、文化脈絡轉譯，能將原文、目標語言與使用場景轉成翻譯稿與在地化改寫。"
 category: "資料與研究"
 tags: ["資料與研究","專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
 requiredSkills: ["專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
@@ -40,4 +40,4 @@ promptBody: |
   ONE image, 1:1 Aspect Ratio, Macro Photography, "Gray's Anatomy" or Technical Blueprint Aesthetic, 8k Resolution.
 ---
 
-「Fazer miniatura de coisas/moleculas」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。
+「Fazer miniatura de coisas/moleculas」適合由翻譯在地化與語氣轉譯顧問處理；所需能力包括臨床語境與照護溝通、語意判讀、術語一致性、文化脈絡轉譯，能將原文、目標語言與使用場景轉成翻譯稿與在地化改寫。

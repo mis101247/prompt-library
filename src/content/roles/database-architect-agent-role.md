@@ -1,6 +1,6 @@
 ---
 title: "Database Architect Agent Role"
-description: "「Database Architect Agent Role」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「Database Architect Agent Role」適合由後端系統與資料架構顧問處理；所需能力包括檢查清單化輸出、SQL 與資料查詢、API 設計、資料模型判斷，能將資料需求、服務流程或系統限制轉成架構建議與資料流程。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -282,4 +282,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_database-architect.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Database Architect Agent Role」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「Database Architect Agent Role」適合由後端系統與資料架構顧問處理；所需能力包括檢查清單化輸出、SQL 與資料查詢、API 設計、資料模型判斷，能將資料需求、服務流程或系統限制轉成架構建議與資料流程。

@@ -1,6 +1,6 @@
 ---
 title: "notebooklm_lecture_notes"
-description: "「notebooklm_lecture_notes」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "「notebooklm_lecture_notes」的核心不是泛用回覆，而是讓 AI 以簡報敘事與資訊設計顧問身份掌握訊息層級設計、簡報架構、視覺敘事、重點萃取，交付投影片架構與視覺呈現建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -14,4 +14,4 @@ promptBody: |
   Create a deck summarizing the content of each section; emphasize the key points; The target audience is professionals. Use a pure white background without any grid.
 ---
 
-「notebooklm_lecture_notes」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+「notebooklm_lecture_notes」的核心不是泛用回覆，而是讓 AI 以簡報敘事與資訊設計顧問身份掌握訊息層級設計、簡報架構、視覺敘事、重點萃取，交付投影片架構與視覺呈現建議。

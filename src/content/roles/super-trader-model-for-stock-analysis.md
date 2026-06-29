@@ -1,6 +1,6 @@
 ---
 title: "Super Trader Model for Stock Analysis"
-description: "「Super Trader Model for Stock Analysis」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "「Super Trader Model for Stock Analysis」適合由財務分析與投資決策顧問處理；所需能力包括風險辨識與優先級、財務模型判讀、風險報酬分析、情境推演，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${riskLevel:medium} - The acceptable risk level for trading decisions
 ---
 
-「Super Trader Model for Stock Analysis」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+「Super Trader Model for Stock Analysis」適合由財務分析與投資決策顧問處理；所需能力包括風險辨識與優先級、財務模型判讀、風險報酬分析、情境推演，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。

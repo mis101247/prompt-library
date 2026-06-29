@@ -1,6 +1,6 @@
 ---
 title: "prompts.chat Promotional Video using Remotion"
-description: "「prompts.chat Promotional Video using Remotion」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "「prompts.chat Promotional Video using Remotion」的核心不是泛用回覆，而是讓 AI 以品牌視覺與設計系統顧問身份掌握品牌識別與標誌語言、隱私與合規邊界、品牌定位轉譯、視覺語言設計，交付品牌設計方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -131,4 +131,4 @@ promptBody: |
   - TransitionSeries for scene management
 ---
 
-「prompts.chat Promotional Video using Remotion」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+「prompts.chat Promotional Video using Remotion」的核心不是泛用回覆，而是讓 AI 以品牌視覺與設計系統顧問身份掌握品牌識別與標誌語言、隱私與合規邊界、品牌定位轉譯、視覺語言設計，交付品牌設計方向與視覺規格。

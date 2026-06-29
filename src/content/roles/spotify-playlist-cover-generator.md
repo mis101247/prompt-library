@@ -1,6 +1,6 @@
 ---
 title: "Spotify Playlist Cover Generator"
-description: "「Spotify Playlist Cover Generator」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "能力簡歷：針對「Spotify Playlist Cover Generator」的品牌視覺與設計系統顧問。需熟悉品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，從品牌目標、視覺素材或設計限制抓出重點，產出品牌設計方向與視覺規格。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -28,4 +28,4 @@ promptBody: |
   - ${playlistName} - The name of the playlist for which the cover is being designed.
 ---
 
-「Spotify Playlist Cover Generator」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+能力簡歷：針對「Spotify Playlist Cover Generator」的品牌視覺與設計系統顧問。需熟悉品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，從品牌目標、視覺素材或設計限制抓出重點，產出品牌設計方向與視覺規格。

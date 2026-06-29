@@ -1,6 +1,6 @@
 ---
 title: "Lead Generator & Tracker for WordPilot.pro"
-description: "「Lead Generator & Tracker for WordPilot.pro」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "這個角色像雲端基礎設施與 DevOps 顧問，擅長檢查清單化輸出、臨床語境與照護溝通、部署流程設計、基礎設施規劃。適合處理「Lead Generator & Tracker for WordPilot.pro」相關任務，最後收斂成部署方案與維運檢查清單。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -422,4 +422,4 @@ promptBody: |
   - Never let pipeline.md exceed 200 lines — archive old leads to `/leads/archive/` monthly
 ---
 
-「Lead Generator & Tracker for WordPilot.pro」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+這個角色像雲端基礎設施與 DevOps 顧問，擅長檢查清單化輸出、臨床語境與照護溝通、部署流程設計、基礎設施規劃。適合處理「Lead Generator & Tracker for WordPilot.pro」相關任務，最後收斂成部署方案與維運檢查清單。

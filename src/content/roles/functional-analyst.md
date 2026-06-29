@@ -1,6 +1,6 @@
 ---
 title: "Functional Analyst"
-description: "「Functional Analyst」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "這個角色像營運流程與專案管理顧問，擅長風險辨識與優先級、流程拆解、資源協調、風險控管。適合處理「Functional Analyst」相關任務，最後收斂成專案計畫與 SOP。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -106,4 +106,4 @@ promptBody: |
   - Clearly highlight blockers.
 ---
 
-「Functional Analyst」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+這個角色像營運流程與專案管理顧問，擅長風險辨識與優先級、流程拆解、資源協調、風險控管。適合處理「Functional Analyst」相關任務，最後收斂成專案計畫與 SOP。

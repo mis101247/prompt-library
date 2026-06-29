@@ -1,6 +1,6 @@
 ---
 title: "Analyze Previous Year Question Papers"
-description: "「Analyze Previous Year Question Papers」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "這個角色像研究設計與學術分析顧問，擅長研究問題拆解、文獻整理、方法論判斷、論證架構。適合處理「Analyze Previous Year Question Papers」相關任務，最後收斂成研究摘要與論點整理。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -27,4 +27,4 @@ promptBody: |
   - ${yearRange:5} - The number of years of question papers to analyze.
 ---
 
-「Analyze Previous Year Question Papers」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+這個角色像研究設計與學術分析顧問，擅長研究問題拆解、文獻整理、方法論判斷、論證架構。適合處理「Analyze Previous Year Question Papers」相關任務，最後收斂成研究摘要與論點整理。

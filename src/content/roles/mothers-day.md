@@ -1,6 +1,6 @@
 ---
 title: "Mothers day"
-description: "「Mothers day」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「Mothers day」的能力側重於人物姿態與肖像質感、3D 場景與動態效果、研究問題拆解、文獻整理。它應以研究設計與學術分析顧問角度判讀研究主題、文獻或資料，再提供研究摘要與論點整理。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -38,4 +38,4 @@ promptBody: |
   USE THE UPLOADED PHOTO AS THE EXACT REFERENCE. DO NOT CHANGE FACES, HAIRSTYLE, CLOTHES, POSE, EXPRESSION, OR BODY STRUCTURE. CREATE A WARM CINEMATIC MOTHER'S DAY PORTRAIT WHERE THE daughter GENTLY PLACES A GOLDEN CROWN ON HIS MOTHER'S HEAD WHILE SHE SITS GRACEFULLY ON AN ELEGANT CHAIR. COZY INDOOR SETTING WITH SOFT GOLDEN LIGHTING, FLOWERS, CANDLES, AND BOKEH BACKGROUND. ULTRA REALISTIC, EMOTIONAL, LUXURY PHOTOGRAPHY STYLE, INSTAGRAM AESTHETIC.ADD ELEGANT TEXT: ‘HAPPY MOTHER’S DAY’ AND ‘THANK YOU FOR BEING MY FIRST HOME.’ 4:5 RATIO.
 ---
 
-「Mothers day」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「Mothers day」的能力側重於人物姿態與肖像質感、3D 場景與動態效果、研究問題拆解、文獻整理。它應以研究設計與學術分析顧問角度判讀研究主題、文獻或資料，再提供研究摘要與論點整理。

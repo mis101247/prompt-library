@@ -1,6 +1,6 @@
 ---
 title: "PHP Microscope: Forensic Codebase Autopsy Protocol"
-description: "「PHP Microscope: Forensic Codebase Autopsy Protocol」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「PHP Microscope: Forensic Codebase Autopsy P...」的能力側重於風險辨識與優先級、檢查清單化輸出、提示詞架構設計、工具使用規劃。它應以 AI 工作流程與提示詞架構顧問角度判讀任務目標、工具限制與上下文，再提供系統提示詞與工作流程設計。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -872,4 +872,4 @@ promptBody: |
      - PHP version compatibility status
 ---
 
-「PHP Microscope: Forensic Codebase Autopsy Protocol」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「PHP Microscope: Forensic Codebase Autopsy P...」的能力側重於風險辨識與優先級、檢查清單化輸出、提示詞架構設計、工具使用規劃。它應以 AI 工作流程與提示詞架構顧問角度判讀任務目標、工具限制與上下文，再提供系統提示詞與工作流程設計。

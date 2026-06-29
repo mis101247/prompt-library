@@ -1,6 +1,6 @@
 ---
 title: "Graduate Information and Communication System Design"
-description: "「Graduate Information and Communication System Design」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "「Graduate Information and Communication Syst...」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握品牌識別與標誌語言、資料理解、指標設計、洞察萃取，交付分析摘要與指標解讀。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${universityName}: The name of the university.
 ---
 
-「Graduate Information and Communication System Design」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+「Graduate Information and Communication Syst...」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握品牌識別與標誌語言、資料理解、指標設計、洞察萃取，交付分析摘要與指標解讀。

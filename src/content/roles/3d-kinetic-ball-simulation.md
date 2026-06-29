@@ -1,6 +1,6 @@
 ---
 title: "3D Kinetic Ball Simulation"
-description: "「3D Kinetic Ball Simulation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "能力簡歷：針對「3D Kinetic Ball Simulation」的文字溝通與編輯顧問。需熟悉 3D 場景與動態效果、讀者定位、內容架構、語氣調整，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -32,4 +32,4 @@ promptBody: |
   Design style: Dark synthwave aesthetic with emissive neon materials, glowing particle vectors, and smooth automatic camera zoom scaling.
 ---
 
-「3D Kinetic Ball Simulation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+能力簡歷：針對「3D Kinetic Ball Simulation」的文字溝通與編輯顧問。需熟悉 3D 場景與動態效果、讀者定位、內容架構、語氣調整，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。

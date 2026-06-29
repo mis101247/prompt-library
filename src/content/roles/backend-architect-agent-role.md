@@ -1,6 +1,6 @@
 ---
 title: "Backend Architect Agent Role"
-description: "「Backend Architect Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向後端系統與資料架構顧問，面向「Backend Architect Agent Role」時重點是資料落地與合規範圍、檢查清單化輸出、API 設計、資料模型判斷。能把資料需求、服務流程或系統限制整理成架構建議與資料流程，並維持穩定性與可擴充性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -278,4 +278,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_backend-architect.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Backend Architect Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向後端系統與資料架構顧問，面向「Backend Architect Agent Role」時重點是資料落地與合規範圍、檢查清單化輸出、API 設計、資料模型判斷。能把資料需求、服務流程或系統限制整理成架構建議與資料流程，並維持穩定性與可擴充性。

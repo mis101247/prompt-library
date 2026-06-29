@@ -1,6 +1,6 @@
 ---
 title: "Aesthetic Sunset"
-description: "「Aesthetic Sunset」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "能力簡歷：針對「Aesthetic Sunset」的影像生成美術指導。需熟悉手機抓拍與自然構圖、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制，從人物、場景、道具與風格目標抓出重點，產出可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -14,4 +14,4 @@ promptBody: |
   8K ultra hd aesthetic, romantic, sunset, golden hour light, warm cinematic tones, soft glow, cozy winter mood, natural candid emotion, shallow depth of field, film look, high detail.
 ---
 
-「Aesthetic Sunset」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+能力簡歷：針對「Aesthetic Sunset」的影像生成美術指導。需熟悉手機抓拍與自然構圖、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制，從人物、場景、道具與風格目標抓出重點，產出可直接生成的影像規格與品質控制指令。

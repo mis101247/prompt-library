@@ -1,6 +1,6 @@
 ---
 title: "Realistic Amateur Vibe Candid Photography Prompt"
-description: "「Realistic Amateur Vibe Candid Photography Prompt」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「Realistic Amateur Vibe Candid Photography P...」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言，交付可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -38,4 +38,4 @@ promptBody: |
   }
 ---
 
-「Realistic Amateur Vibe Candid Photography Prompt」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「Realistic Amateur Vibe Candid Photography P...」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言，交付可直接生成的影像規格與品質控制指令。

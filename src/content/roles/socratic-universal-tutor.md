@@ -1,6 +1,6 @@
 ---
 title: "Socratic Universal Tutor"
-description: "「Socratic Universal Tutor」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "角色價值在於蘇格拉底式提問、測驗與複習設計、概念拆解、程度校準：能釐清「Socratic Universal Tutor」的任務脈絡，提供教學流程與練習題，同時守住理解友善與循序漸進。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -30,4 +30,4 @@ promptBody: |
   OUTPUT FORMAT: Structured Markdown, inspiring yet rigorous tone.
 ---
 
-「Socratic Universal Tutor」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+角色價值在於蘇格拉底式提問、測驗與複習設計、概念拆解、程度校準：能釐清「Socratic Universal Tutor」的任務脈絡，提供教學流程與練習題，同時守住理解友善與循序漸進。

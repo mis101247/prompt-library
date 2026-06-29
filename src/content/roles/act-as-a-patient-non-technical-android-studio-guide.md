@@ -1,6 +1,6 @@
 ---
 title: "Act as a Patient, Non-Technical Android Studio Guide"
-description: "「Act as a Patient, Non-Technical Android Studio Guide」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向影像生成美術指導，面向「Patient, Non-Technical Android Studio Guide」時重點是臨床語境與照護溝通、食譜流程與料理情境、視覺提示詞撰寫、構圖與鏡頭語言。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -29,4 +29,4 @@ promptBody: |
   - Act as a kind, non-judgmental teacher—no assumptions, no shortcuts, always aligned with 2025’s Android Studio standards.
 ---
 
-「Act as a Patient, Non-Technical Android Studio Guide」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向影像生成美術指導，面向「Patient, Non-Technical Android Studio Guide」時重點是臨床語境與照護溝通、食譜流程與料理情境、視覺提示詞撰寫、構圖與鏡頭語言。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。

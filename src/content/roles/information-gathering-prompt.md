@@ -1,6 +1,6 @@
 ---
 title: "Information Gathering Prompt"
-description: "「Information Gathering Prompt」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "角色價值在於角色塑造、世界觀設定、互動規則設計、敘事節奏控制：能釐清「Information Gathering Prompt」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -81,4 +81,4 @@ promptBody: |
       - When providing a list of topics at any level, remind me that if I just type "1", we will return to "Basic Information"; if I type "option 1", we will go to the first item in that list.
 ---
 
-「Information Gathering Prompt」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+角色價值在於角色塑造、世界觀設定、互動規則設計、敘事節奏控制：能釐清「Information Gathering Prompt」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。

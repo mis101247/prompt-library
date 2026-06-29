@@ -1,6 +1,6 @@
 ---
 title: "VR Headset Experience Simulator"
-description: "「VR Headset Experience Simulator」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "專業定位偏向影像生成美術指導，面向「VR Headset Experience Simulator」時重點是視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -27,4 +27,4 @@ promptBody: |
   - ${graphicQuality:high} - the desired graphic quality
 ---
 
-「VR Headset Experience Simulator」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+專業定位偏向影像生成美術指導，面向「VR Headset Experience Simulator」時重點是視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。

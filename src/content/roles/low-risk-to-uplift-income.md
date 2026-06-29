@@ -1,6 +1,6 @@
 ---
 title: "low risk to uplift income"
-description: "「low risk to uplift income」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "這個角色像教學設計與學習引導顧問，擅長風險辨識與優先級、概念拆解、程度校準、練習設計。適合處理「low risk to uplift income」相關任務，最後收斂成教學流程與練習題。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -206,4 +206,4 @@ promptBody: |
   - Is accountability system clear?
 ---
 
-「low risk to uplift income」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+這個角色像教學設計與學習引導顧問，擅長風險辨識與優先級、概念拆解、程度校準、練習設計。適合處理「low risk to uplift income」相關任務，最後收斂成教學流程與練習題。

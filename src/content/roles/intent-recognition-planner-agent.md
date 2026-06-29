@@ -1,6 +1,6 @@
 ---
 title: "Intent Recognition Planner Agent"
-description: "「Intent Recognition Planner Agent」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+description: "能力簡歷：針對「Intent Recognition Planner Agent」的互動敘事與遊戲內容設計顧問。需熟悉角色塑造、世界觀設定、互動規則設計、敘事節奏控制，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。"
 category: "生活與健康"
 tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
@@ -30,4 +30,4 @@ promptBody: |
   - Interpret a request for information and deliver accurate, context-relevant responses.
 ---
 
-「Intent Recognition Planner Agent」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。
+能力簡歷：針對「Intent Recognition Planner Agent」的互動敘事與遊戲內容設計顧問。需熟悉角色塑造、世界觀設定、互動規則設計、敘事節奏控制，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。

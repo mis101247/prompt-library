@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive DevOps Guide"
-description: "「Comprehensive DevOps Guide」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。"
+description: "「Comprehensive DevOps Guide」的核心不是泛用回覆，而是讓 AI 以雲端基礎設施與 DevOps 顧問身份掌握部署流程設計、基礎設施規劃、監控維運、自動化治理，交付部署方案與維運檢查清單。"
 category: "工程與技術"
 tags: ["工程與技術","基礎設施設計","自動化部署","監控維運","可靠性判斷"]
 requiredSkills: ["基礎設施設計","自動化部署","監控維運","可靠性判斷"]
@@ -44,4 +44,4 @@ promptBody: |
   - Maintain a professional and informative tone throughout.
 ---
 
-「Comprehensive DevOps Guide」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。
+「Comprehensive DevOps Guide」的核心不是泛用回覆，而是讓 AI 以雲端基礎設施與 DevOps 顧問身份掌握部署流程設計、基礎設施規劃、監控維運、自動化治理，交付部署方案與維運檢查清單。

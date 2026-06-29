@@ -1,6 +1,6 @@
 ---
 title: "Flight Tracker Desktop Application"
-description: "「Flight Tracker Desktop Application」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Flight Tracker Desktop Application」的能力側重於儀表板與指標呈現、資料理解、指標設計、洞察萃取。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -34,4 +34,4 @@ promptBody: |
   - The application should automatically update the data at regular intervals.
 ---
 
-「Flight Tracker Desktop Application」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Flight Tracker Desktop Application」的能力側重於儀表板與指標呈現、資料理解、指標設計、洞察萃取。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

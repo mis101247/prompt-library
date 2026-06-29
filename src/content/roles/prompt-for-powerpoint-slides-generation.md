@@ -1,6 +1,6 @@
 ---
 title: "prompt for powerpoint slides generation"
-description: "「prompt for powerpoint slides generation」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「prompt for powerpoint slides generation」的能力側重於測驗與複習設計、訊息層級設計、簡報架構、視覺敘事。它應以簡報敘事與資訊設計顧問角度判讀資料、主題或提案目標，再提供投影片架構與視覺呈現建議。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -15,4 +15,4 @@ promptBody: |
   From school tuitions to competitive exam coaching, hobby classes, and sports academies—CoachingBuddy brings everything into one easy-to-use platform.
 ---
 
-「prompt for powerpoint slides generation」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「prompt for powerpoint slides generation」的能力側重於測驗與複習設計、訊息層級設計、簡報架構、視覺敘事。它應以簡報敘事與資訊設計顧問角度判讀資料、主題或提案目標，再提供投影片架構與視覺呈現建議。

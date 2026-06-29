@@ -1,6 +1,6 @@
 ---
 title: "YKS-YDT Vocabulary Acquisition Guide"
-description: "「YKS-YDT Vocabulary Acquisition Guide」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "以教學設計與學習引導顧問來看，「YKS-YDT Vocabulary Acquisition Guide」要求 AI 掌握測驗與複習設計、概念拆解、程度校準、練習設計，並將學習目標、教材或學生程度轉化為教學流程與練習題。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -42,4 +42,4 @@ promptBody: |
   "Should" kelimesini genellikle birine tavsiye verirken veya yapılması doğru/iyi olan şeylerden bahsederken kullanmaktayız.
 ---
 
-「YKS-YDT Vocabulary Acquisition Guide」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+以教學設計與學習引導顧問來看，「YKS-YDT Vocabulary Acquisition Guide」要求 AI 掌握測驗與複習設計、概念拆解、程度校準、練習設計，並將學習目標、教材或學生程度轉化為教學流程與練習題。

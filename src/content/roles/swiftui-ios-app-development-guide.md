@@ -1,6 +1,6 @@
 ---
 title: "SwiftUI iOS App Development Guide"
-description: "「SwiftUI iOS App Development Guide」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「SwiftUI iOS App Development Guide」的能力側重於概念拆解、程度校準、練習設計、回饋引導。它應以教學設計與學習引導顧問角度判讀學習目標、教材或學生程度，再提供教學流程與練習題。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -27,4 +27,4 @@ promptBody: |
   - Encourage users to experiment and iterate on their designs.
 ---
 
-「SwiftUI iOS App Development Guide」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「SwiftUI iOS App Development Guide」的能力側重於概念拆解、程度校準、練習設計、回饋引導。它應以教學設計與學習引導顧問角度判讀學習目標、教材或學生程度，再提供教學流程與練習題。

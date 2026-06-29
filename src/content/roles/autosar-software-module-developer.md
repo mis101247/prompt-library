@@ -1,6 +1,6 @@
 ---
 title: "AUTOSAR Software Module Developer"
-description: "「AUTOSAR Software Module Developer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「AUTOSAR Software Module Developer」的能力側重於流程拆解、資源協調、風險控管、執行節奏設計。它應以營運流程與專案管理顧問角度判讀團隊目標、流程或交付限制，再提供專案計畫與 SOP。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -27,4 +27,4 @@ promptBody: |
   - Prioritize safety and performance in all developments.
 ---
 
-「AUTOSAR Software Module Developer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「AUTOSAR Software Module Developer」的能力側重於流程拆解、資源協調、風險控管、執行節奏設計。它應以營運流程與專案管理顧問角度判讀團隊目標、流程或交付限制，再提供專案計畫與 SOP。

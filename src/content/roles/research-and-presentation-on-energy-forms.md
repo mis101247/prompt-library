@@ -1,6 +1,6 @@
 ---
 title: "Research and Presentation on Energy Forms"
-description: "「Research and Presentation on Energy Forms」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "專業定位偏向簡報敘事與資訊設計顧問，面向「Research and Presentation on Energy Forms」時重點是訊息層級設計、簡報架構、視覺敘事、重點萃取。能把資料、主題或提案目標整理成投影片架構與視覺呈現建議，並維持說服力與可讀性。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -28,4 +28,4 @@ promptBody: |
   - ${presentationLength:10} - number of slides or key points to include
 ---
 
-「Research and Presentation on Energy Forms」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+專業定位偏向簡報敘事與資訊設計顧問，面向「Research and Presentation on Energy Forms」時重點是訊息層級設計、簡報架構、視覺敘事、重點萃取。能把資料、主題或提案目標整理成投影片架構與視覺呈現建議，並維持說服力與可讀性。

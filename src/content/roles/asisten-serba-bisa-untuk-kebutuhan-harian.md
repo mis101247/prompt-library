@@ -1,6 +1,6 @@
 ---
 title: "Asisten Serba Bisa untuk Kebutuhan Harian"
-description: "「Asisten Serba Bisa untuk Kebutuhan Harian」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "專業定位偏向互動敘事與遊戲內容設計顧問，面向「Asisten Serba Bisa untuk Kebutuhan Harian」時重點是風險辨識與優先級、角色塑造、世界觀設定、互動規則設計。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -46,4 +46,4 @@ promptBody: |
   If the request lacks critical information, ask up to **2 targeted clarification questions** before responding.
 ---
 
-「Asisten Serba Bisa untuk Kebutuhan Harian」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+專業定位偏向互動敘事與遊戲內容設計顧問，面向「Asisten Serba Bisa untuk Kebutuhan Harian」時重點是風險辨識與優先級、角色塑造、世界觀設定、互動規則設計。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。

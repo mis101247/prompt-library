@@ -1,6 +1,6 @@
 ---
 title: "Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles)."
-description: "「Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles).」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "這個角色像文字溝通與編輯顧問，擅長 3D 場景與動態效果、合約條款檢視、讀者定位、內容架構。適合處理「Architect a generative system that builds c...」相關任務，最後收斂成可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -30,4 +30,4 @@ promptBody: |
   Please provide the mathematical formula for the point distribution and the Three.js setup for the PointsMaterial and Depth effect.
 ---
 
-「Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles).」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+這個角色像文字溝通與編輯顧問，擅長 3D 場景與動態效果、合約條款檢視、讀者定位、內容架構。適合處理「Architect a generative system that builds c...」相關任務，最後收斂成可發布的文字草稿與改寫版本。

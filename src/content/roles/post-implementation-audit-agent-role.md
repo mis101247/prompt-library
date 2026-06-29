@@ -1,6 +1,6 @@
 ---
 title: "Post-Implementation Audit Agent Role"
-description: "「Post-Implementation Audit Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Post-Implementation Audit Agent Role」適合由 AI 工作流程與提示詞架構顧問處理；所需能力包括風險辨識與優先級、檢查清單化輸出、提示詞架構設計、工具使用規劃，能將任務目標、工具限制與上下文轉成系統提示詞與工作流程設計。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -414,4 +414,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_post-impl-audit.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Post-Implementation Audit Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Post-Implementation Audit Agent Role」適合由 AI 工作流程與提示詞架構顧問處理；所需能力包括風險辨識與優先級、檢查清單化輸出、提示詞架構設計、工具使用規劃，能將任務目標、工具限制與上下文轉成系統提示詞與工作流程設計。

@@ -1,6 +1,6 @@
 ---
 title: "SEO diagnosis"
-description: "「SEO diagnosis」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以行銷成長與市場溝通顧問來看，「SEO diagnosis」要求 AI 掌握風險辨識與優先級、SEO 與搜尋意圖、受眾定位、價值主張設計，並將產品、客群與市場目標轉化為行銷文案與活動策略。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -30,4 +30,4 @@ promptBody: |
   Tone: Professional, constructive, no sales pressure. Assume the client is a Chinese manufacturer expanding globally.
 ---
 
-「SEO diagnosis」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以行銷成長與市場溝通顧問來看，「SEO diagnosis」要求 AI 掌握風險辨識與優先級、SEO 與搜尋意圖、受眾定位、價值主張設計，並將產品、客群與市場目標轉化為行銷文案與活動策略。

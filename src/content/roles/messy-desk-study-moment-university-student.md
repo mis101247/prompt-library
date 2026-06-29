@@ -1,6 +1,6 @@
 ---
 title: "Messy Desk Study Moment - University Student"
-description: "「Messy Desk Study Moment - University Student」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "這個角色像研究設計與學術分析顧問，擅長研究問題拆解、文獻整理、方法論判斷、論證架構。適合處理「Messy Desk Study Moment - University Student」相關任務，最後收斂成研究摘要與論點整理。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -43,4 +43,4 @@ promptBody: |
   }
 ---
 
-「Messy Desk Study Moment - University Student」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+這個角色像研究設計與學術分析顧問，擅長研究問題拆解、文獻整理、方法論判斷、論證架構。適合處理「Messy Desk Study Moment - University Student」相關任務，最後收斂成研究摘要與論點整理。

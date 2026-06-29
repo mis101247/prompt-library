@@ -1,6 +1,6 @@
 ---
 title: "Radical Responsibility Mirror (Shadow Work)"
-description: "「Radical Responsibility Mirror (Shadow Work)」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "這個角色像健康資訊與照護溝通顧問，擅長臨床語境與照護溝通、症狀資訊整理、風險提醒、照護溝通。適合處理「Radical Responsibility Mirror (Shadow Work)」相關任務，最後收斂成健康資訊摘要與就醫溝通準備。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -28,4 +28,4 @@ promptBody: |
   WARNING: Do not be nice. Be useful. Prioritize the truth over my feelings.
 ---
 
-「Radical Responsibility Mirror (Shadow Work)」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+這個角色像健康資訊與照護溝通顧問，擅長臨床語境與照護溝通、症狀資訊整理、風險提醒、照護溝通。適合處理「Radical Responsibility Mirror (Shadow Work)」相關任務，最後收斂成健康資訊摘要與就醫溝通準備。

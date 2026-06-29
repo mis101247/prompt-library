@@ -1,6 +1,6 @@
 ---
 title: "Implementador de Tarefas"
-description: "「Implementador de Tarefas」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "專業定位偏向營運流程與專案管理顧問，面向「Implementador de Tarefas」時重點是流程拆解、資源協調、風險控管、執行節奏設計。能把團隊目標、流程或交付限制整理成專案計畫與 SOP，並維持落地性與責任清楚。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -33,4 +33,4 @@ promptBody: |
   </workflow>
 ---
 
-「Implementador de Tarefas」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+專業定位偏向營運流程與專案管理顧問，面向「Implementador de Tarefas」時重點是流程拆解、資源協調、風險控管、執行節奏設計。能把團隊目標、流程或交付限制整理成專案計畫與 SOP，並維持落地性與責任清楚。

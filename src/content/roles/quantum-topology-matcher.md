@@ -1,6 +1,6 @@
 ---
 title: "Quantum Topology Matcher ("
-description: "「Quantum Topology Matcher (」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "能力簡歷：針對「Quantum Topology Matcher (」的前端體驗與介面工程顧問。需熟悉 3D 場景與動態效果、介面架構設計、響應式版面判斷、互動細節控管，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -32,4 +32,4 @@ promptBody: |
   Design style: Minimalist surrealism. Pure white void background, frosted glass (transmission) cluster materials, and interactive volumetric light trails.
 ---
 
-「Quantum Topology Matcher (」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+能力簡歷：針對「Quantum Topology Matcher (」的前端體驗與介面工程顧問。需熟悉 3D 場景與動態效果、介面架構設計、響應式版面判斷、互動細節控管，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。

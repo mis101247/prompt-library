@@ -1,6 +1,6 @@
 ---
 title: "Optimize E-commerce Listing for High CTR with Holiday Design"
-description: "「Optimize E-commerce Listing for High CTR with Holiday Design」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "專業定位偏向文字溝通與編輯顧問，面向「Optimize E-commerce Listing for High CTR wi...」時重點是讀者定位、內容架構、語氣調整、編修潤飾。能把主題、素材或既有文本整理成可發布的文字草稿與改寫版本，並維持清晰度與語氣一致性。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -28,4 +28,4 @@ promptBody: |
   - Adhere to all platform-specific guidelines for product imagery and descriptions.
 ---
 
-「Optimize E-commerce Listing for High CTR with Holiday Design」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+專業定位偏向文字溝通與編輯顧問，面向「Optimize E-commerce Listing for High CTR wi...」時重點是讀者定位、內容架構、語氣調整、編修潤飾。能把主題、素材或既有文本整理成可發布的文字草稿與改寫版本，並維持清晰度與語氣一致性。

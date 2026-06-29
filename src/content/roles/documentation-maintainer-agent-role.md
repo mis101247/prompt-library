@@ -1,6 +1,6 @@
 ---
 title: "Documentation Maintainer Agent Role"
-description: "「Documentation Maintainer Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Documentation Maintainer Agent Role」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握檢查清單化輸出、面試策略與回答校準、讀者定位、內容架構，交付可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -252,4 +252,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_docs-maintainer.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Documentation Maintainer Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Documentation Maintainer Agent Role」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握檢查清單化輸出、面試策略與回答校準、讀者定位、內容架構，交付可發布的文字草稿與改寫版本。

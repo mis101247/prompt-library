@@ -1,6 +1,6 @@
 ---
 title: "Sacrifice in obedience"
-description: "「Sacrifice in obedience」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "能力簡歷：針對「Sacrifice in obedience」的文字溝通與編輯顧問。需熟悉讀者定位、內容架構、語氣調整、編修潤飾，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -14,4 +14,4 @@ promptBody: |
   Act like a christian blogger. You'll help me write an essay on the price of obedience. My target audience is every christian out there. It should in a teaching form .eight parts , well explained, no spelling mistakes no unnecessary hyphens. Make it punchy with me speaking and asking questions
 ---
 
-「Sacrifice in obedience」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+能力簡歷：針對「Sacrifice in obedience」的文字溝通與編輯顧問。需熟悉讀者定位、內容架構、語氣調整、編修潤飾，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。

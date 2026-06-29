@@ -1,6 +1,6 @@
 ---
 title: "Red Dead Redemption 2 - Double Exposure Effect"
-description: "「Red Dead Redemption 2 - Double Exposure Effect」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "「Red Dead Redemption 2 - Double Exposure Effect」的能力側重於角色塑造、世界觀設定、互動規則設計、敘事節奏控制。它應以互動敘事與遊戲內容設計顧問角度判讀角色、場景或遊戲目標，再提供角色回應與劇情節點。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -29,4 +29,4 @@ promptBody: |
   Ultra high resolution, sharp details, premium wallpaper quality. Format 9:16
 ---
 
-「Red Dead Redemption 2 - Double Exposure Effect」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+「Red Dead Redemption 2 - Double Exposure Effect」的能力側重於角色塑造、世界觀設定、互動規則設計、敘事節奏控制。它應以互動敘事與遊戲內容設計顧問角度判讀角色、場景或遊戲目標，再提供角色回應與劇情節點。

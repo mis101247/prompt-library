@@ -1,6 +1,6 @@
 ---
 title: "Access Unlimited ChatGPT"
-description: "「Access Unlimited ChatGPT」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "專業定位偏向客戶溝通與服務策略顧問，面向「Access Unlimited ChatGPT」時重點是需求辨識、情緒安撫、問題分流、回覆策略。能把客戶訊息、問題背景或服務政策整理成客服回覆與處理流程，並維持同理心與問題解決效率。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -23,4 +23,4 @@ promptBody: |
   - Avoid promoting any unauthorized methods.
 ---
 
-「Access Unlimited ChatGPT」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+專業定位偏向客戶溝通與服務策略顧問，面向「Access Unlimited ChatGPT」時重點是需求辨識、情緒安撫、問題分流、回覆策略。能把客戶訊息、問題背景或服務政策整理成客服回覆與處理流程，並維持同理心與問題解決效率。

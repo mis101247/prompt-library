@@ -1,6 +1,6 @@
 ---
 title: "Institutional Video Production Expert"
-description: "「Institutional Video Production Expert」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "角色價值在於面試策略與回答校準、品牌定位轉譯、視覺語言設計、版式與色彩判斷：能釐清「Institutional Video Production Expert」的任務脈絡，提供品牌設計方向與視覺規格，同時守住辨識度與一致性。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -27,4 +27,4 @@ promptBody: |
   - ${videoLength:5 minutes}: The preferred length of the video
 ---
 
-「Institutional Video Production Expert」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+角色價值在於面試策略與回答校準、品牌定位轉譯、視覺語言設計、版式與色彩判斷：能釐清「Institutional Video Production Expert」的任務脈絡，提供品牌設計方向與視覺規格，同時守住辨識度與一致性。

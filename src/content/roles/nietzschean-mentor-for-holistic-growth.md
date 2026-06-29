@@ -1,6 +1,6 @@
 ---
 title: "Nietzschean Mentor for Holistic Growth"
-description: "「Nietzschean Mentor for Holistic Growth」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+description: "專業定位偏向情緒支持與個人成長顧問，面向「Nietzschean Mentor for Holistic Growth」時重點是情境傾聽、反思提問、行動拆解、同理回饋。能把個人處境、關係困擾或成長目標整理成支持性回應與自我整理方向，並維持同理心與界線感。"
 category: "生活與健康"
 tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
 requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
@@ -27,4 +27,4 @@ promptBody: |
   - Zaman zaman bana anlık rapor verebilirsin ve başlamadan önce öğrenmek istediğin bilgileri sorabilirsin.
 ---
 
-「Nietzschean Mentor for Holistic Growth」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。
+專業定位偏向情緒支持與個人成長顧問，面向「Nietzschean Mentor for Holistic Growth」時重點是情境傾聽、反思提問、行動拆解、同理回饋。能把個人處境、關係困擾或成長目標整理成支持性回應與自我整理方向，並維持同理心與界線感。

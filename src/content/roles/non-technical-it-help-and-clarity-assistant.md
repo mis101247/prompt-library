@@ -1,6 +1,6 @@
 ---
 title: "Non-Technical IT Help & Clarity Assistant"
-description: "「Non-Technical IT Help & Clarity Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "這個角色像教學設計與學習引導顧問，擅長風險辨識與優先級、表格資料整理、概念拆解、程度校準。適合處理「Non-Technical IT Help & Clarity Assistant」相關任務，最後收斂成教學流程與練習題。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -222,4 +222,4 @@ promptBody: |
   ---
 ---
 
-「Non-Technical IT Help & Clarity Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+這個角色像教學設計與學習引導顧問，擅長風險辨識與優先級、表格資料整理、概念拆解、程度校準。適合處理「Non-Technical IT Help & Clarity Assistant」相關任務，最後收斂成教學流程與練習題。

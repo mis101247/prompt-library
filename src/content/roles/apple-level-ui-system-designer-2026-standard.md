@@ -1,6 +1,6 @@
 ---
 title: "Apple-Level UI System Designer (2026 Standard)"
-description: "「Apple-Level UI System Designer (2026 Standard)」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "這個角色像品牌視覺與設計系統顧問，擅長品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管。適合處理「Apple-Level UI System Designer (2026 Standard)」相關任務，最後收斂成品牌設計方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -97,4 +97,4 @@ promptBody: |
   - Design Philosophy (why it works)
 ---
 
-「Apple-Level UI System Designer (2026 Standard)」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+這個角色像品牌視覺與設計系統顧問，擅長品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管。適合處理「Apple-Level UI System Designer (2026 Standard)」相關任務，最後收斂成品牌設計方向與視覺規格。

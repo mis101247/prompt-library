@@ -1,6 +1,6 @@
 ---
 title: "AI Process Feasibility Interview"
-description: "「AI Process Feasibility Interview」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+description: "「AI Process Feasibility Interview」適合由營運流程與專案管理顧問處理；所需能力包括風險辨識與優先級、面試策略與回答校準、流程拆解、資源協調，能將團隊目標、流程或交付限制轉成專案計畫與 SOP。"
 category: "法務與合規"
 tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
@@ -221,4 +221,4 @@ promptBody: |
   - Strengthened real-time freshness consideration in evaluation criteria
 ---
 
-「AI Process Feasibility Interview」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。
+「AI Process Feasibility Interview」適合由營運流程與專案管理顧問處理；所需能力包括風險辨識與優先級、面試策略與回答校準、流程拆解、資源協調，能將團隊目標、流程或交付限制轉成專案計畫與 SOP。

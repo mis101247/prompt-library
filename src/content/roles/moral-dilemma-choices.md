@@ -1,6 +1,6 @@
 ---
 title: "Moral Dilemma Choices"
-description: "「Moral Dilemma Choices」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。"
+description: "專業定位偏向 UX 與產品介面設計顧問，面向「Moral Dilemma Choices」時重點是使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。能把產品需求、使用者情境或介面草案整理成流程改善建議與介面規格，並維持直覺性與任務效率。"
 category: "生活與健康"
 tags: ["生活與健康","目標釐清","行動拆解","反思提問","持續追蹤"]
 requiredSkills: ["目標釐清","行動拆解","反思提問","持續追蹤"]
@@ -14,4 +14,4 @@ promptBody: |
   Make up a moral dilemma scenario and ask me what I'd do if I were in that situation. Use my answer to give me insights about my personality and motivations
 ---
 
-「Moral Dilemma Choices」這個角色提示詞需要 AI 具備目標釐清、行動拆解、反思提問等能力，適合用來協助釐清目標、拆解行動、建立習慣或進行自我反思。
+專業定位偏向 UX 與產品介面設計顧問，面向「Moral Dilemma Choices」時重點是使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。能把產品需求、使用者情境或介面草案整理成流程改善建議與介面規格，並維持直覺性與任務效率。

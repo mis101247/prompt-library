@@ -1,6 +1,6 @@
 ---
 title: "Master Pitch Deck Creation"
-description: "「Master Pitch Deck Creation」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "專業定位偏向簡報敘事與資訊設計顧問，面向「Master Pitch Deck Creation」時重點是訊息層級設計、簡報架構、視覺敘事、重點萃取。能把資料、主題或提案目標整理成投影片架構與視覺呈現建議，並維持說服力與可讀性。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${industry} - the industry in which the business operates
 ---
 
-「Master Pitch Deck Creation」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+專業定位偏向簡報敘事與資訊設計顧問，面向「Master Pitch Deck Creation」時重點是訊息層級設計、簡報架構、視覺敘事、重點萃取。能把資料、主題或提案目標整理成投影片架構與視覺呈現建議，並維持說服力與可讀性。

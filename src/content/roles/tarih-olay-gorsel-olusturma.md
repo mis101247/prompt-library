@@ -1,6 +1,6 @@
 ---
 title: "Tarih-olay- Görsel oluşturma"
-description: "「Tarih-olay- Görsel oluşturma」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "以營運流程與專案管理顧問來看，「Tarih-olay- Görsel oluşturma」要求 AI 掌握流程拆解、資源協調、風險控管、執行節奏設計，並將團隊目標、流程或交付限制轉化為專案計畫與 SOP。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -38,4 +38,4 @@ promptBody: |
   }
 ---
 
-「Tarih-olay- Görsel oluşturma」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+以營運流程與專案管理顧問來看，「Tarih-olay- Görsel oluşturma」要求 AI 掌握流程拆解、資源協調、風險控管、執行節奏設計，並將團隊目標、流程或交付限制轉化為專案計畫與 SOP。

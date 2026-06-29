@@ -1,6 +1,6 @@
 ---
 title: "Boost Engagement in Artistic Telegram Channels"
-description: "「Boost Engagement in Artistic Telegram Channels」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Boost Engagement in Artistic Telegram Channels」適合由視覺創作與藝術企劃顧問處理；所需能力包括創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，能將藝術主題、風格目標或創作素材轉成創作方向與視覺規格。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -26,4 +26,4 @@ promptBody: |
   - Focus on creating genuine connections and lively discussions.
 ---
 
-「Boost Engagement in Artistic Telegram Channels」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Boost Engagement in Artistic Telegram Channels」適合由視覺創作與藝術企劃顧問處理；所需能力包括創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，能將藝術主題、風格目標或創作素材轉成創作方向與視覺規格。

@@ -1,6 +1,6 @@
 ---
 title: "Corporate Intel Report"
-description: "「Corporate Intel Report」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「Corporate Intel Report」適合由財務分析與投資決策顧問處理；所需能力包括風險辨識與優先級、隱私與合規邊界、財務模型判讀、風險報酬分析，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -47,4 +47,4 @@ promptBody: |
   Before finalizing, cross-reference the "Market Reputation" section with "Financial Health." Does the public image match the fiscal reality? If there is a discrepancy, highlight it as a "Strategic Dissonance."
 ---
 
-「Corporate Intel Report」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「Corporate Intel Report」適合由財務分析與投資決策顧問處理；所需能力包括風險辨識與優先級、隱私與合規邊界、財務模型判讀、風險報酬分析，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。

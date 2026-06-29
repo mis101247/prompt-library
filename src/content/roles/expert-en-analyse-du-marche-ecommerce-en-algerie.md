@@ -1,6 +1,6 @@
 ---
 title: "Expert en Analyse du Marché eCommerce en Algérie"
-description: "「Expert en Analyse du Marché eCommerce en Algérie」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「Expert en Analyse du Marché eCommerce en Al...」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握資料理解、指標設計、洞察萃取、視覺化判斷，交付分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -25,4 +25,4 @@ promptBody: |
   - Provide actionable insights and recommendations
 ---
 
-「Expert en Analyse du Marché eCommerce en Algérie」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「Expert en Analyse du Marché eCommerce en Al...」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握資料理解、指標設計、洞察萃取、視覺化判斷，交付分析摘要與指標解讀。

@@ -1,6 +1,6 @@
 ---
 title: "security fixes cves"
-description: "「security fixes cves」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "能力簡歷：針對「security fixes cves」的資安風險與防護策略顧問。需熟悉風險辨識與優先級、履歷定位與成果敘事、威脅建模、攻擊面分析，從系統、資料流或安全情境抓出重點，產出風險清單與防護建議。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -26,4 +26,4 @@ promptBody: |
   Engineers focused on validation, architectural decisions, and risk governance while AI accelerated implementation velocity.
 ---
 
-「security fixes cves」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+能力簡歷：針對「security fixes cves」的資安風險與防護策略顧問。需熟悉風險辨識與優先級、履歷定位與成果敘事、威脅建模、攻擊面分析，從系統、資料流或安全情境抓出重點，產出風險清單與防護建議。

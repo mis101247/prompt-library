@@ -1,6 +1,6 @@
 ---
 title: "Analogy Generator"
-description: "「Analogy Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Analogy Generator」的能力側重於日常場景與環境細節、面試策略與回答校準、API 設計、資料模型判斷。它應以後端系統與資料架構顧問角度判讀資料需求、服務流程或系統限制，再提供架構建議與資料流程。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -104,4 +104,4 @@ promptBody: |
   3. **GPT-3.5 / Smaller Models** (May miss "Where it Breaks" nuance)
 ---
 
-「Analogy Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Analogy Generator」的能力側重於日常場景與環境細節、面試策略與回答校準、API 設計、資料模型判斷。它應以後端系統與資料架構顧問角度判讀資料需求、服務流程或系統限制，再提供架構建議與資料流程。

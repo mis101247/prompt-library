@@ -1,6 +1,6 @@
 ---
 title: "Game design"
-description: "「Game design」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "「Game design」的能力側重於角色塑造、世界觀設定、互動規則設計、敘事節奏控制。它應以互動敘事與遊戲內容設計顧問角度判讀角色、場景或遊戲目標，再提供角色回應與劇情節點。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -22,4 +22,4 @@ promptBody: |
   ​Scalability: How to add new content to this system in the next 2 years without breaking balance."
 ---
 
-「Game design」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+「Game design」的能力側重於角色塑造、世界觀設定、互動規則設計、敘事節奏控制。它應以互動敘事與遊戲內容設計顧問角度判讀角色、場景或遊戲目標，再提供角色回應與劇情節點。

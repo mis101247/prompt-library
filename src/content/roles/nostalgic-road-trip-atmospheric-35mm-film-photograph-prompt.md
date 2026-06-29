@@ -1,6 +1,6 @@
 ---
 title: "Nostalgic Road Trip - Atmospheric 35mm Film Photograph Prompt"
-description: "「Nostalgic Road Trip - Atmospheric 35mm Film Photograph Prompt」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "「Nostalgic Road Trip - Atmospheric 35mm Film...」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，交付可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -88,4 +88,4 @@ promptBody: |
   }
 ---
 
-「Nostalgic Road Trip - Atmospheric 35mm Film Photograph Prompt」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+「Nostalgic Road Trip - Atmospheric 35mm Film...」的核心不是泛用回覆，而是讓 AI 以影像生成美術指導身份掌握視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，交付可直接生成的影像規格與品質控制指令。

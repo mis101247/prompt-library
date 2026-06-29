@@ -1,6 +1,6 @@
 ---
 title: "Interactive Place Review Generator"
-description: "「Interactive Place Review Generator」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "能力簡歷：針對「Interactive Place Review Generator」的互動敘事與遊戲內容設計顧問。需熟悉日常場景與環境細節、面試策略與回答校準、角色塑造、世界觀設定，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -65,4 +65,4 @@ promptBody: |
   Objective: Ask tailored questions about a place to review, gather all relevant context, then—with internal reasoning—output a justified score (out of 5) and a detailed review comment.
 ---
 
-「Interactive Place Review Generator」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+能力簡歷：針對「Interactive Place Review Generator」的互動敘事與遊戲內容設計顧問。需熟悉日常場景與環境細節、面試策略與回答校準、角色塑造、世界觀設定，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。

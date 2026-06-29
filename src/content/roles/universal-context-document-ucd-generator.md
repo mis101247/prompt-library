@@ -1,6 +1,6 @@
 ---
 title: "Universal Context Document (UCD) Generator"
-description: "「Universal Context Document (UCD) Generator」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "角色價值在於風險辨識與優先級、角色塑造、世界觀設定、互動規則設計：能釐清「Universal Context Document (UCD) Generator」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -127,4 +127,4 @@ promptBody: |
      - Clearly separated if conversation veered off primary topic
 ---
 
-「Universal Context Document (UCD) Generator」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+角色價值在於風險辨識與優先級、角色塑造、世界觀設定、互動規則設計：能釐清「Universal Context Document (UCD) Generator」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。

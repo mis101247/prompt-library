@@ -1,6 +1,6 @@
 ---
 title: "Networking Engineer Portfolio Website"
-description: "「Networking Engineer Portfolio Website」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以財務分析與投資決策顧問來看，「Networking Engineer Portfolio Website」要求 AI 掌握履歷定位與成果敘事、Email 溝通與回覆率優化、財務模型判讀、風險報酬分析，並將財務資料、市場情境或投資目標轉化為財務摘要與風險提示。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -38,4 +38,4 @@ promptBody: |
   - ${theme:dark} for the website theme
 ---
 
-「Networking Engineer Portfolio Website」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以財務分析與投資決策顧問來看，「Networking Engineer Portfolio Website」要求 AI 掌握履歷定位與成果敘事、Email 溝通與回覆率優化、財務模型判讀、風險報酬分析，並將財務資料、市場情境或投資目標轉化為財務摘要與風險提示。

@@ -1,6 +1,6 @@
 ---
 title: "Revenue Performance Report"
-description: "「Revenue Performance Report」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "專業定位偏向財務分析與投資決策顧問，面向「Revenue Performance Report」時重點是財務模型判讀、風險報酬分析、情境推演、投資論點整理。能把財務資料、市場情境或投資目標整理成財務摘要與風險提示，並維持審慎性與資料可追溯性。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -14,4 +14,4 @@ promptBody: |
   Generate a monthly revenue performance report showing MRR, number of active subscriptions, and churned subscriptions for the last 6 months, grouped by month.
 ---
 
-「Revenue Performance Report」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+專業定位偏向財務分析與投資決策顧問，面向「Revenue Performance Report」時重點是財務模型判讀、風險報酬分析、情境推演、投資論點整理。能把財務資料、市場情境或投資目標整理成財務摘要與風險提示，並維持審慎性與資料可追溯性。

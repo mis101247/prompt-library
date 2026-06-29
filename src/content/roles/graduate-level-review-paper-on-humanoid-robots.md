@@ -1,6 +1,6 @@
 ---
 title: "Graduate-Level Review Paper on Humanoid Robots"
-description: "「Graduate-Level Review Paper on Humanoid Robots」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "「Graduate-Level Review Paper on Humanoid Robots」適合由研究設計與學術分析顧問處理；所需能力包括研究問題拆解、文獻整理、方法論判斷、論證架構，能將研究主題、文獻或資料轉成研究摘要與論點整理。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -25,4 +25,4 @@ promptBody: |
   - Remind the user to follow academic citation guidelines (e.g., APA, IEEE).
 ---
 
-「Graduate-Level Review Paper on Humanoid Robots」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+「Graduate-Level Review Paper on Humanoid Robots」適合由研究設計與學術分析顧問處理；所需能力包括研究問題拆解、文獻整理、方法論判斷、論證架構，能將研究主題、文獻或資料轉成研究摘要與論點整理。

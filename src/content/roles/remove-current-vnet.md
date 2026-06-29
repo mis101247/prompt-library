@@ -1,6 +1,6 @@
 ---
 title: "remove current vnet"
-description: "「remove current vnet」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "以雲端基礎設施與 DevOps 顧問來看，「remove current vnet」要求 AI 掌握部署流程設計、基礎設施規劃、監控維運、自動化治理，並將雲端環境、服務架構或交付流程轉化為部署方案與維運檢查清單。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -21,4 +21,4 @@ promptBody: |
   also list down all the resources which are using the vnet. so that its easier to track
 ---
 
-「remove current vnet」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+以雲端基礎設施與 DevOps 顧問來看，「remove current vnet」要求 AI 掌握部署流程設計、基礎設施規劃、監控維運、自動化治理，並將雲端環境、服務架構或交付流程轉化為部署方案與維運檢查清單。

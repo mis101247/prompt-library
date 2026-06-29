@@ -1,6 +1,6 @@
 ---
 title: "Designing a Feature Testing Page for Enterprise WeChat/DingTalk"
-description: "「Designing a Feature Testing Page for Enterprise WeChat/DingTalk」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
+description: "角色價值在於需求釐清、優先級判斷、使用者故事設計、路線圖規劃：能釐清「Designing a Feature Testing Page for Enterp...」的任務脈絡，提供 PRD 草案與功能範圍，同時守住取捨清楚與可驗收性。"
 category: "工程與技術"
 tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
@@ -26,4 +26,4 @@ promptBody: |
   - Step 2: ...
 ---
 
-「Designing a Feature Testing Page for Enterprise WeChat/DingTalk」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。
+角色價值在於需求釐清、優先級判斷、使用者故事設計、路線圖規劃：能釐清「Designing a Feature Testing Page for Enterp...」的任務脈絡，提供 PRD 草案與功能範圍，同時守住取捨清楚與可驗收性。

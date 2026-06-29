@@ -1,6 +1,6 @@
 ---
 title: "Ultra Realistic Candid Photo of a Turkish Woman in Istanbul Café"
-description: "「Ultra Realistic Candid Photo of a Turkish Woman in Istanbul Café」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "這個角色像影像生成美術指導，擅長手機抓拍與自然構圖、日常場景與環境細節、視覺提示詞撰寫、構圖與鏡頭語言。適合處理「Ultra Realistic Candid Photo of a Turkish W...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -24,4 +24,4 @@ promptBody: |
   photo looks clearly like a normal amateur iPhone picture: slight digital noise in darker areas, a little motion blur on someone walking behind her, edges not perfectly sharp, no professional bokeh, unedited colors, casual sexy vibe in a real everyday Turkish environment
 ---
 
-「Ultra Realistic Candid Photo of a Turkish Woman in Istanbul Café」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+這個角色像影像生成美術指導，擅長手機抓拍與自然構圖、日常場景與環境細節、視覺提示詞撰寫、構圖與鏡頭語言。適合處理「Ultra Realistic Candid Photo of a Turkish W...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。

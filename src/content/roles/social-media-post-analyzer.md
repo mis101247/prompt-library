@@ -1,6 +1,6 @@
 ---
 title: "Social Media Post Analyzer"
-description: "「Social Media Post Analyzer」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「Social Media Post Analyzer」適合由行銷成長與市場溝通顧問處理；所需能力包括社群內容節奏、受眾定位、價值主張設計、轉換路徑規劃，能將產品、客群與市場目標轉成行銷文案與活動策略。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -56,4 +56,4 @@ promptBody: |
   - Provide clear citations and references for all data and claims.
 ---
 
-「Social Media Post Analyzer」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「Social Media Post Analyzer」適合由行銷成長與市場溝通顧問處理；所需能力包括社群內容節奏、受眾定位、價值主張設計、轉換路徑規劃，能將產品、客群與市場目標轉成行銷文案與活動策略。

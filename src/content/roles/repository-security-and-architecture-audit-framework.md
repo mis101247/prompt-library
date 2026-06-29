@@ -1,6 +1,6 @@
 ---
 title: "Repository Security & Architecture Audit Framework"
-description: "「Repository Security & Architecture Audit Framework」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "專業定位偏向資安風險與防護策略顧問，面向「Repository Security & Architecture Audit Fr...」時重點是風險辨識與優先級、檢查清單化輸出、威脅建模、攻擊面分析。能把系統、資料流或安全情境整理成風險清單與防護建議，並維持風險可解釋性與防護落地性。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -154,4 +154,4 @@ promptBody: |
     - Production readiness checklist has zero unaddressed Critical items
 ---
 
-「Repository Security & Architecture Audit Framework」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+專業定位偏向資安風險與防護策略顧問，面向「Repository Security & Architecture Audit Fr...」時重點是風險辨識與優先級、檢查清單化輸出、威脅建模、攻擊面分析。能把系統、資料流或安全情境整理成風險清單與防護建議，並維持風險可解釋性與防護落地性。

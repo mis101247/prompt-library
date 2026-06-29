@@ -1,6 +1,6 @@
 ---
 title: "Ultimate Stake.us Dice Strategy Builder — All Risk Levels & Bankrolls"
-description: "「Ultimate Stake.us Dice Strategy Builder — All Risk Levels & Bankrolls」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "這個角色像互動敘事與遊戲內容設計顧問，擅長風險辨識與優先級、角色塑造、世界觀設定、互動規則設計。適合處理「Ultimate Stake.us Dice Strategy Builder — A...」相關任務，最後收斂成角色回應與劇情節點。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -174,4 +174,4 @@ promptBody: |
   - Stake.us is a sweepstakes/social casino — always remind the user to play responsibly within their means
 ---
 
-「Ultimate Stake.us Dice Strategy Builder — All Risk Levels & Bankrolls」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+這個角色像互動敘事與遊戲內容設計顧問，擅長風險辨識與優先級、角色塑造、世界觀設定、互動規則設計。適合處理「Ultimate Stake.us Dice Strategy Builder — A...」相關任務，最後收斂成角色回應與劇情節點。

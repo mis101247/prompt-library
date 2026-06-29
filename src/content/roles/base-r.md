@@ -1,6 +1,6 @@
 ---
 title: "base-R"
-description: "「base-R」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「base-R」的資料分析與洞察顧問。需熟悉手機抓拍與自然構圖、3D 場景與動態效果、資料理解、指標設計，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -1892,4 +1892,4 @@ promptBody: |
   *Made by [@iremaydas](https://github.com/iremaydas) — PhD candidate, occasional R user, full-time Googler of things I should probably know by now.*
 ---
 
-「base-R」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「base-R」的資料分析與洞察顧問。需熟悉手機抓拍與自然構圖、3D 場景與動態效果、資料理解、指標設計，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。

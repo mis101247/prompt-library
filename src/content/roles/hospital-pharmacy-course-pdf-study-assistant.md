@@ -1,6 +1,6 @@
 ---
 title: "Hospital Pharmacy Course PDF Study Assistant"
-description: "「Hospital Pharmacy Course PDF Study Assistant」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「Hospital Pharmacy Course PDF Study Assistant」的核心不是泛用回覆，而是讓 AI 以教學設計與學習引導顧問身份掌握臨床語境與照護溝通、課程路徑設計、概念拆解、程度校準，交付教學流程與練習題。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -32,4 +32,4 @@ promptBody: |
   - ${sectionFocus:General Overview} - Specific section or topic the user wants to focus on.
 ---
 
-「Hospital Pharmacy Course PDF Study Assistant」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「Hospital Pharmacy Course PDF Study Assistant」的核心不是泛用回覆，而是讓 AI 以教學設計與學習引導顧問身份掌握臨床語境與照護溝通、課程路徑設計、概念拆解、程度校準，交付教學流程與練習題。

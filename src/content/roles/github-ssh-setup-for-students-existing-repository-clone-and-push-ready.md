@@ -1,6 +1,6 @@
 ---
 title: "GitHub SSH Setup for Students (Existing Repository, Clone & Push Ready)"
-description: "「GitHub SSH Setup for Students (Existing Repository, Clone & Push Ready)」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「GitHub SSH Setup for Students (Existing Rep...」的核心不是泛用回覆，而是讓 AI 以後端系統與資料架構顧問身份掌握 API 設計、資料模型判斷、權限流程規劃、系統邊界拆解，交付架構建議與資料流程。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -64,4 +64,4 @@ promptBody: |
   All checks passed, the repository is ready for push.
 ---
 
-「GitHub SSH Setup for Students (Existing Repository, Clone & Push Ready)」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「GitHub SSH Setup for Students (Existing Rep...」的核心不是泛用回覆，而是讓 AI 以後端系統與資料架構顧問身份掌握 API 設計、資料模型判斷、權限流程規劃、系統邊界拆解，交付架構建議與資料流程。

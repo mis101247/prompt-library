@@ -1,6 +1,6 @@
 ---
 title: "Guía para Diseñar y Vender un Libro en Hotmart"
-description: "「Guía para Diseñar y Vender un Libro en Hotmart」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "角色價值在於受眾定位、價值主張設計、轉換路徑規劃、訊息測試：能釐清「Guía para Diseñar y Vender un Libro en Hotmart」的任務脈絡，提供行銷文案與活動策略，同時守住說服力與可衡量性。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${priceRange} - Suggested price range for the book.
 ---
 
-「Guía para Diseñar y Vender un Libro en Hotmart」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+角色價值在於受眾定位、價值主張設計、轉換路徑規劃、訊息測試：能釐清「Guía para Diseñar y Vender un Libro en Hotmart」的任務脈絡，提供行銷文案與活動策略，同時守住說服力與可衡量性。

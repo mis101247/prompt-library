@@ -1,6 +1,6 @@
 ---
 title: "Cozy Night in Ankara: A Turkish TV Series Snapshot"
-description: "「Cozy Night in Ankara: A Turkish TV Series Snapshot」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "專業定位偏向影像生成美術指導，面向「Cozy Night in Ankara: A Turkish TV Series S...」時重點是視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -20,4 +20,4 @@ promptBody: |
   The mood is cozy and a bit messy: cables visible, cushions not perfectly arranged, a plate with leftover börek on the coffee table. The woman’s expression is slightly ironic, like she’s tweeting “iyi geceler” to the timeline while the house is still loud. The camera angle is low and a bit crooked, as if someone took it quickly while standing in the doorway. Slight motion blur on one auntie gesturing toward the TV, natural skin texture and small imperfections on everyone, no beauty retouching. Colors are warm and natural, with visible digital noise in the darker corners to keep the phone-photo feeling.
 ---
 
-「Cozy Night in Ankara: A Turkish TV Series Snapshot」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+專業定位偏向影像生成美術指導，面向「Cozy Night in Ankara: A Turkish TV Series S...」時重點是視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。

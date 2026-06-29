@@ -1,6 +1,6 @@
 ---
 title: "studying for exam"
-description: "「studying for exam」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「studying for exam」的核心不是泛用回覆，而是讓 AI 以教學設計與學習引導顧問身份掌握測驗與複習設計、概念拆解、程度校準、練習設計，交付教學流程與練習題。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -16,4 +16,4 @@ promptBody: |
   If you are not able to view the text book try to find a different version you can view. The chapters this will be covering are 1 to 6. The subjects for this exam are Security Fundamentals, cryptographic tools, internet security protocol and standards, User authentication, access controls, database security, and malicious software. I believe the easy question on the exam is about how a client connects to a server, so try to go into detail about that.
 ---
 
-「studying for exam」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「studying for exam」的核心不是泛用回覆，而是讓 AI 以教學設計與學習引導顧問身份掌握測驗與複習設計、概念拆解、程度校準、練習設計，交付教學流程與練習題。

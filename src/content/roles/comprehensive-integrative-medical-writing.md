@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Integrative Medical Writing"
-description: "「Comprehensive Integrative Medical Writing」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。"
+description: "「Comprehensive Integrative Medical Writing」的核心不是泛用回覆，而是讓 AI 以健康資訊與照護溝通顧問身份掌握風險辨識與優先級、臨床語境與照護溝通、症狀資訊整理、風險提醒，交付健康資訊摘要與就醫溝通準備。"
 category: "生活與健康"
 tags: ["生活與健康","健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
 requiredSkills: ["健康資訊整理","風險提醒","計畫設計","非診斷式建議"]
@@ -43,4 +43,4 @@ promptBody: |
   Take a deep breath and work on this problem step-by-step.
 ---
 
-「Comprehensive Integrative Medical Writing」這個角色提示詞需要 AI 具備健康資訊整理、風險提醒、計畫設計等能力，適合用來整理健康、飲食、運動或生活規劃資訊，提供可追蹤但不取代專業診斷的建議。
+「Comprehensive Integrative Medical Writing」的核心不是泛用回覆，而是讓 AI 以健康資訊與照護溝通顧問身份掌握風險辨識與優先級、臨床語境與照護溝通、症狀資訊整理、風險提醒，交付健康資訊摘要與就醫溝通準備。

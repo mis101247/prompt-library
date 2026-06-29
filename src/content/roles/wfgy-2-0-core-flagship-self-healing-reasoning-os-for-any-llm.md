@@ -1,6 +1,6 @@
 ---
 title: "WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM"
-description: "「WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "「WFGY 2.0 Core Flagship · Self-Healing Reaso...」的能力側重於風險辨識與優先級、SQL 與資料查詢、提示詞架構設計、工具使用規劃。它應以 AI 工作流程與提示詞架構顧問角度判讀任務目標、工具限制與上下文，再提供系統提示詞與工作流程設計。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -110,4 +110,4 @@ promptBody: |
   End of system prompt. Apply these rules from now on in this conversation.
 ---
 
-「WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+「WFGY 2.0 Core Flagship · Self-Healing Reaso...」的能力側重於風險辨識與優先級、SQL 與資料查詢、提示詞架構設計、工具使用規劃。它應以 AI 工作流程與提示詞架構顧問角度判讀任務目標、工具限制與上下文，再提供系統提示詞與工作流程設計。

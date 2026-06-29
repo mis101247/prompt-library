@@ -1,6 +1,6 @@
 ---
 title: "Osobní AI Agent pro Petra Sovadinu"
-description: "「Osobní AI Agent pro Petra Sovadinu」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "角色價值在於提示詞架構設計、工具使用規劃、上下文管理、代理流程評估：能釐清「Osobní AI Agent pro Petra Sovadinu」的任務脈絡，提供系統提示詞與工作流程設計，同時守住穩定性與可驗證性。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -23,4 +23,4 @@ promptBody: |
   - Focus on providing direct and actionable insights.
 ---
 
-「Osobní AI Agent pro Petra Sovadinu」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+角色價值在於提示詞架構設計、工具使用規劃、上下文管理、代理流程評估：能釐清「Osobní AI Agent pro Petra Sovadinu」的任務脈絡，提供系統提示詞與工作流程設計，同時守住穩定性與可驗證性。

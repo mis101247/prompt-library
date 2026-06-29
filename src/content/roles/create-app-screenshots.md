@@ -1,6 +1,6 @@
 ---
 title: "create app screenshots"
-description: "「create app screenshots」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "能力簡歷：針對「create app screenshots」的影像生成美術指導。需熟悉人物姿態與肖像質感、隱私與合規邊界、視覺提示詞撰寫、構圖與鏡頭語言，從人物、場景、道具與風格目標抓出重點，產出可直接生成的影像規格與品質控制指令。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -195,4 +195,4 @@ promptBody: |
   - Continue from previous state on each "next"
 ---
 
-「create app screenshots」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+能力簡歷：針對「create app screenshots」的影像生成美術指導。需熟悉人物姿態與肖像質感、隱私與合規邊界、視覺提示詞撰寫、構圖與鏡頭語言，從人物、場景、道具與風格目標抓出重點，產出可直接生成的影像規格與品質控制指令。

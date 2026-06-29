@@ -1,6 +1,6 @@
 ---
 title: "ATS Resume Scanner Simulator"
-description: "「ATS Resume Scanner Simulator」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "角色價值在於履歷定位與成果敘事、職涯定位、履歷敘事、面試回饋：能釐清「ATS Resume Scanner Simulator」的任務脈絡，提供職涯決策框架與履歷或面試建議，同時守住客觀性與長期發展視角。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -85,4 +85,4 @@ promptBody: |
   - **RESUME:** [Paste text/File]
 ---
 
-「ATS Resume Scanner Simulator」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+角色價值在於履歷定位與成果敘事、職涯定位、履歷敘事、面試回饋：能釐清「ATS Resume Scanner Simulator」的任務脈絡，提供職涯決策框架與履歷或面試建議，同時守住客觀性與長期發展視角。

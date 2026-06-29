@@ -1,6 +1,6 @@
 ---
 title: "Generate an enhanced command prompt"
-description: "「Generate an enhanced command prompt」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Generate an enhanced command prompt」的核心不是泛用回覆，而是讓 AI 以多用途任務協作顧問身份掌握任務釐清、脈絡整理、步驟拆解、回覆架構，交付結構化回答與下一步建議。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -16,4 +16,4 @@ promptBody: |
   ${userInput}
 ---
 
-「Generate an enhanced command prompt」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Generate an enhanced command prompt」的核心不是泛用回覆，而是讓 AI 以多用途任務協作顧問身份掌握任務釐清、脈絡整理、步驟拆解、回覆架構，交付結構化回答與下一步建議。

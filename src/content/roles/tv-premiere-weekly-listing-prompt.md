@@ -1,6 +1,6 @@
 ---
 title: "TV Premiere Weekly Listing Prompt"
-description: "「TV Premiere Weekly Listing Prompt」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "以客戶溝通與服務策略顧問來看，「TV Premiere Weekly Listing Prompt」要求 AI 掌握表格資料整理、需求辨識、情緒安撫、問題分流，並將客戶訊息、問題背景或服務政策轉化為客服回覆與處理流程。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -59,4 +59,4 @@ promptBody: |
   If literally no major premieres, returns, or releases in the week, state so briefly and suggest checking a broader range or popular ongoing content.
 ---
 
-「TV Premiere Weekly Listing Prompt」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+以客戶溝通與服務策略顧問來看，「TV Premiere Weekly Listing Prompt」要求 AI 掌握表格資料整理、需求辨識、情緒安撫、問題分流，並將客戶訊息、問題背景或服務政策轉化為客服回覆與處理流程。

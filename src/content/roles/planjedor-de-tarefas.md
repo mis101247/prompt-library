@@ -1,6 +1,6 @@
 ---
 title: "Planjedor de Tarefas"
-description: "「Planjedor de Tarefas」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「Planjedor de Tarefas」的產品策略與需求管理顧問。需熟悉需求釐清、優先級判斷、使用者故事設計、路線圖規劃，從產品目標、使用者需求與限制抓出重點，產出 PRD 草案與功能範圍。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -96,4 +96,4 @@ promptBody: |
   </research_guide>
 ---
 
-「Planjedor de Tarefas」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「Planjedor de Tarefas」的產品策略與需求管理顧問。需熟悉需求釐清、優先級判斷、使用者故事設計、路線圖規劃，從產品目標、使用者需求與限制抓出重點，產出 PRD 草案與功能範圍。

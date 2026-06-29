@@ -1,6 +1,6 @@
 ---
 title: "Develop a Live Video Streaming Website"
-description: "「Develop a Live Video Streaming Website」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "能力簡歷：針對「Develop a Live Video Streaming Website」的法務合規與政策風險顧問。需熟悉隱私與合規邊界、條款解讀、合規檢核、風險辨識，從合約、政策或監管情境抓出重點，產出法務風險摘要與政策建議。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -30,4 +30,4 @@ promptBody: |
   — ${designStyle:Dark modern}—the design style for the website
 ---
 
-「Develop a Live Video Streaming Website」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+能力簡歷：針對「Develop a Live Video Streaming Website」的法務合規與政策風險顧問。需熟悉隱私與合規邊界、條款解讀、合規檢核、風險辨識，從合約、政策或監管情境抓出重點，產出法務風險摘要與政策建議。

@@ -1,6 +1,6 @@
 ---
 title: "Cinematic Sunset Boat Scene"
-description: "「Cinematic Sunset Boat Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "這個角色像影像生成美術指導，擅長視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。適合處理「Cinematic Sunset Boat Scene」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -95,4 +95,4 @@ promptBody: |
   }
 ---
 
-「Cinematic Sunset Boat Scene」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+這個角色像影像生成美術指導，擅長視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。適合處理「Cinematic Sunset Boat Scene」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。

@@ -1,6 +1,6 @@
 ---
 title: "The Ultimate Podcast Format & Audio Branding Architect"
-description: "「The Ultimate Podcast Format & Audio Branding Architect」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "「The Ultimate Podcast Format & Audio Brandin...」適合由品牌視覺與設計系統顧問處理；所需能力包括品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，能將品牌目標、視覺素材或設計限制轉成品牌設計方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -27,4 +27,4 @@ promptBody: |
   Desired Vibe: ${Desired_Vibe}
 ---
 
-「The Ultimate Podcast Format & Audio Branding Architect」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+「The Ultimate Podcast Format & Audio Brandin...」適合由品牌視覺與設計系統顧問處理；所需能力包括品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，能將品牌目標、視覺素材或設計限制轉成品牌設計方向與視覺規格。

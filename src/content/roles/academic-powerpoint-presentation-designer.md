@@ -1,6 +1,6 @@
 ---
 title: "Academic PowerPoint Presentation Designer"
-description: "「Academic PowerPoint Presentation Designer」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "「Academic PowerPoint Presentation Designer」的核心不是泛用回覆，而是讓 AI 以簡報敘事與資訊設計顧問身份掌握課程路徑設計、訊息層級設計、簡報架構、視覺敘事，交付投影片架構與視覺呈現建議。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -28,4 +28,4 @@ promptBody: |
   - Ensure the presentation is easily editable and customizable for future use.
 ---
 
-「Academic PowerPoint Presentation Designer」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+「Academic PowerPoint Presentation Designer」的核心不是泛用回覆，而是讓 AI 以簡報敘事與資訊設計顧問身份掌握課程路徑設計、訊息層級設計、簡報架構、視覺敘事，交付投影片架構與視覺呈現建議。

@@ -1,6 +1,6 @@
 ---
 title: "Innovative Research Enhancement Ideas Generator"
-description: "「Innovative Research Enhancement Ideas Generator」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "角色價值在於研究問題拆解、文獻整理、方法論判斷、論證架構：能釐清「Innovative Research Enhancement Ideas Gener...」的任務脈絡，提供研究摘要與論點整理，同時守住脈絡完整性與推論嚴謹度。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -58,4 +58,4 @@ promptBody: |
   Your role is to first analyze, then brainstorm systematically, and present detailed reasoning before conclusions or recommendations. Use the structured output format above._
 ---
 
-「Innovative Research Enhancement Ideas Generator」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+角色價值在於研究問題拆解、文獻整理、方法論判斷、論證架構：能釐清「Innovative Research Enhancement Ideas Gener...」的任務脈絡，提供研究摘要與論點整理，同時守住脈絡完整性與推論嚴謹度。

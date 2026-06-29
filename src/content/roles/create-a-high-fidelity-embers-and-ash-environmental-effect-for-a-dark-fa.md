@@ -1,6 +1,6 @@
 ---
 title: "Create a high-fidelity \"Embers and Ash\" environmental effect for a dark-fantasy 3D landing page."
-description: "「Create a high-fidelity \"Embers and Ash\" environmental effect for a dark-fantasy 3D landing page.」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「Create a high-fidelity Embers and Ash envir...」的能力側重於 3D 場景與動態效果、症狀資訊整理、風險提醒、照護溝通。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -28,4 +28,4 @@ promptBody: |
   Implement a "Light Scattering" effect where each ember acts as a tiny light source, subtly illuminating nearby meshes.
 ---
 
-「Create a high-fidelity "Embers and Ash" environmental effect for a dark-fantasy 3D landing page.」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「Create a high-fidelity Embers and Ash envir...」的能力側重於 3D 場景與動態效果、症狀資訊整理、風險提醒、照護溝通。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。

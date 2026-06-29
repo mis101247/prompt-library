@@ -1,6 +1,6 @@
 ---
 title: "Web App for Task Management and Scheduling"
-description: "「Web App for Task Management and Scheduling」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "角色價值在於介面架構設計、響應式版面判斷、互動細節控管、可用性改善：能釐清「Web App for Task Management and Scheduling」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -31,4 +31,4 @@ promptBody: |
   - Follow best practices in code organization and documentation.
 ---
 
-「Web App for Task Management and Scheduling」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+角色價值在於介面架構設計、響應式版面判斷、互動細節控管、可用性改善：能釐清「Web App for Task Management and Scheduling」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。

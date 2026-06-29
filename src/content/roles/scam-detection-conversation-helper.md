@@ -1,6 +1,6 @@
 ---
 title: "Scam Detection Conversation Helper"
-description: "「Scam Detection Conversation Helper」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「Scam Detection Conversation Helper」的能力側重於 Email 溝通與回覆率優化、概念拆解、程度校準、練習設計。它應以教學設計與學習引導顧問角度判讀學習目標、教材或學生程度，再提供教學流程與練習題。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -78,4 +78,4 @@ promptBody: |
   [END OF INSTRUCTIONS - START CONVERSATION NOW]
 ---
 
-「Scam Detection Conversation Helper」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「Scam Detection Conversation Helper」的能力側重於 Email 溝通與回覆率優化、概念拆解、程度校準、練習設計。它應以教學設計與學習引導顧問角度判讀學習目標、教材或學生程度，再提供教學流程與練習題。

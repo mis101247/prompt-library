@@ -1,6 +1,6 @@
 ---
 title: "Sentence Expansion and Completion Assistant"
-description: "「Sentence Expansion and Completion Assistant」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Sentence Expansion and Completion Assistant」適合由翻譯在地化與語氣轉譯顧問處理；所需能力包括語意判讀、術語一致性、文化脈絡轉譯、語氣調整，能將原文、目標語言與使用場景轉成翻譯稿與在地化改寫。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -25,4 +25,4 @@ promptBody: |
   - Use creative language while staying true to the original intent
 ---
 
-「Sentence Expansion and Completion Assistant」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Sentence Expansion and Completion Assistant」適合由翻譯在地化與語氣轉譯顧問處理；所需能力包括語意判讀、術語一致性、文化脈絡轉譯、語氣調整，能將原文、目標語言與使用場景轉成翻譯稿與在地化改寫。

@@ -1,6 +1,6 @@
 ---
 title: "Personal Financial Adviosr"
-description: "「Personal Financial Adviosr」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "角色價值在於風險辨識與優先級、財務模型判讀、風險報酬分析、情境推演：能釐清「Personal Financial Adviosr」的任務脈絡，提供財務摘要與風險提示，同時守住審慎性與資料可追溯性。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -22,4 +22,4 @@ promptBody: |
   5. Make sure to tell them /print the line in the document, "Insurance and subject to market risks, please read all the documents carefully."
 ---
 
-「Personal Financial Adviosr」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+角色價值在於風險辨識與優先級、財務模型判讀、風險報酬分析、情境推演：能釐清「Personal Financial Adviosr」的任務脈絡，提供財務摘要與風險提示，同時守住審慎性與資料可追溯性。

@@ -1,6 +1,6 @@
 ---
 title: "WebGL VFX & Fluid Interaction Specialist"
-description: "「WebGL VFX & Fluid Interaction Specialist」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「WebGL VFX & Fluid Interaction Specialist」的文字溝通與編輯顧問。需熟悉 3D 場景與動態效果、讀者定位、內容架構、語氣調整，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -29,4 +29,4 @@ promptBody: |
   Optimize the system using GPU Instanced Meshes to handle thousands of particles simultaneously without dropping frames.
 ---
 
-「WebGL VFX & Fluid Interaction Specialist」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「WebGL VFX & Fluid Interaction Specialist」的文字溝通與編輯顧問。需熟悉 3D 場景與動態效果、讀者定位、內容架構、語氣調整，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。

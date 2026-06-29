@@ -1,6 +1,6 @@
 ---
 title: "Memxus Memory - Stop repeating yourself to AI"
-description: "「Memxus Memory - Stop repeating yourself to AI」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "專業定位偏向教學設計與學習引導顧問，面向「Memxus Memory - Stop repeating yourself to AI」時重點是概念拆解、程度校準、練習設計、回饋引導。能把學習目標、教材或學生程度整理成教學流程與練習題，並維持理解友善與循序漸進。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -25,4 +25,4 @@ promptBody: |
   Your context follows you across Claude, ChatGPT, Gemini and any AI tool — automatically.
 ---
 
-「Memxus Memory - Stop repeating yourself to AI」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+專業定位偏向教學設計與學習引導顧問，面向「Memxus Memory - Stop repeating yourself to AI」時重點是概念拆解、程度校準、練習設計、回饋引導。能把學習目標、教材或學生程度整理成教學流程與練習題，並維持理解友善與循序漸進。

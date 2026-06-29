@@ -1,6 +1,6 @@
 ---
 title: "AI Search Mastery Bootcamp"
-description: "「AI Search Mastery Bootcamp」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「AI Search Mastery Bootcamp」的能力側重於角色塑造、世界觀設定、互動規則設計、敘事節奏控制。它應以互動敘事與遊戲內容設計顧問角度判讀角色、場景或遊戲目標，再提供角色回應與劇情節點。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -27,4 +27,4 @@ promptBody: |
       Contextualize: Reference conversation history explicitly
 ---
 
-「AI Search Mastery Bootcamp」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「AI Search Mastery Bootcamp」的能力側重於角色塑造、世界觀設定、互動規則設計、敘事節奏控制。它應以互動敘事與遊戲內容設計顧問角度判讀角色、場景或遊戲目標，再提供角色回應與劇情節點。

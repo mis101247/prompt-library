@@ -1,6 +1,6 @@
 ---
 title: "OSINT Threat Intelligence Analysis Workflow"
-description: "「OSINT Threat Intelligence Analysis Workflow」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "「OSINT Threat Intelligence Analysis Workflow」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握風險辨識與優先級、資料理解、指標設計、洞察萃取，交付分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -42,4 +42,4 @@ promptBody: |
   - Any unresolved ambiguity or deception risk lowers confidence
 ---
 
-「OSINT Threat Intelligence Analysis Workflow」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+「OSINT Threat Intelligence Analysis Workflow」的核心不是泛用回覆，而是讓 AI 以資料分析與洞察顧問身份掌握風險辨識與優先級、資料理解、指標設計、洞察萃取，交付分析摘要與指標解讀。

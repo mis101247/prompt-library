@@ -1,6 +1,6 @@
 ---
 title: "Step 5: Final Review"
-description: "「Step 5: Final Review」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Step 5: Final Review」適合由技術方案與實作顧問處理；所需能力包括檢查清單化輸出、需求拆解、技術設計、風險判斷，能將需求、程式碼或系統脈絡轉成技術方案與實作步驟。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -24,4 +24,4 @@ promptBody: |
   Provide a final assessment with any last recommendations.
 ---
 
-「Step 5: Final Review」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Step 5: Final Review」適合由技術方案與實作顧問處理；所需能力包括檢查清單化輸出、需求拆解、技術設計、風險判斷，能將需求、程式碼或系統脈絡轉成技術方案與實作步驟。

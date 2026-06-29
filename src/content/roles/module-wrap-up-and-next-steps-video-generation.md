@@ -1,6 +1,6 @@
 ---
 title: "Module Wrap-Up & Next Steps Video Generation"
-description: "「Module Wrap-Up & Next Steps Video Generation」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "這個角色像教學設計與學習引導顧問，擅長課程路徑設計、測驗與複習設計、概念拆解、程度校準。適合處理「Module Wrap-Up & Next Steps Video Generation」相關任務，最後收斂成教學流程與練習題。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -34,4 +34,4 @@ promptBody: |
   7. Closing remarks and encouragement to proceed to the next module.
 ---
 
-「Module Wrap-Up & Next Steps Video Generation」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+這個角色像教學設計與學習引導顧問，擅長課程路徑設計、測驗與複習設計、概念拆解、程度校準。適合處理「Module Wrap-Up & Next Steps Video Generation」相關任務，最後收斂成教學流程與練習題。

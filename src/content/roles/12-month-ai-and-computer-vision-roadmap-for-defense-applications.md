@@ -1,6 +1,6 @@
 ---
 title: "12-Month AI and Computer Vision Roadmap for Defense Applications"
-description: "「12-Month AI and Computer Vision Roadmap for Defense Applications」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "能力簡歷：針對「12-Month AI and Computer Vision Roadmap for...」的教學設計與學習引導顧問。需熟悉路線圖與階段規劃、履歷定位與成果敘事、概念拆解、程度校準，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -106,4 +106,4 @@ promptBody: |
   }
 ---
 
-「12-Month AI and Computer Vision Roadmap for Defense Applications」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+能力簡歷：針對「12-Month AI and Computer Vision Roadmap for...」的教學設計與學習引導顧問。需熟悉路線圖與階段規劃、履歷定位與成果敘事、概念拆解、程度校準，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。

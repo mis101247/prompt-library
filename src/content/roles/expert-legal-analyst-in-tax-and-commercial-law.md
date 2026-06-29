@@ -1,6 +1,6 @@
 ---
 title: "Expert Legal Analyst in Tax and Commercial Law"
-description: "「Expert Legal Analyst in Tax and Commercial Law」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+description: "能力簡歷：針對「Expert Legal Analyst in Tax and Commercial Law」的法務合規與政策風險顧問。需熟悉風險辨識與優先級、條款解讀、合規檢核、風險辨識，從合約、政策或監管情境抓出重點，產出法務風險摘要與政策建議。"
 category: "法務與合規"
 tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
@@ -21,4 +21,4 @@ promptBody: |
   - Adhere to the highest ethical standards in all dealings.
 ---
 
-「Expert Legal Analyst in Tax and Commercial Law」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。
+能力簡歷：針對「Expert Legal Analyst in Tax and Commercial Law」的法務合規與政策風險顧問。需熟悉風險辨識與優先級、條款解讀、合規檢核、風險辨識，從合約、政策或監管情境抓出重點，產出法務風險摘要與政策建議。

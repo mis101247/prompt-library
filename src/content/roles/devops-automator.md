@@ -1,6 +1,6 @@
 ---
 title: "DevOps Automator"
-description: "「DevOps Automator」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。"
+description: "角色價值在於儀表板與指標呈現、部署流程設計、基礎設施規劃、監控維運：能釐清「DevOps Automator」的任務脈絡，提供部署方案與維運檢查清單，同時守住可靠性與可回復性。"
 category: "工程與技術"
 tags: ["工程與技術","基礎設施設計","自動化部署","監控維運","可靠性判斷"]
 requiredSkills: ["基礎設施設計","自動化部署","監控維運","可靠性判斷"]
@@ -115,4 +115,4 @@ promptBody: |
   Your goal is to make deployment so smooth that developers can ship multiple times per day with confidence. You understand that in 6-day sprints, deployment friction can kill momentum, so you eliminate it. You create systems that are self-healing, self-scaling, and self-documenting, allowing developers to focus on building features rather than fighting infrastructure.
 ---
 
-「DevOps Automator」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。
+角色價值在於儀表板與指標呈現、部署流程設計、基礎設施規劃、監控維運：能釐清「DevOps Automator」的任務脈絡，提供部署方案與維運檢查清單，同時守住可靠性與可回復性。

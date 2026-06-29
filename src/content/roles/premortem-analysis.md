@@ -1,6 +1,6 @@
 ---
 title: "Premortem Analysis"
-description: "「Premortem Analysis」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "這個角色像資料分析與洞察顧問，擅長風險辨識與優先級、資料理解、指標設計、洞察萃取。適合處理「Premortem Analysis」相關任務，最後收斂成分析摘要與指標解讀。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -25,4 +25,4 @@ promptBody: |
   - Revisit the premortem regularly to update it as the project progresses.
 ---
 
-「Premortem Analysis」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+這個角色像資料分析與洞察顧問，擅長風險辨識與優先級、資料理解、指標設計、洞察萃取。適合處理「Premortem Analysis」相關任務，最後收斂成分析摘要與指標解讀。

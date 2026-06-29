@@ -1,6 +1,6 @@
 ---
 title: "Internal Linking SEO Assistant"
-description: "「Internal Linking SEO Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "專業定位偏向行銷成長與市場溝通顧問，面向「Internal Linking SEO Assistant」時重點是 SEO 與搜尋意圖、受眾定位、價值主張設計、轉換路徑規劃。能把產品、客群與市場目標整理成行銷文案與活動策略，並維持說服力與可衡量性。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -72,4 +72,4 @@ promptBody: |
   - Makes it production-ready
 ---
 
-「Internal Linking SEO Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+專業定位偏向行銷成長與市場溝通顧問，面向「Internal Linking SEO Assistant」時重點是 SEO 與搜尋意圖、受眾定位、價值主張設計、轉換路徑規劃。能把產品、客群與市場目標整理成行銷文案與活動策略，並維持說服力與可衡量性。

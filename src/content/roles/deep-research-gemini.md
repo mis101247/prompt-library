@@ -1,6 +1,6 @@
 ---
 title: "Deep Research - Gemini"
-description: "「Deep Research - Gemini」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "「Deep Research - Gemini」適合由研究設計與學術分析顧問處理；所需能力包括研究問題拆解、文獻整理、方法論判斷、論證架構，能將研究主題、文獻或資料轉成研究摘要與論點整理。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -38,4 +38,4 @@ promptBody: |
     Context about my use case: ${your_context}
 ---
 
-「Deep Research - Gemini」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+「Deep Research - Gemini」適合由研究設計與學術分析顧問處理；所需能力包括研究問題拆解、文獻整理、方法論判斷、論證架構，能將研究主題、文獻或資料轉成研究摘要與論點整理。

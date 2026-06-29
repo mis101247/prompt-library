@@ -1,6 +1,6 @@
 ---
 title: "CV Writing Assistant"
-description: "「CV Writing Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「CV Writing Assistant」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握履歷定位與成果敘事、職涯定位、履歷敘事、面試回饋，交付職涯決策框架與履歷或面試建議。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${skills} - user's skills and competencies
 ---
 
-「CV Writing Assistant」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「CV Writing Assistant」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握履歷定位與成果敘事、職涯定位、履歷敘事、面試回饋，交付職涯決策框架與履歷或面試建議。

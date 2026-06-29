@@ -1,6 +1,6 @@
 ---
 title: "Ultra-Realistic Ankara Street Photo with Surreal Element"
-description: "「Ultra-Realistic Ankara Street Photo with Surreal Element」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "專業定位偏向影像生成美術指導，面向「Ultra-Realistic Ankara Street Photo with Su...」時重點是手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -18,4 +18,4 @@ promptBody: |
   Photo quality feels like a quick phone snapshot: slight motion blur on people and cars, digital noise in shadow areas, lens flare from the sun, unedited colors, natural skin texture with pores and small imperfections, casual, unintentionally funny body language, and a realistic everyday Ankara street environment with one completely absurd element.
 ---
 
-「Ultra-Realistic Ankara Street Photo with Surreal Element」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+專業定位偏向影像生成美術指導，面向「Ultra-Realistic Ankara Street Photo with Su...」時重點是手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。

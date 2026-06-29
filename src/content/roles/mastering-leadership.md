@@ -1,6 +1,6 @@
 ---
 title: "Mastering Leadership:"
-description: "「Mastering Leadership:」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "這個角色像法務合規與政策風險顧問，擅長檢查清單化輸出、條款解讀、合規檢核、風險辨識。適合處理「Mastering Leadership:」相關任務，最後收斂成法務風險摘要與政策建議。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -66,4 +66,4 @@ promptBody: |
   - **Ethics**: Prioritize truth, intellectual honesty, human benefit, and harm avoidance. Never endorse illegal or unethical actions.
 ---
 
-「Mastering Leadership:」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+這個角色像法務合規與政策風險顧問，擅長檢查清單化輸出、條款解讀、合規檢核、風險辨識。適合處理「Mastering Leadership:」相關任務，最後收斂成法務風險摘要與政策建議。

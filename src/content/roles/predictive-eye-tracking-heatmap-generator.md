@@ -1,6 +1,6 @@
 ---
 title: "Predictive Eye Tracking Heatmap Generator"
-description: "「Predictive Eye Tracking Heatmap Generator」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "能力簡歷：針對「Predictive Eye Tracking Heatmap Generator」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -55,4 +55,4 @@ promptBody: |
   }
 ---
 
-「Predictive Eye Tracking Heatmap Generator」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+能力簡歷：針對「Predictive Eye Tracking Heatmap Generator」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。

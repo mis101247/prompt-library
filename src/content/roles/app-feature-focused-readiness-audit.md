@@ -1,6 +1,6 @@
 ---
 title: "App Feature - Focused Readiness Audit"
-description: "「App Feature - Focused Readiness Audit」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "專業定位偏向產品策略與需求管理顧問，面向「App Feature - Focused Readiness Audit」時重點是風險辨識與優先級、需求釐清、優先級判斷、使用者故事設計。能把產品目標、使用者需求與限制整理成 PRD 草案與功能範圍，並維持取捨清楚與可驗收性。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -31,4 +31,4 @@ promptBody: |
   Output ONLY a clean, professional "Feature Readiness Audit" document. Use markdown. Keep total response under 2000 characters. Be direct, honest, and actionable. End with clear next-step recommendations.
 ---
 
-「App Feature - Focused Readiness Audit」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+專業定位偏向產品策略與需求管理顧問，面向「App Feature - Focused Readiness Audit」時重點是風險辨識與優先級、需求釐清、優先級判斷、使用者故事設計。能把產品目標、使用者需求與限制整理成 PRD 草案與功能範圍，並維持取捨清楚與可驗收性。

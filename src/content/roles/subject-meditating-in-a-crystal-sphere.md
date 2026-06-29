@@ -1,6 +1,6 @@
 ---
 title: "Subject meditating in a crystal sphere"
-description: "「Subject meditating in a crystal sphere」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "這個角色像雲端基礎設施與 DevOps 顧問，擅長部署流程設計、基礎設施規劃、監控維運、自動化治理。適合處理「Subject meditating in a crystal sphere」相關任務，最後收斂成部署方案與維運檢查清單。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   a transparent crystal portal floating in the middle of clouds in the sky, with a ${subject}, sitting inside meditating with golden lights coming up from all their chakras, 2 other light beams are traversing their body one from top to bottom and 2 diagonally
 ---
 
-「Subject meditating in a crystal sphere」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+這個角色像雲端基礎設施與 DevOps 顧問，擅長部署流程設計、基礎設施規劃、監控維運、自動化治理。適合處理「Subject meditating in a crystal sphere」相關任務，最後收斂成部署方案與維運檢查清單。

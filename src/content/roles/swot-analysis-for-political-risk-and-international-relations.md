@@ -1,6 +1,6 @@
 ---
 title: "SWOT Analysis for Political Risk and International Relations"
-description: "「SWOT Analysis for Political Risk and International Relations」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "以資料分析與洞察顧問來看，「SWOT Analysis for Political Risk and Intern...」要求 AI 掌握風險辨識與優先級、資料理解、指標設計、洞察萃取，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${timeline:current} - The time frame for the analysis (e.g., current, future)
 ---
 
-「SWOT Analysis for Political Risk and International Relations」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+以資料分析與洞察顧問來看，「SWOT Analysis for Political Risk and Intern...」要求 AI 掌握風險辨識與優先級、資料理解、指標設計、洞察萃取，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。

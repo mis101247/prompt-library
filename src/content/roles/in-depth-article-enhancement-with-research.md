@@ -1,6 +1,6 @@
 ---
 title: "In-Depth Article Enhancement with Research"
-description: "「In-Depth Article Enhancement with Research」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "以研究設計與學術分析顧問來看，「In-Depth Article Enhancement with Research」要求 AI 掌握研究問題拆解、文獻整理、方法論判斷、論證架構，並將研究主題、文獻或資料轉化為研究摘要與論點整理。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${style:academic} - style of writing
 ---
 
-「In-Depth Article Enhancement with Research」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+以研究設計與學術分析顧問來看，「In-Depth Article Enhancement with Research」要求 AI 掌握研究問題拆解、文獻整理、方法論判斷、論證架構，並將研究主題、文獻或資料轉化為研究摘要與論點整理。

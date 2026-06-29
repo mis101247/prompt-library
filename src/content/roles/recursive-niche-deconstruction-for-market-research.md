@@ -1,6 +1,6 @@
 ---
 title: "Recursive Niche Deconstruction for Market Research"
-description: "「Recursive Niche Deconstruction for Market Research」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "「Recursive Niche Deconstruction for Market R...」的核心不是泛用回覆，而是讓 AI 以產品策略與需求管理顧問身份掌握需求釐清、優先級判斷、使用者故事設計、路線圖規劃，交付 PRD 草案與功能範圍。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -66,4 +66,4 @@ promptBody: |
   }
 ---
 
-「Recursive Niche Deconstruction for Market Research」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+「Recursive Niche Deconstruction for Market R...」的核心不是泛用回覆，而是讓 AI 以產品策略與需求管理顧問身份掌握需求釐清、優先級判斷、使用者故事設計、路線圖規劃，交付 PRD 草案與功能範圍。

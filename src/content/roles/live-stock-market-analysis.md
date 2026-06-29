@@ -1,6 +1,6 @@
 ---
 title: "Live Stock market analysis"
-description: "「Live Stock market analysis」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "能力簡歷：針對「Live Stock market analysis」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -15,4 +15,4 @@ promptBody: |
   After all level analysis it's suggest me for trade.
 ---
 
-「Live Stock market analysis」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+能力簡歷：針對「Live Stock market analysis」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。

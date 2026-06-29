@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive repository analysis"
-description: "「Comprehensive repository analysis」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「Comprehensive repository analysis」的資料分析與洞察顧問。需熟悉風險辨識與優先級、檢查清單化輸出、資料理解、指標設計，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -584,4 +584,4 @@ promptBody: |
   }
 ---
 
-「Comprehensive repository analysis」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「Comprehensive repository analysis」的資料分析與洞察顧問。需熟悉風險辨識與優先級、檢查清單化輸出、資料理解、指標設計，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。

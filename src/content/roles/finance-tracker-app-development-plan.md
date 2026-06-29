@@ -1,6 +1,6 @@
 ---
 title: "Finance Tracker App Development Plan"
-description: "「Finance Tracker App Development Plan」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "「Finance Tracker App Development Plan」的核心不是泛用回覆，而是讓 AI 以財務分析與投資決策顧問身份掌握 MVP 範圍收斂、儀表板與指標呈現、財務模型判讀、風險報酬分析，交付財務摘要與風險提示。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -89,4 +89,4 @@ promptBody: |
   - **State Management**: ${state_mgmt:riverpod}
 ---
 
-「Finance Tracker App Development Plan」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+「Finance Tracker App Development Plan」的核心不是泛用回覆，而是讓 AI 以財務分析與投資決策顧問身份掌握 MVP 範圍收斂、儀表板與指標呈現、財務模型判讀、風險報酬分析，交付財務摘要與風險提示。

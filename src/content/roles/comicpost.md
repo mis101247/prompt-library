@@ -1,6 +1,6 @@
 ---
 title: "ComicPost"
-description: "「ComicPost」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「ComicPost」的核心不是泛用回覆，而是讓 AI 以視覺創作與藝術企劃顧問身份掌握創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，交付創作方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -26,4 +26,4 @@ promptBody: |
   Aesthetics: Decorated margins with cute illustrations of ${decoration_theme}, professional comic ink, flat vibrant colors, wholesome mood, clean composition, 4k, charming expressive cartoon style. [@YOURUSERNAME] at bottom center.
 ---
 
-「ComicPost」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「ComicPost」的核心不是泛用回覆，而是讓 AI 以視覺創作與藝術企劃顧問身份掌握創意主題轉譯、視覺風格規劃、作品情境設計、美術品質判斷，交付創作方向與視覺規格。

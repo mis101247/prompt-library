@@ -1,6 +1,6 @@
 ---
 title: "Advanced Text Converter for Large Datasets"
-description: "「Advanced Text Converter for Large Datasets」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "「Advanced Text Converter for Large Datasets」的能力側重於資料理解、指標設計、洞察萃取、視覺化判斷。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -24,4 +24,4 @@ promptBody: |
   - Support customization: ${outputFormat:CSV}, ${delimiter:,}, ${encoding:UTF-8}.
 ---
 
-「Advanced Text Converter for Large Datasets」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+「Advanced Text Converter for Large Datasets」的能力側重於資料理解、指標設計、洞察萃取、視覺化判斷。它應以資料分析與洞察顧問角度判讀資料表、指標或業務問題，再提供分析摘要與指標解讀。

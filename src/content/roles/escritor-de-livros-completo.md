@@ -1,6 +1,6 @@
 ---
 title: "Escritor de Livros Completo"
-description: "「Escritor de Livros Completo」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Escritor de Livros Completo」的能力側重於品牌識別與標誌語言、品牌定位轉譯、視覺語言設計、版式與色彩判斷。它應以品牌視覺與設計系統顧問角度判讀品牌目標、視覺素材或設計限制，再提供品牌設計方向與視覺規格。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${tone:Envolvente}
 ---
 
-「Escritor de Livros Completo」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Escritor de Livros Completo」的能力側重於品牌識別與標誌語言、品牌定位轉譯、視覺語言設計、版式與色彩判斷。它應以品牌視覺與設計系統顧問角度判讀品牌目標、視覺素材或設計限制，再提供品牌設計方向與視覺規格。

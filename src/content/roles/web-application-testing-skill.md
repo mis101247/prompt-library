@@ -1,6 +1,6 @@
 ---
 title: "Web Application Testing Skill"
-description: "「Web Application Testing Skill」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
+description: "「Web Application Testing Skill」的核心不是泛用回覆，而是讓 AI 以前端體驗與介面工程顧問身份掌握儀表板與指標呈現、介面架構設計、響應式版面判斷、互動細節控管，交付前端實作建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
@@ -129,4 +129,4 @@ promptBody: |
   - Some modern frameworks may require specific configuration
 ---
 
-「Web Application Testing Skill」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。
+「Web Application Testing Skill」的核心不是泛用回覆，而是讓 AI 以前端體驗與介面工程顧問身份掌握儀表板與指標呈現、介面架構設計、響應式版面判斷、互動細節控管，交付前端實作建議與介面規格。

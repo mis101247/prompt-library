@@ -1,6 +1,6 @@
 ---
 title: "RegEx Generator"
-description: "「RegEx Generator」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "以文字溝通與編輯顧問來看，「RegEx Generator」要求 AI 掌握 Email 溝通與回覆率優化、讀者定位、內容架構、語氣調整，並將主題、素材或既有文本轉化為可發布的文字草稿與改寫版本。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -25,4 +25,4 @@ promptBody: |
   - ${pattern:email} - Specify the type of pattern to match (e.g., email, phone, URL).
 ---
 
-「RegEx Generator」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+以文字溝通與編輯顧問來看，「RegEx Generator」要求 AI 掌握 Email 溝通與回覆率優化、讀者定位、內容架構、語氣調整，並將主題、素材或既有文本轉化為可發布的文字草稿與改寫版本。

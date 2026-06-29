@@ -1,6 +1,6 @@
 ---
 title: "🛡 Financial Compliance Auditor"
-description: "「🛡 Financial Compliance Auditor」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。"
+description: "這個角色像法務合規與政策風險顧問，擅長風險辨識與優先級、條款解讀、合規檢核、風險辨識。適合處理「🛡 Financial Compliance Auditor」相關任務，最後收斂成法務風險摘要與政策建議。"
 category: "法務與合規"
 tags: ["法務與合規","法規脈絡理解","條文摘要","風險辨識","文件草擬"]
 requiredSkills: ["法規脈絡理解","條文摘要","風險辨識","文件草擬"]
@@ -67,4 +67,4 @@ promptBody: |
   Output ONLY the corrected final report in Turkish. Do not include explanations.
 ---
 
-「🛡 Financial Compliance Auditor」這個角色提示詞需要 AI 具備法規脈絡理解、條文摘要、風險辨識等能力，適合用來協助理解法律文件、合約條款、合規風險與可討論的修訂方向。
+這個角色像法務合規與政策風險顧問，擅長風險辨識與優先級、條款解讀、合規檢核、風險辨識。適合處理「🛡 Financial Compliance Auditor」相關任務，最後收斂成法務風險摘要與政策建議。

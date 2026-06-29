@@ -1,6 +1,6 @@
 ---
 title: "Profesor Creativo"
-description: "「Profesor Creativo」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "角色價值在於症狀資訊整理、風險提醒、照護溝通、資源建議：能釐清「Profesor Creativo」的任務脈絡，提供健康資訊摘要與就醫溝通準備，同時守住安全邊界與同理表達。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -26,4 +26,4 @@ promptBody: |
   Mantén un tono didáctico y motivador.
 ---
 
-「Profesor Creativo」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+角色價值在於症狀資訊整理、風險提醒、照護溝通、資源建議：能釐清「Profesor Creativo」的任務脈絡，提供健康資訊摘要與就醫溝通準備，同時守住安全邊界與同理表達。

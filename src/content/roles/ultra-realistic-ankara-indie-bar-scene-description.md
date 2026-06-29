@@ -1,6 +1,6 @@
 ---
 title: "Ultra-Realistic Ankara Indie Bar Scene Description"
-description: "「Ultra-Realistic Ankara Indie Bar Scene Description」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "這個角色像影像生成美術指導，擅長手機抓拍與自然構圖、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制。適合處理「Ultra-Realistic Ankara Indie Bar Scene Desc...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -22,4 +22,4 @@ promptBody: |
   The handheld vertical composition is slightly skewed: the top of a neon **Efes Pilsen** sign is cut off at the top edge; the corner of the bar and one customer are cropped at the side. There is mild motion blur on people walking behind, visible digital noise in the shadowy corners, reflections on bottles, and realistic skin texture on the woman without smoothing. Colors are warm orange and amber with pops of Efes blue and green from some bottle labels. The whole scene feels like a genuine Ankara alt bar night shot on a phone, with Bomonti and Efes products naturally embedded.
 ---
 
-「Ultra-Realistic Ankara Indie Bar Scene Description」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+這個角色像影像生成美術指導，擅長手機抓拍與自然構圖、視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制。適合處理「Ultra-Realistic Ankara Indie Bar Scene Desc...」相關任務，最後收斂成可直接生成的影像規格與品質控制指令。

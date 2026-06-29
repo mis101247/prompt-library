@@ -1,6 +1,5 @@
 ---
-import TagList from './TagList.astro';
-import { formatCategory, tagSearchText } from '../utils/taxonomy';
+import { formatCategory, formatTag, tagSearchText } from '../utils/taxonomy';
 
 interface Props {
   id: string;
@@ -10,11 +9,25 @@ interface Props {
   tags: string[];
   requiredSkills: string[];
   promptBody: string;
+  sourceLabel: string;
+  sourceHref: string;
   initiallyVisible?: boolean;
 }
 
-const { id, title, description, category, tags, requiredSkills, promptBody, initiallyVisible = true } = Astro.props;
+const {
+  id,
+  title,
+  description,
+  category,
+  tags,
+  requiredSkills,
+  promptBody,
+  sourceLabel,
+  sourceHref,
+  initiallyVisible = true,
+} = Astro.props;
 const visibleTags = [...new Set(requiredSkills.length > 0 ? requiredSkills : [category, ...tags.filter((tag) => tag !== category)])].slice(0, 5);
+const formattedVisibleTags = visibleTags.map(formatTag);
 const formattedCategory = formatCategory(category);
 ---
 
@@ -33,7 +46,10 @@ const formattedCategory = formatCategory(category);
     <h3>{title}</h3>
     <p>{description}</p>
   </div>
-  <TagList tags={visibleTags} />
+  <div class="chip-row">
+    <a class="source-badge" href={sourceHref} target="_blank" rel="noopener noreferrer">來源：{sourceLabel}</a>
+    {formattedVisibleTags.map((tag) => <a class="tag" href={`/tags/${encodeURIComponent(tag)}/`}>{tag}</a>)}
+  </div>
   <button class="copy-button" type="button" data-copy-role-prompt>複製角色提示詞</button>
   <details class="role-prompt-card__prompt">
     <summary>查看提示詞</summary>

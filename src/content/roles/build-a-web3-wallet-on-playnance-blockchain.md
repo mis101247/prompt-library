@@ -1,6 +1,6 @@
 ---
 title: "Build a Web3 Wallet on Playnance Blockchain"
-description: "「Build a Web3 Wallet on Playnance Blockchain」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "這個角色像法務合規與政策風險顧問，擅長檢查清單化輸出、合約條款檢視、條款解讀、合規檢核。適合處理「Build a Web3 Wallet on Playnance Blockchain」相關任務，最後收斂成法務風險摘要與政策建議。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -96,4 +96,4 @@ promptBody: |
   Produce a complete, end‑to‑end guide that I can follow to build, deploy, scale, and monetize a Playnance G Coin wallet from scratch. Every response should move me forward in building the product.${web3}
 ---
 
-「Build a Web3 Wallet on Playnance Blockchain」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+這個角色像法務合規與政策風險顧問，擅長檢查清單化輸出、合約條款檢視、條款解讀、合規檢核。適合處理「Build a Web3 Wallet on Playnance Blockchain」相關任務，最後收斂成法務風險摘要與政策建議。

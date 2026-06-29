@@ -1,6 +1,6 @@
 ---
 title: "Create a PS5-themed Portfolio"
-description: "「Create a PS5-themed Portfolio」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "「Create a PS5-themed Portfolio」適合由財務分析與投資決策顧問處理；所需能力包括財務模型判讀、風險報酬分析、情境推演、投資論點整理，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -29,4 +29,4 @@ promptBody: |
   - Prioritize user experience and engagement.
 ---
 
-「Create a PS5-themed Portfolio」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+「Create a PS5-themed Portfolio」適合由財務分析與投資決策顧問處理；所需能力包括財務模型判讀、風險報酬分析、情境推演、投資論點整理，能將財務資料、市場情境或投資目標轉成財務摘要與風險提示。

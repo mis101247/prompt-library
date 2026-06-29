@@ -1,6 +1,6 @@
 ---
 title: "Context Migration"
-description: "「Context Migration」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "「Context Migration」的核心不是泛用回覆，而是讓 AI 以 AI 工作流程與提示詞架構顧問身份掌握 MVP 範圍收斂、PRD 與需求規格、提示詞架構設計、工具使用規劃，交付系統提示詞與工作流程設計。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -344,4 +344,4 @@ promptBody: |
   **Next**: Complete PUT/DELETE endpoints, finalize schema"
 ---
 
-「Context Migration」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+「Context Migration」的核心不是泛用回覆，而是讓 AI 以 AI 工作流程與提示詞架構顧問身份掌握 MVP 範圍收斂、PRD 與需求規格、提示詞架構設計、工具使用規劃，交付系統提示詞與工作流程設計。

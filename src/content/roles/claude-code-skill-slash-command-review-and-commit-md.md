@@ -1,6 +1,6 @@
 ---
 title: "Claude Code Skill (Slash Command): review-and-commit.md"
-description: "「Claude Code Skill (Slash Command): review-and-commit.md」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "能力簡歷：針對「Claude Code Skill (Slash Command): review-a...」的資深程式碼審查顧問。需熟悉程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計，從程式碼、diff 或技術背景抓出重點，產出具理由的 review 回饋與優先排序的改進建議。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -28,4 +28,4 @@ promptBody: |
   Review the existing changes and then create a git commit following the conventional commit format. If you think there are more than one distinct change you can create multiple commits.
 ---
 
-「Claude Code Skill (Slash Command): review-and-commit.md」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+能力簡歷：針對「Claude Code Skill (Slash Command): review-a...」的資深程式碼審查顧問。需熟悉程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計，從程式碼、diff 或技術背景抓出重點，產出具理由的 review 回饋與優先排序的改進建議。

@@ -1,6 +1,6 @@
 ---
 title: "Web Design"
-description: "「Web Design」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "能力簡歷：針對「Web Design」的前端體驗與介面工程顧問。需熟悉課程路徑設計、介面架構設計、響應式版面判斷、互動細節控管，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -19,4 +19,4 @@ promptBody: |
   “I need help creating a white page that showcases courses, including course listings, brief descriptions, instructor highlights, and clear calls to action.”
 ---
 
-「Web Design」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+能力簡歷：針對「Web Design」的前端體驗與介面工程顧問。需熟悉課程路徑設計、介面架構設計、響應式版面判斷、互動細節控管，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。

@@ -1,6 +1,6 @@
 ---
 title: "SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)"
-description: "「SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "這個角色像資料分析與洞察顧問，擅長資料理解、指標設計、洞察萃取、視覺化判斷。適合處理「SciSim Pro - Simulator for science (ASCII/T...」相關任務，最後收斂成分析摘要與指標解讀。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -120,4 +120,4 @@ promptBody: |
   **INITIATION:** Await the first simulation data input from the user.
 ---
 
-「SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+這個角色像資料分析與洞察顧問，擅長資料理解、指標設計、洞察萃取、視覺化判斷。適合處理「SciSim Pro - Simulator for science (ASCII/T...」相關任務，最後收斂成分析摘要與指標解讀。

@@ -1,6 +1,6 @@
 ---
 title: "Birthday Message Generator – 3 Styles"
-description: "「Birthday Message Generator – 3 Styles」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Birthday Message Generator – 3 Styles」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握 Email 溝通與回覆率優化、讀者定位、內容架構、語氣調整，交付可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -46,4 +46,4 @@ promptBody: |
   When you finally generate the messages, output ONLY the 3 messages, nothing else.
 ---
 
-「Birthday Message Generator – 3 Styles」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Birthday Message Generator – 3 Styles」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握 Email 溝通與回覆率優化、讀者定位、內容架構、語氣調整，交付可發布的文字草稿與改寫版本。

@@ -1,6 +1,6 @@
 ---
 title: "Convert PDF to Markdown"
-description: "「Convert PDF to Markdown」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "角色價值在於品牌識別與標誌語言、品牌定位轉譯、視覺語言設計、版式與色彩判斷：能釐清「Convert PDF to Markdown」的任務脈絡，提供品牌設計方向與視覺規格，同時守住辨識度與一致性。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -56,4 +56,4 @@ promptBody: |
   - A single Markdown (.md) file containing the converted content.
 ---
 
-「Convert PDF to Markdown」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+角色價值在於品牌識別與標誌語言、品牌定位轉譯、視覺語言設計、版式與色彩判斷：能釐清「Convert PDF to Markdown」的任務脈絡，提供品牌設計方向與視覺規格，同時守住辨識度與一致性。

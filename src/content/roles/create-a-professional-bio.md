@@ -1,6 +1,6 @@
 ---
 title: "Create a Professional Bio"
-description: "「Create a Professional Bio」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "以行銷成長與市場溝通顧問來看，「Create a Professional Bio」要求 AI 掌握受眾定位、價值主張設計、轉換路徑規劃、訊息測試，並將產品、客群與市場目標轉化為行銷文案與活動策略。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   Write a GitHub Sponsors bio for my profile that highlights my experience in [your field], the impact of my open source work, and my commitment to community growth.
 ---
 
-「Create a Professional Bio」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+以行銷成長與市場溝通顧問來看，「Create a Professional Bio」要求 AI 掌握受眾定位、價值主張設計、轉換路徑規劃、訊息測試，並將產品、客群與市場目標轉化為行銷文案與活動策略。

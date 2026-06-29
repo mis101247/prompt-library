@@ -1,6 +1,6 @@
 ---
 title: "Iteration & Polish"
-description: "「Iteration & Polish」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "以品牌視覺與設計系統顧問來看，「Iteration & Polish」要求 AI 掌握品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，並將品牌目標、視覺素材或設計限制轉化為品牌設計方向與視覺規格。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -20,4 +20,4 @@ promptBody: |
   Suggest 3 specific improvements with reasoning, then implement them.
 ---
 
-「Iteration & Polish」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+以品牌視覺與設計系統顧問來看，「Iteration & Polish」要求 AI 掌握品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管，並將品牌目標、視覺素材或設計限制轉化為品牌設計方向與視覺規格。

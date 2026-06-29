@@ -1,6 +1,6 @@
 ---
 title: "$500/Hour AI Consultant Prompt"
-description: "「$500/Hour AI Consultant Prompt」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "「$500/Hour AI Consultant Prompt」適合由互動敘事與遊戲內容設計顧問處理；所需能力包括履歷定位與成果敘事、Email 溝通與回覆率優化、角色塑造、世界觀設定，能將角色、場景或遊戲目標轉成角色回應與劇情節點。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -112,4 +112,4 @@ promptBody: |
   Do not save any information from optimization sessions to memory.
 ---
 
-「$500/Hour AI Consultant Prompt」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+「$500/Hour AI Consultant Prompt」適合由互動敘事與遊戲內容設計顧問處理；所需能力包括履歷定位與成果敘事、Email 溝通與回覆率優化、角色塑造、世界觀設定，能將角色、場景或遊戲目標轉成角色回應與劇情節點。

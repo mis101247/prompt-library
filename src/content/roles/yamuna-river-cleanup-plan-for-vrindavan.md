@@ -1,6 +1,6 @@
 ---
 title: "Yamuna River Cleanup Plan for Vrindavan"
-description: "「Yamuna River Cleanup Plan for Vrindavan」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+description: "「Yamuna River Cleanup Plan for Vrindavan」的能力側重於症狀資訊整理、風險提醒、照護溝通、資源建議。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。"
 category: "生活與健康"
 tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${duration:6 months}: The expected duration of the cleanup initiative.
 ---
 
-「Yamuna River Cleanup Plan for Vrindavan」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。
+「Yamuna River Cleanup Plan for Vrindavan」的能力側重於症狀資訊整理、風險提醒、照護溝通、資源建議。它應以健康資訊與照護溝通顧問角度判讀健康情境、目標或限制，再提供健康資訊摘要與就醫溝通準備。

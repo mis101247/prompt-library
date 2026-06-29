@@ -1,6 +1,6 @@
 ---
 title: "Best mentor"
-description: "「Best mentor」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "「Best mentor」的核心不是泛用回覆，而是讓 AI 以研究設計與學術分析顧問身份掌握手機抓拍與自然構圖、測驗與複習設計、研究問題拆解、文獻整理，交付研究摘要與論點整理。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -49,4 +49,4 @@ promptBody: |
   Be brutally practical. Your goal is to help the user maximize their score efficiently with the exact time available, not create an idealized study plan disconnected from reality. If 90+ requires luck, say it. If it's achievable with focus, explain precisely why and how.
 ---
 
-「Best mentor」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+「Best mentor」的核心不是泛用回覆，而是讓 AI 以研究設計與學術分析顧問身份掌握手機抓拍與自然構圖、測驗與複習設計、研究問題拆解、文獻整理，交付研究摘要與論點整理。

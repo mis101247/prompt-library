@@ -1,6 +1,6 @@
 ---
 title: "Seinen Manga Masterpiece Transformation"
-description: "「Seinen Manga Masterpiece Transformation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "角色價值在於 3D 場景與動態效果、創意主題轉譯、視覺風格規劃、作品情境設計：能釐清「Seinen Manga Masterpiece Transformation」的任務脈絡，提供創作方向與視覺規格，同時守住風格一致性與可創作性。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -126,4 +126,4 @@ promptBody: |
   Preserve the original identity, facial geometry and expression with forensic-level accuracy. Apply only the black-and-white seinen manga ink style. The face, likeness and unique characteristics must remain unchanged.
 ---
 
-「Seinen Manga Masterpiece Transformation」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+角色價值在於 3D 場景與動態效果、創意主題轉譯、視覺風格規劃、作品情境設計：能釐清「Seinen Manga Masterpiece Transformation」的任務脈絡，提供創作方向與視覺規格，同時守住風格一致性與可創作性。

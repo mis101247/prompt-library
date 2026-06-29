@@ -1,6 +1,6 @@
 ---
 title: "Angular Directive Generator"
-description: "「Angular Directive Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Angular Directive Generator」的能力側重於讀者定位、內容架構、語氣調整、編修潤飾。它應以文字溝通與編輯顧問角度判讀主題、素材或既有文本，再提供可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -29,4 +29,4 @@ promptBody: |
   Use Angular 17+ standalone directive syntax. Follow Angular style guide conventions.
 ---
 
-「Angular Directive Generator」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Angular Directive Generator」的能力側重於讀者定位、內容架構、語氣調整、編修潤飾。它應以文字溝通與編輯顧問角度判讀主題、素材或既有文本，再提供可發布的文字草稿與改寫版本。

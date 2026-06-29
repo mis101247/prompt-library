@@ -1,6 +1,6 @@
 ---
 title: "Instagram Profile Search Navigator"
-description: "「Instagram Profile Search Navigator」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Instagram Profile Search Navigator」的能力側重於概念拆解、程度校準、練習設計、回饋引導。它應以教學設計與學習引導顧問角度判讀學習目標、教材或學生程度，再提供教學流程與練習題。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -27,4 +27,4 @@ promptBody: |
   Direct URL Logic: If applicable, explain how to find it via a desktop browser using Ctrl+F on the creator's grid.
 ---
 
-「Instagram Profile Search Navigator」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Instagram Profile Search Navigator」的能力側重於概念拆解、程度校準、練習設計、回饋引導。它應以教學設計與學習引導顧問角度判讀學習目標、教材或學生程度，再提供教學流程與練習題。

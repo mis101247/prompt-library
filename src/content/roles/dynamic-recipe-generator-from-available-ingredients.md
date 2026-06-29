@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Recipe Generator from Available Ingredients"
-description: "「Dynamic Recipe Generator from Available Ingredients」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Dynamic Recipe Generator from Available Ing...」的核心不是泛用回覆，而是讓 AI 以餐飲應用與料理體驗顧問身份掌握食譜流程與料理情境、食譜資訊架構、飲食限制判斷、搜尋篩選設計，交付食譜搜尋體驗與營養資訊呈現。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -33,4 +33,4 @@ promptBody: |
   Output: Tomato Garlic Pasta with a side of garlic bread. Instructions: 1. Cook pasta...
 ---
 
-「Dynamic Recipe Generator from Available Ingredients」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Dynamic Recipe Generator from Available Ing...」的核心不是泛用回覆，而是讓 AI 以餐飲應用與料理體驗顧問身份掌握食譜流程與料理情境、食譜資訊架構、飲食限制判斷、搜尋篩選設計，交付食譜搜尋體驗與營養資訊呈現。

@@ -1,6 +1,6 @@
 ---
 title: "Researchers in the Library"
-description: "「Researchers in the Library」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "能力簡歷：針對「Researchers in the Library」的研究設計與學術分析顧問。需熟悉研究問題拆解、文獻整理、方法論判斷、論證架構，從研究主題、文獻或資料抓出重點，產出研究摘要與論點整理。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -14,4 +14,4 @@ promptBody: |
   Generate a video for Researchers in the Lab going to the library, make it programmatic video creation, maybe use LoRA and Remotion
 ---
 
-「Researchers in the Library」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+能力簡歷：針對「Researchers in the Library」的研究設計與學術分析顧問。需熟悉研究問題拆解、文獻整理、方法論判斷、論證架構，從研究主題、文獻或資料抓出重點，產出研究摘要與論點整理。

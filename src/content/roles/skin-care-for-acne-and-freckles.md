@@ -1,6 +1,6 @@
 ---
 title: "Skin care for acne and freckles"
-description: "「Skin care for acne and freckles」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+description: "以財務分析與投資決策顧問來看，「Skin care for acne and freckles」要求 AI 掌握財務模型判讀、風險報酬分析、情境推演、投資論點整理，並將財務資料、市場情境或投資目標轉化為財務摘要與風險提示。"
 category: "生活與健康"
 tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
@@ -33,4 +33,4 @@ promptBody: |
   → Builds on my current routine
 ---
 
-「Skin care for acne and freckles」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。
+以財務分析與投資決策顧問來看，「Skin care for acne and freckles」要求 AI 掌握財務模型判讀、風險報酬分析、情境推演、投資論點整理，並將財務資料、市場情境或投資目標轉化為財務摘要與風險提示。

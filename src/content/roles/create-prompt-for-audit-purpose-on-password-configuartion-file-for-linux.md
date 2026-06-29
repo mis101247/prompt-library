@@ -1,6 +1,6 @@
 ---
 title: "create prompt for audit purpose on password configuartion file for linux"
-description: "「create prompt for audit purpose on password configuartion file for linux」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "這個角色像 UX 與產品介面設計顧問，擅長使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。適合處理「create prompt for audit purpose on password...」相關任務，最後收斂成流程改善建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -14,4 +14,4 @@ promptBody: |
   create prompt for audit purpose on password configuartion file for linux & unix
 ---
 
-「create prompt for audit purpose on password configuartion file for linux」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+這個角色像 UX 與產品介面設計顧問，擅長使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估。適合處理「create prompt for audit purpose on password...」相關任務，最後收斂成流程改善建議與介面規格。

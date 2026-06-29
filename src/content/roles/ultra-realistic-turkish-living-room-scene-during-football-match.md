@@ -1,6 +1,6 @@
 ---
 title: "Ultra-Realistic Turkish Living Room Scene During Football Match"
-description: "「Ultra-Realistic Turkish Living Room Scene During Football Match」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "專業定位偏向影像生成美術指導，面向「Ultra-Realistic Turkish Living Room Scene D...」時重點是手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -24,4 +24,4 @@ promptBody: |
   The framing is imperfect and handheld: she’s a bit off-center, part of one uncle is cut off at the edge, the coffee table is slightly skewed. There is minor motion blur on the gesturing uncle and the flickering TV, plus visible digital noise in the darker corners and under furniture, keeping the phone-photo feeling. Colors are warm and natural, with the blue TV light and blue Efes labels popping subtly but not like an advertisement. Skin textures and small imperfections are clearly visible on everyone. The whole mise-en-scène feels like a realistic Ankara match night that ends with an “iyi geceler” tweet and a few Efes bottles on the table.
 ---
 
-「Ultra-Realistic Turkish Living Room Scene During Football Match」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+專業定位偏向影像生成美術指導，面向「Ultra-Realistic Turkish Living Room Scene D...」時重點是手機抓拍與自然構圖、品牌識別與標誌語言、視覺提示詞撰寫、構圖與鏡頭語言。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。

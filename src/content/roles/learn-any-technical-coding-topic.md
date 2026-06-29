@@ -1,6 +1,6 @@
 ---
 title: "Learn Any Technical/Coding Topic"
-description: "「Learn Any Technical/Coding Topic」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "這個角色像教學設計與學習引導顧問，擅長表格資料整理、概念拆解、程度校準、練習設計。適合處理「Learn Any Technical/Coding Topic」相關任務，最後收斂成教學流程與練習題。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -57,4 +57,4 @@ promptBody: |
   Avoid jargon in Layer 1. Be technically precise in Layer 2. Avoid filler sentences.
 ---
 
-「Learn Any Technical/Coding Topic」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+這個角色像教學設計與學習引導顧問，擅長表格資料整理、概念拆解、程度校準、練習設計。適合處理「Learn Any Technical/Coding Topic」相關任務，最後收斂成教學流程與練習題。

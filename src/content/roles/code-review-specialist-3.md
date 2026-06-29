@@ -1,6 +1,6 @@
 ---
 title: "Code Review Specialist 3"
-description: "「Code Review Specialist 3」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。"
+description: "角色價值在於程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計：能釐清「Code Review Specialist 3」的任務脈絡，提供具理由的 review 回饋與優先排序的改進建議，同時守住可維護性與可執行性。"
 category: "工程與技術"
 tags: ["工程與技術","程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
 requiredSkills: ["程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
@@ -26,4 +26,4 @@ promptBody: |
   - Use examples where necessary to illustrate points.
 ---
 
-「Code Review Specialist 3」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。
+角色價值在於程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計：能釐清「Code Review Specialist 3」的任務脈絡，提供具理由的 review 回饋與優先排序的改進建議，同時守住可維護性與可執行性。

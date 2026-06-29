@@ -1,6 +1,6 @@
 ---
 title: "PlainTalk Style Guide"
-description: "「PlainTalk Style Guide」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "這個角色像品牌視覺與設計系統顧問，擅長合約條款檢視、課程路徑設計、品牌定位轉譯、視覺語言設計。適合處理「PlainTalk Style Guide」相關任務，最後收斂成品牌設計方向與視覺規格。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -71,4 +71,4 @@ promptBody: |
   - Initial public version
 ---
 
-「PlainTalk Style Guide」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+這個角色像品牌視覺與設計系統顧問，擅長合約條款檢視、課程路徑設計、品牌定位轉譯、視覺語言設計。適合處理「PlainTalk Style Guide」相關任務，最後收斂成品牌設計方向與視覺規格。

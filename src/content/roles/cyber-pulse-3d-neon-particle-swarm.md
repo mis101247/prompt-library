@@ -1,6 +1,6 @@
 ---
 title: "Cyber-Pulse: 3D Neon Particle Swarm"
-description: "「Cyber-Pulse: 3D Neon Particle Swarm」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「Cyber-Pulse: 3D Neon Particle Swarm」的能力側重於 3D 場景與動態效果、讀者定位、內容架構、語氣調整。它應以文字溝通與編輯顧問角度判讀主題、素材或既有文本，再提供可發布的文字草稿與改寫版本。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -25,4 +25,4 @@ promptBody: |
   Include a BloomPass for post-processing and ensure 60FPS performance via
 ---
 
-「Cyber-Pulse: 3D Neon Particle Swarm」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「Cyber-Pulse: 3D Neon Particle Swarm」的能力側重於 3D 場景與動態效果、讀者定位、內容架構、語氣調整。它應以文字溝通與編輯顧問角度判讀主題、素材或既有文本，再提供可發布的文字草稿與改寫版本。

@@ -1,6 +1,6 @@
 ---
 title: "The Lovelyline"
-description: "「The Lovelyline」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "以視覺創作與藝術企劃顧問來看，「The Lovelyline」要求 AI 掌握 3D 場景與動態效果、創意主題轉譯、視覺風格規劃、作品情境設計，並將藝術主題、風格目標或創作素材轉化為創作方向與視覺規格。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   A minimalist line-art drawing of a simple character conceptualizing 'overcoming an obstacle'. Clean black continuous line style on a white background. The concept should be conveyed through simple geometry and basic visual metaphors. Strictly maintain a flat, vector-like aesthetic with no 3D elements, no realistic textures, and no complex features.
 ---
 
-「The Lovelyline」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+以視覺創作與藝術企劃顧問來看，「The Lovelyline」要求 AI 掌握 3D 場景與動態效果、創意主題轉譯、視覺風格規劃、作品情境設計，並將藝術主題、風格目標或創作素材轉化為創作方向與視覺規格。

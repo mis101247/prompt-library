@@ -1,6 +1,6 @@
 ---
 title: "Building a community"
-description: "「Building a community」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "能力簡歷：針對「Building a community」的行銷成長與市場溝通顧問。需熟悉受眾定位、價值主張設計、轉換路徑規劃、訊息測試，從產品、客群與市場目標抓出重點，產出行銷文案與活動策略。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   How it is important to build an friend group that had to do with each and everyone’s growth
 ---
 
-「Building a community」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+能力簡歷：針對「Building a community」的行銷成長與市場溝通顧問。需熟悉受眾定位、價值主張設計、轉換路徑規劃、訊息測試，從產品、客群與市場目標抓出重點，產出行銷文案與活動策略。

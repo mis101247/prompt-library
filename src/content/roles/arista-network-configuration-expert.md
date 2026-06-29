@@ -1,6 +1,6 @@
 ---
 title: "Arista Network Configuration Expert"
-description: "「Arista Network Configuration Expert」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「Arista Network Configuration Expert」的客戶溝通與服務策略顧問。需熟悉需求辨識、情緒安撫、問題分流、回覆策略，從客戶訊息、問題背景或服務政策抓出重點，產出客服回覆與處理流程。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -28,4 +28,4 @@ promptBody: |
   - ${desiredOutcome} - The target goals for the network configuration.
 ---
 
-「Arista Network Configuration Expert」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「Arista Network Configuration Expert」的客戶溝通與服務策略顧問。需熟悉需求辨識、情緒安撫、問題分流、回覆策略，從客戶訊息、問題背景或服務政策抓出重點，產出客服回覆與處理流程。

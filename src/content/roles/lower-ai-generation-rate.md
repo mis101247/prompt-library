@@ -1,6 +1,6 @@
 ---
 title: "Lower AI Generation Rate"
-description: "「Lower AI Generation Rate」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "角色價值在於流程拆解、資源協調、風險控管、執行節奏設計：能釐清「Lower AI Generation Rate」的任務脈絡，提供專案計畫與 SOP，同時守住落地性與責任清楚。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${engagementMetrics} - Metrics for monitoring user engagement
 ---
 
-「Lower AI Generation Rate」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+角色價值在於流程拆解、資源協調、風險控管、執行節奏設計：能釐清「Lower AI Generation Rate」的任務脈絡，提供專案計畫與 SOP，同時守住落地性與責任清楚。

@@ -1,6 +1,6 @@
 ---
 title: "Master Skills & Experience Summary Generator"
-description: "「Master Skills & Experience Summary Generator」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "「Master Skills & Experience Summary Generator」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握履歷定位與成果敘事、面試策略與回答校準、職涯定位、履歷敘事，交付職涯決策框架與履歷或面試建議。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -164,4 +164,4 @@ promptBody: |
   - CURRENT DATE/TIME: [INSERT TODAY'S DATE & TIME EST]
 ---
 
-「Master Skills & Experience Summary Generator」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+「Master Skills & Experience Summary Generator」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握履歷定位與成果敘事、面試策略與回答校準、職涯定位、履歷敘事，交付職涯決策框架與履歷或面試建議。

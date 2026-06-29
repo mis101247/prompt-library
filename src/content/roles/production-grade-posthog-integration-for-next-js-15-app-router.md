@@ -1,6 +1,6 @@
 ---
 title: "Production-Grade PostHog Integration for Next.js 15 (App Router)"
-description: "「Production-Grade PostHog Integration for Next.js 15 (App Router)」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Production-Grade PostHog Integration for Ne...」適合由前端體驗與介面工程顧問處理；所需能力包括儀表板與指標呈現、隱私與合規邊界、介面架構設計、響應式版面判斷，能將頁面需求、元件或使用者流程轉成前端實作建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -92,4 +92,4 @@ promptBody: |
   🚫 No prose explanations outside code comments.
 ---
 
-「Production-Grade PostHog Integration for Next.js 15 (App Router)」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Production-Grade PostHog Integration for Ne...」適合由前端體驗與介面工程顧問處理；所需能力包括儀表板與指標呈現、隱私與合規邊界、介面架構設計、響應式版面判斷，能將頁面需求、元件或使用者流程轉成前端實作建議與介面規格。

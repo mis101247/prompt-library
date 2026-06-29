@@ -1,6 +1,6 @@
 ---
 title: "Test Analyzer Agent Role"
-description: "「Test Analyzer Agent Role」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
+description: "「Test Analyzer Agent Role」的核心不是泛用回覆，而是讓 AI 以 AI 工作流程與提示詞架構顧問身份掌握風險辨識與優先級、檢查清單化輸出、提示詞架構設計、工具使用規劃，交付系統提示詞與工作流程設計。"
 category: "工程與技術"
 tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
@@ -254,4 +254,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_test-analyzer.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Test Analyzer Agent Role」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。
+「Test Analyzer Agent Role」的核心不是泛用回覆，而是讓 AI 以 AI 工作流程與提示詞架構顧問身份掌握風險辨識與優先級、檢查清單化輸出、提示詞架構設計、工具使用規劃，交付系統提示詞與工作流程設計。

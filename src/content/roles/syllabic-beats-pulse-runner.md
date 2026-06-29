@@ -1,6 +1,6 @@
 ---
 title: "《Syllabic Beats: Pulse Runner》"
-description: "「《Syllabic Beats: Pulse Runner》」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "能力簡歷：針對「《Syllabic Beats: Pulse Runner》」的互動敘事與遊戲內容設計顧問。需熟悉 3D 場景與動態效果、角色塑造、世界觀設定、互動規則設計，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -22,4 +22,4 @@ promptBody: |
   Technologies Used: Three.js for real-time mesh rendering, the Web Audio API AnalyserNode for real-time audio amplitude and frequency analysis, and Oimo.js for lightweight, low-latency collision tracking.
 ---
 
-「《Syllabic Beats: Pulse Runner》」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+能力簡歷：針對「《Syllabic Beats: Pulse Runner》」的互動敘事與遊戲內容設計顧問。需熟悉 3D 場景與動態效果、角色塑造、世界觀設定、互動規則設計，從角色、場景或遊戲目標抓出重點，產出角色回應與劇情節點。

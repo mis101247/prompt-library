@@ -1,6 +1,6 @@
 ---
 title: "Car Buying Intake Interview"
-description: "「Car Buying Intake Interview」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "「Car Buying Intake Interview」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握面試策略與回答校準、職涯定位、履歷敘事、面試回饋，交付職涯決策框架與履歷或面試建議。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -126,4 +126,4 @@ promptBody: |
   ## END OF PROMPT
 ---
 
-「Car Buying Intake Interview」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+「Car Buying Intake Interview」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握面試策略與回答校準、職涯定位、履歷敘事、面試回饋，交付職涯決策框架與履歷或面試建議。

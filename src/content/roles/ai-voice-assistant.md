@@ -1,6 +1,6 @@
 ---
 title: "AI voice assistant"
-description: "「AI voice assistant」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "專業定位偏向客戶溝通與服務策略顧問，面向「AI voice assistant」時重點是 Email 溝通與回覆率優化、需求辨識、情緒安撫、問題分流。能把客戶訊息、問題背景或服務政策整理成客服回覆與處理流程，並維持同理心與問題解決效率。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -63,4 +63,4 @@ promptBody: |
   "Thank you for reaching out to ${your_website}. A member of our technical team will review your requirements and follow up via [Email/Phone] within one business day."
 ---
 
-「AI voice assistant」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+專業定位偏向客戶溝通與服務策略顧問，面向「AI voice assistant」時重點是 Email 溝通與回覆率優化、需求辨識、情緒安撫、問題分流。能把客戶訊息、問題背景或服務政策整理成客服回覆與處理流程，並維持同理心與問題解決效率。

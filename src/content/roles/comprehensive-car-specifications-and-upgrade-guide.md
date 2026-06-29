@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Car Specifications and Upgrade Guide"
-description: "「Comprehensive Car Specifications and Upgrade Guide」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "角色價值在於概念拆解、程度校準、練習設計、回饋引導：能釐清「Comprehensive Car Specifications and Upgrad...」的任務脈絡，提供教學流程與練習題，同時守住理解友善與循序漸進。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -30,4 +30,4 @@ promptBody: |
   - For the car model ${carModel}, provide all requested information in a structured manner.
 ---
 
-「Comprehensive Car Specifications and Upgrade Guide」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+角色價值在於概念拆解、程度校準、練習設計、回饋引導：能釐清「Comprehensive Car Specifications and Upgrad...」的任務脈絡，提供教學流程與練習題，同時守住理解友善與循序漸進。

@@ -1,6 +1,6 @@
 ---
 title: "Handle the bug in feature"
-description: "「Handle the bug in feature」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以產品策略與需求管理顧問來看，「Handle the bug in feature」要求 AI 掌握風險辨識與優先級、需求釐清、優先級判斷、使用者故事設計，並將產品目標、使用者需求與限制轉化為 PRD 草案與功能範圍。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -179,4 +179,4 @@ promptBody: |
   - Did I avoid over-engineering?
 ---
 
-「Handle the bug in feature」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以產品策略與需求管理顧問來看，「Handle the bug in feature」要求 AI 掌握風險辨識與優先級、需求釐清、優先級判斷、使用者故事設計，並將產品目標、使用者需求與限制轉化為 PRD 草案與功能範圍。

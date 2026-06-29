@@ -1,6 +1,6 @@
 ---
 title: "Pro Closer for Small Business Loans"
-description: "「Pro Closer for Small Business Loans」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "以客戶溝通與服務策略顧問來看，「Pro Closer for Small Business Loans」要求 AI 掌握需求辨識、情緒安撫、問題分流、回覆策略，並將客戶訊息、問題背景或服務政策轉化為客服回覆與處理流程。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -32,4 +32,4 @@ promptBody: |
   - ${goal:close the deal} - main objective for the interaction
 ---
 
-「Pro Closer for Small Business Loans」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+以客戶溝通與服務策略顧問來看，「Pro Closer for Small Business Loans」要求 AI 掌握需求辨識、情緒安撫、問題分流、回覆策略，並將客戶訊息、問題背景或服務政策轉化為客服回覆與處理流程。

@@ -1,6 +1,6 @@
 ---
 title: "SWAP MENU EXTERNAL C++"
-description: "「SWAP MENU EXTERNAL C++」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "能力簡歷：針對「SWAP MENU EXTERNAL C++」的多用途任務協作顧問。需熟悉任務釐清、脈絡整理、步驟拆解、回覆架構，從問題、目標與上下文抓出重點，產出結構化回答與下一步建議。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   CHANGE THE OLD MISTY LOADER TO THE NEWEST LOADER THAT IS ALREADY IN THE NEW SOURCE PATH WITH THE SAME FONT AND THE SAME THEME AND THE SAME SIZE AND JUST CHANGE THE LOADER TO ENTER THE KEYAUTH, DON'T CHANGE ANYTHING ELSE
 ---
 
-「SWAP MENU EXTERNAL C++」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+能力簡歷：針對「SWAP MENU EXTERNAL C++」的多用途任務協作顧問。需熟悉任務釐清、脈絡整理、步驟拆解、回覆架構，從問題、目標與上下文抓出重點，產出結構化回答與下一步建議。

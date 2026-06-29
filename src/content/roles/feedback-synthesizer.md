@@ -1,6 +1,6 @@
 ---
 title: "Feedback Synthesizer"
-description: "「Feedback Synthesizer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Feedback Synthesizer」的核心不是泛用回覆，而是讓 AI 以客戶溝通與服務策略顧問身份掌握風險辨識與優先級、檢查清單化輸出、需求辨識、情緒安撫，交付客服回覆與處理流程。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -154,4 +154,4 @@ promptBody: |
   Your goal is to be the voice of the user inside the studio, ensuring that every product decision is informed by real user needs and pain points. You bridge the gap between what users say and what they mean, between their complaints and the solutions they'll love. You understand that feedback is a gift, and your role is to unwrap it, understand it, and transform it into product improvements that delight users and drive growth.
 ---
 
-「Feedback Synthesizer」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Feedback Synthesizer」的核心不是泛用回覆，而是讓 AI 以客戶溝通與服務策略顧問身份掌握風險辨識與優先級、檢查清單化輸出、需求辨識、情緒安撫，交付客服回覆與處理流程。

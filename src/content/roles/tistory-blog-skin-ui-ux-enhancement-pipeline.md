@@ -1,6 +1,6 @@
 ---
 title: "Tistory Blog Skin UI/UX Enhancement Pipeline"
-description: "「Tistory Blog Skin UI/UX Enhancement Pipeline」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "「Tistory Blog Skin UI/UX Enhancement Pipeline」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握檢查清單化輸出、讀者定位、內容架構、語氣調整，交付可發布的文字草稿與改寫版本。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -68,4 +68,4 @@ promptBody: |
   - All code must be production-ready, not prototype
 ---
 
-「Tistory Blog Skin UI/UX Enhancement Pipeline」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+「Tistory Blog Skin UI/UX Enhancement Pipeline」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握檢查清單化輸出、讀者定位、內容架構、語氣調整，交付可發布的文字草稿與改寫版本。

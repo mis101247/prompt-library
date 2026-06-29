@@ -1,6 +1,6 @@
 ---
 title: "prd-and-technical-documentation-generator"
-description: "「prd-and-technical-documentation-generator」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。"
+description: "角色價值在於 PRD 與需求規格、需求釐清、優先級判斷、使用者故事設計：能釐清「prd-and-technical-documentation-generator」的任務脈絡，提供 PRD 草案與功能範圍，同時守住取捨清楚與可驗收性。"
 category: "產品與商務"
 tags: ["產品與商務","需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
 requiredSkills: ["需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
@@ -50,4 +50,4 @@ promptBody: |
   Utilize this skill to efficiently produce comprehensive documentation that supports project objectives and stakeholder needs.
 ---
 
-「prd-and-technical-documentation-generator」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。
+角色價值在於 PRD 與需求規格、需求釐清、優先級判斷、使用者故事設計：能釐清「prd-and-technical-documentation-generator」的任務脈絡，提供 PRD 草案與功能範圍，同時守住取捨清楚與可驗收性。

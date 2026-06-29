@@ -1,6 +1,6 @@
 ---
 title: "Minimalist Graphic Illustration of a Stylized Dachshund"
-description: "「Minimalist Graphic Illustration of a Stylized Dachshund」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "「Minimalist Graphic Illustration of a Styliz...」適合由視覺創作與藝術企劃顧問處理；所需能力包括 3D 場景與動態效果、創意主題轉譯、視覺風格規劃、作品情境設計，能將藝術主題、風格目標或創作素材轉成創作方向與視覺規格。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -79,4 +79,4 @@ promptBody: |
   }
 ---
 
-「Minimalist Graphic Illustration of a Stylized Dachshund」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+「Minimalist Graphic Illustration of a Styliz...」適合由視覺創作與藝術企劃顧問處理；所需能力包括 3D 場景與動態效果、創意主題轉譯、視覺風格規劃、作品情境設計，能將藝術主題、風格目標或創作素材轉成創作方向與視覺規格。

@@ -1,6 +1,6 @@
 ---
 title: "Create Satirical and Bold Song Lyrics"
-description: "「Create Satirical and Bold Song Lyrics」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "「Create Satirical and Bold Song Lyrics」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握讀者定位、內容架構、語氣調整、編修潤飾，交付可發布的文字草稿與改寫版本。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -32,4 +32,4 @@ promptBody: |
   - Avoid using explicit content that may offend readers.
 ---
 
-「Create Satirical and Bold Song Lyrics」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+「Create Satirical and Bold Song Lyrics」的核心不是泛用回覆，而是讓 AI 以文字溝通與編輯顧問身份掌握讀者定位、內容架構、語氣調整、編修潤飾，交付可發布的文字草稿與改寫版本。

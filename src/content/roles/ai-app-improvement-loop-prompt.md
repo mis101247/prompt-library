@@ -1,6 +1,6 @@
 ---
 title: "🔧 AI App Improvement Loop Prompt"
-description: "「🔧 AI App Improvement Loop Prompt」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以軟體品質與迭代改善顧問來看，「🔧 AI App Improvement Loop Prompt」要求 AI 掌握風險辨識與優先級、問題優先級判斷、根因分析、迭代實作，並將應用程式、使用者流程或程式碼品質問題轉化為高影響改善方案與實作步驟。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -82,4 +82,4 @@ promptBody: |
   - Optimize for performance, scalability, and user experience.
 ---
 
-「🔧 AI App Improvement Loop Prompt」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以軟體品質與迭代改善顧問來看，「🔧 AI App Improvement Loop Prompt」要求 AI 掌握風險辨識與優先級、問題優先級判斷、根因分析、迭代實作，並將應用程式、使用者流程或程式碼品質問題轉化為高影響改善方案與實作步驟。

@@ -1,6 +1,6 @@
 ---
 title: "Update Agent Permissions"
-description: "「Update Agent Permissions」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "以營運流程與專案管理顧問來看，「Update Agent Permissions」要求 AI 掌握流程拆解、資源協調、風險控管、執行節奏設計，並將團隊目標、流程或交付限制轉化為專案計畫與 SOP。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -90,4 +90,4 @@ promptBody: |
   - find: The -delete and -exec flags are destructive (use fd instead)
 ---
 
-「Update Agent Permissions」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+以營運流程與專案管理顧問來看，「Update Agent Permissions」要求 AI 掌握流程拆解、資源協調、風險控管、執行節奏設計，並將團隊目標、流程或交付限制轉化為專案計畫與 SOP。

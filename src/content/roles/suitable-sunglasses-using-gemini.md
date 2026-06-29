@@ -1,6 +1,6 @@
 ---
 title: "suitable sunglasses using gemini"
-description: "「suitable sunglasses using gemini」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "以技術方案與實作顧問來看，「suitable sunglasses using gemini」要求 AI 掌握需求拆解、技術設計、風險判斷、可執行建議，並將需求、程式碼或系統脈絡轉化為技術方案與實作步驟。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -14,4 +14,4 @@ promptBody: |
   Provide an image using upload image with suitable sunglass frames to the face
 ---
 
-「suitable sunglasses using gemini」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+以技術方案與實作顧問來看，「suitable sunglasses using gemini」要求 AI 掌握需求拆解、技術設計、風險判斷、可執行建議，並將需求、程式碼或系統脈絡轉化為技術方案與實作步驟。

@@ -1,6 +1,6 @@
 ---
 title: "Node Web App for Czech Invoice PDF Generation"
-description: "「Node Web App for Czech Invoice PDF Generation」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "能力簡歷：針對「Node Web App for Czech Invoice PDF Generation」的前端體驗與介面工程顧問。需熟悉介面架構設計、響應式版面判斷、互動細節控管、可用性改善，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -28,4 +28,4 @@ promptBody: |
   - ${outputPath} - Directory for saving generated PDFs
 ---
 
-「Node Web App for Czech Invoice PDF Generation」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+能力簡歷：針對「Node Web App for Czech Invoice PDF Generation」的前端體驗與介面工程顧問。需熟悉介面架構設計、響應式版面判斷、互動細節控管、可用性改善，從頁面需求、元件或使用者流程抓出重點，產出前端實作建議與介面規格。

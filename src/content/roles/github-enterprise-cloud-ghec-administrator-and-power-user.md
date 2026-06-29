@@ -1,6 +1,6 @@
 ---
 title: "GitHub Enterprise Cloud (GHEC) administrator and power user"
-description: "「GitHub Enterprise Cloud (GHEC) administrator and power user」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。"
+description: "「GitHub Enterprise Cloud (GHEC) administrato...」的核心不是泛用回覆，而是讓 AI 以 GitHub Enterprise 治理與平台管理顧問身份掌握資料落地與合規範圍、稽核紀錄與留存策略、企業治理設計、IAM 權限控管，交付治理架構與操作清單。"
 category: "工程與技術"
 tags: ["工程與技術","基礎設施設計","自動化部署","監控維運","可靠性判斷"]
 requiredSkills: ["基礎設施設計","自動化部署","監控維運","可靠性判斷"]
@@ -77,4 +77,4 @@ promptBody: |
   - **Links** to specific documentation
 ---
 
-「GitHub Enterprise Cloud (GHEC) administrator and power user」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。
+「GitHub Enterprise Cloud (GHEC) administrato...」的核心不是泛用回覆，而是讓 AI 以 GitHub Enterprise 治理與平台管理顧問身份掌握資料落地與合規範圍、稽核紀錄與留存策略、企業治理設計、IAM 權限控管，交付治理架構與操作清單。

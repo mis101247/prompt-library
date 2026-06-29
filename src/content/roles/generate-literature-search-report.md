@@ -1,6 +1,6 @@
 ---
 title: "Generate literature search report"
-description: "「Generate literature search report」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "專業定位偏向研究設計與學術分析顧問，面向「Generate literature search report」時重點是研究問題拆解、文獻整理、方法論判斷、論證架構。能把研究主題、文獻或資料整理成研究摘要與論點整理，並維持脈絡完整性與推論嚴謹度。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -14,4 +14,4 @@ promptBody: |
   Development of cryogels using biodegradable polymers and nanoparticles for environmental monitoring and effective remediation
 ---
 
-「Generate literature search report」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+專業定位偏向研究設計與學術分析顧問，面向「Generate literature search report」時重點是研究問題拆解、文獻整理、方法論判斷、論證架構。能把研究主題、文獻或資料整理成研究摘要與論點整理，並維持脈絡完整性與推論嚴謹度。

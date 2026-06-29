@@ -1,6 +1,6 @@
 ---
 title: "Professional Image Enhancement for Clarity and Quality"
-description: "「Professional Image Enhancement for Clarity and Quality」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "角色價值在於風格判斷、構圖規劃、視覺細節控管、素材轉譯：能釐清「Professional Image Enhancement for Clarity ...」的任務脈絡，提供可執行的創意規格與圖像或介面提示，同時守住美感一致性與細節可控性。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -14,4 +14,4 @@ promptBody: |
   Enhance the provided uploaded image by improving its clarity, quality, and overall visual impact while preserving its core design elements. Ensure that the completed image is suitable for display in professional and digital contexts.
 ---
 
-「Professional Image Enhancement for Clarity and Quality」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+角色價值在於風格判斷、構圖規劃、視覺細節控管、素材轉譯：能釐清「Professional Image Enhancement for Clarity ...」的任務脈絡，提供可執行的創意規格與圖像或介面提示，同時守住美感一致性與細節可控性。

@@ -1,6 +1,6 @@
 ---
 title: "Git Repository Analysis and Knowledge Base Construction"
-description: "「Git Repository Analysis and Knowledge Base Construction」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Git Repository Analysis and Knowledge Base ...」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -26,4 +26,4 @@ promptBody: |
   - ${repositoryUrl} - URL of the Git repository to analyze.
 ---
 
-「Git Repository Analysis and Knowledge Base Construction」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+角色價值在於資料理解、指標設計、洞察萃取、視覺化判斷：能釐清「Git Repository Analysis and Knowledge Base ...」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

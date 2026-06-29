@@ -1,6 +1,6 @@
 ---
 title: "MPPT Simulation仿真代码"
-description: "「MPPT Simulation仿真代码」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。"
+description: "以健康資訊與照護溝通顧問來看，「MPPT Simulation 仿真代码」要求 AI 掌握症狀資訊整理、風險提醒、照護溝通、資源建議，並將健康情境、目標或限制轉化為健康資訊摘要與就醫溝通準備。"
 category: "資料與研究"
 tags: ["資料與研究","專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
 requiredSkills: ["專業概念拆解","模型推理","限制條件判斷","清楚解釋"]
@@ -26,4 +26,4 @@ promptBody: |
   - Use variables to allow customization for different simulation parameters (e.g., ${algorithm:Incremental Conductance}, ${software:MATLAB}).
 ---
 
-「MPPT Simulation仿真代码」這個角色提示詞需要 AI 具備專業概念拆解、模型推理、限制條件判斷等能力，適合用來拆解科學、數學、工程或技術模型問題，協助推理、說明與檢查假設。
+以健康資訊與照護溝通顧問來看，「MPPT Simulation 仿真代码」要求 AI 掌握症狀資訊整理、風險提醒、照護溝通、資源建議，並將健康情境、目標或限制轉化為健康資訊摘要與就醫溝通準備。

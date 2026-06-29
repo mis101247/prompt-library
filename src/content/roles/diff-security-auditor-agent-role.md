@@ -1,6 +1,6 @@
 ---
 title: "Diff Security Auditor Agent Role"
-description: "「Diff Security Auditor Agent Role」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "專業定位偏向資深程式碼審查顧問，面向「Diff Security Auditor Agent Role」時重點是風險辨識與優先級、檢查清單化輸出、程式碼閱讀、架構風險判斷。能把程式碼、diff 或技術背景整理成具理由的 review 回饋與優先排序的改進建議，並維持可維護性與可執行性。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -288,4 +288,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_diff-auditor.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Diff Security Auditor Agent Role」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+專業定位偏向資深程式碼審查顧問，面向「Diff Security Auditor Agent Role」時重點是風險辨識與優先級、檢查清單化輸出、程式碼閱讀、架構風險判斷。能把程式碼、diff 或技術背景整理成具理由的 review 回饋與優先排序的改進建議，並維持可維護性與可執行性。

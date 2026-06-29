@@ -1,6 +1,6 @@
 ---
 title: "Form Validation Rules for Leave Requests"
-description: "「Form Validation Rules for Leave Requests」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "專業定位偏向互動敘事與遊戲內容設計顧問，面向「Form Validation Rules for Leave Requests」時重點是角色塑造、世界觀設定、互動規則設計、敘事節奏控制。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -69,4 +69,4 @@ promptBody: |
   }
 ---
 
-「Form Validation Rules for Leave Requests」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+專業定位偏向互動敘事與遊戲內容設計顧問，面向「Form Validation Rules for Leave Requests」時重點是角色塑造、世界觀設定、互動規則設計、敘事節奏控制。能把角色、場景或遊戲目標整理成角色回應與劇情節點，並維持沉浸感與設定一致性。

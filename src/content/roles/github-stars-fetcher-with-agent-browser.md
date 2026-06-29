@@ -1,6 +1,6 @@
 ---
 title: "GitHub Stars Fetcher with Agent Browser"
-description: "「GitHub Stars Fetcher with Agent Browser」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "專業定位偏向影像生成美術指導，面向「GitHub Stars Fetcher with Agent Browser」時重點是視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -105,4 +105,4 @@ promptBody: |
   - Project description (if available)
 ---
 
-「GitHub Stars Fetcher with Agent Browser」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+專業定位偏向影像生成美術指導，面向「GitHub Stars Fetcher with Agent Browser」時重點是視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。

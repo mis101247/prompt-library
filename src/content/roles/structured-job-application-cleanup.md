@@ -1,6 +1,6 @@
 ---
 title: "Structured Job Application Cleanup"
-description: "「Structured Job Application Cleanup」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "能力簡歷：針對「Structured Job Application Cleanup」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -25,4 +25,4 @@ promptBody: |
   - Use consistent formatting for dates and titles.
 ---
 
-「Structured Job Application Cleanup」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+能力簡歷：針對「Structured Job Application Cleanup」的資料分析與洞察顧問。需熟悉資料理解、指標設計、洞察萃取、視覺化判斷，從資料表、指標或業務問題抓出重點，產出分析摘要與指標解讀。

@@ -1,6 +1,6 @@
 ---
 title: "Créer une Carte Mentale pour Séance d'Idéation"
-description: "「Créer une Carte Mentale pour Séance d'Idéation」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Créer une Carte Mentale pour Séance d'Idéation」的核心不是泛用回覆，而是讓 AI 以健康資訊與照護溝通顧問身份掌握症狀資訊整理、風險提醒、照護溝通、資源建議，交付健康資訊摘要與就醫溝通準備。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -32,4 +32,4 @@ promptBody: |
   - ${visualStyle:colorful} - preferred visual style for the mind map
 ---
 
-「Créer une Carte Mentale pour Séance d'Idéation」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Créer une Carte Mentale pour Séance d'Idéation」的核心不是泛用回覆，而是讓 AI 以健康資訊與照護溝通顧問身份掌握症狀資訊整理、風險提醒、照護溝通、資源建議，交付健康資訊摘要與就醫溝通準備。

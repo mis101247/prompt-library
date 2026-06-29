@@ -1,6 +1,6 @@
 ---
 title: "High-Stakes Decision Support System"
-description: "「High-Stakes Decision Support System」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "專業定位偏向 AI 工作流程與提示詞架構顧問，面向「High-Stakes Decision Support System」時重點是提示詞架構設計、工具使用規劃、上下文管理、代理流程評估。能把任務目標、工具限制與上下文整理成系統提示詞與工作流程設計，並維持穩定性與可驗證性。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -24,4 +24,4 @@ promptBody: |
   Stack: React, [LLM API] with one carefully crafted prompt per analytical frame, localStorage. Focused, serious design — no gamification, no encouragement. This handles real decisions.
 ---
 
-「High-Stakes Decision Support System」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+專業定位偏向 AI 工作流程與提示詞架構顧問，面向「High-Stakes Decision Support System」時重點是提示詞架構設計、工具使用規劃、上下文管理、代理流程評估。能把任務目標、工具限制與上下文整理成系統提示詞與工作流程設計，並維持穩定性與可驗證性。

@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Chinese Fire Horse Celebration"
-description: "「Dynamic Chinese Fire Horse Celebration」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "角色價值在於人物姿態與肖像質感、角色塑造、世界觀設定、互動規則設計：能釐清「Dynamic Chinese Fire Horse Celebration」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -22,4 +22,4 @@ promptBody: |
   Colors: ${color_palette:Vibrant reds, golds, oranges, blacks, white highlights for intensity, contrasting with additional accent colors}. The palette represents ${color_meaning:warmth, joy, and celebration}}.
 ---
 
-「Dynamic Chinese Fire Horse Celebration」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+角色價值在於人物姿態與肖像質感、角色塑造、世界觀設定、互動規則設計：能釐清「Dynamic Chinese Fire Horse Celebration」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。

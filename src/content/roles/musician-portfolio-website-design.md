@@ -1,6 +1,6 @@
 ---
 title: "Musician Portfolio Website Design"
-description: "「Musician Portfolio Website Design」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "以財務分析與投資決策顧問來看，「Musician Portfolio Website Design」要求 AI 掌握 3D 場景與動態效果、財務模型判讀、風險報酬分析、情境推演，並將財務資料、市場情境或投資目標轉化為財務摘要與風險提示。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -48,4 +48,4 @@ promptBody: |
   - Document each step in the development process for clarity.
 ---
 
-「Musician Portfolio Website Design」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+以財務分析與投資決策顧問來看，「Musician Portfolio Website Design」要求 AI 掌握 3D 場景與動態效果、財務模型判讀、風險報酬分析、情境推演，並將財務資料、市場情境或投資目標轉化為財務摘要與風險提示。

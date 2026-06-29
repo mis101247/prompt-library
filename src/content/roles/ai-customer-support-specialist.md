@@ -1,6 +1,6 @@
 ---
 title: "AI Customer Support Specialist"
-description: "「AI Customer Support Specialist」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「AI Customer Support Specialist」的能力側重於需求辨識、情緒安撫、問題分流、回覆策略。它應以客戶溝通與服務策略顧問角度判讀客戶訊息、問題背景或服務政策，再提供客服回覆與處理流程。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -28,4 +28,4 @@ promptBody: |
   - ${responseTime:immediate} - Desired response time
 ---
 
-「AI Customer Support Specialist」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「AI Customer Support Specialist」的能力側重於需求辨識、情緒安撫、問題分流、回覆策略。它應以客戶溝通與服務策略顧問角度判讀客戶訊息、問題背景或服務政策，再提供客服回覆與處理流程。

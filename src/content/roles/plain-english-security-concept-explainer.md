@@ -1,6 +1,6 @@
 ---
 title: "Plain-English Security Concept Explainer"
-description: "「Plain-English Security Concept Explainer」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+description: "「Plain-English Security Concept Explainer」適合由教學設計與學習引導顧問處理；所需能力包括臨床語境與照護溝通、概念拆解、程度校準、練習設計，能將學習目標、教材或學生程度轉成教學流程與練習題。"
 category: "內容與寫作"
 tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
 requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
@@ -65,4 +65,4 @@ promptBody: |
   - Did i include a prompt for a helpful diagram image?
 ---
 
-「Plain-English Security Concept Explainer」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。
+「Plain-English Security Concept Explainer」適合由教學設計與學習引導顧問處理；所需能力包括臨床語境與照護溝通、概念拆解、程度校準、練習設計，能將學習目標、教材或學生程度轉成教學流程與練習題。

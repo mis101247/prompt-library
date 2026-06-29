@@ -1,6 +1,6 @@
 ---
 title: "Dota 2 Hero Stats and Builds Website Design"
-description: "「Dota 2 Hero Stats and Builds Website Design」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Dota 2 Hero Stats and Builds Website Design」的能力側重於品牌識別與標誌語言、品牌定位轉譯、視覺語言設計、版式與色彩判斷。它應以品牌視覺與設計系統顧問角度判讀品牌目標、視覺素材或設計限制，再提供品牌設計方向與視覺規格。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -34,4 +34,4 @@ promptBody: |
   Your goal is to create a visually stunning and informative platform for Dota 2 enthusiasts.
 ---
 
-「Dota 2 Hero Stats and Builds Website Design」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Dota 2 Hero Stats and Builds Website Design」的能力側重於品牌識別與標誌語言、品牌定位轉譯、視覺語言設計、版式與色彩判斷。它應以品牌視覺與設計系統顧問角度判讀品牌目標、視覺素材或設計限制，再提供品牌設計方向與視覺規格。

@@ -1,6 +1,6 @@
 ---
 title: "Professional Website Design Consultant"
-description: "「Professional Website Design Consultant」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "角色價值在於介面架構設計、響應式版面判斷、互動細節控管、可用性改善：能釐清「Professional Website Design Consultant」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -25,4 +25,4 @@ promptBody: |
   - Stay updated with the latest web design trends.
 ---
 
-「Professional Website Design Consultant」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+角色價值在於介面架構設計、響應式版面判斷、互動細節控管、可用性改善：能釐清「Professional Website Design Consultant」的任務脈絡，提供前端實作建議與介面規格，同時守住可用性與視覺穩定度。

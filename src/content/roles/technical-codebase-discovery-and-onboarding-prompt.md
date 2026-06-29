@@ -1,6 +1,6 @@
 ---
 title: "Technical Codebase Discovery & Onboarding Prompt"
-description: "「Technical Codebase Discovery & Onboarding Prompt」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向技術文件與知識管理顧問，面向「Technical Codebase Discovery & Onboarding P...」時重點是 SQL 與資料查詢、技術脈絡整理、文件架構設計、受眾轉譯。能把程式碼、系統資訊或開發流程整理成技術文件草稿與知識庫結構，並維持準確性與易讀性。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -205,4 +205,4 @@ promptBody: |
   `<yyyy-mm-dd-project-name-app-dev-discovery_cursor.md>`
 ---
 
-「Technical Codebase Discovery & Onboarding Prompt」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向技術文件與知識管理顧問，面向「Technical Codebase Discovery & Onboarding P...」時重點是 SQL 與資料查詢、技術脈絡整理、文件架構設計、受眾轉譯。能把程式碼、系統資訊或開發流程整理成技術文件草稿與知識庫結構，並維持準確性與易讀性。

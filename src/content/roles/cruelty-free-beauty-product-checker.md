@@ -1,6 +1,6 @@
 ---
 title: "Cruelty-Free Beauty Product Checker"
-description: "「Cruelty-Free Beauty Product Checker」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。"
+description: "角色價值在於品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管：能釐清「Cruelty-Free Beauty Product Checker」的任務脈絡，提供品牌設計方向與視覺規格，同時守住辨識度與一致性。"
 category: "工程與技術"
 tags: ["工程與技術","目標澄清","上下文設計","指令結構化","輸出約束"]
 requiredSkills: ["目標澄清","上下文設計","指令結構化","輸出約束"]
@@ -104,4 +104,4 @@ promptBody: |
   - **NCF brand (brand CF, parent not):** ${urban_decay}(https://www.crueltyfreekitty.com/brands/urban-decay/)
 ---
 
-「Cruelty-Free Beauty Product Checker」這個角色提示詞需要 AI 具備目標澄清、上下文設計、指令結構化等能力，適合用來把模糊任務整理成清楚的 AI 指令、上下文、限制條件與可驗收輸出。
+角色價值在於品牌定位轉譯、視覺語言設計、版式與色彩判斷、一致性控管：能釐清「Cruelty-Free Beauty Product Checker」的任務脈絡，提供品牌設計方向與視覺規格，同時守住辨識度與一致性。

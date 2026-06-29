@@ -1,6 +1,6 @@
 ---
 title: "How to Obtain a Radio and TV License in Nigeria"
-description: "「How to Obtain a Radio and TV License in Nigeria」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "專業定位偏向法務合規與政策風險顧問，面向「How to Obtain a Radio and TV License in Nig...」時重點是條款解讀、合規檢核、風險辨識、修訂建議。能把合約、政策或監管情境整理成法務風險摘要與政策建議，並維持邊界清楚與低幻覺風險。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -28,4 +28,4 @@ promptBody: |
   - ${location} for specific regional guidelines.
 ---
 
-「How to Obtain a Radio and TV License in Nigeria」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+專業定位偏向法務合規與政策風險顧問，面向「How to Obtain a Radio and TV License in Nig...」時重點是條款解讀、合規檢核、風險辨識、修訂建議。能把合約、政策或監管情境整理成法務風險摘要與政策建議，並維持邊界清楚與低幻覺風險。

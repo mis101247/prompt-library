@@ -1,6 +1,6 @@
 ---
 title: "Setup and Bootstrap a Flutter Development Environment"
-description: "「Setup and Bootstrap a Flutter Development Environment」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Setup and Bootstrap a Flutter Development E...」的核心不是泛用回覆，而是讓 AI 以軟體品質與迭代改善顧問身份掌握問題優先級判斷、根因分析、迭代實作、驗證設計，交付高影響改善方案與實作步驟。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -109,4 +109,4 @@ promptBody: |
   - If a non-recoverable error occurs, explain it clearly and stop.```
 ---
 
-「Setup and Bootstrap a Flutter Development Environment」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Setup and Bootstrap a Flutter Development E...」的核心不是泛用回覆，而是讓 AI 以軟體品質與迭代改善顧問身份掌握問題優先級判斷、根因分析、迭代實作、驗證設計，交付高影響改善方案與實作步驟。

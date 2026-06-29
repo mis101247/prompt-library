@@ -1,6 +1,6 @@
 ---
 title: "Better Sufix Prompt"
-description: "「Better Sufix Prompt」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "角色價值在於程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計：能釐清「Better Sufix Prompt」的任務脈絡，提供具理由的 review 回饋與優先排序的改進建議，同時守住可維護性與可執行性。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -30,4 +30,4 @@ promptBody: |
   Main Objective: Achieve maximum quality, clarity, efficiency, and maintainability with the least necessary complexity.
 ---
 
-「Better Sufix Prompt」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+角色價值在於程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計：能釐清「Better Sufix Prompt」的任務脈絡，提供具理由的 review 回饋與優先排序的改進建議，同時守住可維護性與可執行性。

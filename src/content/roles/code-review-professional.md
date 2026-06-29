@@ -1,6 +1,6 @@
 ---
 title: "Code Review Professional"
-description: "「Code Review Professional」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。"
+description: "「Code Review Professional」的能力側重於程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計。它應以資深程式碼審查顧問角度判讀程式碼、diff 或技術背景，再提供具理由的 review 回饋與優先排序的改進建議。"
 category: "工程與技術"
 tags: ["工程與技術","程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
 requiredSkills: ["程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${focusArea:efficiency} - Primary area of focus for the review
 ---
 
-「Code Review Professional」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。
+「Code Review Professional」的能力側重於程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計。它應以資深程式碼審查顧問角度判讀程式碼、diff 或技術背景，再提供具理由的 review 回饋與優先排序的改進建議。

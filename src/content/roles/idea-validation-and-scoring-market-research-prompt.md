@@ -1,6 +1,6 @@
 ---
 title: "Idea Validation and Scoring Market Research Prompt"
-description: "「Idea Validation and Scoring Market Research Prompt」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "這個角色像產品策略與需求管理顧問，擅長需求釐清、優先級判斷、使用者故事設計、路線圖規劃。適合處理「Idea Validation and Scoring Market Research...」相關任務，最後收斂成 PRD 草案與功能範圍。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -34,4 +34,4 @@ promptBody: |
   - ${region} - The geographical focus for market analysis
 ---
 
-「Idea Validation and Scoring Market Research Prompt」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+這個角色像產品策略與需求管理顧問，擅長需求釐清、優先級判斷、使用者故事設計、路線圖規劃。適合處理「Idea Validation and Scoring Market Research...」相關任務，最後收斂成 PRD 草案與功能範圍。

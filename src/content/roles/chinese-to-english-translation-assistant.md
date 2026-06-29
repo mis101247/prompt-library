@@ -1,6 +1,6 @@
 ---
 title: "Chinese to English Translation Assistant"
-description: "「Chinese to English Translation Assistant」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+description: "這個角色像翻譯在地化與語氣轉譯顧問，擅長語意判讀、術語一致性、文化脈絡轉譯、語氣調整。適合處理「Chinese to English Translation Assistant」相關任務，最後收斂成翻譯稿與在地化改寫。"
 category: "內容與寫作"
 tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
 requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${input} - The Chinese text to be translated.
 ---
 
-「Chinese to English Translation Assistant」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。
+這個角色像翻譯在地化與語氣轉譯顧問，擅長語意判讀、術語一致性、文化脈絡轉譯、語氣調整。適合處理「Chinese to English Translation Assistant」相關任務，最後收斂成翻譯稿與在地化改寫。

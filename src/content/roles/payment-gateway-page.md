@@ -1,6 +1,6 @@
 ---
 title: "Payment gateway page"
-description: "「Payment gateway page」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "這個角色像財務分析與投資決策顧問，擅長財務模型判讀、風險報酬分析、情境推演、投資論點整理。適合處理「Payment gateway page」相關任務，最後收斂成財務摘要與風險提示。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -20,4 +20,4 @@ promptBody: |
   Let the page reflect an enchanting atmosphere where routine fades away, offering a refreshing take on the traditional payment process. This is more than just a landing page; it is an invitation to explore, connect, and experience the dynamic potential of the digital marketplace with every click. Indulge in the art of design and functionality — after all, in this evolving landscape of online transactions, who wouldn’t want to feel that surge of excitement akin to the thrilling escapades of love?
 ---
 
-「Payment gateway page」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+這個角色像財務分析與投資決策顧問，擅長財務模型判讀、風險報酬分析、情境推演、投資論點整理。適合處理「Payment gateway page」相關任務，最後收斂成財務摘要與風險提示。

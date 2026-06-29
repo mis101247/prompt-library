@@ -1,6 +1,6 @@
 ---
 title: "Hand-off"
-description: "「Hand-off」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。"
+description: "「Hand-off」適合由多用途任務協作顧問處理；所需能力包括任務釐清、脈絡整理、步驟拆解、回覆架構，能將問題、目標與上下文轉成結構化回答與下一步建議。"
 category: "通用助理"
 tags: ["通用助理","任務釐清","脈絡整理","回覆架構","可執行建議"]
 requiredSkills: ["任務釐清","脈絡整理","回覆架構","可執行建議"]
@@ -14,4 +14,4 @@ promptBody: |
   Produce a handoff summary of all decisions made in this session, formatted so I can paste it into a new chat to continue with the next steps pending to execute.
 ---
 
-「Hand-off」這個角色提示詞需要 AI 具備任務釐清、脈絡整理、回覆架構等能力，適合用來把輸入的問題整理成清楚步驟、可用格式與下一步建議。
+「Hand-off」適合由多用途任務協作顧問處理；所需能力包括任務釐清、脈絡整理、步驟拆解、回覆架構，能將問題、目標與上下文轉成結構化回答與下一步建議。

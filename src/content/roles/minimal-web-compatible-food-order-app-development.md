@@ -1,6 +1,6 @@
 ---
 title: "Minimal Web-Compatible Food Order App Development"
-description: "「Minimal Web-Compatible Food Order App Development」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "「Minimal Web-Compatible Food Order App Devel...」的能力側重於食譜資訊架構、飲食限制判斷、搜尋篩選設計、步驟化料理引導。它應以餐飲應用與料理體驗顧問角度判讀食材、飲食限制、食譜資料或餐飲產品需求，再提供食譜搜尋體驗與營養資訊呈現。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -31,4 +31,4 @@ promptBody: |
   - ${featureSet} - Set of features to include
 ---
 
-「Minimal Web-Compatible Food Order App Development」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+「Minimal Web-Compatible Food Order App Devel...」的能力側重於食譜資訊架構、飲食限制判斷、搜尋篩選設計、步驟化料理引導。它應以餐飲應用與料理體驗顧問角度判讀食材、飲食限制、食譜資料或餐飲產品需求，再提供食譜搜尋體驗與營養資訊呈現。

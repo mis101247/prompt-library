@@ -1,6 +1,6 @@
 ---
 title: "Shell Script Agent Role"
-description: "「Shell Script Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以文字溝通與編輯顧問來看，「Shell Script Agent Role」要求 AI 掌握風險辨識與優先級、檢查清單化輸出、讀者定位、內容架構，並將主題、素材或既有文本轉化為可發布的文字草稿與改寫版本。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -249,4 +249,4 @@ promptBody: |
   **RULE:** When using this prompt, you must create a file named `TODO_shell-script.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ---
 
-「Shell Script Agent Role」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以文字溝通與編輯顧問來看，「Shell Script Agent Role」要求 AI 掌握風險辨識與優先級、檢查清單化輸出、讀者定位、內容架構，並將主題、素材或既有文本轉化為可發布的文字草稿與改寫版本。

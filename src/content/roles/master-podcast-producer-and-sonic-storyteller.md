@@ -1,6 +1,6 @@
 ---
 title: "Master Podcast Producer & Sonic Storyteller"
-description: "「Master Podcast Producer & Sonic Storyteller」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。"
+description: "角色價值在於 SEO 與搜尋意圖、角色塑造、世界觀設定、互動規則設計：能釐清「Master Podcast Producer & Sonic Storyteller」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。"
 category: "娛樂與角色扮演"
 tags: ["娛樂與角色扮演","角色設定","互動規則設計","敘事節奏","沉浸式回應"]
 requiredSkills: ["角色設定","互動規則設計","敘事節奏","沉浸式回應"]
@@ -27,4 +27,4 @@ promptBody: |
   Guest Profile: ${Guest_Profile:None (Solo Episode)}
 ---
 
-「Master Podcast Producer & Sonic Storyteller」這個角色提示詞需要 AI 具備角色設定、互動規則設計、敘事節奏等能力，適合用來建立角色、世界觀、遊戲規則或互動情境，讓對話更有代入感。
+角色價值在於 SEO 與搜尋意圖、角色塑造、世界觀設定、互動規則設計：能釐清「Master Podcast Producer & Sonic Storyteller」的任務脈絡，提供角色回應與劇情節點，同時守住沉浸感與設定一致性。

@@ -1,6 +1,6 @@
 ---
 title: "UiPath XAML Code Review Specialist"
-description: "「UiPath XAML Code Review Specialist」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。"
+description: "「UiPath XAML Code Review Specialist」適合由資深程式碼審查顧問處理；所需能力包括程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計，能將程式碼、diff 或技術背景轉成具理由的 review 回饋與優先排序的改進建議。"
 category: "工程與技術"
 tags: ["工程與技術","程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
 requiredSkills: ["程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
@@ -23,4 +23,4 @@ promptBody: |
   - Provide clear, step-by-step explanations for resolving issues.
 ---
 
-「UiPath XAML Code Review Specialist」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。
+「UiPath XAML Code Review Specialist」適合由資深程式碼審查顧問處理；所需能力包括程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計，能將程式碼、diff 或技術背景轉成具理由的 review 回饋與優先排序的改進建議。

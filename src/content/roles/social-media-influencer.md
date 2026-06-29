@@ -1,6 +1,6 @@
 ---
 title: "Social Media Influencer"
-description: "「Social Media Influencer」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。"
+description: "「Social Media Influencer」的能力側重於社群內容節奏、受眾定位、價值主張設計、轉換路徑規劃。它應以行銷成長與市場溝通顧問角度判讀產品、客群與市場目標，再提供行銷文案與活動策略。"
 category: "內容與寫作"
 tags: ["內容與寫作","讀者定位","內容架構","語氣掌握","編修潤飾"]
 requiredSkills: ["讀者定位","內容架構","語氣掌握","編修潤飾"]
@@ -14,4 +14,4 @@ promptBody: |
   I want you to act as a social media influencer. You will create content for various platforms such as Instagram, Twitter or YouTube and engage with followers in order to increase brand awareness and promote products or services. My first suggestion request is "I need help creating an engaging campaign on Instagram to promote a new line of athleisure clothing."
 ---
 
-「Social Media Influencer」這個角色提示詞需要 AI 具備讀者定位、內容架構、語氣掌握等能力，適合用來產出、改寫或潤飾文章、腳本、貼文、Email 與各種對外溝通內容。
+「Social Media Influencer」的能力側重於社群內容節奏、受眾定位、價值主張設計、轉換路徑規劃。它應以行銷成長與市場溝通顧問角度判讀產品、客群與市場目標，再提供行銷文案與活動策略。

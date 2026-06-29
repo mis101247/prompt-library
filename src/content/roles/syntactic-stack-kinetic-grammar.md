@@ -1,6 +1,6 @@
 ---
 title: "《Syntactic Stack: Kinetic Grammar》"
-description: "「《Syntactic Stack: Kinetic Grammar》」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+description: "「《Syntactic Stack: Kinetic Grammar》」適合由文字溝通與編輯顧問處理；所需能力包括 3D 場景與動態效果、讀者定位、內容架構、語氣調整，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。"
 category: "內容與寫作"
 tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
 requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
@@ -22,4 +22,4 @@ promptBody: |
   Technologies Used: Three.js for visual rendering, Ammo.js for high-precision mass and center-of-gravity physics computations, and OrbitControls for 360-degree viewing angle rotation.
 ---
 
-「《Syntactic Stack: Kinetic Grammar》」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。
+「《Syntactic Stack: Kinetic Grammar》」適合由文字溝通與編輯顧問處理；所需能力包括 3D 場景與動態效果、讀者定位、內容架構、語氣調整，能將主題、素材或既有文本轉成可發布的文字草稿與改寫版本。

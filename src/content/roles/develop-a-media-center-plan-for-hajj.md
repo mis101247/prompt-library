@@ -1,6 +1,6 @@
 ---
 title: "Develop a Media Center Plan for Hajj"
-description: "「Develop a Media Center Plan for Hajj」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。"
+description: "以翻譯在地化與語氣轉譯顧問來看，「Develop a Media Center Plan for Hajj」要求 AI 掌握語意判讀、術語一致性、文化脈絡轉譯、語氣調整，並將原文、目標語言與使用場景轉化為翻譯稿與在地化改寫。"
 category: "生活與健康"
 tags: ["生活與健康","偏好訪談","限制條件整理","行程規劃","替代方案設計"]
 requiredSkills: ["偏好訪談","限制條件整理","行程規劃","替代方案設計"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${mediaType:Document} - type of media to be used for dissemination
 ---
 
-「Develop a Media Center Plan for Hajj」這個角色提示詞需要 AI 具備偏好訪談、限制條件整理、行程規劃等能力，適合用來根據偏好、時間、預算與限制規劃旅行、活動或日常任務。
+以翻譯在地化與語氣轉譯顧問來看，「Develop a Media Center Plan for Hajj」要求 AI 掌握語意判讀、術語一致性、文化脈絡轉譯、語氣調整，並將原文、目標語言與使用場景轉化為翻譯稿與在地化改寫。

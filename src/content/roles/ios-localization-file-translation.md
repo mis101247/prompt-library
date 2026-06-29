@@ -1,6 +1,6 @@
 ---
 title: "iOS Localization File Translation"
-description: "「iOS Localization File Translation」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。"
+description: "角色價值在於語意判讀、術語一致性、文化脈絡轉譯、語氣調整：能釐清「iOS Localization File Translation」的任務脈絡，提供翻譯稿與在地化改寫，同時守住自然度與忠實度。"
 category: "內容與寫作"
 tags: ["內容與寫作","雙語轉換","語氣潤飾","文法校正","在地化表達"]
 requiredSkills: ["雙語轉換","語氣潤飾","文法校正","在地化表達"]
@@ -30,4 +30,4 @@ promptBody: |
   If a string contains only a brand name or an identifier (e.g., "app_name" = "${APP_NAME}";), do not attempt to translate the value. Keep it as "${APP_NAME}".
 ---
 
-「iOS Localization File Translation」這個角色提示詞需要 AI 具備雙語轉換、語氣潤飾、文法校正等能力，適合用來翻譯、改寫、校正語句並讓文字更自然、更符合目標語境。
+角色價值在於語意判讀、術語一致性、文化脈絡轉譯、語氣調整：能釐清「iOS Localization File Translation」的任務脈絡，提供翻譯稿與在地化改寫，同時守住自然度與忠實度。

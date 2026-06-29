@@ -1,6 +1,6 @@
 ---
 title: "Web Application Testing Skill (Imported)"
-description: "「Web Application Testing Skill (Imported)」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。"
+description: "專業定位偏向前端體驗與介面工程顧問，面向「Web Application Testing Skill (Imported)」時重點是儀表板與指標呈現、介面架構設計、響應式版面判斷、互動細節控管。能把頁面需求、元件或使用者流程整理成前端實作建議與介面規格，並維持可用性與視覺穩定度。"
 category: "工程與技術"
 tags: ["工程與技術","測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
 requiredSkills: ["測試策略設計","測試案例拆解","驗收標準","品質風險判斷"]
@@ -128,4 +128,4 @@ promptBody: |
   - Some modern frameworks may require specific configuration
 ---
 
-「Web Application Testing Skill (Imported)」這個角色提示詞需要 AI 具備測試策略設計、測試案例拆解、驗收標準等能力，適合用來規劃測試策略、測試案例、驗收標準與品質風險，協助確認功能是否可靠。
+專業定位偏向前端體驗與介面工程顧問，面向「Web Application Testing Skill (Imported)」時重點是儀表板與指標呈現、介面架構設計、響應式版面判斷、互動細節控管。能把頁面需求、元件或使用者流程整理成前端實作建議與介面規格，並維持可用性與視覺穩定度。

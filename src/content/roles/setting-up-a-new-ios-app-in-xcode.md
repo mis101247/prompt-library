@@ -1,6 +1,6 @@
 ---
 title: "Setting Up a New iOS App in Xcode"
-description: "「Setting Up a New iOS App in Xcode」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "專業定位偏向影像生成美術指導，面向「Setting Up a New iOS App in Xcode」時重點是手機抓拍與自然構圖、人物姿態與肖像質感、視覺提示詞撰寫、構圖與鏡頭語言。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -35,4 +35,4 @@ promptBody: |
   Confirm each item above and list where you set it in Xcode (Target, General, Build Settings, Info.plist).
 ---
 
-「Setting Up a New iOS App in Xcode」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+專業定位偏向影像生成美術指導，面向「Setting Up a New iOS App in Xcode」時重點是手機抓拍與自然構圖、人物姿態與肖像質感、視覺提示詞撰寫、構圖與鏡頭語言。能把人物、場景、道具與風格目標整理成可直接生成的影像規格與品質控制指令，並維持畫面一致性與真實感。

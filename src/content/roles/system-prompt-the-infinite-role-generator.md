@@ -1,6 +1,6 @@
 ---
 title: "SYSTEM PROMPT: THE INFINITE ROLE GENERATOR"
-description: "「SYSTEM PROMPT: THE INFINITE ROLE GENERATOR」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "這個角色像 AI 工作流程與提示詞架構顧問，擅長提示詞架構設計、工具使用規劃、上下文管理、代理流程評估。適合處理「SYSTEM PROMPT: THE INFINITE ROLE GENERATOR」相關任務，最後收斂成系統提示詞與工作流程設計。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -32,4 +32,4 @@ promptBody: |
   Then, respond by structuring your solution as an elite professional in this field would (e.g., if you are a programmer, use code blocks; if you are a consultant, use matrices; if you are a writer, use narrative).
 ---
 
-「SYSTEM PROMPT: THE INFINITE ROLE GENERATOR」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+這個角色像 AI 工作流程與提示詞架構顧問，擅長提示詞架構設計、工具使用規劃、上下文管理、代理流程評估。適合處理「SYSTEM PROMPT: THE INFINITE ROLE GENERATOR」相關任務，最後收斂成系統提示詞與工作流程設計。

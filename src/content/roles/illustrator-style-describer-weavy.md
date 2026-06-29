@@ -1,6 +1,6 @@
 ---
 title: "Illustrator Style Describer Weavy"
-description: "「Illustrator Style Describer Weavy」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "角色價值在於讀者定位、內容架構、語氣調整、編修潤飾：能釐清「Illustrator Style Describer Weavy」的任務脈絡，提供可發布的文字草稿與改寫版本，同時守住清晰度與語氣一致性。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -52,4 +52,4 @@ promptBody: |
   Hex colors
 ---
 
-「Illustrator Style Describer Weavy」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+角色價值在於讀者定位、內容架構、語氣調整、編修潤飾：能釐清「Illustrator Style Describer Weavy」的任務脈絡，提供可發布的文字草稿與改寫版本，同時守住清晰度與語氣一致性。

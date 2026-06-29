@@ -1,6 +1,6 @@
 ---
 title: "Architecture & UI/UX Audit"
-description: "「Architecture & UI/UX Audit」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。"
+description: "能力簡歷：針對「Architecture & UI/UX Audit」的 UX 與產品介面設計顧問。需熟悉使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估，從產品需求、使用者情境或介面草案抓出重點，產出流程改善建議與介面規格。"
 category: "設計與創意"
 tags: ["設計與創意","使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
 requiredSkills: ["使用者體驗診斷","介面流程設計","原型思考","可用性回饋"]
@@ -49,4 +49,4 @@ promptBody: |
   Focus only on analysis and recommendations.
 ---
 
-「Architecture & UI/UX Audit」這個角色提示詞需要 AI 具備使用者體驗診斷、介面流程設計、原型思考等能力，適合用來檢查 app、網站或數位產品的流程，提出更直覺的導覽、互動與介面改善建議。
+能力簡歷：針對「Architecture & UI/UX Audit」的 UX 與產品介面設計顧問。需熟悉使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估，從產品需求、使用者情境或介面草案抓出重點，產出流程改善建議與介面規格。

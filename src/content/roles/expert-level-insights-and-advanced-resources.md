@@ -1,6 +1,6 @@
 ---
 title: "Expert-Level Insights and Advanced Resources"
-description: "「Expert-Level Insights and Advanced Resources」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "能力簡歷：針對「Expert-Level Insights and Advanced Resources」的教學設計與學習引導顧問。需熟悉課程路徑設計、概念拆解、程度校準、練習設計，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -14,4 +14,4 @@ promptBody: |
   "Curate a collection of expert tips, advanced learning strategies, and high-quality resources (such as books, courses, tools, or communities) for mastering [topic] efficiently. Emphasize credible sources and actionable advice to accelerate expertise."
 ---
 
-「Expert-Level Insights and Advanced Resources」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+能力簡歷：針對「Expert-Level Insights and Advanced Resources」的教學設計與學習引導顧問。需熟悉課程路徑設計、概念拆解、程度校準、練習設計，從學習目標、教材或學生程度抓出重點，產出教學流程與練習題。

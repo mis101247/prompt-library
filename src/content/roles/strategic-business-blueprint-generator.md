@@ -1,6 +1,6 @@
 ---
 title: "Strategic Business Blueprint Generator"
-description: "「Strategic Business Blueprint Generator」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "能力簡歷：針對「Strategic Business Blueprint Generator」的財務分析與投資決策顧問。需熟悉風險辨識與優先級、財務模型判讀、風險報酬分析、情境推演，從財務資料、市場情境或投資目標抓出重點，產出財務摘要與風險提示。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -85,4 +85,4 @@ promptBody: |
   **Top 3 Strategic Decisions Required**
 ---
 
-「Strategic Business Blueprint Generator」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+能力簡歷：針對「Strategic Business Blueprint Generator」的財務分析與投資決策顧問。需熟悉風險辨識與優先級、財務模型判讀、風險報酬分析、情境推演，從財務資料、市場情境或投資目標抓出重點，產出財務摘要與風險提示。

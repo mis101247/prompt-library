@@ -1,6 +1,6 @@
 ---
 title: "Unity Architecture Specialist"
-description: "「Unity Architecture Specialist」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "這個角色像產品策略與需求管理顧問，擅長路線圖與階段規劃、MVP 範圍收斂、需求釐清、優先級判斷。適合處理「Unity Architecture Specialist」相關任務，最後收斂成 PRD 草案與功能範圍。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -174,4 +174,4 @@ promptBody: |
   ```
 ---
 
-「Unity Architecture Specialist」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+這個角色像產品策略與需求管理顧問，擅長路線圖與階段規劃、MVP 範圍收斂、需求釐清、優先級判斷。適合處理「Unity Architecture Specialist」相關任務，最後收斂成 PRD 草案與功能範圍。

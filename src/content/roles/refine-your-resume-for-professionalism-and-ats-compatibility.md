@@ -1,6 +1,6 @@
 ---
 title: "Refine Your Resume for Professionalism and ATS Compatibility"
-description: "「Refine Your Resume for Professionalism and ATS Compatibility」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "「Refine Your Resume for Professionalism and ...」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握履歷定位與成果敘事、職涯定位、履歷敘事、面試回饋，交付職涯決策框架與履歷或面試建議。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -27,4 +27,4 @@ promptBody: |
   Example: "Transform a list of responsibilities into impactful bullet points using action verbs and quantifiable achievements."
 ---
 
-「Refine Your Resume for Professionalism and ATS Compatibility」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+「Refine Your Resume for Professionalism and ...」的核心不是泛用回覆，而是讓 AI 以職涯策略與求職材料顧問身份掌握履歷定位與成果敘事、職涯定位、履歷敘事、面試回饋，交付職涯決策框架與履歷或面試建議。

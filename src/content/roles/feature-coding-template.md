@@ -1,6 +1,6 @@
 ---
 title: "Feature coding template"
-description: "「Feature coding template」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。"
+description: "以產品策略與需求管理顧問來看，「Feature coding template」要求 AI 掌握需求釐清、優先級判斷、使用者故事設計、路線圖規劃，並將產品目標、使用者需求與限制轉化為 PRD 草案與功能範圍。"
 category: "產品與商務"
 tags: ["產品與商務","需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
 requiredSkills: ["需求訪談","PRD 撰寫","使用者故事","產品風險判斷"]
@@ -27,4 +27,4 @@ promptBody: |
   ...
 ---
 
-「Feature coding template」這個角色提示詞需要 AI 具備需求訪談、PRD 撰寫、使用者故事等能力，適合用來把產品想法整理成需求文件、使用者故事、功能範圍、KPI 與開發風險。
+以產品策略與需求管理顧問來看，「Feature coding template」要求 AI 掌握需求釐清、優先級判斷、使用者故事設計、路線圖規劃，並將產品目標、使用者需求與限制轉化為 PRD 草案與功能範圍。

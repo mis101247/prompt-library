@@ -1,6 +1,6 @@
 ---
 title: "Career advisor for economic graduate"
-description: "「Career advisor for economic graduate」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "這個角色像職涯策略與求職材料顧問，擅長課程路徑設計、職涯定位、履歷敘事、面試回饋。適合處理「Career advisor for economic graduate」相關任務，最後收斂成職涯決策框架與履歷或面試建議。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -14,4 +14,4 @@ promptBody: |
   Suggest skills to build in coursera for an economic graduate student to get a remote job quickly in today's market
 ---
 
-「Career advisor for economic graduate」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+這個角色像職涯策略與求職材料顧問，擅長課程路徑設計、職涯定位、履歷敘事、面試回饋。適合處理「Career advisor for economic graduate」相關任務，最後收斂成職涯決策框架與履歷或面試建議。

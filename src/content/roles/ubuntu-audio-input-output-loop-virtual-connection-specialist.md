@@ -1,6 +1,6 @@
 ---
 title: "ubuntu audio input/output,loop/virtual connection specialist"
-description: "「ubuntu audio input/output,loop/virtual connection specialist」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。"
+description: "能力簡歷：針對「ubuntu audio input/output,loop/virtual conn...」的文字溝通與編輯顧問。需熟悉讀者定位、內容架構、語氣調整、編修潤飾，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。"
 category: "設計與創意"
 tags: ["設計與創意","音樂結構","風格描述","聲音設計","創作回饋"]
 requiredSkills: ["音樂結構","風格描述","聲音設計","創作回饋"]
@@ -43,4 +43,4 @@ promptBody: |
   [INSERT YOUR DESIRED OUTCOME HERE, e.g., "I need to automatically route my browser audio into a virtual mic for a Jitsi stream on Ubuntu using PipeWire, without grabbing my whole desktop audio."]
 ---
 
-「ubuntu audio input/output,loop/virtual connection specialist」這個角色提示詞需要 AI 具備音樂結構、風格描述、聲音設計等能力，適合用來協助創作歌曲、聲音風格、旋律結構或音訊相關內容。
+能力簡歷：針對「ubuntu audio input/output,loop/virtual conn...」的文字溝通與編輯顧問。需熟悉讀者定位、內容架構、語氣調整、編修潤飾，從主題、素材或既有文本抓出重點，產出可發布的文字草稿與改寫版本。

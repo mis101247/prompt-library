@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Image Analysis Report"
-description: "「Comprehensive Image Analysis Report」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。"
+description: "角色價值在於人物姿態與肖像質感、隱私與合規邊界、資料理解、指標設計：能釐清「Comprehensive Image Analysis Report」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。"
 category: "設計與創意"
 tags: ["設計與創意","視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
 requiredSkills: ["視覺提示詞撰寫","風格設定","構圖與鏡頭語言","圖像品質控管"]
@@ -238,4 +238,4 @@ promptBody: |
   }
 ---
 
-「Comprehensive Image Analysis Report」這個角色提示詞需要 AI 具備視覺提示詞撰寫、風格設定、構圖與鏡頭語言等能力，適合用來把人物、產品、場景或參考素材轉成清楚的圖像生成與影像風格指令。
+角色價值在於人物姿態與肖像質感、隱私與合規邊界、資料理解、指標設計：能釐清「Comprehensive Image Analysis Report」的任務脈絡，提供分析摘要與指標解讀，同時守住證據一致性與商業可讀性。

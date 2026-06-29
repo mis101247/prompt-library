@@ -1,6 +1,6 @@
 ---
 title: "Academic Graduation Presentation Guide"
-description: "「Academic Graduation Presentation Guide」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "「Academic Graduation Presentation Guide」適合由簡報敘事與資訊設計顧問處理；所需能力包括訊息層級設計、簡報架構、視覺敘事、重點萃取，能將資料、主題或提案目標轉成投影片架構與視覺呈現建議。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -29,4 +29,4 @@ promptBody: |
   - ${slideCount:10} - the total number of slides
 ---
 
-「Academic Graduation Presentation Guide」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+「Academic Graduation Presentation Guide」適合由簡報敘事與資訊設計顧問處理；所需能力包括訊息層級設計、簡報架構、視覺敘事、重點萃取，能將資料、主題或提案目標轉成投影片架構與視覺呈現建議。

@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Code Review Expert"
-description: "「Comprehensive Code Review Expert」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。"
+description: "這個角色像資深程式碼審查顧問，擅長程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計。適合處理「Comprehensive Code Review Expert」相關任務，最後收斂成具理由的 review 回饋與優先排序的改進建議。"
 category: "工程與技術"
 tags: ["工程與技術","程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
 requiredSkills: ["程式碼閱讀","架構風險判斷","可維護性評估","改寫建議"]
@@ -26,4 +26,4 @@ promptBody: |
   - ${focusAreas:quality, efficiency} - specific areas to focus on during the review
 ---
 
-「Comprehensive Code Review Expert」這個角色提示詞需要 AI 具備程式碼閱讀、架構風險判斷、可維護性評估等能力，適合用來檢查程式碼品質、架構風險、可維護性與替代實作，整理成可採取行動的 review 回饋。
+這個角色像資深程式碼審查顧問，擅長程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計。適合處理「Comprehensive Code Review Expert」相關任務，最後收斂成具理由的 review 回饋與優先排序的改進建議。

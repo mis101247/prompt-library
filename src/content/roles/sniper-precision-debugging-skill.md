@@ -1,6 +1,6 @@
 ---
 title: "Sniper-Precision Debugging Skill"
-description: "「Sniper-Precision Debugging Skill」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Sniper-Precision Debugging Skill」適合由軟體品質與迭代改善顧問處理；所需能力包括問題優先級判斷、根因分析、迭代實作、驗證設計，能將應用程式、使用者流程或程式碼品質問題轉成高影響改善方案與實作步驟。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -46,4 +46,4 @@ promptBody: |
   Use this skill to approach debugging with precision and confidence, ensuring robust and reliable solutions.
 ---
 
-「Sniper-Precision Debugging Skill」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Sniper-Precision Debugging Skill」適合由軟體品質與迭代改善顧問處理；所需能力包括問題優先級判斷、根因分析、迭代實作、驗證設計，能將應用程式、使用者流程或程式碼品質問題轉成高影響改善方案與實作步驟。

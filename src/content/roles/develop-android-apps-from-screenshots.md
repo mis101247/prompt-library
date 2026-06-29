@@ -1,6 +1,6 @@
 ---
 title: "Develop Android Apps from Screenshots"
-description: "「Develop Android Apps from Screenshots」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "「Develop Android Apps from Screenshots」適合由影像生成美術指導處理；所需能力包括視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，能將人物、場景、道具與風格目標轉成可直接生成的影像規格與品質控制指令。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${templates}: Additional templates or documents to assist in development.
 ---
 
-「Develop Android Apps from Screenshots」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+「Develop Android Apps from Screenshots」適合由影像生成美術指導處理；所需能力包括視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計，能將人物、場景、道具與風格目標轉成可直接生成的影像規格與品質控制指令。

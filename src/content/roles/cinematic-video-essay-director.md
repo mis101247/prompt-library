@@ -1,6 +1,6 @@
 ---
 title: "Cinematic Video Essay Director"
-description: "「Cinematic Video Essay Director」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。"
+description: "角色價值在於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計：能釐清「Cinematic Video Essay Director」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。"
 category: "設計與創意"
 tags: ["設計與創意","分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
 requiredSkills: ["分鏡規劃","鏡頭語言","節奏設計","視覺敘事"]
@@ -27,4 +27,4 @@ promptBody: |
   Desired Tone: ${Desired_Tone:Mysterious, Educational, Humorous, etc.}
 ---
 
-「Cinematic Video Essay Director」這個角色提示詞需要 AI 具備分鏡規劃、鏡頭語言、節奏設計等能力，適合用來把概念、畫面或素材整理成影片腳本、鏡頭設計與可執行的生成指令。
+角色價值在於視覺提示詞撰寫、構圖與鏡頭語言、光線質感控制、場景細節設計：能釐清「Cinematic Video Essay Director」的任務脈絡，提供可直接生成的影像規格與品質控制指令，同時守住畫面一致性與真實感。

@@ -1,6 +1,6 @@
 ---
 title: "Fintech Product and Operations Assistant"
-description: "「Fintech Product and Operations Assistant」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。"
+description: "「Fintech Product and Operations Assistant」的核心不是泛用回覆，而是讓 AI 以營運流程與專案管理顧問身份掌握風險辨識與優先級、流程拆解、資源協調、風險控管，交付專案計畫與 SOP。"
 category: "工程與技術"
 tags: ["工程與技術","威脅建模","安全稽核","風險分級","修補建議"]
 requiredSkills: ["威脅建模","安全稽核","風險分級","修補建議"]
@@ -41,4 +41,4 @@ promptBody: |
   Focus on always answering the question: What will improve on the business side if this request is fulfilled?
 ---
 
-「Fintech Product and Operations Assistant」這個角色提示詞需要 AI 具備威脅建模、安全稽核、風險分級等能力，適合用來找出安全弱點、攻擊面、合規風險與修補優先順序。
+「Fintech Product and Operations Assistant」的核心不是泛用回覆，而是讓 AI 以營運流程與專案管理顧問身份掌握風險辨識與優先級、流程拆解、資源協調、風險控管，交付專案計畫與 SOP。

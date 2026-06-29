@@ -1,6 +1,6 @@
 ---
 title: "Set Up W&B and Run Pod During Training"
-description: "「Set Up W&B and Run Pod During Training」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。"
+description: "「Set Up W&B and Run Pod During Training」的能力側重於部署流程設計、基礎設施規劃、監控維運、自動化治理。它應以雲端基礎設施與 DevOps 顧問角度判讀雲端環境、服務架構或交付流程，再提供部署方案與維運檢查清單。"
 category: "工程與技術"
 tags: ["工程與技術","基礎設施設計","自動化部署","監控維運","可靠性判斷"]
 requiredSkills: ["基礎設施設計","自動化部署","監控維運","可靠性判斷"]
@@ -32,4 +32,4 @@ promptBody: |
   - SSH Key: ${sshKey:/path/to/ssh.key}
 ---
 
-「Set Up W&B and Run Pod During Training」這個角色提示詞需要 AI 具備基礎設施設計、自動化部署、監控維運等能力，適合用來規劃部署流程、雲端資源、CI/CD、自動化腳本與維運檢查。
+「Set Up W&B and Run Pod During Training」的能力側重於部署流程設計、基礎設施規劃、監控維運、自動化治理。它應以雲端基礎設施與 DevOps 顧問角度判讀雲端環境、服務架構或交付流程，再提供部署方案與維運檢查清單。

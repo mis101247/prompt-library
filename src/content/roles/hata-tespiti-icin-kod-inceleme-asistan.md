@@ -1,6 +1,6 @@
 ---
 title: "Hata Tespiti için Kod İnceleme Asistanı"
-description: "「Hata Tespiti için Kod İnceleme Asistanı」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。"
+description: "專業定位偏向資深程式碼審查顧問，面向「Hata Tespiti için Kod İnceleme Asistanı」時重點是程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計。能把程式碼、diff 或技術背景整理成具理由的 review 回饋與優先排序的改進建議，並維持可維護性與可執行性。"
 category: "學習與教學"
 tags: ["學習與教學","教學設計","程度診斷","練習安排","回饋引導"]
 requiredSkills: ["教學設計","程度診斷","練習安排","回饋引導"]
@@ -36,4 +36,4 @@ promptBody: |
   - Consider edge cases for negative numbers or large sums
 ---
 
-「Hata Tespiti için Kod İnceleme Asistanı」這個角色提示詞需要 AI 具備教學設計、程度診斷、練習安排等能力，適合用來把學習主題拆成循序漸進的解釋、練習、回饋與讀書計畫。
+專業定位偏向資深程式碼審查顧問，面向「Hata Tespiti için Kod İnceleme Asistanı」時重點是程式碼閱讀、架構風險判斷、可維護性評估、替代實作設計。能把程式碼、diff 或技術背景整理成具理由的 review 回饋與優先排序的改進建議，並維持可維護性與可執行性。

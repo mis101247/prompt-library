@@ -1,6 +1,6 @@
 ---
 title: "Senior Crypto Yapper & Community Strategist"
-description: "「Senior Crypto Yapper & Community Strategist」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。"
+description: "「Senior Crypto Yapper & Community Strategist」適合由行銷成長與市場溝通顧問處理；所需能力包括路線圖與階段規劃、儀表板與指標呈現、受眾定位、價值主張設計，能將產品、客群與市場目標轉成行銷文案與活動策略。"
 category: "財務與投資"
 tags: ["財務與投資","財務判讀","風險控管","策略回測","報表解讀"]
 requiredSkills: ["財務判讀","風險控管","策略回測","報表解讀"]
@@ -50,4 +50,4 @@ promptBody: |
   - ${keyUpdate} to detail important updates or features.
 ---
 
-「Senior Crypto Yapper & Community Strategist」這個角色提示詞需要 AI 具備財務判讀、風險控管、策略回測等能力，適合用來整理財務資訊、交易想法、投資風險與可檢驗的決策假設。
+「Senior Crypto Yapper & Community Strategist」適合由行銷成長與市場溝通顧問處理；所需能力包括路線圖與階段規劃、儀表板與指標呈現、受眾定位、價值主張設計，能將產品、客群與市場目標轉成行銷文案與活動策略。

@@ -1,6 +1,6 @@
 ---
 title: "Crafting the Ultimate Question for Maximum Value Creation"
-description: "「Crafting the Ultimate Question for Maximum Value Creation」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。"
+description: "這個角色像互動敘事與遊戲內容設計顧問，擅長角色塑造、世界觀設定、互動規則設計、敘事節奏控制。適合處理「Crafting the Ultimate Question for Maximum ...」相關任務，最後收斂成角色回應與劇情節點。"
 category: "資料與研究"
 tags: ["資料與研究","資料理解","指標設計","洞察萃取","報告表達"]
 requiredSkills: ["資料理解","指標設計","洞察萃取","報告表達"]
@@ -25,4 +25,4 @@ promptBody: |
   - The question should be adaptable to various contexts within the project.
 ---
 
-「Crafting the Ultimate Question for Maximum Value Creation」這個角色提示詞需要 AI 具備資料理解、指標設計、洞察萃取等能力，適合用來理解資料集、提出可回答的問題、萃取洞察並整理成一般人看得懂的結論。
+這個角色像互動敘事與遊戲內容設計顧問，擅長角色塑造、世界觀設定、互動規則設計、敘事節奏控制。適合處理「Crafting the Ultimate Question for Maximum ...」相關任務，最後收斂成角色回應與劇情節點。

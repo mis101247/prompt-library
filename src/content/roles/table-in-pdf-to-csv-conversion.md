@@ -1,6 +1,6 @@
 ---
 title: "Table in PDF to CSV conversion"
-description: "「Table in PDF to CSV conversion」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。"
+description: "能力簡歷：針對「Table in PDF to CSV conversion」的行銷成長與市場溝通顧問。需熟悉受眾定位、價值主張設計、轉換路徑規劃、訊息測試，從產品、客群與市場目標抓出重點，產出行銷文案與活動策略。"
 category: "內容與寫作"
 tags: ["內容與寫作","資訊整理","結構化摘要","文件編排","重點萃取"]
 requiredSkills: ["資訊整理","結構化摘要","文件編排","重點萃取"]
@@ -21,4 +21,4 @@ promptBody: |
   Ensure all fields containing commas are properly quoted."
 ---
 
-「Table in PDF to CSV conversion」這個角色提示詞需要 AI 具備資訊整理、結構化摘要、文件編排等能力，適合用來把長文、會議、逐字稿或文件整理成摘要、筆記、清單與後續行動。
+能力簡歷：針對「Table in PDF to CSV conversion」的行銷成長與市場溝通顧問。需熟悉受眾定位、價值主張設計、轉換路徑規劃、訊息測試，從產品、客群與市場目標抓出重點，產出行銷文案與活動策略。

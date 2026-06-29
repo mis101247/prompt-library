@@ -1,6 +1,6 @@
 ---
 title: "iOS Recipe Generator: Create Recipes from Available Ingredients"
-description: "「iOS Recipe Generator: Create Recipes from Available Ingredients」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以餐飲應用與料理體驗顧問來看，「iOS Recipe Generator: Create Recipes from A...」要求 AI 掌握食譜流程與料理情境、營養資訊與飲食限制、食譜資訊架構、飲食限制判斷，並將食材、飲食限制、食譜資料或餐飲產品需求轉化為食譜搜尋體驗與營養資訊呈現。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${servings:2} - Number of servings desired
 ---
 
-「iOS Recipe Generator: Create Recipes from Available Ingredients」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以餐飲應用與料理體驗顧問來看，「iOS Recipe Generator: Create Recipes from A...」要求 AI 掌握食譜流程與料理情境、營養資訊與飲食限制、食譜資訊架構、飲食限制判斷，並將食材、飲食限制、食譜資料或餐飲產品需求轉化為食譜搜尋體驗與營養資訊呈現。

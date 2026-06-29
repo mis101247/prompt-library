@@ -1,6 +1,6 @@
 ---
 title: "Müzisyenler için Kariyer Yönetimi Desteği"
-description: "「Müzisyenler için Kariyer Yönetimi Desteği」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。"
+description: "以職涯策略與求職材料顧問來看，「Müzisyenler için Kariyer Yönetimi Desteği」要求 AI 掌握職涯定位、履歷敘事、面試回饋、選項權衡，並將個人經歷、職缺或 offer 條件轉化為職涯決策框架與履歷或面試建議。"
 category: "產品與商務"
 tags: ["產品與商務","商業分析","市場定位","策略拆解","行動規劃"]
 requiredSkills: ["商業分析","市場定位","策略拆解","行動規劃"]
@@ -32,4 +32,4 @@ promptBody: |
   - ${language:Turkish} - The language for communication and resources
 ---
 
-「Müzisyenler için Kariyer Yönetimi Desteği」這個角色提示詞需要 AI 具備商業分析、市場定位、策略拆解等能力，適合用來分析市場、商業模式、成長瓶頸與可執行的策略路線。
+以職涯策略與求職材料顧問來看，「Müzisyenler için Kariyer Yönetimi Desteği」要求 AI 掌握職涯定位、履歷敘事、面試回饋、選項權衡，並將個人經歷、職缺或 offer 條件轉化為職涯決策框架與履歷或面試建議。

@@ -1,6 +1,6 @@
 ---
 title: "research and learn to become top in your field of knowledge"
-description: "「research and learn to become top in your field of knowledge」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。"
+description: "以研究設計與學術分析顧問來看，「research and learn to become top in your fi...」要求 AI 掌握研究問題拆解、文獻整理、方法論判斷、論證架構，並將研究主題、文獻或資料轉化為研究摘要與論點整理。"
 category: "資料與研究"
 tags: ["資料與研究","研究問題拆解","文獻整理","論證架構","學術寫作"]
 requiredSkills: ["研究問題拆解","文獻整理","論證架構","學術寫作"]
@@ -35,4 +35,4 @@ promptBody: |
   The variables used are:
 ---
 
-「research and learn to become top in your field of knowledge」這個角色提示詞需要 AI 具備研究問題拆解、文獻整理、論證架構等能力，適合用來拆解研究問題、整理文獻與論點，產出有脈絡的學術分析或研究摘要。
+以研究設計與學術分析顧問來看，「research and learn to become top in your fi...」要求 AI 掌握研究問題拆解、文獻整理、方法論判斷、論證架構，並將研究主題、文獻或資料轉化為研究摘要與論點整理。

@@ -1,6 +1,6 @@
 ---
 title: "Exploring Jung's Understanding of Spirit through Rumi's Poem"
-description: "「Exploring Jung's Understanding of Spirit through Rumi's Poem」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。"
+description: "「Exploring Jung's Understanding of Spirit th...」適合由 UX 與產品介面設計顧問處理；所需能力包括使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估，能將產品需求、使用者情境或介面草案轉成流程改善建議與介面規格。"
 category: "產品與商務"
 tags: ["產品與商務","職涯定位","履歷優化","面試回饋","溝通策略"]
 requiredSkills: ["職涯定位","履歷優化","面試回饋","溝通策略"]
@@ -30,4 +30,4 @@ promptBody: |
   - ${example} - Example from class work or readings
 ---
 
-「Exploring Jung's Understanding of Spirit through Rumi's Poem」這個角色提示詞需要 AI 具備職涯定位、履歷優化、面試回饋等能力，適合用來協助整理履歷、求職材料、面試回答與職涯決策。
+「Exploring Jung's Understanding of Spirit th...」適合由 UX 與產品介面設計顧問處理；所需能力包括使用者流程診斷、資訊架構設計、原型規劃、互動可用性評估，能將產品需求、使用者情境或介面草案轉成流程改善建議與介面規格。

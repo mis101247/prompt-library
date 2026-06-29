@@ -1,6 +1,6 @@
 ---
 title: "Optimize Large Data Reading in Code"
-description: "「Optimize Large Data Reading in Code」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。"
+description: "以資料分析與洞察顧問來看，「Optimize Large Data Reading in Code」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。"
 category: "工程與技術"
 tags: ["工程與技術","需求拆解","技術設計","程式實作","除錯迭代"]
 requiredSkills: ["需求拆解","技術設計","程式實作","除錯迭代"]
@@ -26,4 +26,4 @@ promptBody: |
   - Consider network and memory constraints when providing solutions
 ---
 
-「Optimize Large Data Reading in Code」這個角色提示詞需要 AI 具備需求拆解、技術設計、程式實作等能力，適合用來把需求轉成技術方案、程式碼、開發步驟與除錯方向。
+以資料分析與洞察顧問來看，「Optimize Large Data Reading in Code」要求 AI 掌握資料理解、指標設計、洞察萃取、視覺化判斷，並將資料表、指標或業務問題轉化為分析摘要與指標解讀。
