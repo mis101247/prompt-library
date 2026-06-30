@@ -15,28 +15,66 @@ const { body, copyLabel } = Astro.props;
   <pre><code>{body}</code></pre>
 </section>
 
+<div class="sticky-copy-bar" data-sticky-copy aria-hidden="true">
+  <button class="copy-button sticky-copy-bar__button" type="button" data-copy-prompt-sticky>{copyLabel}</button>
+</div>
+
 <script is:inline>
-  document.querySelectorAll('[data-copy-prompt]').forEach((button) => {
-    if (button.dataset.bound === 'true') return;
-    button.dataset.bound = 'true';
-    const originalLabel = button.textContent || '複製提示詞';
+  (function () {
+    const block = document.querySelector('[data-prompt-block]');
+    if (!block) return;
 
-    button.addEventListener('click', async () => {
-      const shell = button.closest('[data-prompt-block]');
-      const promptText = shell?.querySelector('code')?.textContent || '';
+    const promptText = block.querySelector('code')?.textContent || '';
+    const bar = document.querySelector('[data-sticky-copy]');
+    const inlineButton = block.querySelector('[data-copy-prompt]');
+    const stickyButton = bar?.querySelector('[data-copy-prompt-sticky]');
 
-      try {
-        await navigator.clipboard.writeText(promptText);
-        button.textContent = '已複製';
-      } catch {
-        button.textContent = '複製失敗，請手動選取';
-      }
+    function bindCopy(button) {
+      if (!button || button.dataset.bound === 'true') return;
+      button.dataset.bound = 'true';
+      const originalLabel = button.textContent || '複製提示詞';
 
-      window.clearTimeout(button.dataset.resetTimer);
-      const timer = window.setTimeout(() => {
-        button.textContent = originalLabel;
-      }, 1600);
-      button.dataset.resetTimer = String(timer);
-    });
-  });
+      button.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(promptText);
+          button.textContent = '已複製';
+        } catch {
+          button.textContent = '複製失敗，請手動選取';
+        }
+
+        window.clearTimeout(button.dataset.resetTimer);
+        const timer = window.setTimeout(() => {
+          button.textContent = originalLabel;
+        }, 1600);
+        button.dataset.resetTimer = String(timer);
+      });
+    }
+
+    bindCopy(inlineButton);
+    bindCopy(stickyButton);
+
+    // Reveal the floating copy bar once the inline copy button has scrolled
+    // above the viewport, so the primary action stays one thumb-tap away.
+    if (bar && inlineButton && 'IntersectionObserver' in window) {
+      let ready = false;
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          const rootTop = entry.rootBounds ? entry.rootBounds.top : 0;
+          const scrolledPast = entry.boundingClientRect.top < rootTop;
+          const visible = !entry.isIntersecting && scrolledPast;
+          bar.classList.toggle('is-visible', visible);
+          bar.setAttribute('aria-hidden', visible ? 'false' : 'true');
+
+          // Enable transitions only after the first (instant) state is applied,
+          // so the bar never animates in on page load.
+          if (!ready) {
+            ready = true;
+            window.requestAnimationFrame(() => bar.classList.add('is-ready'));
+          }
+        },
+        { threshold: 0 },
+      );
+      observer.observe(inlineButton);
+    }
+  })();
 </script>

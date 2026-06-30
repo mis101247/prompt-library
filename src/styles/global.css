@@ -622,6 +622,49 @@ hr {
   background: #f7fafc;
 }
 
+/* Floating copy bar: keeps the primary action one thumb-tap away on phones. */
+.sticky-copy-bar {
+  position: fixed;
+  z-index: 20;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  padding: 0.6rem 0.9rem;
+  padding-bottom: calc(0.6rem + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid rgba(var(--ink-rgb), 0.12);
+  background: rgba(250, 251, 252, 0.92);
+  box-shadow: 0 -8px 24px rgba(var(--ink-rgb), 0.12);
+  backdrop-filter: blur(14px);
+  transform: translateY(110%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Transitions are enabled by JS only after the first frame, so the initial
+   hidden state applies instantly instead of flashing in on page load. */
+.sticky-copy-bar.is-ready {
+  transition:
+    transform 0.26s ease,
+    opacity 0.26s ease,
+    visibility 0.26s ease;
+}
+
+.sticky-copy-bar.is-visible {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.sticky-copy-bar__button {
+  width: 100%;
+  min-height: 3rem;
+  font-size: 1rem;
+  box-shadow: 0 6px 16px rgba(var(--ink-rgb), 0.2);
+}
+
 .site-header {
   position: sticky;
   z-index: 10;
@@ -775,7 +818,54 @@ hr {
   }
 
   .prompt-toolbar {
-    align-items: start;
+    align-items: stretch;
     flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .button,
+  .copy-button {
+    min-height: 2.75rem;
+  }
+
+  /* The copy action is the page's primary task — give it the full width. */
+  .prompt-toolbar .copy-button {
+    width: 100%;
+    min-height: 2.9rem;
+    font-size: 0.95rem;
+  }
+
+  /* Let the prompt flow and wrap so it reads top-to-bottom with no pinch or
+     side-scroll, and never traps the page scroll inside a nested box. */
+  .prompt-shell pre {
+    max-height: none;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  .sticky-copy-bar {
+    display: block;
+  }
+
+  /* Reserve room so the floating bar never hides the last lines or the footer. */
+  .page-shell--article {
+    padding-bottom: 5rem;
+  }
+
+  .site-footer {
+    padding-bottom: 6rem;
+  }
+
+  /* Stack and centre the pager so the summary and controls read calmly,
+     instead of the summary clinging left and the buttons splitting apart. */
+  .pagination {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pagination__controls {
+    justify-content: center;
   }
 }
