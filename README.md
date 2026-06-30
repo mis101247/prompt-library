@@ -8,6 +8,10 @@ Prompt Library 是一個以 Astro 建立的正體中文提示詞知識庫，整�
 
 [prompts.keyo.tw](https://prompts.keyo.tw/?utm_source=github&utm_medium=readme&utm_campaign=prompt_library)
 
+<p>
+  <img src="https://images.keyo.tw/prompts/website-demo.jpeg" alt="Prompt Library 網站首頁 Demo" width="900">
+</p>
+
 ## 目前內容
 
 - **趣味應用**：整理社群平台上常見的 AI 圖像、角色扮演、生活化創作與互動玩法。
