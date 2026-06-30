@@ -4,6 +4,10 @@ Prompt Library 是一個以 Astro 建立的正體中文提示詞知識庫，整�
 
 這個網站不是大型 prompt dump，而是偏個人知識庫的精選整理：每篇內容都要讓使用者知道「這個提示詞適合什麼情境」、「可以怎麼用」、「下一步可以做什麼」。
 
+## 網站
+
+[prompts.keyo.tw](https://prompts.keyo.tw/?utm_source=github&utm_medium=readme&utm_campaign=prompt_library)
+
 ## 目前內容
 
 - **提示詞收藏**：適合 Codex、Claude Code、Cursor、Gemini CLI 等工具使用的工程提示詞。
@@ -61,12 +65,13 @@ npm run preview
 
 ## 主要來源
 
-- `software-engineering-prompt-repos`
-- `prompts.chat`：角色型提示詞與 prompt library 產品參考
-- `awesome-prompts`：工程、測試、安全與 agent 類提示詞
-- `pr-agent`：結構化 PR review prompt 與 workflow
-- `open-code-review`：低誤報 code review workflow
-- `Awesome-Prompt-Engineering`：prompt engineering 研究與工具地圖
+- [Prompts-For-Software-Engineers](https://github.com/wycoconut/Prompts-For-Software-Engineers)：工程提示詞與 vibe coding 入門素材
+- [prompts.chat](https://github.com/f/prompts.chat)：角色型提示詞與 prompt library 產品參考
+- [awesome-prompts](https://github.com/ai-boost/awesome-prompts)：工程、測試、安全與 agent 類提示詞
+- [500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)：AI agent 題目、CrewAI agent / task 與範例工作流程
+- [pr-agent](https://github.com/The-PR-Agent/pr-agent)：結構化 PR review prompt 與 workflow
+- [open-code-review](https://github.com/alibaba/open-code-review)：低誤報 code review workflow
+- [Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)：prompt engineering 研究與工具地圖
 
 ## 部署
 

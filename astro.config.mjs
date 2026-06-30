@@ -3,6 +3,6 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://prompt-library.keyo.tw',
+  site: 'https://prompts.keyo.tw',
   integrations: [mdx(), sitemap()],
 });
