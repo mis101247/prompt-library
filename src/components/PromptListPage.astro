@@ -189,11 +189,20 @@ const thumbnailCategory = preferredDefaultCategory;
       const query = search.value.trim().toLowerCase();
       const categoryValue = category.value;
 
-      return searchIndex.filter((entry) => {
+      const matches = searchIndex.filter((entry) => {
         return (
           (!query || entry.searchText.includes(query)) &&
           (!categoryValue || entry.category === categoryValue)
         );
+      });
+
+      if (categoryValue !== thumbnailCategory) return matches;
+
+      return [...matches].sort((a, b) => {
+        const aRank = a.thumbnailUrl ? (a.thumbnailContainWhite ? 1 : 0) : 2;
+        const bRank = b.thumbnailUrl ? (b.thumbnailContainWhite ? 1 : 0) : 2;
+
+        return aRank - bRank;
       });
     }
 
