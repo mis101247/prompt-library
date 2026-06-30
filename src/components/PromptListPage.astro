@@ -56,7 +56,7 @@ const thumbnailCategory = preferredDefaultCategory;
   <section class="filter-bar" aria-label="提示詞搜尋與篩選">
     <input id="search" type="search" placeholder="搜尋標題、用途或標籤" aria-label="搜尋提示詞" />
     <select id="category" aria-label="依分類篩選">
-      <option value="">所有分類</option>
+      <option value="">所有類別</option>
       {categories.map((category) => <option value={category} selected={category === defaultCategory}>{category}</option>)}
     </select>
   </section>
@@ -114,12 +114,17 @@ const thumbnailCategory = preferredDefaultCategory;
     const prevSearch = document.querySelector('[data-search-prev]');
     const nextSearch = document.querySelector('[data-search-next]');
     const params = new URLSearchParams(window.location.search);
+    const hasQueryParam = params.has('q') && params.get('q').trim().length > 0;
+    const hasCategoryParam = params.has('category');
     let searchPage = 1;
+    let categoryTouched = hasCategoryParam;
 
     if (params.get('q')) search.value = params.get('q');
-    if (params.get('category')) {
+    if (hasCategoryParam) {
       category.value = params.get('category');
-    } else if (defaultCategory) {
+    } else if (hasQueryParam) {
+      category.value = '';
+    } else if (!hasQueryParam && defaultCategory) {
       category.value = defaultCategory;
     }
 
@@ -237,15 +242,32 @@ const thumbnailCategory = preferredDefaultCategory;
       nextSearch.disabled = searchPage >= totalPages;
     }
 
-    [search, category].forEach((control) => {
-      control.addEventListener('input', () => {
-        searchPage = 1;
-        renderSearch();
-      });
-      control.addEventListener('change', () => {
-        searchPage = 1;
-        renderSearch();
-      });
+    function renderFirstPage() {
+      searchPage = 1;
+      renderSearch();
+    }
+
+    function resetDefaultCategoryForSearch() {
+      if (!categoryTouched && !hasCategoryParam && search.value.trim().length > 0) {
+        category.value = '';
+      }
+    }
+
+    search.addEventListener('input', () => {
+      resetDefaultCategoryForSearch();
+      renderFirstPage();
+    });
+    search.addEventListener('change', () => {
+      resetDefaultCategoryForSearch();
+      renderFirstPage();
+    });
+    category.addEventListener('input', () => {
+      categoryTouched = true;
+      renderFirstPage();
+    });
+    category.addEventListener('change', () => {
+      categoryTouched = true;
+      renderFirstPage();
     });
 
     prevSearch.addEventListener('click', () => {

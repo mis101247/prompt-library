@@ -30,9 +30,16 @@ const collectionLabels = {
   <section class="hero">
     <h1>{SITE_TITLE}</h1>
     <p>{SITE_DESCRIPTION}</p>
-    <form class="filter-bar" action="/prompts/" role="search">
-      <input name="q" type="search" placeholder="搜尋提示詞" aria-label="搜尋提示詞" />
-      <button class="button" type="submit">搜尋提示詞</button>
+    <form class="filter-bar home-search" action="/prompts/" role="search">
+      <label class="home-search__field">
+        <span class="home-search__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false">
+            <path d="m21 21-4.3-4.3m2.3-5.2a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" />
+          </svg>
+        </span>
+        <input name="q" type="search" placeholder="搜尋提示詞，例如：Code review..." aria-label="搜尋提示詞" />
+      </label>
+      <button class="button home-search__button" type="submit">搜尋</button>
     </form>
   </section>
 
