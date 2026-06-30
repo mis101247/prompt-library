@@ -146,6 +146,11 @@ hr {
 .stack {
   display: grid;
   gap: 1rem;
+  min-width: 0;
+}
+
+.stack > * {
+  min-width: 0;
 }
 
 .section {
@@ -179,13 +184,19 @@ hr {
 .hero {
   display: grid;
   gap: 1.2rem;
+  min-width: 0;
   padding: clamp(1.6rem, 4vw, 2.4rem) 0 1.4rem;
+}
+
+.hero > * {
+  min-width: 0;
 }
 
 .hero p {
   max-width: 760px;
   color: var(--muted);
   font-size: 1.02rem;
+  text-wrap: pretty;
 }
 
 .hero-actions,
@@ -693,12 +704,33 @@ hr {
 
 @media (max-width: 860px) {
   body {
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 1.68;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.24;
+    overflow-wrap: anywhere;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+  }
+
+  .page-shell,
+  .site-nav {
+    max-width: calc(100% - 2.5rem);
+  }
+
+  .page-shell {
+    padding: 2rem 0 3.4rem;
   }
 
   .site-nav {
     align-items: flex-start;
     flex-direction: column;
+    gap: 0.6rem;
     padding: 0.75rem 0;
   }
 
@@ -731,6 +763,15 @@ hr {
   .section-header {
     align-items: start;
     flex-direction: column;
+  }
+
+  .hero {
+    gap: 1rem;
+    padding: 1.35rem 0 1.1rem;
+  }
+
+  .panel {
+    padding: 1.05rem;
   }
 
   .prompt-toolbar {
