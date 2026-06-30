@@ -181,6 +181,13 @@ hr {
   color: var(--ink);
 }
 
+/* Bottom-of-section "see all" CTA — only surfaces on mobile, where the
+   top-right quiet link is easy to miss. Desktop keeps the quiet link.
+   Selector is more specific than `.button` so the hide reliably wins. */
+.button--secondary.section-cta {
+  display: none;
+}
+
 .hero {
   display: grid;
   gap: 1.2rem;
@@ -806,6 +813,28 @@ hr {
   .section-header {
     align-items: start;
     flex-direction: column;
+  }
+
+  /* Declutter the home page: drop the verbose section blurbs, hide the
+     easy-to-miss top link, and show a clear full-width "see all" button. */
+  .section-header p {
+    display: none;
+  }
+
+  .section-header .quiet-link {
+    display: none;
+  }
+
+  .button--secondary.section-cta {
+    display: inline-flex;
+    width: 100%;
+    min-height: 2.75rem;
+    margin-top: 1.5rem;
+  }
+
+  /* Trim long card lists so the feed scans quickly on a phone. */
+  [data-mobile-limit='3'] > *:nth-child(n + 4) {
+    display: none;
   }
 
   .hero {

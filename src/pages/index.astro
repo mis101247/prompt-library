@@ -70,6 +70,7 @@ const collectionLabels = {
         />
       ))}
     </div>
+    <a class="button button--secondary section-cta" href="/prompts/">查看全部提示詞 <span aria-hidden="true">→</span></a>
   </section>
 
   <section class="section">
@@ -92,6 +93,7 @@ const collectionLabels = {
         />
       ))}
     </div>
+    <a class="button button--secondary section-cta" href="/roles/">查看全部角色 <span aria-hidden="true">→</span></a>
   </section>
 
   <section class="section">
@@ -140,6 +142,7 @@ const collectionLabels = {
         />
       ))}
     </div>
+    <a class="button button--secondary section-cta" href="/guides/">查看全部指南 <span aria-hidden="true">→</span></a>
   </section>
 
   <section class="section">
@@ -149,7 +152,7 @@ const collectionLabels = {
         <p>最新加入或修改的內容。</p>
       </div>
     </div>
-    <div class="grid grid--three">
+    <div class="grid grid--three" data-mobile-limit="3">
       {recentUpdates.map((entry) => (
         <ContentCard
           href={`/${entry.collection}/${entry.id}/`}
