@@ -3,6 +3,13 @@ import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
 const difficulty = z.enum(['入門', '中階', '進階']);
+const httpUrl = z.string().url().refine((value) => {
+  try {
+    return ['http:', 'https:'].includes(new URL(value).protocol);
+  } catch {
+    return false;
+  }
+}, { message: 'Expected an HTTP(S) URL' });
 const sourceType = z.enum([
   'prompt',
   'guide',
@@ -25,9 +32,9 @@ const commonFields = {
   updatedAt: z.coerce.date(),
   sourceType,
   sourceRepo: z.string(),
-  sourceRepoUrl: z.string().url(),
+  sourceRepoUrl: httpUrl,
   sourcePath: z.string(),
-  sourceUrl: z.string().url(),
+  sourceUrl: httpUrl,
   sourceTitle: z.string(),
   sourceDescription: z.string(),
   sourceExplanation: z.string(),
@@ -43,7 +50,7 @@ const prompts = defineCollection({
     promptUseCase: z.string(),
     compatibleTools: z.array(z.string()),
     copyLabel: z.string(),
-    thumbnailUrl: z.string().url().optional(),
+    thumbnailUrl: httpUrl.optional(),
     thumbnailAlt: z.string().optional(),
     thumbnailContainWhite: z.boolean().default(false),
     relatedProjects: z.array(z.string()).default([]),
@@ -64,7 +71,7 @@ const roles = defineCollection({
     publishedAt: z.coerce.date(),
     updatedAt: z.coerce.date(),
     sourceTitle: z.string(),
-    sourceUrl: z.string().url(),
+    sourceUrl: httpUrl,
     promptLanguage: z.string(),
     promptBody: z.string(),
   }),
@@ -86,7 +93,7 @@ const sources = defineCollection({
   schema: z.object({
     name: z.string(),
     repo: z.string(),
-    githubUrl: z.string().url(),
+    githubUrl: httpUrl,
     localPath: z.string(),
     commit: z.string(),
     license: z.string(),

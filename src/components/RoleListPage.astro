@@ -35,7 +35,6 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
   source: roleSourceLinks.get(rolePrompt.id),
   tags: formatTags(rolePrompt.data.tags),
   requiredSkills: formatTags(rolePrompt.data.requiredSkills),
-  promptBody: rolePrompt.data.promptBody,
   visibleTags: formatTags(
     rolePrompt.data.requiredSkills.length > 0
       ? rolePrompt.data.requiredSkills
@@ -128,8 +127,6 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
     function createResultCard(entry) {
       const article = document.createElement('article');
       article.className = 'content-card role-prompt-card';
-      article.dataset.libraryItem = '';
-
       const link = document.createElement('a');
       link.className = 'content-card__main';
       link.href = entry.href;
@@ -172,26 +169,6 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
 
       if (chips.children.length > 0) article.append(chips);
 
-      const copyButton = document.createElement('button');
-      copyButton.className = 'copy-button';
-      copyButton.type = 'button';
-      copyButton.dataset.copyRolePrompt = '';
-      copyButton.textContent = '複製角色提示詞';
-
-      const details = document.createElement('details');
-      details.className = 'role-prompt-card__prompt';
-
-      const summary = document.createElement('summary');
-      summary.textContent = '查看提示詞';
-
-      const pre = document.createElement('pre');
-      const code = document.createElement('code');
-      code.textContent = entry.promptBody;
-      pre.append(code);
-      details.append(summary, pre);
-
-      article.append(copyButton, details);
-
       return article;
     }
 
@@ -226,7 +203,6 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
       const start = (searchPage - 1) * pageSize;
       const visibleItems = matches.slice(start, start + pageSize);
       results.replaceChildren(...visibleItems.map(createResultCard));
-      bindRolePromptCards();
 
       empty.style.display = matches.length === 0 ? 'block' : 'none';
       const firstVisible = matches.length === 0 ? 0 : start + 1;
@@ -295,7 +271,15 @@ const searchIndex = allRolePrompts.map((rolePrompt, index) => ({
 
     function openHashPrompt() {
       if (!window.location.hash) return;
-      const target = document.querySelector(window.location.hash);
+      let targetId = '';
+
+      try {
+        targetId = decodeURIComponent(window.location.hash.slice(1));
+      } catch {
+        return;
+      }
+
+      const target = document.getElementById(targetId);
       const details = target?.querySelector('.role-prompt-card__prompt');
       if (details) {
         details.open = true;

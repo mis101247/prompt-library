@@ -1,9 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
 import PromptListPage from '../../components/PromptListPage.astro';
+import { PROMPTS_PAGE_SIZE } from '../../consts';
 import { sortFeaturedFirst } from '../../utils/content';
 
-const pageSize = 20;
+const pageSize = PROMPTS_PAGE_SIZE;
 const allPrompts = sortFeaturedFirst(await getCollection('prompts'));
 const prompts = allPrompts.slice(0, pageSize);
 const totalPages = Math.ceil(allPrompts.length / pageSize);

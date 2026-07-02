@@ -6,13 +6,13 @@ type DatedEntry =
   | CollectionEntry<'guides'>;
 
 export function sortByPublishedAt<T extends DatedEntry>(entries: T[]) {
-  return entries.sort(
+  return [...entries].sort(
     (a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime(),
   );
 }
 
 export function sortFeaturedFirst<T extends DatedEntry>(entries: T[]) {
-  return entries.sort((a, b) => {
+  return [...entries].sort((a, b) => {
     if (a.data.featured !== b.data.featured) return a.data.featured ? -1 : 1;
     return b.data.publishedAt.getTime() - a.data.publishedAt.getTime();
   });

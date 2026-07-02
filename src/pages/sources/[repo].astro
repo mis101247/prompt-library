@@ -84,14 +84,11 @@ const guides = (await getCollection('guides')).filter(
             title={prompt.data.title}
             description={prompt.data.description}
             category={prompt.data.category}
-            difficulty={prompt.data.difficulty}
-            timeEstimate={prompt.data.timeEstimate}
             sourceRepo={prompt.data.sourceRepo}
             sourceHref={prompt.data.sourceUrl}
             sourcePath={prompt.data.sourcePath}
             thumbnailUrl={prompt.data.thumbnailUrl}
             thumbnailAlt={prompt.data.thumbnailAlt}
-            tools={prompt.data.compatibleTools}
             tags={prompt.data.tags}
           />
         ))}
@@ -114,11 +111,8 @@ const guides = (await getCollection('guides')).filter(
             title={guide.data.title}
             description={guide.data.description}
             category={guide.data.category}
-            difficulty={guide.data.difficulty}
-            timeEstimate={guide.data.timeEstimate}
             sourceRepo={guide.data.sourceRepo}
             sourcePath={guide.data.sourcePath}
-            tools={guide.data.tools}
             tags={guide.data.tags}
           />
         ))}

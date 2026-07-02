@@ -1,5 +1,5 @@
 ---
-import { formatCategory, formatTag, tagSearchText } from '../utils/taxonomy';
+import { formatCategory, formatTag, tagPathSegment, tagSearchText } from '../utils/taxonomy';
 
 interface Props {
   href: string;
@@ -69,7 +69,7 @@ const thumbnailClass = [
           來源：{sourceRepo}
         </a>
       )}
-      {formattedTags.map((tag) => <a class="tag" href={`/tags/${encodeURIComponent(tag)}/`}>{tag}</a>)}
+      {formattedTags.map((tag) => <a class="tag" href={`/tags/${encodeURIComponent(tagPathSegment(tag))}/`}>{tag}</a>)}
     </div>
   )}
 </article>

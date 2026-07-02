@@ -3,12 +3,12 @@ interface Props {
   tags: string[];
 }
 
-import { formatTag } from '../utils/taxonomy';
+import { formatTag, tagPathSegment } from '../utils/taxonomy';
 
 const { tags } = Astro.props;
 const formattedTags = [...new Set(tags.map(formatTag))];
 ---
 
 <div class="chip-row" aria-label="標籤">
-  {formattedTags.map((tag) => <a class="tag" href={`/tags/${encodeURIComponent(tag)}/`}>{tag}</a>)}
+  {formattedTags.map((tag) => <a class="tag" href={`/tags/${encodeURIComponent(tagPathSegment(tag))}/`}>{tag}</a>)}
 </div>

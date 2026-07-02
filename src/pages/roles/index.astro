@@ -1,9 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
 import RoleListPage from '../../components/RoleListPage.astro';
+import { ROLES_PAGE_SIZE } from '../../consts';
 import { sortFeaturedFirst } from '../../utils/content';
 
-const pageSize = 10;
+const pageSize = ROLES_PAGE_SIZE;
 const allRolePrompts = sortFeaturedFirst(await getCollection('roles'));
 const rolePrompts = allRolePrompts.slice(0, pageSize);
 const totalPages = Math.ceil(allRolePrompts.length / pageSize);

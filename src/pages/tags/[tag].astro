@@ -1,55 +1,94 @@
 ---
-import { getCollection } from 'astro:content';
+import { type CollectionEntry, getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ContentCard from '../../components/ContentCard.astro';
-import { sortByPublishedAt } from '../../utils/content';
-import { formatTag, tagMatches } from '../../utils/taxonomy';
+import { ROLES_PAGE_SIZE } from '../../consts';
+import { sortByPublishedAt, sortFeaturedFirst } from '../../utils/content';
+import { formatTag, tagMatches, tagPathSegment } from '../../utils/taxonomy';
 
-const allEntries = [
-  ...(await getCollection('prompts')),
-  ...(await getCollection('guides')),
-];
+type TaggableEntry =
+  | CollectionEntry<'prompts'>
+  | CollectionEntry<'guides'>
+  | CollectionEntry<'roles'>;
+
+function tagsForEntry(entry: TaggableEntry) {
+  if (entry.collection !== 'roles') return entry.data.tags;
+
+  return [
+    entry.data.category,
+    ...entry.data.tags,
+    ...entry.data.requiredSkills,
+  ];
+}
 
 export async function getStaticPaths() {
   const entries = [
     ...(await getCollection('prompts')),
     ...(await getCollection('guides')),
+    ...(await getCollection('roles')),
   ];
-  const tags = [...new Set(entries.flatMap((entry) => entry.data.tags.map(formatTag)))].sort();
+  const tags = [...new Set(entries.flatMap((entry) => {
+    const rawTags = entry.collection === 'roles'
+      ? [entry.data.category, ...entry.data.tags, ...entry.data.requiredSkills]
+      : entry.data.tags;
+
+    return rawTags.map(formatTag);
+  }))].sort();
 
   return tags.map((tag) => ({
-    params: { tag },
+    params: { tag: tagPathSegment(tag) },
     props: { tag },
   }));
 }
 
+const allPrompts = await getCollection('prompts');
+const allGuides = await getCollection('guides');
+const allRoles = sortFeaturedFirst(await getCollection('roles'));
+const allEntries: TaggableEntry[] = [
+  ...allPrompts,
+  ...allGuides,
+  ...allRoles,
+];
+const rolePageById = new Map(
+  allRoles.map((entry, index) => [
+    entry.id,
+    Math.floor(index / ROLES_PAGE_SIZE) + 1,
+  ]),
+);
 const { tag } = Astro.props;
 const entries = sortByPublishedAt(
-  allEntries.filter((entry) => tagMatches(tag, entry.data.tags)),
+  allEntries.filter((entry) => tagMatches(tag, tagsForEntry(entry))),
 );
 const showPromptThumbnails = tag === '趣味應用';
 const collectionLabels = {
   prompts: '提示詞',
   guides: '指南',
+  roles: '角色提示詞',
 };
+
+function entryHref(entry: TaggableEntry) {
+  if (entry.collection !== 'roles') return `/${entry.collection}/${entry.id}/`;
+
+  const page = rolePageById.get(entry.id) ?? 1;
+  const pageHref = page === 1 ? '/roles/' : `/roles/page/${page}/`;
+  return `${pageHref}#${entry.id}`;
+}
 ---
 
-<BaseLayout title={`Tag: ${tag}`} description={`所有標記為 ${tag} 的提示詞與指南。`} width="wide">
+<BaseLayout title={`Tag: ${tag}`} description={`所有標記為 ${tag} 的提示詞、指南與角色提示詞。`} width="wide">
   <section class="hero">
     <h1>Tag: {tag}</h1>
-    <p>跨提示詞與指南的內容聚合。</p>
+    <p>跨提示詞、指南與角色提示詞的內容聚合。</p>
   </section>
 
   <section class="grid grid--two">
     {entries.map((entry) => (
       <ContentCard
-        href={`/${entry.collection}/${entry.id}/`}
+        href={entryHref(entry)}
         kind={collectionLabels[entry.collection]}
         title={entry.data.title}
         description={entry.data.description}
         category={entry.data.category}
-        difficulty={entry.data.difficulty}
-        timeEstimate={entry.data.timeEstimate}
         sourceRepo={entry.collection === 'prompts' ? entry.data.sourceRepo : undefined}
         sourceHref={entry.collection === 'prompts' ? entry.data.sourceUrl : undefined}
         sourcePath={entry.collection === 'prompts' ? entry.data.sourcePath : undefined}
@@ -57,8 +96,7 @@ const collectionLabels = {
         thumbnailAlt={entry.collection === 'prompts' ? entry.data.thumbnailAlt : undefined}
         thumbnailContainWhite={entry.collection === 'prompts' ? entry.data.thumbnailContainWhite : undefined}
         showThumbnail={entry.collection === 'prompts' && showPromptThumbnails}
-        tools={entry.data.tools}
-        tags={entry.data.tags}
+        tags={tagsForEntry(entry)}
       />
     ))}
   </section>

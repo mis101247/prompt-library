@@ -1,14 +1,14 @@
 ---
 import { getCollection } from 'astro:content';
 import PromptListPage from '../../../components/PromptListPage.astro';
+import { PROMPTS_PAGE_SIZE } from '../../../consts';
 import { sortFeaturedFirst } from '../../../utils/content';
 
-const pageSize = 20;
+const pageSize = PROMPTS_PAGE_SIZE;
 
 export async function getStaticPaths() {
-  const pageSize = 20;
   const allPrompts = sortFeaturedFirst(await getCollection('prompts'));
-  const totalPages = Math.ceil(allPrompts.length / pageSize);
+  const totalPages = Math.ceil(allPrompts.length / PROMPTS_PAGE_SIZE);
 
   return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => ({
     params: { page: String(index + 2) },

@@ -41,6 +41,14 @@ export function formatTag(tag: string) {
   return tagLabels[tag] ?? tag;
 }
 
+export function tagPathSegment(tag: string) {
+  // Slash can't appear in a single URL path segment: encodeURIComponent turns
+  // it into %2F, which hosts decode back to '/', so it never resolves to the
+  // generated page. Swap it for a full-width slash (unique, URL-safe) so route
+  // generation and link hrefs stay in sync. Display still uses the raw tag.
+  return tag.replaceAll('/', '／');
+}
+
 export function formatTags(tags: string[]) {
   return [...new Set(tags.map(formatTag))];
 }
