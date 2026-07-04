@@ -3,6 +3,7 @@ import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ContentCard from '../../components/ContentCard.astro';
 import PromptBlock from '../../components/PromptBlock.astro';
+import ShareMenu from '../../components/ShareMenu.astro';
 import TagList from '../../components/TagList.astro';
 
 export async function getStaticPaths() {
@@ -20,6 +21,21 @@ const guides = (await getCollection('guides')).filter((guide) =>
   prompt.data.relatedGuides.includes(guide.id),
 );
 const shouldShowDemoGeneratorNote = prompt.data.category === '趣味應用' && Boolean(prompt.data.thumbnailUrl);
+const shareCoverExtension = getShareCoverExtension(prompt.data.thumbnailUrl);
+const shareCoverImage = shareCoverExtension ? `/share-covers/${prompt.id}.${shareCoverExtension}` : undefined;
+
+function getShareCoverExtension(value?: string) {
+  if (!value) return undefined;
+
+  try {
+    const extension = new URL(value).pathname.split('.').pop()?.toLowerCase();
+    if (extension && ['gif', 'jpeg', 'jpg', 'png', 'webp'].includes(extension)) return extension;
+  } catch {
+    return undefined;
+  }
+
+  return undefined;
+}
 ---
 
 <BaseLayout title={prompt.data.title} description={prompt.data.description} width="article">
@@ -95,5 +111,15 @@ const shouldShowDemoGeneratorNote = prompt.data.category === '趣味應用' && B
         </div>
       </section>
     )}
+
+    <ShareMenu
+      title={prompt.data.title}
+      description={prompt.data.description}
+      contentId={`prompt-${prompt.id}`}
+      canonicalPath={`/prompts/${prompt.id}/`}
+      coverImage={shareCoverImage}
+      placement="prompt_detail_footer"
+      trackingName="prompt_library_share"
+    />
   </article>
 </BaseLayout>

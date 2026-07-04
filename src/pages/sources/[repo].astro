@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ContentCard from '../../components/ContentCard.astro';
+import ShareMenu from '../../components/ShareMenu.astro';
 
 export async function getStaticPaths() {
   const sources = await getCollection('sources');
@@ -125,5 +126,14 @@ const guides = (await getCollection('guides')).filter(
         {source.data.nextMaterials.map((item) => <li>{item}</li>)}
       </ul>
     </section>
+
+    <ShareMenu
+      title={source.data.name}
+      description={source.data.description}
+      contentId={`source-${source.id}`}
+      canonicalPath={`/sources/${source.id}/`}
+      placement="source_detail_footer"
+      trackingName="prompt_library_share"
+    />
   </article>
 </BaseLayout>

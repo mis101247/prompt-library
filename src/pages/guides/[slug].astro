@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ContentCard from '../../components/ContentCard.astro';
+import ShareMenu from '../../components/ShareMenu.astro';
 import TagList from '../../components/TagList.astro';
 
 export async function getStaticPaths() {
@@ -71,5 +72,13 @@ const prompts = (await getCollection('prompts')).filter((prompt) =>
       </div>
     </section>
 
+    <ShareMenu
+      title={guide.data.title}
+      description={guide.data.description}
+      contentId={`guide-${guide.id}`}
+      canonicalPath={`/guides/${guide.id}/`}
+      placement="guide_detail_footer"
+      trackingName="prompt_library_share"
+    />
   </article>
 </BaseLayout>
