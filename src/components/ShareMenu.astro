@@ -90,7 +90,8 @@ const canonicalURL = new URL(canonicalPath, siteOrigin).toString();
       <p class="share-preview-hint">iPhone：長按圖片，選「儲存到照片」</p>
       <div class="share-preview-actions">
         <button class="share-preview-secondary" type="button" data-share-preview-close>關閉</button>
-        <button class="share-preview-primary" type="button" data-share-preview-download>下載 PNG</button>
+        <button class="share-preview-primary" type="button" data-share-preview-copy>複製圖片</button>
+        <button class="share-preview-secondary" type="button" data-share-preview-download>下載 PNG</button>
       </div>
     </div>
   </div>
@@ -441,13 +442,14 @@ const canonicalURL = new URL(canonicalPath, siteOrigin).toString();
       const status = menu.querySelector('[data-share-status]');
       const preview = menu.querySelector('[data-share-preview]');
       const previewImage = menu.querySelector('[data-share-preview-image]');
+      const previewCopy = menu.querySelector('[data-share-preview-copy]');
       const previewDownload = menu.querySelector('[data-share-preview-download]');
       const previewCloseButtons = menu.querySelectorAll('[data-share-preview-close]');
       const linkPreview = menu.querySelector('[data-share-link-preview]');
       const linkText = menu.querySelector('[data-share-link-text]');
       const linkCopy = menu.querySelector('[data-share-link-copy]');
       const linkCloseButtons = menu.querySelectorAll('[data-share-link-close]');
-      if (!trigger || !options || !cardButton || !linkButton || !status || !preview || !previewImage || !previewDownload || !linkPreview || !linkText || !linkCopy) return;
+      if (!trigger || !options || !cardButton || !linkButton || !status || !preview || !previewImage || !previewCopy || !previewDownload || !linkPreview || !linkText || !linkCopy) return;
 
       let previewBlob;
       let previewFileName = '';
@@ -485,7 +487,7 @@ const canonicalURL = new URL(canonicalPath, siteOrigin).toString();
           previewImage.src = previewObjectUrl;
           preview.hidden = false;
           document.documentElement.style.overflow = 'hidden';
-          previewDownload.focus();
+          previewCopy.focus();
           recordShare(menu, shareType, 'preview_open');
           setStatus(status, '卡片預覽已產生');
         } catch (error) {
@@ -520,6 +522,19 @@ const canonicalURL = new URL(canonicalPath, siteOrigin).toString();
         recordShare(menu, previewShareType, 'download_png');
         setStatus(status, '已下載 PNG');
         closePreview();
+      });
+
+      previewCopy.addEventListener('click', async () => {
+        if (!previewBlob) return;
+        try {
+          await copyImageBlob(previewBlob);
+          recordShare(menu, previewShareType, 'copy_image');
+          setStatus(status, '已複製圖片');
+          closePreview();
+        } catch (error) {
+          console.error(error);
+          setStatus(status, '此瀏覽器不支援複製圖片，請改用下載 PNG', 7200);
+        }
       });
 
       previewCloseButtons.forEach((button) => {
@@ -1034,6 +1049,16 @@ const canonicalURL = new URL(canonicalPath, siteOrigin).toString();
 
       if (fallbackElement && document.execCommand?.('copy')) return;
       throw new Error('Clipboard is unavailable.');
+    }
+
+    async function copyImageBlob(blob) {
+      if (!navigator.clipboard?.write || typeof ClipboardItem === 'undefined') {
+        throw new Error('Image clipboard is unavailable.');
+      }
+
+      await navigator.clipboard.write([
+        new ClipboardItem({ [blob.type || 'image/png']: blob }),
+      ]);
     }
 
     function selectCopyFallback(element, value) {
