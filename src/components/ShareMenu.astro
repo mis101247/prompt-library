@@ -107,6 +107,7 @@ const canonicalURL = new URL(canonicalPath, siteOrigin).toString();
       <div class="share-link-text" tabindex="0" data-share-link-text></div>
       <div class="share-preview-actions">
         <button class="share-preview-secondary" type="button" data-share-link-close>先不用</button>
+        <button class="share-preview-secondary" type="button" data-share-link-url-copy>僅複製文章網址</button>
         <button class="share-preview-primary" type="button" data-share-link-copy>複製文字</button>
       </div>
     </div>
@@ -447,9 +448,10 @@ const canonicalURL = new URL(canonicalPath, siteOrigin).toString();
       const previewCloseButtons = menu.querySelectorAll('[data-share-preview-close]');
       const linkPreview = menu.querySelector('[data-share-link-preview]');
       const linkText = menu.querySelector('[data-share-link-text]');
+      const linkUrlCopy = menu.querySelector('[data-share-link-url-copy]');
       const linkCopy = menu.querySelector('[data-share-link-copy]');
       const linkCloseButtons = menu.querySelectorAll('[data-share-link-close]');
-      if (!trigger || !options || !cardButton || !linkButton || !status || !preview || !previewImage || !previewCopy || !previewDownload || !linkPreview || !linkText || !linkCopy) return;
+      if (!trigger || !options || !cardButton || !linkButton || !status || !preview || !previewImage || !previewCopy || !previewDownload || !linkPreview || !linkText || !linkUrlCopy || !linkCopy) return;
 
       let previewBlob;
       let previewFileName = '';
@@ -553,6 +555,18 @@ const canonicalURL = new URL(canonicalPath, siteOrigin).toString();
         } catch (error) {
           console.error(error);
           setStatus(status, '已選取文字，請手動複製');
+        }
+      });
+
+      linkUrlCopy.addEventListener('click', async () => {
+        try {
+          await copyText(buildShareUrl(menu, 'copy_url'));
+          recordShare(menu, 'link', 'copy_url');
+          setStatus(status, '已複製文章網址');
+          closeLinkPreview(true);
+        } catch (error) {
+          console.error(error);
+          setStatus(status, '無法複製網址，請手動複製');
         }
       });
 
