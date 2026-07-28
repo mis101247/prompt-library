@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/prompts/prompts-chat-skill-2",
+      "destination": "/prompts/prompts-chat-skill-lookup/",
+      "permanent": true
+    }
+  ]
+}
