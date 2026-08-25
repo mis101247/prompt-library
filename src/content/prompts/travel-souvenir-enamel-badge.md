@@ -8,7 +8,7 @@ tags: ["趣味應用", "image", "photo editing", "enamel pin", "travel"]
 difficulty: "入門"
 tools: ["ChatGPT", "Gemini", "DALL-E"]
 timeEstimate: "5 分鐘"
-featured: false
+featured: true
 publishedAt: "2026-08-25"
 updatedAt: "2026-08-25"
 sourceType: "prompt"

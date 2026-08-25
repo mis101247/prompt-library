@@ -8,7 +8,7 @@ tags: ["趣味應用", "image", "symbolic", "self-reflection", "9:16"]
 difficulty: "入門"
 tools: ["ChatGPT", "Gemini", "Midjourney", "DALL-E"]
 timeEstimate: "5 分鐘"
-featured: true
+featured: false
 publishedAt: "2026-06-29"
 updatedAt: "2026-06-29"
 sourceType: "prompt"
