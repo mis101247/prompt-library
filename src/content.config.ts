@@ -50,6 +50,8 @@ const prompts = defineCollection({
     promptUseCase: z.string(),
     compatibleTools: z.array(z.string()),
     copyLabel: z.string(),
+    targetUrl: httpUrl.optional(),
+    targetLabel: z.string().optional(),
     thumbnailUrl: httpUrl.optional(),
     thumbnailAlt: z.string().optional(),
     thumbnailContainWhite: z.boolean().default(false),

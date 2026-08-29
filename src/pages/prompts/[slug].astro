@@ -20,7 +20,7 @@ const { Content } = await render(prompt);
 const guides = (await getCollection('guides')).filter((guide) =>
   prompt.data.relatedGuides.includes(guide.id),
 );
-const shouldShowDemoGeneratorNote = prompt.data.category === '趣味應用' && Boolean(prompt.data.thumbnailUrl);
+const shouldShowDemoGeneratorNote = prompt.data.category === '趣味應用' && Boolean(prompt.data.thumbnailUrl) && !prompt.data.targetUrl;
 const shareCoverExtension = getShareCoverExtension(prompt.data.thumbnailUrl);
 const shareCoverImage = shareCoverExtension ? `/share-covers/${prompt.id}.${shareCoverExtension}` : undefined;
 
@@ -52,14 +52,24 @@ function getShareCoverExtension(value?: string) {
     </header>
 
     <section class="panel stack">
-      <h2>提示詞用途</h2>
+      <h2>{prompt.data.targetUrl ? '這個 GPT 能做什麼' : '提示詞用途'}</h2>
       <p class="muted">{prompt.data.promptUseCase}</p>
     </section>
 
-    <PromptBlock
-      body={prompt.data.promptBody}
-      copyLabel={prompt.data.copyLabel}
-    />
+    {prompt.data.targetUrl ? (
+      <section class="panel stack">
+        <h2>開啟 GPT</h2>
+        <p class="muted">提示詞已經包在 GPT 裡，直接從分享網址開啟就能用。</p>
+        <a class="button" href={prompt.data.targetUrl} target="_blank" rel="noopener noreferrer">
+          {prompt.data.targetLabel ?? '前往 GPT'}
+        </a>
+      </section>
+    ) : (
+      <PromptBlock
+        body={prompt.data.promptBody}
+        copyLabel={prompt.data.copyLabel}
+      />
+    )}
 
     <section class="panel stack">
       <h2>來源</h2>
