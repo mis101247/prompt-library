@@ -38,6 +38,8 @@ promptBody: "https://chatgpt.com/g/g-6a5007a719948191add3cf261499f4ea-bbiddulbba
 
 我拿赫爾辛基的旅行照試了一張。本來只是好奇教堂會變成什麼樣子，結果教堂還算正常，我本人先被畫成一顆頭。合理，而且很好笑。
 
+![赫爾辛基主教座堂旅遊照片與手繪塗鴉的 Before After 對照](https://images.keyo.tw/prompts/photo-to-hand-drawn-travel-illustration-gpt-before-after.webp)
+
 ## 再看幾個例子
 
 ![人物、寵物與生活場景照片轉換成可愛手繪塗鴉的六組範例](https://images.keyo.tw/prompts/photo-to-hand-drawn-travel-illustration-gpt-examples-anonymized-v2.webp)
